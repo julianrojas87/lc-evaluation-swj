@@ -15,7 +15,7 @@ export async function fragmentPTN(source, tvg) {
         const size = x * minFragSize;
         const path = `${fragmentsPath}/${size}`;
 
-        if (!fs.existsSync(path) && size <= 50000) {
+        if (!fs.existsSync(path) && size <= tvg.E) {
             fs.mkdirSync(path);
             const connStream = readline.createInterface({
                 input: fs.createReadStream(`${config.rootPath}/raw-lc/${source.path}`),
