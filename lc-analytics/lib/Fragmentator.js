@@ -12,15 +12,16 @@ export async function fragmentPTN(source, tvg) {
     const minFragSize = tvg.getMinimumFragmentSize();
 
     for (const x of config.fragmentations) {
-        const path = `${fragmentsPath}/${x * minFragSize}`;
+        const size = x * minFragSize;
+        const path = `${fragmentsPath}/${size}`;
 
-        if (!fs.existsSync(path)) {
+        if (!fs.existsSync(path) || size > 10000) { // ~5.7Mb
             fs.mkdirSync(path);
             const connStream = readline.createInterface({
                 input: fs.createReadStream(`${config.rootPath}/raw-lc/${source.path}`),
                 crlfDelay: Infinity
             });
-            const paginator = new PaginatorStream(path, x * minFragSize, tvg);
+            const paginator = new PaginatorStream(path, size, tvg);
 
             for await (const cx of connStream) {
                 paginator.write(JSON.parse(cx));
