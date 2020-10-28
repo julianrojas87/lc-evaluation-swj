@@ -1,0 +1,15 @@
+{
+  "name": "lc-analytics",
+  "version": "1.0.0",
+  "description": "Tool for analyzing Linked Connection collections and extracting network graph properties",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Rojas",
+  "license": "MIT",
+  "dependencies": {
+    "graphology": "^0.18.0",
+    "graphology-metrics": "^1.13.0"
+  }
+}
