@@ -42,6 +42,8 @@ export async function measureGraphMetrics(source) {
         connections.add(cx['@id']);
     }
 
+    connStream.close();
+
     // Add total count of vertexes and edges (stops and connections)
     TVG.V = stops.size;
     TVG.E = connections.size;

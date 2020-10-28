@@ -26,7 +26,7 @@ export async function fragmentPTN(source, tvg) {
             for await (const cx of connStream) {
                 paginator.write(JSON.parse(cx));
             }
-
+            connStream.close();
             paginator.end();
         }
     }
