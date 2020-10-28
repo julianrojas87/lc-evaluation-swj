@@ -2,10 +2,11 @@ import { Writable } from 'stream';
 import fs from 'fs';
 
 export class PaginatorStream extends Writable {
-    constructor(targetPath, size) {
+    constructor(targetPath, minFragSize, TVG) {
         super({ objectMode: true });
         this._targetPath = targetPath;
-        this._size = size;
+        this._size = minFragSize;
+        this._TVG = TVG;
         this._count = 0;
         this._currentFileName = null;
         this._wstream = null;
@@ -13,16 +14,19 @@ export class PaginatorStream extends Writable {
     }
 
     _write(data, encoding, done) {
-        if (!this.currentFileName || (this.count >= this.size && data.departureTime !== this.lastDepartureTime)) {
-            if (this.wstream) this.wstream.end();
-            this.currentFileName = data.departureTime;
-            this.wstream = fs.createWriteStream(`${this.targetPath}/${this.currentFileName}.jsonld`);
-            this.wstream.write(JSON.stringify(data));
-            this.count = 0;
-        } else {
-            this.wstream.write(',\n' + JSON.stringify(data));
-        }
+        const dataString = JSON.stringify(data);
 
+        if (!this.currentFileName 
+            || (data.departureTime !== this.lastDepartureTime && (this.count + this.TVG.graphs[data.departureTime].size) > this.size)) {
+                if(this.wstream) this.wstream.end();
+                this.count = 0;
+                this.currentFileName = data.departureTime;
+                this.wstream = fs.createWriteStream(`${this.targetPath}/${this.currentFileName}.jsonld`);
+                this.wstream.write(dataString);
+        } else {
+            this.wstream.write(`\n,${dataString}`);
+        }
+        
         this.count++;
         this.lastDepartureTime = data.departureTime;
         done();
@@ -30,6 +34,10 @@ export class PaginatorStream extends Writable {
 
     get targetPath() {
         return this._targetPath;
+    }
+
+    get TVG() {
+        return this._TVG;
     }
 
     get size() {
