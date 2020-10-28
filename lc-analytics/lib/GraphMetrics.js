@@ -1,18 +1,18 @@
+import config from '../config.js';
+import Graph from 'graphology';
 import fs from 'fs';
 import readline from 'readline';
-import config from './config.js';
-import Graph from 'graphology';
-import { TimeVaryingGraph } from './lib/TimeVaryingGraph.js';
+import { TimeVaryingGraph } from './TimeVaryingGraph.js';
 
 
-async function measureGraphMetrics(source) {
+export async function measureGraphMetrics(source) {
     // Time-Varying Graph
     const TVG = new TimeVaryingGraph();
     const stops = new Set();
     const connections = new Set();
 
     const connStream = readline.createInterface({
-        input: fs.createReadStream(config.rootPath + source.path),
+        input: fs.createReadStream(`${config.rootPath}/raw-lc/${source.path}`),
         crlfDelay: Infinity
     });
 
@@ -53,13 +53,6 @@ async function measureGraphMetrics(source) {
     console.log(`Minimum fragment size: ${TVG.getMinimumFragmentSize()}`);
     console.log(`Average Degree: ${TVG.calculateDegree()}`);
     console.log('*******************************************************');
-}
 
-async function run() {
-    for (const source of config.sources) {
-        //console.log('Public Transport Network,Number of Stops,Number of Connections,Minimum fragment size,Average Degree');
-        await measureGraphMetrics(source);
-    }
+    return TVG.getMinimumFragmentSize();
 }
-
-run();

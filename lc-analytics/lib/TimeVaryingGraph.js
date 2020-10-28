@@ -46,6 +46,10 @@ export class TimeVaryingGraph {
         }
     }
 
+    calculateAvgConnectionDuration() {
+        
+    }
+
     get graphs() {
         return this._graphs;
     }
