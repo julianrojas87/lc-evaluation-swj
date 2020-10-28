@@ -24,7 +24,7 @@ export class PaginatorStream extends Writable {
                 this.wstream = fs.createWriteStream(`${this.targetPath}/${this.currentFileName}.jsonld`);
                 this.wstream.write(dataString);
         } else {
-            this.wstream.write(`\n,${dataString}`);
+            this.wstream.write(`,\n${dataString}`);
         }
         
         this.count++;
