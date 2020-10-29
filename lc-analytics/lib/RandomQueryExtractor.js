@@ -12,16 +12,18 @@ export async function findSolvableQueries(source, stops) {
     planner.addConnectionSource(`${config.lcServer}/${source.name}/connections`);
     planner.addStopSource(`${config.lcServer}/${source.name}/stops`);
 
-    while (querySet.length < 100) {
+    const departureTime = new Date(`${source.busiestDay}T00:00:00.000Z`);
+    const maximumArrivalTime = new Date(departureTime.getTime() + 90000000)
 
+    while (querySet.length < 100) {
         const query = {
             //from: "http://example.org/stations/8892007", // Gent-Sint-Pieters
             //to: "http://example.org/stations/8819406", // Zaventem
             //to: "http://example.org/stations/8200130",
             from: getRandomItem(stops),
             to: getRandomItem(stops),
-            minimumDepartureTime: new Date('2020-11-12T00:00:00.000Z'),
-            maximumArrivalTime: new Date('2020-11-13T07:00:00.000Z')
+            minimumDepartureTime: departureTime,
+            maximumArrivalTime: maximumArrivalTime
         }
 
         const path = await runQuery(planner, query);
