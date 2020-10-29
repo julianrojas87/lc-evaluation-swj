@@ -57,5 +57,5 @@ export async function measureGraphMetrics(source) {
     console.log(`Average Connection duration: `);
     console.log('*******************************************************');
 
-    return TVG;
+    return { TVG: TVG, stops: stops };
 }

@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "graphology": "^0.18.0",
-    "graphology-metrics": "^1.13.0"
+    "graphology-metrics": "^1.13.0",
+    "plannerjs": "github:openplannerteam/planner.js#swj-eval"
   }
 }

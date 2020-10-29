@@ -1,4 +1,5 @@
 import degree from 'graphology-metrics/degree.js';
+import density from 'graphology-metrics/density.js'
 
 export class TimeVaryingGraph {
     constructor() {
@@ -44,6 +45,10 @@ export class TimeVaryingGraph {
         } else {
             throw new Error('Cannot calculate degree without the graph\'s total amount of vertexes');
         }
+    }
+
+    calculateDensity() {
+
     }
 
     calculateAvgConnectionDuration() {
