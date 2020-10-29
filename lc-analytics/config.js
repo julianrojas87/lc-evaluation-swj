@@ -5,7 +5,8 @@ export default {
     sources: [
         {
             "name": "nmbs",
-            "path": "nmbs.json"
+            "path": "nmbs.json",
+            "busiestDay": "2020-11-12"
         }
     ]
 }
