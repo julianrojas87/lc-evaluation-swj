@@ -28,6 +28,7 @@ export async function findSolvableQueries(source, stops) {
             }
 
             const path = await runQuery(planner, query);
+            console.log(path);
             if (path) {
                 querySet.push(path);
             }
