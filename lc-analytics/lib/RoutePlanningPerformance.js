@@ -2,14 +2,14 @@ import config from '../config.js';
 import fs from 'fs';
 import PlannerJS from 'plannerjs';
 
-export async function runBenchmark(source, querySet) {
-    if (!fs.existsSync(`${config.rootPath}/results/${source.name}`)) fs.mkdirSync(`${config.rootPath}/results/${source.name}`);
+export async function runBenchmark(source, querySet, test) {
+    if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
     const results = [];
 
-    console.log(`Starting evaluation for ${source.name}`);
+    console.log(`Starting evaluation for ${source}`);
     const planner = new PlannerJS.FlexibleTransitPlanner();
-    planner.addConnectionSource(`${config.lcServer}/${source.name}/connections`);
-    planner.addStopSource(`${config.lcServer}/${source.name}/stops`);
+    planner.addConnectionSource(`${config.lcServer}/${source}/connections`);
+    planner.addStopSource(`${config.lcServer}/${source}/stops`);
 
     for (let i = 0; i < 10; i++) {
         for (let j = 0; j < querySet.length; j++) {
@@ -55,7 +55,7 @@ export async function runBenchmark(source, querySet) {
 
     total = total / results.length;
 
-    fs.writeFileSync(`${config.rootPath}/results/${source.name}/results.json`,
+    fs.writeFileSync(`${config.rootPath}/results/${source}/results_${test}.json`,
         JSON.stringify({ TOTAL: total, results: results }, null, 3), 'utf8');
 }
 
