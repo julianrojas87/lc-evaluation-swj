@@ -2,7 +2,7 @@ import config from '../config.js';
 import fs from 'fs';
 import PlannerJS from 'plannerjs';
 
-export async function runBenchmark(source, querySet, test) {
+export async function runBenchmark(source, querySet, test, cycles) {
     if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
     const results = [];
 
@@ -11,7 +11,7 @@ export async function runBenchmark(source, querySet, test) {
     planner.addConnectionSource(`${config.lcServer}/${source}/connections`);
     planner.addStopSource(`${config.lcServer}/${source}/stops`);
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < cycles; i++) {
         for (let j = 0; j < querySet.length; j++) {
 
             const firstLeg = querySet[j].legs[0];
