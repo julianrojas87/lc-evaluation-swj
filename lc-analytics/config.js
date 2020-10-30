@@ -2,6 +2,7 @@ export default {
     rootPath: "/groups/ilabt-imec-be/openplanner/ptn-evaluation",
     fragmentations: [1, 2, 5, 10, 20, 50, 100, 500, 1000],
     lcServer: "http://localhost:3000",
+    lcDataPath: "/home/julian/Desktop/lc-evaluation/lc-data",
     sources: [
         {
             "name": "nmbs",

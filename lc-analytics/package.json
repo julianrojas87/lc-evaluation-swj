@@ -9,6 +9,7 @@
   "author": "Julian Rojas",
   "license": "MIT",
   "dependencies": {
+    "fs-extra": "^9.0.1",
     "graphology": "^0.18.0",
     "graphology-metrics": "^1.13.0",
     "plannerjs": "github:openplannerteam/planner.js#swj-eval"
