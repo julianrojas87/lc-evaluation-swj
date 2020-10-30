@@ -19,7 +19,7 @@ async function run() {
             if (fname) {
                 // Create and copy dataset
                 fs.mkdirSync(`${root}/datasets/${source.name}`);
-                fs.copyFileSync(`${config.rootPath}/raw-data/${source.name}.zip`, `${root}/datasets/${source.name}/2020-10-30T19:00:00.000Z`);
+                fs.copyFileSync(`${config.rootPath}/raw-data/${source.name}.zip`, `${root}/datasets/${source.name}/2020-10-30T19:00:00.000Z.zip`);
 
                 // Create and copy fragmentation
                 fs.mkdirsSync(`${root}/linked_pages/${source.name}/2020-10-30T19:00:00.000Z`);
