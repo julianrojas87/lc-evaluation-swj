@@ -54,6 +54,7 @@ export async function measureGraphMetrics(source) {
     console.log(`Number of Connections: ${TVG.E}`);
     console.log(`Minimum fragment size: ${TVG.getMinimumFragmentSize()}`);
     console.log(`Average Degree: ${TVG.calculateDegree()}`);
+    console.log(`Density: ${TVG.calculateDensity()}`);
     console.log(`Average Connection duration: `);
     console.log('*******************************************************');
 

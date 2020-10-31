@@ -35,11 +35,11 @@ export class TimeVaryingGraph {
                 const dgs = degree(g);
                 let avd = 0;
 
-                for(const k of Object.keys(dgs)) {
+                for (const k of Object.keys(dgs)) {
                     avd += dgs[k];
                 }
 
-               totalDegree += avd / this.V; // Snapshot avg degree 
+                totalDegree += avd / this.V; // Snapshot avg degree 
             }
             return totalDegree / Object.keys(this.graphs).length; // Total avg degree of the TVG
         } else {
@@ -48,11 +48,24 @@ export class TimeVaryingGraph {
     }
 
     calculateDensity() {
+        if (this.V > 0) {
+            let D = 0;
+            for (let t in this.graphs) {
+                D += density(this.V, this.graphs[t].size);
+            }
 
+            return D / Object.keys(this.graphs).length;
+        } else {
+            throw new Error('Cannot calculate density without the graph\'s total amount of vertexes');
+        }
+    }
+
+    calculateClusteringCoefficient() {
+        
     }
 
     calculateAvgConnectionDuration() {
-        
+
     }
 
     get graphs() {
