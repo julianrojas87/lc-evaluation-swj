@@ -49,7 +49,7 @@ export async function runBenchmark(source, querySet, test, cycles) {
     // Calculate averages
     let total = 0;
     results.forEach(r => {
-        r.art = r.art / 10;
+        r.art = r.art / cycles;
         total += r.art;
     });
 
