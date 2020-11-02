@@ -8,33 +8,34 @@ export async function findSolvableQueries(source, stops) {
     }
 
     if (!fs.existsSync(`${config.rootPath}/query-sets/${source.name}/query-set.json`)) {
-        const querySet = [];
+        const querySet = new Map();
         const planner = new PlannerJS.FlexibleTransitPlanner();
+
         planner.addConnectionSource(`${config.lcServer}/${source.name}/connections`);
         planner.addStopSource(`${config.lcServer}/${source.name}/stops`);
 
-        const departureTime = new Date(`${source.busiestDay}T00:00:00.000Z`);
-        const maximumArrivalTime = new Date(departureTime.getTime() + 90000000)
+        while (querySet.size < 100) {
+            const departureTime = getRandomTime(new Date(`${source.busiestDay}T00:00:00.000Z`),
+                new Date(`${source.busiestDay}T23:00:00.000Z`));
+            // Set a big max arrival time to include long trips too
+            const maximumArrivalTime = new Date(departureTime.getTime() + 90000000)
 
-        while (querySet.length < 100) {
             const query = {
-                //from: "http://example.org/stations/8892007", // Gent-Sint-Pieters
-                //to: "http://example.org/stations/8819406", // Zaventem
-                //to: "http://example.org/stations/8200130",
-                from: getRandomItem(stops),
-                to: getRandomItem(stops),
+                from: getRandomStop(stops),
+                to: getRandomStop(stops),
                 minimumDepartureTime: departureTime,
                 maximumArrivalTime: maximumArrivalTime
             }
 
             const path = await runQuery(planner, query);
-            console.log(path);
             if (path) {
-                querySet.push(path);
+                console.log(query);
+                querySet.set(`${query.from}->${query.to}`, query);
             }
         }
 
-        fs.writeFileSync(`${config.rootPath}/query-sets/${source.name}/query-set.json`, JSON.stringify(querySet, null, 3), 'utf8');
+        fs.writeFileSync(`${config.rootPath}/query-sets/${source.name}/query-set.json`, 
+            JSON.stringify([ ...querySet.values()], null, 3), 'utf8');
     }
 }
 
@@ -48,7 +49,10 @@ function runQuery(planner, q) {
     });
 }
 
-function getRandomItem(set) {
-    let items = Array.from(set);
-    return items[Math.floor(Math.random() * items.length)];
+function getRandomStop(stops) {
+    return stops[Math.floor(Math.random() * stops.length)];
+}
+
+function getRandomTime(start, end) {
+    return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
 }

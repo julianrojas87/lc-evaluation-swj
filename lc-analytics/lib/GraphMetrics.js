@@ -5,6 +5,46 @@ import readline from 'readline';
 import degree from 'graphology-metrics/degree.js';
 import density from 'graphology-metrics/density.js'
 
+
+export async function calculateBasicTVG(source) {
+    const stops = new Set();
+    const connStream = readline.createInterface({
+        input: fs.createReadStream(`${config.rootPath}/raw-lc/${source.path}`),
+        crlfDelay: Infinity
+    });
+
+    let depTime = null;
+    let i = 0;
+    let depConn = 0;
+    let maxConns = 0;
+    const TVG = {
+        graphs: {}
+    };
+
+    for await (const rawCx of connStream) {
+        const cx = JSON.parse(rawCx);
+        if (depTime !== cx.departureTime) {
+            if(depConn > maxConns) maxConns = depConn;
+            if(depTime) TVG.graphs[depTime] = depConn;
+            depConn = 0;
+            depTime = cx.departureTime;
+        }
+
+        stops.add(cx.departureStop);
+        stops.add(cx.arrivalStop);
+        depConn++;
+        i++;
+    }
+
+    connStream.close();
+
+    TVG.stops = Array.from(stops);
+    TVG.minFragmentSize = maxConns;
+    TVG.totalConnections = i;
+
+    return TVG;
+}
+
 export async function measureGraphMetrics(source) {
     const stops = new Set();
     let connections = 0;
@@ -66,9 +106,9 @@ export async function measureGraphMetrics(source) {
     let C = 0;
     let ACD = 0;
 
-    for(const t in TVG) {
+    for (const t in TVG) {
         const Gt = TVG[t];
-        if(Gt.departingConnections > minFragmentSize) {
+        if (Gt.departingConnections > minFragmentSize) {
             minFragmentSize = Gt.departingConnections;
         }
 
@@ -83,8 +123,8 @@ export async function measureGraphMetrics(source) {
     C = C / Object.keys(TVG).length;
     ACD = ACD / Object.keys(TVG).length;
 
-    //console.log(`${source.name},${TVG.V},${TVG.E},${TVG.getMinimumFragmentSize()},${TVG.calculateDegree()}`);
-    console.log(`Public Transport Network: ${source.name}`);
+    console.log(`${source.name},${stops.size},${connections},${minFragmentSize},${K},${D},${C},${ACD}`);
+    /*console.log(`Public Transport Network: ${source.name}`);
     console.log(`Number of Stops: ${stops.size}`);
     console.log(`Number of Connections: ${connections}`);
     console.log(`Minimum fragment size: ${minFragmentSize}`);
@@ -92,9 +132,7 @@ export async function measureGraphMetrics(source) {
     console.log(`Density: ${D}`);
     console.log(`Clustering Coefficient: ${C}`);
     console.log(`Average Connection duration: ${ACD} minutes`);
-    console.log('*******************************************************');
-
-    return { TVG: TVG, stops: stops };
+    console.log('*******************************************************');*/
 }
 
 function calculateMetrics(graph, dc) {

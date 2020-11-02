@@ -5,58 +5,88 @@ import PlannerJS from 'plannerjs';
 export async function runBenchmark(source, querySet, test, cycles) {
     if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
     const results = [];
+    let scannedCxs = 0;
+    let pagesFetched = 0;
+    let bytesTransferred = 0;
 
     console.log(`Starting evaluation for ${source}`);
     const planner = new PlannerJS.FlexibleTransitPlanner();
+    const { EventBus, EventType } = PlannerJS;
+
+    EventBus.on(EventType.ConnectionScan, () => { scannedCxs++ });
+    EventBus.on(EventType.ResourceFetch, r => {
+        if (r.datatype) {
+            pagesFetched++;
+            bytesTransferred += r.size;
+        }
+    });
+
     planner.addConnectionSource(`${config.lcServer}/${source}/connections`);
     planner.addStopSource(`${config.lcServer}/${source}/stops`);
 
     for (let i = 0; i < cycles; i++) {
         for (let j = 0; j < querySet.length; j++) {
+            scannedCxs = 0;
+            pagesFetched = 0;
+            bytesTransferred = 0;
 
-            const firstLeg = querySet[j].legs[0];
-            const lastLeg = querySet[j].legs[querySet[j].legs.length - 1];
 
-            const query = {
-                from: firstLeg.steps[0].startLocation.id,
-                to: lastLeg.steps[lastLeg.steps.length - 1].stopLocation.id,
-                minimumDepartureTime: new Date(firstLeg.steps[0].startTime)
-            }
-
-            console.log(`Round ${i} - Executing query from ${query.from} to ${query.to}`);
+            console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
 
             const t0 = new Date();
-            await runQuery(planner, query);
+            await runQuery(planner, {
+                from: querySet[j].from,
+                to: querySet[j].to,
+                minimumDepartureTime: new Date(querySet[j].minimumDepartureTime),
+                maximumArrivalTime: new Date(querySet[j].maximumArrivalTime)
+            });
             const responseTime = new Date() - t0;
-
             console.log(`\tresponse time = ${responseTime} ms`);
 
             if (results[j]) {
-                results[j].art += responseTime;
+                results[j].responseTime += responseTime;
             } else {
                 results[j] = {
-                    query: {
-                        from: firstLeg.steps[0].startLocation,
-                        to: lastLeg.steps[lastLeg.steps.length - 1].stopLocation,
-                        departureTime: firstLeg.steps[0].startTime
-                    },
-                    art: responseTime
+                    query: querySet[j],
+                    responseTime: responseTime,
+                    scannedConnections: scannedCxs,
+                    pagesFetched: pagesFetched,
+                    bytesTransferred: bytesTransferred
                 };
             }
             console.log('*********************************************************');
         }
     }
+
     // Calculate averages
-    let total = 0;
+    let totalAverageResponseTime = 0;
     results.forEach(r => {
-        r.art = r.art / cycles;
-        total += r.art;
+        r.responseTime = r.responseTime / cycles;
+        totalAverageResponseTime += r.responseTime;
+        r.timePerConnection = r.responseTime / r.scannedConnections;
+    });
+    totalAverageResponseTime = totalAverageResponseTime / results.length;
+
+    // Order by response time to calculate percentiles
+    results.sort((a, b) => {
+        return a.responseTime - b.responseTime;
     });
 
-    total = total / results.length;
+    // Calculate percentiles
+    const p10 = Math.round(results.length * 0.1);
+    const p50 = Math.round(results.length * 0.5);
+    const p75 = Math.round(results.length * 0.75);
+    const p90 = Math.round(results.length * 0.9);
 
     fs.writeFileSync(`${config.rootPath}/results/${source}/results_${test}.json`,
-        JSON.stringify({ TOTAL: total, results: results }, null, 3), 'utf8');
+        JSON.stringify({
+            averageResponseTime: totalAverageResponseTime,
+            p10: results[p10].responseTime,
+            p50: results[p50].responseTime,
+            p75: results[p75].responseTime,
+            p90: results[p90].responseTime,
+            results: results
+        }, null, 3), 'utf8');
 }
 
 function runQuery(planner, q) {

@@ -17,7 +17,7 @@ export class PaginatorStream extends Writable {
         const dataString = JSON.stringify(data);
 
         if (!this.currentFileName 
-            || (data.departureTime !== this.lastDepartureTime && (this.count + this.TVG[data.departureTime].size) > this.size)) {
+            || (data.departureTime !== this.lastDepartureTime && (this.count + this.TVG.graphs[data.departureTime]) > this.size)) {
                 if(this.wstream) this.wstream.end();
                 this.count = 0;
                 this.currentFileName = data.departureTime;

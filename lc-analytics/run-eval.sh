@@ -8,7 +8,7 @@ for dir in /groups/ilabt-imec-be/openplanner/ptn-evaluation/fragmentations/*/; d
     then
         dir=${dir%*/}      # remove the trailing "/"
         ptn=${dir##*/}    # print everything after the final "/"
-        node evaluation.js $ptn $1 1
+        node scripts/evaluation.js $ptn $1 1
     fi
 done
 
