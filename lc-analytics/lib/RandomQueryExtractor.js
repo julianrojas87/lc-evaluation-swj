@@ -14,7 +14,7 @@ export async function findSolvableQueries(source, stops) {
         planner.addConnectionSource(`${config.lcServer}/${source.name}/connections`);
         planner.addStopSource(`${config.lcServer}/${source.name}/stops`);
 
-        while (querySet.size < 100 || querySet.size >= (stops.length * (stops.length - 1))) {
+        while (querySet.size < 100 || querySet.size < (stops.length * (stops.length - 1))) {
             const departureTime = getRandomTime(new Date(`${source.busiestDay}T00:00:00.000Z`),
                 new Date(`${source.busiestDay}T23:00:00.000Z`));
             // Set a big max arrival time to include long trips too
