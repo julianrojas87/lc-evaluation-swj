@@ -29,8 +29,12 @@ export async function findSolvableQueries(source, stops) {
 
             const path = await runQuery(planner, query);
             if (path) {
-                console.log(query);
-                querySet.set(`${query.from}->${query.to}`, query);
+                if(!querySet.has(`${query.from}->${query.to}`)) {
+                    querySet.set(`${query.from}->${query.to}`, query);
+                    console.log(query);
+                } else {
+                    console.log(`we already have this query: ${query.from}->${query.to}`);
+                }
             }
         }
 
