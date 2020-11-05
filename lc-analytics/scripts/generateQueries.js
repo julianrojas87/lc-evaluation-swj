@@ -1,5 +1,4 @@
 import fs from 'fs';
-import readline from 'readline';
 import config from '../config.js';
 import { calculateBasicTVG } from '../lib/GraphMetrics.js';
 import { findSolvableQueries } from '../lib/RandomQueryExtractor.js';
