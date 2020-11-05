@@ -2,8 +2,8 @@ import fs, { readFileSync } from 'fs';
 import config from '../config.js';
 
 async function run() {
-    const results = [];
     for (const source of config.sources) {
+        const results = [];
         const fragments = fs.readdirSync(`${config.rootPath}/fragmentations/${source.name}`);
         fragments.sort((a, b) => {
             return parseInt(a) - parseInt(b);
