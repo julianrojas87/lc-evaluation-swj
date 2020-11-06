@@ -20,22 +20,22 @@ async function fragmentPTN(source, TVG) {
 
     // Get fragments for min possible size
     const path = `${fragmentsPath}/${TVG.minFragmentSize}`;
-    await fragment(source, path, TVG);
+    await fragment(source, path, TVG.minFragmentSize, TVG);
 
     // Fragment for all other configured sizes where possible
     for (const x of config.fragmentations) {
         const path = `${fragmentsPath}/${x}`;
         if (x >= TVG.minFragmentSize && x <= TVG.totalConnections) {
-            await fragment(source, path, TVG);
+            await fragment(source, path, x, TVG);
         }
     }
 }
 
-async function fragment(source, path, TVG) {
+async function fragment(source, path, size, TVG) {
     if (!fs.existsSync(path)) {
         fs.mkdirSync(path);
         const connStream = getReadInterface(source);
-        const paginator = new PaginatorStream(path, TVG.minFragmentSize, TVG);
+        const paginator = new PaginatorStream(path, size, TVG);
         for await (const cx of connStream) {
             paginator.write(JSON.parse(cx));
         }

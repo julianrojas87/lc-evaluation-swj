@@ -2,10 +2,10 @@ import { Writable } from 'stream';
 import fs from 'fs';
 
 export class PaginatorStream extends Writable {
-    constructor(targetPath, minFragSize, TVG) {
+    constructor(targetPath, size, TVG) {
         super({ objectMode: true });
         this._targetPath = targetPath;
-        this._size = minFragSize;
+        this._size = size;
         this._TVG = TVG;
         this._count = 0;
         this._currentFileName = null;
