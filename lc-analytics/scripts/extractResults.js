@@ -37,7 +37,7 @@ async function run() {
             const bts = [];
 
             for(const q of res.results) {
-                crts.push(q.timePerConnection);
+                if (q.timePerConnection) crts.push(q.timePerConnection);
                 pfs.push(q.pagesFetched);
                 bts.push(q.bytesTransferred);
             }
