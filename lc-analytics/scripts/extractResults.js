@@ -20,6 +20,7 @@ async function run() {
         let pfp90 = `${source.name},pages_fetched_p90`;
         let abt = `${source.name},average_bytes_transferred`;
         let btp90 = `${source.name},bytes_transferred_p90`;
+        let asc = `${source.name},average_scanned_connections`;
 
         for(let i = 0; i < fragments.length; i++) {
             let resPath = `${config.rootPath}/results/${source.name}/results_`;
@@ -35,11 +36,13 @@ async function run() {
             const crts = [];
             const pfs = [];
             const bts = [];
+            const ascs = [];
 
             for(const q of res.results) {
                 if (q.timePerConnection) crts.push(q.timePerConnection);
                 pfs.push(q.pagesFetched);
                 bts.push(q.bytesTransferred);
+                if(q.scannedConnections > 0) ascs.push(q.scannedConnections);
             }
 
             crts.sort();
@@ -53,10 +56,11 @@ async function run() {
             rtp90 += `,${fragments[i]},${res.p90}`;
             acrt += `,${fragments[i]},${crts.reduce((p, c) => p + c) / crts.length}`;
             crtp90 += `,${fragments[i]},${crts[Math.round(crts.length * 0.9)]}`;
-            apf += `,${fragments[i]},${pfs.reduce((p, c) => p + c) / pfs.length}`
-            pfp90 += `,${fragments[i]},${pfs[Math.round(pfs.length * 0.9)]}`
-            abt += `,${fragments[i]},${bts.reduce((p, c) => p + c) / bts.length}`
-            btp90 += `,${fragments[i]},${bts[Math.round(bts.length * 0.9)]}`
+            apf += `,${fragments[i]},${pfs.reduce((p, c) => p + c) / pfs.length}`;
+            pfp90 += `,${fragments[i]},${pfs[Math.round(pfs.length * 0.9)]}`;
+            abt += `,${fragments[i]},${bts.reduce((p, c) => p + c) / bts.length}`;
+            btp90 += `,${fragments[i]},${bts[Math.round(bts.length * 0.9)]}`;
+            asc += `,${fragments[i]},${ascs.reduce((p, c) => p + c) / ascs.length}`;
         }
 
         results.push(art);
@@ -70,6 +74,7 @@ async function run() {
         results.push(pfp90);
         results.push(abt);
         results.push(btp90);
+        results.push(asc);
 
         fs.writeFileSync(`${config.rootPath}/results/${source.name}/results.csv`, results.join('\n'), 'utf8');
     }
