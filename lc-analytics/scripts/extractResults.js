@@ -50,10 +50,10 @@ async function run() {
                 }
             }
 
-            rts.sort();
-            crts.sort();
-            pfs.sort();
-            bts.sort();
+            rts.sort((a, b) => a - b);
+            crts.sort((a, b) => a - b);
+            pfs.sort((a, b) => a - b);
+            bts.sort((a, b) => a - b);
 
             art += `,${fragments[i]},${rts.reduce((p, c) => p + c) / rts.length}`;
             rtp10 += `,${fragments[i]},${rts[Math.round(rts.length * 0.1)]}`;
