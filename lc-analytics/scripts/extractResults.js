@@ -22,9 +22,9 @@ async function run() {
         let btp90 = `${source.name},bytes_transferred_p90`;
         let asc = `${source.name},average_scanned_connections`;
 
-        for(let i = 0; i < fragments.length; i++) {
+        for (let i = 0; i < fragments.length; i++) {
             let resPath = `${config.rootPath}/results/${source.name}/results_`;
-            if(i === 0) {
+            if (i === 0) {
                 resPath += 'min.json';
             } else {
                 resPath += `${fragments[i]}.json`;
@@ -33,27 +33,33 @@ async function run() {
             const res = JSON.parse(readFileSync(resPath, 'utf-8'));
 
             // Extract response_time/connection, pages fetched and bytes transferred
+            const rts = [];
             const crts = [];
             const pfs = [];
             const bts = [];
             const ascs = [];
 
-            for(const q of res.results) {
-                if (q.timePerConnection) crts.push(q.timePerConnection);
-                pfs.push(q.pagesFetched);
-                bts.push(q.bytesTransferred);
-                if(q.scannedConnections > 0) ascs.push(q.scannedConnections);
+            for (const q of res.results) {
+                // There are some queries that failed resolving properly
+                if (q.timePerConnection) {
+                    rts.push(q.responseTime);
+                    crts.push(q.timePerConnection);
+                    pfs.push(q.pagesFetched);
+                    bts.push(q.bytesTransferred);
+                    ascs.push(q.scannedConnections);
+                }
             }
 
+            rts.sort();
             crts.sort();
             pfs.sort();
             bts.sort();
 
-            art += `,${fragments[i]},${res.averageResponseTime}`;
-            rtp10 += `,${fragments[i]},${res.p10}`;
-            rtp50 += `,${fragments[i]},${res.p50}`;
-            rtp75 += `,${fragments[i]},${res.p75}`;
-            rtp90 += `,${fragments[i]},${res.p90}`;
+            art += `,${fragments[i]},${rts.reduce((p, c) => p + c) / rts.length}`;
+            rtp10 += `,${fragments[i]},${rts[Math.round(rts.length * 0.1)]}`;
+            rtp50 += `,${fragments[i]},${rts[Math.round(rts.length * 0.5)]}`;
+            rtp75 += `,${fragments[i]},${rts[Math.round(rts.length * 0.75)]}`;
+            rtp90 += `,${fragments[i]},${rts[Math.round(rts.length * 0.90)]}`;
             acrt += `,${fragments[i]},${crts.reduce((p, c) => p + c) / crts.length}`;
             crtp90 += `,${fragments[i]},${crts[Math.round(crts.length * 0.9)]}`;
             apf += `,${fragments[i]},${pfs.reduce((p, c) => p + c) / pfs.length}`;
