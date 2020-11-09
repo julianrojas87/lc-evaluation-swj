@@ -21,6 +21,7 @@ async function run() {
         let abt = `${source.name},average_bytes_transferred`;
         let btp90 = `${source.name},bytes_transferred_p90`;
         let asc = `${source.name},average_scanned_connections`;
+        let scp90 = `${source.name},scanned_connections_p90`;
 
         for (let i = 0; i < fragments.length; i++) {
             let resPath = `${config.rootPath}/results/${source.name}/results_`;
@@ -37,7 +38,7 @@ async function run() {
             const crts = [];
             const pfs = [];
             const bts = [];
-            const ascs = [];
+            const scs = [];
 
             for (const q of res.results) {
                 // There are some queries that failed resolving properly
@@ -46,7 +47,7 @@ async function run() {
                     crts.push(q.timePerConnection);
                     pfs.push(q.pagesFetched);
                     bts.push(q.bytesTransferred);
-                    ascs.push(q.scannedConnections);
+                    scs.push(q.scannedConnections);
                 }
             }
 
@@ -59,14 +60,15 @@ async function run() {
             rtp10 += `,${fragments[i]},${rts[Math.round(rts.length * 0.1)]}`;
             rtp50 += `,${fragments[i]},${rts[Math.round(rts.length * 0.5)]}`;
             rtp75 += `,${fragments[i]},${rts[Math.round(rts.length * 0.75)]}`;
-            rtp90 += `,${fragments[i]},${rts[Math.round(rts.length * 0.90)]}`;
+            rtp90 += `,${fragments[i]},${rts[Math.round(rts.length * 0.9)]}`;
             acrt += `,${fragments[i]},${crts.reduce((p, c) => p + c) / crts.length}`;
             crtp90 += `,${fragments[i]},${crts[Math.round(crts.length * 0.9)]}`;
             apf += `,${fragments[i]},${pfs.reduce((p, c) => p + c) / pfs.length}`;
             pfp90 += `,${fragments[i]},${pfs[Math.round(pfs.length * 0.9)]}`;
             abt += `,${fragments[i]},${bts.reduce((p, c) => p + c) / bts.length}`;
             btp90 += `,${fragments[i]},${bts[Math.round(bts.length * 0.9)]}`;
-            asc += `,${fragments[i]},${ascs.reduce((p, c) => p + c) / ascs.length}`;
+            asc += `,${fragments[i]},${scs.reduce((p, c) => p + c) / scs.length}`;
+            scp90 += `,${fragments[i]},${scs[Math.round(scs.length * 0.9)]}`;
         }
 
         results.push(art);
@@ -81,6 +83,7 @@ async function run() {
         results.push(abt);
         results.push(btp90);
         results.push(asc);
+        results.push(scp90);
 
         fs.writeFileSync(`${config.rootPath}/results/${source.name}/results.csv`, results.join('\n'), 'utf8');
     }
