@@ -22,6 +22,7 @@ async function run() {
         let btp90 = `${source.name},bytes_transferred_p90`;
         let asc = `${source.name},average_scanned_connections`;
         let scp90 = `${source.name},scanned_connections_p90`;
+        let scsd = `${source.name},scanned_connections_std_deviation`;
 
         for (let i = 0; i < fragments.length; i++) {
             let resPath = `${config.rootPath}/results/${source.name}/results_`;
@@ -55,6 +56,9 @@ async function run() {
             crts.sort((a, b) => a - b);
             pfs.sort((a, b) => a - b);
             bts.sort((a, b) => a - b);
+            scs.sort((a, b) => a - b);
+
+            if(i === 0) console.log(source.name, scs);
 
             art += `,${fragments[i]},${rts.reduce((p, c) => p + c) / rts.length}`;
             rtp10 += `,${fragments[i]},${rts[Math.round(rts.length * 0.1)]}`;
@@ -69,6 +73,7 @@ async function run() {
             btp90 += `,${fragments[i]},${bts[Math.round(bts.length * 0.9)]}`;
             asc += `,${fragments[i]},${scs.reduce((p, c) => p + c) / scs.length}`;
             scp90 += `,${fragments[i]},${scs[Math.round(scs.length * 0.9)]}`;
+            scsd += `,${fragments[i]},${getStandardDeviation(scs)}`;
         }
 
         results.push(art);
@@ -84,9 +89,16 @@ async function run() {
         results.push(btp90);
         results.push(asc);
         results.push(scp90);
+        results.push(scsd);
 
         fs.writeFileSync(`${config.rootPath}/results/${source.name}/results.csv`, results.join('\n'), 'utf8');
     }
+}
+
+function getStandardDeviation(array) {
+    const n = array.length
+    const mean = array.reduce((a, b) => a + b) / n
+    return Math.sqrt(array.map(x => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / n)
 }
 
 run();
