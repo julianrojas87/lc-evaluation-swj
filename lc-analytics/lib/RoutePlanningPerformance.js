@@ -34,7 +34,7 @@ export async function runBenchmark(source, querySet, test, cycles) {
             console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
 
             const t0 = new Date();
-            await runQuery(planner, {
+            const route = await runQuery(planner, {
                 from: querySet[j].from,
                 to: querySet[j].to,
                 minimumDepartureTime: new Date(querySet[j].minimumDepartureTime),
@@ -48,6 +48,7 @@ export async function runBenchmark(source, querySet, test, cycles) {
             } else {
                 results[j] = {
                     query: querySet[j],
+                    route: route,
                     responseTime: responseTime,
                     scannedConnections: scannedCxs,
                     pagesFetched: pagesFetched,
