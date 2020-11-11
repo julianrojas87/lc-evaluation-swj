@@ -29,8 +29,8 @@ def get_min_value(x, y):
 #plot_type = "response_time_p75"
 #plot_type = "response_time_p90"
 
-plot_type = "average_connection_response_time"
-#plot_type = "connection_response_time_p90"
+#plot_type = "average_connection_response_time"
+plot_type = "connection_response_time_p90"
 
 
 # Get X and Y axises for each public transport network and min value point
