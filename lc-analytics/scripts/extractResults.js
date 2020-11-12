@@ -4,10 +4,14 @@ import config from '../config.js';
 async function run() {
     for (const source of config.sources) {
         const results = [];
-        const fragments = fs.readdirSync(`${config.rootPath}/fragmentations/${source.name}`);
-        fragments.sort((a, b) => {
-            return parseInt(a) - parseInt(b);
+        const resFiles = fs.readdirSync(`${config.rootPath}/results/${source.name}`)
+            .filter(f => f.endsWith('.json') && f !== 'results_min.json');
+
+        resFiles.sort((a, b) => {
+            return getFragmentation(a) - getFragmentation(b);
         });
+
+        resFiles.unshift('results_min.json');
 
         let art = `${source.name},average_response_time`;
         let rtp10 = `${source.name},response_time_p10`;
@@ -24,17 +28,13 @@ async function run() {
         let scp90 = `${source.name},scanned_connections_p90`;
         let scsd = `${source.name},scanned_connections_std_deviation`;
 
-        for (let i = 0; i < fragments.length; i++) {
-            let resPath = `${config.rootPath}/results/${source.name}/results_`;
-            if (i === 0) {
-                resPath += 'min.json';
-            } else {
-                resPath += `${fragments[i]}.json`;
-            }
+        const scannedMap = getScannedConnectionsMap(source);
 
+        for (const [i, r] of resFiles.entries()) {
+            const resPath = `${config.rootPath}/results/${source.name}/${r}`;
             const res = JSON.parse(readFileSync(resPath, 'utf-8'));
 
-            // Extract response_time/connection, pages fetched and bytes transferred
+            // Extract response_time/connection, pages fetched, bytes transferred and scanned connections
             const rts = [];
             const crts = [];
             const pfs = [];
@@ -42,16 +42,16 @@ async function run() {
             const scs = [];
 
             for (const q of res.results) {
-                // There are some queries that failed resolving properly
                 if (q.timePerConnection) {
+                    const scannedC = scannedMap.get(`${q.query.from}->${q.query.to}@${q.query.minimumDepartureTime}`);
                     rts.push(q.responseTime);
-                    crts.push(q.timePerConnection);
+                    crts.push(q.responseTime / scannedC);
                     pfs.push(q.pagesFetched);
                     bts.push(q.bytesTransferred);
-                    scs.push(q.scannedConnections);
+                    scs.push(scannedC);
                 }
             }
-            
+
             rts.sort((a, b) => a - b);
             crts.sort((a, b) => a - b);
             pfs.sort((a, b) => a - b);
@@ -59,22 +59,24 @@ async function run() {
             scs.sort((a, b) => a - b);
 
             // Print distribution of response times for the first fragmentation only
-            if(i === 0) console.log(source.name, scs);
+            if (i === 0) console.log(source.name, scs);
 
-            art += `,${fragments[i]},${rts.reduce((p, c) => p + c) / rts.length}`;
-            rtp10 += `,${fragments[i]},${rts[Math.round(rts.length * 0.1)]}`;
-            rtp50 += `,${fragments[i]},${rts[Math.round(rts.length * 0.5)]}`;
-            rtp75 += `,${fragments[i]},${rts[Math.round(rts.length * 0.75)]}`;
-            rtp90 += `,${fragments[i]},${rts[Math.round(rts.length * 0.9)]}`;
-            acrt += `,${fragments[i]},${crts.reduce((p, c) => p + c) / crts.length}`;
-            crtp90 += `,${fragments[i]},${crts[Math.round(crts.length * 0.9)]}`;
-            apf += `,${fragments[i]},${pfs.reduce((p, c) => p + c) / pfs.length}`;
-            pfp90 += `,${fragments[i]},${pfs[Math.round(pfs.length * 0.9)]}`;
-            abt += `,${fragments[i]},${bts.reduce((p, c) => p + c) / bts.length}`;
-            btp90 += `,${fragments[i]},${bts[Math.round(bts.length * 0.9)]}`;
-            asc += `,${fragments[i]},${scs.reduce((p, c) => p + c) / scs.length}`;
-            scp90 += `,${fragments[i]},${scs[Math.round(scs.length * 0.9)]}`;
-            scsd += `,${fragments[i]},${getStandardDeviation(scs)}`;
+            const frag = i === 0 ? source.smallestFragment : getFragmentation(r);
+
+            art += `,${frag},${rts.reduce((p, c) => p + c) / rts.length}`;
+            rtp10 += `,${frag},${rts[Math.round(rts.length * 0.1)]}`;
+            rtp50 += `,${frag},${rts[Math.round(rts.length * 0.5)]}`;
+            rtp75 += `,${frag},${rts[Math.round(rts.length * 0.75)]}`;
+            rtp90 += `,${frag},${rts[Math.round(rts.length * 0.9)]}`;
+            acrt += `,${frag},${crts.reduce((p, c) => p + c) / crts.length}`;
+            crtp90 += `,${frag},${crts[Math.round(crts.length * 0.9)]}`;
+            apf += `,${frag},${pfs.reduce((p, c) => p + c) / pfs.length}`;
+            pfp90 += `,${frag},${pfs[Math.round(pfs.length * 0.9)]}`;
+            abt += `,${frag},${bts.reduce((p, c) => p + c) / bts.length}`;
+            btp90 += `,${frag},${bts[Math.round(bts.length * 0.9)]}`;
+            asc += `,${frag},${scs.reduce((p, c) => p + c) / scs.length}`;
+            scp90 += `,${frag},${scs[Math.round(scs.length * 0.9)]}`;
+            scsd += `,${frag},${getStandardDeviation(scs)}`;
         }
 
         results.push(art);
@@ -94,6 +96,22 @@ async function run() {
 
         fs.writeFileSync(`${config.rootPath}/results/${source.name}/results.csv`, results.join('\n'), 'utf8');
     }
+}
+
+function getFragmentation(file) {
+    return parseInt(file.substring(file.indexOf('_') + 1, file.indexOf('.')));
+}
+
+function getScannedConnectionsMap(source) {
+    const minPath = `${config.rootPath}/results/${source.name}/results_min.json`;
+    const min = JSON.parse(readFileSync(minPath, 'utf-8'));
+    const map = new Map();
+
+    for (const q of min.results) {
+        map.set(`${q.query.from}->${q.query.to}@${q.query.minimumDepartureTime}`, q.scannedConnections)
+    }
+
+    return map;
 }
 
 function getStandardDeviation(array) {
