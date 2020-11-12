@@ -51,13 +51,14 @@ async function run() {
                     scs.push(q.scannedConnections);
                 }
             }
-
+            
             rts.sort((a, b) => a - b);
             crts.sort((a, b) => a - b);
             pfs.sort((a, b) => a - b);
             bts.sort((a, b) => a - b);
             scs.sort((a, b) => a - b);
 
+            // Print distribution of response times for the first fragmentation only
             if(i === 0) console.log(source.name, scs);
 
             art += `,${fragments[i]},${rts.reduce((p, c) => p + c) / rts.length}`;

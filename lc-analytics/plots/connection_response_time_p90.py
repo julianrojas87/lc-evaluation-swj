@@ -102,9 +102,9 @@ thailand_greenbus_min = get_min_value(thailand_greenbus_x, thailand_greenbus_y)
 
 # Create subplots
 plt.style.use('seaborn-darkgrid')
-plt.rcParams.update({'font.size': 10})
+plt.rcParams.update({'font.size': 16})
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
-fig.suptitle('Connection response time vs LC data fragment size', fontsize=18)
+fig.suptitle('Response Time per Connection vs LC fragment size', fontsize=26)
 lw = 2
 
 ax1.plot(nl_waterbus_x, nl_waterbus_y, marker='o', markersize=3.5, label="Netherlands-Waterbus", linewidth=lw)
