@@ -11,7 +11,7 @@ export default {
             "smallestFragment": 94
         },
         {
-            "name": "amsterdam",
+            "name": "amsterdam-gvb",
             "path": "amsterdam_filtered.json",
             "busiestDay": "2020-10-16",
             "smallestFragment": 71
@@ -134,7 +134,7 @@ export default {
             "name": "thailand-greenbus",
             "path": "thailand-greenbus_filtered.json",
             "busiestDay": "2018-05-25",
-            "smallestFragment": 1861
+            "smallestFragment": 16
         }
     ]
 }
