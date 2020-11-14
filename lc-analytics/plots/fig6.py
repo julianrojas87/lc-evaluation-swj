@@ -1,4 +1,5 @@
-import matplotlib.pyplot as plt
+import matplotlib
+from matplotlib import pyplot as plt
 import csv
 
 # Function to extract measures from csv files
@@ -102,9 +103,9 @@ thailand_greenbus_min = get_min_value(thailand_greenbus_x, thailand_greenbus_y)
 
 # Create subplots
 plt.style.use('seaborn-darkgrid')
-plt.rcParams.update({'font.size': 16})
+plt.rcParams.update({'font.size': 12})
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
-fig.suptitle('Response Time per Connection vs LC fragment size', fontsize=26)
+#fig.suptitle('Response Time per Connection vs LC fragment size', fontsize=20)
 lw = 2
 
 ax1.plot(nl_waterbus_x, nl_waterbus_y, marker='o', markersize=3.5, label="Netherlands-Waterbus", linewidth=lw)
@@ -116,9 +117,16 @@ ax1.annotate(str(int(sydney_trainlink_min[0])) + "," + str("{:.3f}".format(sydne
 ax1.plot(thailand_greenbus_x, thailand_greenbus_y, marker='o', markersize=3.5, label="Thailand-GreenBus", linewidth=lw)
 ax1.annotate(str(int(thailand_greenbus_min[0])) + "," + str("{:.3f}".format(thailand_greenbus_min[1])), 
     xy=thailand_greenbus_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax1.get_lines()[len(ax1.get_lines()) - 1].get_color())
+ax1.title.set_text("A")
 ax1.legend(loc="upper right")
 ax1.set_xlabel("fragment size (connections)")
 ax1.set_ylabel("response time (ms) / connection")
+ax1.set_yscale("log")
+ax1.set_yticks([0.2, 0.4, 0.6, 0.8, 1, 2])
+ax1.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
+ax1.set_xscale("log")
+ax1.set_xticks([5, 10, 50, 100, 300, 500, 1000])
+ax1.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 
 ax2.plot(kobe_subway_x, kobe_subway_y, marker='o', markersize=3.5, label="Kobe-Subway", linewidth=lw)
 ax2.annotate(str(int(kobe_subway_min[0])) + "," + str("{:.3f}".format(kobe_subway_min[1])), 
@@ -138,9 +146,17 @@ ax2.annotate(str(int(nairobi_sacco_min[0])) + "," + str("{:.3f}".format(nairobi_
 ax2.plot(san_francisco_bart_x, san_francisco_bart_y, marker='o', markersize=3.5, label="San Francisco-BART", linewidth=lw)
 ax2.annotate(str(int(san_francisco_bart_min[0])) + "," + str("{:.3f}".format(san_francisco_bart_min[1])), 
     xy=san_francisco_bart_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax2.get_lines()[len(ax2.get_lines()) - 1].get_color())
+ax2.title.set_text("B")
 ax2.legend(loc="upper left")
 ax2.set_xlabel("fragment size (connections)")
 ax2.set_ylabel("response time (ms) / connection")
+ax2.set_yscale("log")
+ax2.set_xscale("log")
+ax2.set_yticks([0.2, 0.4, 0.6, 0.8, 1, 2, 4])
+ax2.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
+ax2.set_xscale("log")
+ax2.set_xticks([5, 10, 20, 50, 100, 300, 500, 1000, 3000, 5000])
+ax2.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 
 ax3.plot(amsterdam_gvb_x, amsterdam_gvb_y, marker='o', markersize=3.5, label="Amsterdam-GVB", linewidth=lw)
 ax3.annotate(str(int(amsterdam_gvb_min[0])) + "," + str("{:.3f}".format(amsterdam_gvb_min[1])), 
@@ -160,13 +176,24 @@ ax3.annotate(str(int(london_tube_min[0])) + "," + str("{:.3f}".format(london_tub
 ax3.plot(flixbus_x, flixbus_y, marker='o', markersize=3.5, label="EU-Flixbus", linewidth=lw)
 ax3.annotate(str(int(flixbus_min[0])) + "," + str("{:.3f}".format(flixbus_min[1])), 
     xy=flixbus_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax3.get_lines()[len(ax3.get_lines()) - 1].get_color())
+ax3.plot(nz_bus_x, nz_bus_y, marker='o', markersize=3.5, label="New Zealand-Bus", linewidth=lw)
+ax3.annotate(str(int(nz_bus_min[0])) + "," + str("{:.3f}".format(nz_bus_min[1])), 
+    xy=nz_bus_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax3.get_lines()[len(ax3.get_lines()) - 1].get_color())
+ax3.plot(new_york_mtabc_x, new_york_mtabc_y, marker='o', markersize=3.5, label="New York-MTABC", linewidth=lw)
+ax3.annotate(str(int(new_york_mtabc_min[0])) + "," + str("{:.3f}".format(new_york_mtabc_min[1])), 
+    xy=new_york_mtabc_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax3.get_lines()[len(ax3.get_lines()) - 1].get_color())
+ax3.title.set_text("C")
 ax3.legend(loc="upper left")
 ax3.set_xlabel("fragment size (connections)")
 ax3.set_ylabel("response time (ms) / connection")
+ax3.set_yscale("log")
+ax3.set_xscale("log")
+ax3.set_yticks([0.2, 0.4, 0.6, 0.8, 1, 2, 3])
+ax3.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
+ax3.set_xscale("log")
+ax3.set_xticks([50, 100, 300, 500, 1000, 3000, 5000, 10000, 30000])
+ax3.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 
-ax4.plot(new_york_mtabc_x, new_york_mtabc_y, marker='o', markersize=3.5, label="New York-MTABC", linewidth=lw)
-ax4.annotate(str(int(new_york_mtabc_min[0])) + "," + str("{:.3f}".format(new_york_mtabc_min[1])), 
-    xy=new_york_mtabc_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax4.get_lines()[len(ax4.get_lines()) - 1].get_color())
 ax4.plot(madrid_bus_x, madrid_bus_y, marker='o', markersize=3.5, label="Madrid-CRTM", linewidth=lw)
 ax4.annotate(str(int(madrid_bus_min[0])) + "," + str("{:.3f}".format(madrid_bus_min[1])), 
     xy=madrid_bus_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax4.get_lines()[len(ax4.get_lines()) - 1].get_color())
@@ -179,15 +206,20 @@ ax4.annotate(str(int(delijn_min[0])) + "," + str("{:.3f}".format(delijn_min[1]))
 ax4.plot(helsinki_hsl_x, helsinki_hsl_y, marker='o', markersize=3.5, label="Helsinki-HSL", linewidth=lw)
 ax4.annotate(str(int(helsinki_hsl_min[0])) + "," + str("{:.3f}".format(helsinki_hsl_min[1])), 
     xy=helsinki_hsl_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax4.get_lines()[len(ax4.get_lines()) - 1].get_color())
-ax4.plot(nz_bus_x, nz_bus_y, marker='o', markersize=3.5, label="New Zealand-Bus", linewidth=lw)
-ax4.annotate(str(int(nz_bus_min[0])) + "," + str("{:.3f}".format(nz_bus_min[1])), 
-    xy=nz_bus_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax4.get_lines()[len(ax4.get_lines()) - 1].get_color())
 ax4.plot(chicago_cta_x, chicago_cta_y, marker='o', markersize=3.5, label="Chicago-CTA", linewidth=lw)
 ax4.annotate(str(int(chicago_cta_min[0])) + "," + str("{:.3f}".format(chicago_cta_min[1])), 
     xy=chicago_cta_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax4.get_lines()[len(ax4.get_lines()) - 1].get_color())
+ax4.title.set_text("D")
 ax4.legend(loc="upper right")
 ax4.set_xlabel("fragment size (connections)")
 ax4.set_ylabel("response time (ms) / connection")
+ax4.set_yscale("log")
+ax4.set_xscale("log")
+ax4.set_yticks([0.2, 0.4, 0.6, 0.8, 1])
+ax4.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
+ax4.set_xscale("log")
+ax4.set_xticks([100, 300, 500, 1000, 3000, 5000, 10000, 30000])
+ax4.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 
 plt.legend()
 plt.show()
