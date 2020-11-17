@@ -77,6 +77,24 @@ The results of this step will be stored in a folder called `fragmentations` insi
 
 #### 4.2 Setup a _Linked Connections_ server
 
+In this step, we setup a Node.js [Linked Connections server](https://github.com/linkedconnections/linked-connections-server/tree/swj-evaluation) over all the networks (we used the `swj-evaluation` branch). Once installed we need to configure the server, for which we already provide a configuration file called [datasets_config.json](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/datasets_config.json).  Follow these steps:
+
+- Adjust the value of the `lcDataPath` property of [config.js](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/lc-analytics/config.js) to a folder of your choice. This folder will contain one subfolder for every defined fragmentation size. 
+
+- Create a folder called `raw-data` inside your main parent folder (defined in _rootPath_ of config.js) and put all the GTFS sources there. This is needed to provide the stops/stations data for solving route planning queries later.
+
+- Run the following script to organize the folder structure needed by the server:
+
+  ```bash
+  node lc-analytics/scripts/organizeFolders.js
+  ```
+
+- Adjust the value of the `storage` property of the server datasets_config.json to the path of any of the fragmentation subfolders created inside of  `lcDataPath`.
+
+- Start the server (the server needs additional network configuration that can be checked as part of its documentation).
+
+#### 4.3 Generate random queries
+
 
 
 ### 5. Measure network graph metrics
