@@ -1,0 +1,1409 @@
+{
+   "averageResponseTime": 23021.67,
+   "p10": 10606,
+   "p50": 21887,
+   "p75": 31261,
+   "p90": 38222,
+   "results": [
+      {
+         "query": {
+            "from": "http://example.org/stations/108720",
+            "to": "http://example.org/stations/107723",
+            "minimumDepartureTime": "2020-09-11T05:26:08.230Z",
+            "maximumArrivalTime": "2020-09-12T06:26:08.230Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1368,
+         "scannedConnections": 13837,
+         "pagesFetched": 20,
+         "bytesTransferred": 16462218,
+         "timePerConnection": 0.09886536098865362
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/113530",
+            "to": "http://example.org/stations/112246",
+            "minimumDepartureTime": "2020-09-11T22:58:25.339Z",
+            "maximumArrivalTime": "2020-09-12T23:58:25.339Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3678,
+         "scannedConnections": 75719,
+         "pagesFetched": 114,
+         "bytesTransferred": 83250277,
+         "timePerConnection": 0.04857433405089872
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/12679",
+            "to": "http://example.org/stations/13961",
+            "minimumDepartureTime": "2020-09-11T20:51:56.004Z",
+            "maximumArrivalTime": "2020-09-12T21:51:56.004Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4705,
+         "scannedConnections": 101481,
+         "pagesFetched": 177,
+         "bytesTransferred": 109382578,
+         "timePerConnection": 0.04636335865827101
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/113552",
+            "to": "http://example.org/stations/113530",
+            "minimumDepartureTime": "2020-09-11T17:42:53.582Z",
+            "maximumArrivalTime": "2020-09-12T18:42:53.582Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5165,
+         "scannedConnections": 110608,
+         "pagesFetched": 179,
+         "bytesTransferred": 119629008,
+         "timePerConnection": 0.046696441487053375
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/126990",
+            "to": "http://example.org/stations/121204",
+            "minimumDepartureTime": "2020-09-11T04:03:20.598Z",
+            "maximumArrivalTime": "2020-09-12T05:03:20.598Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 7656,
+         "scannedConnections": 118178,
+         "pagesFetched": 194,
+         "bytesTransferred": 131461363,
+         "timePerConnection": 0.06478363147117061
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/123193",
+            "to": "http://example.org/stations/96758",
+            "minimumDepartureTime": "2020-09-11T13:08:46.740Z",
+            "maximumArrivalTime": "2020-09-12T14:08:46.740Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 8526,
+         "scannedConnections": 162753,
+         "pagesFetched": 264,
+         "bytesTransferred": 175525237,
+         "timePerConnection": 0.05238613113122339
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/114327",
+            "to": "http://example.org/stations/113479",
+            "minimumDepartureTime": "2020-09-11T20:21:13.183Z",
+            "maximumArrivalTime": "2020-09-12T21:21:13.183Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 9429,
+         "scannedConnections": 162222,
+         "pagesFetched": 262,
+         "bytesTransferred": 175403318,
+         "timePerConnection": 0.05812405222472908
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/121231",
+            "to": "http://example.org/stations/134286",
+            "minimumDepartureTime": "2020-09-11T01:29:18.098Z",
+            "maximumArrivalTime": "2020-09-12T02:29:18.098Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 9660,
+         "scannedConnections": 134679,
+         "pagesFetched": 214,
+         "bytesTransferred": 149085403,
+         "timePerConnection": 0.07172610429242866
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/23727",
+            "to": "http://example.org/stations/10180",
+            "minimumDepartureTime": "2020-09-11T03:47:20.527Z",
+            "maximumArrivalTime": "2020-09-12T04:47:20.527Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 9814,
+         "scannedConnections": 126368,
+         "pagesFetched": 204,
+         "bytesTransferred": 140233976,
+         "timePerConnection": 0.07766206634591036
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/35265",
+            "to": "http://example.org/stations/96634",
+            "minimumDepartureTime": "2020-09-11T03:08:56.008Z",
+            "maximumArrivalTime": "2020-09-12T04:08:56.008Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 10601,
+         "scannedConnections": 225693,
+         "pagesFetched": 364,
+         "bytesTransferred": 244333414,
+         "timePerConnection": 0.04697088522905008
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/128809",
+            "to": "http://example.org/stations/22007",
+            "minimumDepartureTime": "2020-09-11T10:03:51.749Z",
+            "maximumArrivalTime": "2020-09-12T11:03:51.749Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 10606,
+         "scannedConnections": 170837,
+         "pagesFetched": 263,
+         "bytesTransferred": 187490390,
+         "timePerConnection": 0.06208256993508432
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/13007",
+            "to": "http://example.org/stations/89582",
+            "minimumDepartureTime": "2020-09-11T01:43:14.447Z",
+            "maximumArrivalTime": "2020-09-12T02:43:14.447Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 10646,
+         "scannedConnections": 172439,
+         "pagesFetched": 264,
+         "bytesTransferred": 188313343,
+         "timePerConnection": 0.06173777393745034
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/99165",
+            "to": "http://example.org/stations/16442",
+            "minimumDepartureTime": "2020-09-11T11:03:20.575Z",
+            "maximumArrivalTime": "2020-09-12T12:03:20.575Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 10792,
+         "scannedConnections": 196238,
+         "pagesFetched": 307,
+         "bytesTransferred": 213132267,
+         "timePerConnection": 0.054994445520235635
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/99004",
+            "to": "http://example.org/stations/25748",
+            "minimumDepartureTime": "2020-09-11T10:50:33.083Z",
+            "maximumArrivalTime": "2020-09-12T11:50:33.083Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 10836,
+         "scannedConnections": 160369,
+         "pagesFetched": 249,
+         "bytesTransferred": 178087766,
+         "timePerConnection": 0.06756916860490494
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/95592",
+            "to": "http://example.org/stations/12189",
+            "minimumDepartureTime": "2020-09-11T19:43:00.062Z",
+            "maximumArrivalTime": "2020-09-12T20:43:00.062Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 10919,
+         "scannedConnections": 241341,
+         "pagesFetched": 376,
+         "bytesTransferred": 258846167,
+         "timePerConnection": 0.045243037859294524
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/128668",
+            "to": "http://example.org/stations/118263",
+            "minimumDepartureTime": "2020-09-11T02:51:36.255Z",
+            "maximumArrivalTime": "2020-09-12T03:51:36.255Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 11627,
+         "scannedConnections": 180854,
+         "pagesFetched": 277,
+         "bytesTransferred": 196471065,
+         "timePerConnection": 0.06428942683048204
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/34464",
+            "to": "http://example.org/stations/17259",
+            "minimumDepartureTime": "2020-09-11T19:36:19.344Z",
+            "maximumArrivalTime": "2020-09-12T20:36:19.344Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 11729,
+         "scannedConnections": 198399,
+         "pagesFetched": 320,
+         "bytesTransferred": 214309627,
+         "timePerConnection": 0.059118241523394774
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/101018",
+            "to": "http://example.org/stations/38117",
+            "minimumDepartureTime": "2020-09-11T08:56:12.430Z",
+            "maximumArrivalTime": "2020-09-12T09:56:12.430Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 11782,
+         "scannedConnections": 249129,
+         "pagesFetched": 414,
+         "bytesTransferred": 269707901,
+         "timePerConnection": 0.04729276800372498
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/109084",
+            "to": "http://example.org/stations/130687",
+            "minimumDepartureTime": "2020-09-11T13:44:08.690Z",
+            "maximumArrivalTime": "2020-09-12T14:44:08.690Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 11783,
+         "scannedConnections": 156415,
+         "pagesFetched": 285,
+         "bytesTransferred": 169752720,
+         "timePerConnection": 0.0753316497778346
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/114398",
+            "to": "http://example.org/stations/113725",
+            "minimumDepartureTime": "2020-09-11T10:07:25.680Z",
+            "maximumArrivalTime": "2020-09-12T11:07:25.680Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 12087,
+         "scannedConnections": 213585,
+         "pagesFetched": 340,
+         "bytesTransferred": 231867563,
+         "timePerConnection": 0.05659105274246787
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/38911",
+            "to": "http://example.org/stations/129565",
+            "minimumDepartureTime": "2020-09-11T18:21:25.344Z",
+            "maximumArrivalTime": "2020-09-12T19:21:25.344Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 12413,
+         "scannedConnections": 237427,
+         "pagesFetched": 394,
+         "bytesTransferred": 256492886,
+         "timePerConnection": 0.052281332788604494
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/97908",
+            "to": "http://example.org/stations/41647",
+            "minimumDepartureTime": "2020-09-11T00:35:41.085Z",
+            "maximumArrivalTime": "2020-09-12T01:35:41.085Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 12543,
+         "scannedConnections": 257193,
+         "pagesFetched": 432,
+         "bytesTransferred": 278217730,
+         "timePerConnection": 0.048768823412767844
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/37610",
+            "to": "http://example.org/stations/112265",
+            "minimumDepartureTime": "2020-09-11T05:30:30.574Z",
+            "maximumArrivalTime": "2020-09-12T06:30:30.574Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 13074,
+         "scannedConnections": 267755,
+         "pagesFetched": 455,
+         "bytesTransferred": 289020495,
+         "timePerConnection": 0.04882821982782768
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/111576",
+            "to": "http://example.org/stations/119046",
+            "minimumDepartureTime": "2020-09-11T10:10:12.996Z",
+            "maximumArrivalTime": "2020-09-12T11:10:12.996Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 13482,
+         "scannedConnections": 194971,
+         "pagesFetched": 303,
+         "bytesTransferred": 211565809,
+         "timePerConnection": 0.0691487451980038
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/13732",
+            "to": "http://example.org/stations/23069",
+            "minimumDepartureTime": "2020-09-11T14:55:21.426Z",
+            "maximumArrivalTime": "2020-09-12T15:55:21.426Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 13720,
+         "scannedConnections": 162758,
+         "pagesFetched": 262,
+         "bytesTransferred": 177907300,
+         "timePerConnection": 0.084296931640841
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/13407",
+            "to": "http://example.org/stations/11497",
+            "minimumDepartureTime": "2020-09-11T08:54:20.041Z",
+            "maximumArrivalTime": "2020-09-12T09:54:20.041Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 14507,
+         "scannedConnections": 190874,
+         "pagesFetched": 296,
+         "bytesTransferred": 207658114,
+         "timePerConnection": 0.07600301769753869
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/95522",
+            "to": "http://example.org/stations/89156",
+            "minimumDepartureTime": "2020-09-11T00:24:26.534Z",
+            "maximumArrivalTime": "2020-09-12T01:24:26.534Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 14511,
+         "scannedConnections": 252028,
+         "pagesFetched": 420,
+         "bytesTransferred": 272621992,
+         "timePerConnection": 0.05757693589601155
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/94992",
+            "to": "http://example.org/stations/13656",
+            "minimumDepartureTime": "2020-09-11T11:34:23.076Z",
+            "maximumArrivalTime": "2020-09-12T12:34:23.076Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 15196,
+         "scannedConnections": 284056,
+         "pagesFetched": 482,
+         "bytesTransferred": 306901875,
+         "timePerConnection": 0.05349649364913961
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/96932",
+            "to": "http://example.org/stations/125237",
+            "minimumDepartureTime": "2020-09-11T01:38:44.259Z",
+            "maximumArrivalTime": "2020-09-12T02:38:44.259Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 15371,
+         "scannedConnections": 284456,
+         "pagesFetched": 484,
+         "bytesTransferred": 308676958,
+         "timePerConnection": 0.05403647664313637
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/93234",
+            "to": "http://example.org/stations/115480",
+            "minimumDepartureTime": "2020-09-11T19:35:45.160Z",
+            "maximumArrivalTime": "2020-09-12T20:35:45.160Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 15850,
+         "scannedConnections": 232505,
+         "pagesFetched": 369,
+         "bytesTransferred": 251037324,
+         "timePerConnection": 0.0681705769768392
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/114710",
+            "to": "http://example.org/stations/17146",
+            "minimumDepartureTime": "2020-09-11T03:18:25.621Z",
+            "maximumArrivalTime": "2020-09-12T04:18:25.621Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 16542,
+         "scannedConnections": 237882,
+         "pagesFetched": 390,
+         "bytesTransferred": 257503366,
+         "timePerConnection": 0.0695386788407698
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/28250",
+            "to": "http://example.org/stations/108769",
+            "minimumDepartureTime": "2020-09-11T18:31:02.045Z",
+            "maximumArrivalTime": "2020-09-12T19:31:02.045Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 16662,
+         "scannedConnections": 182753,
+         "pagesFetched": 314,
+         "bytesTransferred": 197692558,
+         "timePerConnection": 0.09117223793863849
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/16979",
+            "to": "http://example.org/stations/116976",
+            "minimumDepartureTime": "2020-09-11T12:23:18.023Z",
+            "maximumArrivalTime": "2020-09-12T13:23:18.023Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 16720,
+         "scannedConnections": 223402,
+         "pagesFetched": 384,
+         "bytesTransferred": 241653563,
+         "timePerConnection": 0.07484266031638033
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/20830",
+            "to": "http://example.org/stations/112281",
+            "minimumDepartureTime": "2020-09-11T16:31:04.180Z",
+            "maximumArrivalTime": "2020-09-12T17:31:04.180Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 17060,
+         "scannedConnections": 182291,
+         "pagesFetched": 273,
+         "bytesTransferred": 199618053,
+         "timePerConnection": 0.09358662797395373
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/11484",
+            "to": "http://example.org/stations/25953",
+            "minimumDepartureTime": "2020-09-11T04:19:18.199Z",
+            "maximumArrivalTime": "2020-09-12T05:19:18.199Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 17290,
+         "scannedConnections": 234060,
+         "pagesFetched": 382,
+         "bytesTransferred": 253395907,
+         "timePerConnection": 0.07386994787661283
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/114880",
+            "to": "http://example.org/stations/113625",
+            "minimumDepartureTime": "2020-09-11T11:34:09.433Z",
+            "maximumArrivalTime": "2020-09-12T12:34:09.433Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 17511,
+         "scannedConnections": 290919,
+         "pagesFetched": 496,
+         "bytesTransferred": 314687170,
+         "timePerConnection": 0.06019201220958411
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/134697",
+            "to": "http://example.org/stations/9384",
+            "minimumDepartureTime": "2020-09-11T01:09:56.314Z",
+            "maximumArrivalTime": "2020-09-12T02:09:56.314Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 17707,
+         "scannedConnections": 313992,
+         "pagesFetched": 525,
+         "bytesTransferred": 339529577,
+         "timePerConnection": 0.056393156513541744
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/14793",
+            "to": "http://example.org/stations/112359",
+            "minimumDepartureTime": "2020-09-11T12:03:40.806Z",
+            "maximumArrivalTime": "2020-09-12T13:03:40.806Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 18117,
+         "scannedConnections": 268794,
+         "pagesFetched": 462,
+         "bytesTransferred": 291834471,
+         "timePerConnection": 0.06740105805933168
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/41659",
+            "to": "http://example.org/stations/132216",
+            "minimumDepartureTime": "2020-09-11T13:51:57.122Z",
+            "maximumArrivalTime": "2020-09-12T14:51:57.122Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 18289,
+         "scannedConnections": 274158,
+         "pagesFetched": 453,
+         "bytesTransferred": 296457577,
+         "timePerConnection": 0.06670970754090706
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/113031",
+            "to": "http://example.org/stations/38371",
+            "minimumDepartureTime": "2020-09-11T00:49:46.934Z",
+            "maximumArrivalTime": "2020-09-12T01:49:46.934Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 18525,
+         "scannedConnections": 286090,
+         "pagesFetched": 486,
+         "bytesTransferred": 310422363,
+         "timePerConnection": 0.06475235065888357
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/128834",
+            "to": "http://example.org/stations/109896",
+            "minimumDepartureTime": "2020-09-11T00:51:04.957Z",
+            "maximumArrivalTime": "2020-09-12T01:51:04.957Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 18609,
+         "scannedConnections": 328777,
+         "pagesFetched": 543,
+         "bytesTransferred": 355243083,
+         "timePerConnection": 0.056600674621399914
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/93744",
+            "to": "http://example.org/stations/117923",
+            "minimumDepartureTime": "2020-09-11T16:49:04.402Z",
+            "maximumArrivalTime": "2020-09-12T17:49:04.402Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 18921,
+         "scannedConnections": 277307,
+         "pagesFetched": 444,
+         "bytesTransferred": 300067800,
+         "timePerConnection": 0.06823123830267537
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/40996",
+            "to": "http://example.org/stations/37960",
+            "minimumDepartureTime": "2020-09-11T11:58:25.400Z",
+            "maximumArrivalTime": "2020-09-12T12:58:25.400Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 18927,
+         "scannedConnections": 319021,
+         "pagesFetched": 533,
+         "bytesTransferred": 347191315,
+         "timePerConnection": 0.059328382771040154
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/114374",
+            "to": "http://example.org/stations/36966",
+            "minimumDepartureTime": "2020-09-11T03:52:47.978Z",
+            "maximumArrivalTime": "2020-09-12T04:52:47.978Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 19382,
+         "scannedConnections": 239783,
+         "pagesFetched": 394,
+         "bytesTransferred": 259528563,
+         "timePerConnection": 0.08083141840747676
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/9865",
+            "to": "http://example.org/stations/22229",
+            "minimumDepartureTime": "2020-09-11T05:49:33.360Z",
+            "maximumArrivalTime": "2020-09-12T06:49:33.360Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 19489,
+         "scannedConnections": 275470,
+         "pagesFetched": 472,
+         "bytesTransferred": 298222373,
+         "timePerConnection": 0.07074817584491959
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/119490",
+            "to": "http://example.org/stations/14116",
+            "minimumDepartureTime": "2020-09-11T01:59:40.292Z",
+            "maximumArrivalTime": "2020-09-12T02:59:40.292Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 19576,
+         "scannedConnections": 286070,
+         "pagesFetched": 487,
+         "bytesTransferred": 311315852,
+         "timePerConnection": 0.06843080364945643
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/100084",
+            "to": "http://example.org/stations/131263",
+            "minimumDepartureTime": "2020-09-11T13:46:57.657Z",
+            "maximumArrivalTime": "2020-09-12T14:46:57.657Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 19624,
+         "scannedConnections": 312589,
+         "pagesFetched": 512,
+         "bytesTransferred": 337165445,
+         "timePerConnection": 0.06277892056342353
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/13023",
+            "to": "http://example.org/stations/117869",
+            "minimumDepartureTime": "2020-09-11T17:20:41.442Z",
+            "maximumArrivalTime": "2020-09-12T18:20:41.442Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 20186,
+         "scannedConnections": 390020,
+         "pagesFetched": 604,
+         "bytesTransferred": 418204662,
+         "timePerConnection": 0.05175632018870827
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/127773",
+            "to": "http://example.org/stations/119112",
+            "minimumDepartureTime": "2020-09-11T01:52:22.165Z",
+            "maximumArrivalTime": "2020-09-12T02:52:22.165Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 20868,
+         "scannedConnections": 229331,
+         "pagesFetched": 372,
+         "bytesTransferred": 248367632,
+         "timePerConnection": 0.09099511186887076
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/109055",
+            "to": "http://example.org/stations/114714",
+            "minimumDepartureTime": "2020-09-11T07:09:52.766Z",
+            "maximumArrivalTime": "2020-09-12T08:09:52.766Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 21326,
+         "scannedConnections": 234026,
+         "pagesFetched": 383,
+         "bytesTransferred": 254179296,
+         "timePerConnection": 0.09112662695597926
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/90406",
+            "to": "http://example.org/stations/98471",
+            "minimumDepartureTime": "2020-09-11T04:23:47.306Z",
+            "maximumArrivalTime": "2020-09-12T05:23:47.306Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 21887,
+         "scannedConnections": 353929,
+         "pagesFetched": 576,
+         "bytesTransferred": 382358657,
+         "timePerConnection": 0.06184008657103544
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/107647",
+            "to": "http://example.org/stations/43780",
+            "minimumDepartureTime": "2020-09-11T14:57:11.762Z",
+            "maximumArrivalTime": "2020-09-12T15:57:11.762Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 21910,
+         "scannedConnections": 225963,
+         "pagesFetched": 368,
+         "bytesTransferred": 245769509,
+         "timePerConnection": 0.09696277709182477
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/115494",
+            "to": "http://example.org/stations/89583",
+            "minimumDepartureTime": "2020-09-11T17:23:42.564Z",
+            "maximumArrivalTime": "2020-09-12T18:23:42.564Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 22613,
+         "scannedConnections": 232737,
+         "pagesFetched": 380,
+         "bytesTransferred": 252317661,
+         "timePerConnection": 0.09716117334158299
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/20301",
+            "to": "http://example.org/stations/89587",
+            "minimumDepartureTime": "2020-09-11T05:53:05.165Z",
+            "maximumArrivalTime": "2020-09-12T06:53:05.165Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 23588,
+         "scannedConnections": 355569,
+         "pagesFetched": 578,
+         "bytesTransferred": 384071832,
+         "timePerConnection": 0.06633874156633453
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/37760",
+            "to": "http://example.org/stations/99470",
+            "minimumDepartureTime": "2020-09-11T17:08:27.563Z",
+            "maximumArrivalTime": "2020-09-12T18:08:27.563Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 23914,
+         "scannedConnections": 394666,
+         "pagesFetched": 610,
+         "bytesTransferred": 423383251,
+         "timePerConnection": 0.06059300775845905
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/28748",
+            "to": "http://example.org/stations/125822",
+            "minimumDepartureTime": "2020-09-11T14:13:08.016Z",
+            "maximumArrivalTime": "2020-09-12T15:13:08.016Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 24486,
+         "scannedConnections": 323597,
+         "pagesFetched": 536,
+         "bytesTransferred": 349340215,
+         "timePerConnection": 0.07566819222675117
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/9313",
+            "to": "http://example.org/stations/95465",
+            "minimumDepartureTime": "2020-09-11T04:03:57.994Z",
+            "maximumArrivalTime": "2020-09-12T05:03:57.994Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 24542,
+         "scannedConnections": 290160,
+         "pagesFetched": 490,
+         "bytesTransferred": 314001314,
+         "timePerConnection": 0.08458092087124346
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/116876",
+            "to": "http://example.org/stations/38526",
+            "minimumDepartureTime": "2020-09-11T12:21:40.519Z",
+            "maximumArrivalTime": "2020-09-12T13:21:40.519Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 24689,
+         "scannedConnections": 301171,
+         "pagesFetched": 504,
+         "bytesTransferred": 326340246,
+         "timePerConnection": 0.08197668434211794
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/136050",
+            "to": "http://example.org/stations/118302",
+            "minimumDepartureTime": "2020-09-11T19:06:41.283Z",
+            "maximumArrivalTime": "2020-09-12T20:06:41.283Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 25350,
+         "scannedConnections": 295489,
+         "pagesFetched": 468,
+         "bytesTransferred": 316907928,
+         "timePerConnection": 0.08578999556667084
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/119329",
+            "to": "http://example.org/stations/21034",
+            "minimumDepartureTime": "2020-09-11T02:38:12.944Z",
+            "maximumArrivalTime": "2020-09-12T03:38:12.944Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 25466,
+         "scannedConnections": 335006,
+         "pagesFetched": 552,
+         "bytesTransferred": 362865303,
+         "timePerConnection": 0.0760165489573321
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/108426",
+            "to": "http://example.org/stations/96720",
+            "minimumDepartureTime": "2020-09-11T09:33:42.534Z",
+            "maximumArrivalTime": "2020-09-12T10:33:42.534Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 25718,
+         "scannedConnections": 317016,
+         "pagesFetched": 530,
+         "bytesTransferred": 344017081,
+         "timePerConnection": 0.08112524288994877
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/9505",
+            "to": "http://example.org/stations/24554",
+            "minimumDepartureTime": "2020-09-11T06:22:27.194Z",
+            "maximumArrivalTime": "2020-09-12T07:22:27.194Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 25718,
+         "scannedConnections": 339910,
+         "pagesFetched": 559,
+         "bytesTransferred": 368560970,
+         "timePerConnection": 0.07566120443646848
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/119244",
+            "to": "http://example.org/stations/42744",
+            "minimumDepartureTime": "2020-09-11T15:09:27.169Z",
+            "maximumArrivalTime": "2020-09-12T16:09:27.169Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 26866,
+         "scannedConnections": 429632,
+         "pagesFetched": 684,
+         "bytesTransferred": 462400041,
+         "timePerConnection": 0.06253258602711158
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/96718",
+            "to": "http://example.org/stations/107433",
+            "minimumDepartureTime": "2020-09-11T01:13:42.802Z",
+            "maximumArrivalTime": "2020-09-12T02:13:42.802Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 26904,
+         "scannedConnections": 457361,
+         "pagesFetched": 734,
+         "bytesTransferred": 492912669,
+         "timePerConnection": 0.058824429717444206
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/129040",
+            "to": "http://example.org/stations/14046",
+            "minimumDepartureTime": "2020-09-11T11:37:45.817Z",
+            "maximumArrivalTime": "2020-09-12T12:37:45.817Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 27022,
+         "scannedConnections": 365811,
+         "pagesFetched": 592,
+         "bytesTransferred": 396021155,
+         "timePerConnection": 0.07386874642916698
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/39160",
+            "to": "http://example.org/stations/23626",
+            "minimumDepartureTime": "2020-09-11T15:39:26.812Z",
+            "maximumArrivalTime": "2020-09-12T16:39:26.812Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 27522,
+         "scannedConnections": 351767,
+         "pagesFetched": 556,
+         "bytesTransferred": 379445816,
+         "timePerConnection": 0.07823928907487059
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/116714",
+            "to": "http://example.org/stations/37754",
+            "minimumDepartureTime": "2020-09-11T04:49:43.268Z",
+            "maximumArrivalTime": "2020-09-12T05:49:43.268Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 27744,
+         "scannedConnections": 306709,
+         "pagesFetched": 517,
+         "bytesTransferred": 332324129,
+         "timePerConnection": 0.0904570782076822
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/119475",
+            "to": "http://example.org/stations/109376",
+            "minimumDepartureTime": "2020-09-11T08:05:07.533Z",
+            "maximumArrivalTime": "2020-09-12T09:05:07.533Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 28023,
+         "scannedConnections": 350685,
+         "pagesFetched": 572,
+         "bytesTransferred": 378999661,
+         "timePerConnection": 0.07990932033021088
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/37152",
+            "to": "http://example.org/stations/123319",
+            "minimumDepartureTime": "2020-09-11T10:34:24.155Z",
+            "maximumArrivalTime": "2020-09-12T11:34:24.155Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 28051,
+         "scannedConnections": 393338,
+         "pagesFetched": 628,
+         "bytesTransferred": 425017311,
+         "timePerConnection": 0.07131525558171344
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/108665",
+            "to": "http://example.org/stations/40778",
+            "minimumDepartureTime": "2020-09-11T02:53:57.819Z",
+            "maximumArrivalTime": "2020-09-12T03:53:57.819Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 28610,
+         "scannedConnections": 332596,
+         "pagesFetched": 548,
+         "bytesTransferred": 359452406,
+         "timePerConnection": 0.0860202768523975
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/33601",
+            "to": "http://example.org/stations/112602",
+            "minimumDepartureTime": "2020-09-11T01:21:02.559Z",
+            "maximumArrivalTime": "2020-09-12T02:21:02.559Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 28691,
+         "scannedConnections": 423735,
+         "pagesFetched": 680,
+         "bytesTransferred": 457331144,
+         "timePerConnection": 0.06770977143733702
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/131947",
+            "to": "http://example.org/stations/123471",
+            "minimumDepartureTime": "2020-09-11T14:05:46.887Z",
+            "maximumArrivalTime": "2020-09-12T15:05:46.887Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 28896,
+         "scannedConnections": 293291,
+         "pagesFetched": 491,
+         "bytesTransferred": 316985988,
+         "timePerConnection": 0.09852330961400112
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/133626",
+            "to": "http://example.org/stations/11437",
+            "minimumDepartureTime": "2020-09-11T16:43:45.980Z",
+            "maximumArrivalTime": "2020-09-12T17:43:45.980Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 29581,
+         "scannedConnections": 389077,
+         "pagesFetched": 598,
+         "bytesTransferred": 418597051,
+         "timePerConnection": 0.07602865242612644
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/113800",
+            "to": "http://example.org/stations/13179",
+            "minimumDepartureTime": "2020-09-11T02:30:44.273Z",
+            "maximumArrivalTime": "2020-09-12T03:30:44.273Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 30283,
+         "scannedConnections": 390598,
+         "pagesFetched": 622,
+         "bytesTransferred": 421357457,
+         "timePerConnection": 0.07752983886246217
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/97864",
+            "to": "http://example.org/stations/108385",
+            "minimumDepartureTime": "2020-09-11T01:12:42.348Z",
+            "maximumArrivalTime": "2020-09-12T02:12:42.348Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 30559,
+         "scannedConnections": 504175,
+         "pagesFetched": 809,
+         "bytesTransferred": 543586053,
+         "timePerConnection": 0.06061189071255021
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/37656",
+            "to": "http://example.org/stations/127049",
+            "minimumDepartureTime": "2020-09-11T12:54:15.618Z",
+            "maximumArrivalTime": "2020-09-12T13:54:15.618Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 31261,
+         "scannedConnections": 432292,
+         "pagesFetched": 688,
+         "bytesTransferred": 465904046,
+         "timePerConnection": 0.07231454664902427
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/21178",
+            "to": "http://example.org/stations/37631",
+            "minimumDepartureTime": "2020-09-11T12:10:15.604Z",
+            "maximumArrivalTime": "2020-09-12T13:10:15.604Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 31507,
+         "scannedConnections": 389024,
+         "pagesFetched": 629,
+         "bytesTransferred": 421416752,
+         "timePerConnection": 0.08098986180801185
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/9578",
+            "to": "http://example.org/stations/16101",
+            "minimumDepartureTime": "2020-09-11T03:30:02.437Z",
+            "maximumArrivalTime": "2020-09-12T04:30:02.437Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 32151,
+         "scannedConnections": 407403,
+         "pagesFetched": 648,
+         "bytesTransferred": 439349741,
+         "timePerConnection": 0.07891694464694664
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/117666",
+            "to": "http://example.org/stations/114167",
+            "minimumDepartureTime": "2020-09-11T01:28:38.970Z",
+            "maximumArrivalTime": "2020-09-12T02:28:38.970Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 32159,
+         "scannedConnections": 388090,
+         "pagesFetched": 620,
+         "bytesTransferred": 419977200,
+         "timePerConnection": 0.08286479940220053
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/128818",
+            "to": "http://example.org/stations/38129",
+            "minimumDepartureTime": "2020-09-11T13:54:52.291Z",
+            "maximumArrivalTime": "2020-09-12T14:54:52.291Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 32165,
+         "scannedConnections": 359573,
+         "pagesFetched": 587,
+         "bytesTransferred": 386877727,
+         "timePerConnection": 0.08945332380351138
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/10655",
+            "to": "http://example.org/stations/109890",
+            "minimumDepartureTime": "2020-09-11T13:15:25.196Z",
+            "maximumArrivalTime": "2020-09-12T14:15:25.196Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 32359,
+         "scannedConnections": 386894,
+         "pagesFetched": 616,
+         "bytesTransferred": 416612405,
+         "timePerConnection": 0.08363789565100518
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/41188",
+            "to": "http://example.org/stations/12544",
+            "minimumDepartureTime": "2020-09-11T14:17:13.163Z",
+            "maximumArrivalTime": "2020-09-12T15:17:13.163Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 32729,
+         "scannedConnections": 440123,
+         "pagesFetched": 732,
+         "bytesTransferred": 474081809,
+         "timePerConnection": 0.07436330298575626
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/40898",
+            "to": "http://example.org/stations/108883",
+            "minimumDepartureTime": "2020-09-11T01:42:37.853Z",
+            "maximumArrivalTime": "2020-09-12T02:42:37.853Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 32801,
+         "scannedConnections": 478345,
+         "pagesFetched": 772,
+         "bytesTransferred": 516830616,
+         "timePerConnection": 0.0685718466796977
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/119931",
+            "to": "http://example.org/stations/20146",
+            "minimumDepartureTime": "2020-09-11T00:53:40.171Z",
+            "maximumArrivalTime": "2020-09-12T01:53:40.171Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 33493,
+         "scannedConnections": 450711,
+         "pagesFetched": 726,
+         "bytesTransferred": 486380171,
+         "timePerConnection": 0.07431147675561502
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/113435",
+            "to": "http://example.org/stations/131872",
+            "minimumDepartureTime": "2020-09-11T16:24:05.215Z",
+            "maximumArrivalTime": "2020-09-12T17:24:05.215Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 33595,
+         "scannedConnections": 441807,
+         "pagesFetched": 673,
+         "bytesTransferred": 474324336,
+         "timePerConnection": 0.07603999031251202
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/97390",
+            "to": "http://example.org/stations/36713",
+            "minimumDepartureTime": "2020-09-11T11:29:32.061Z",
+            "maximumArrivalTime": "2020-09-12T12:29:32.061Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 34492,
+         "scannedConnections": 480792,
+         "pagesFetched": 774,
+         "bytesTransferred": 518879968,
+         "timePerConnection": 0.07173996239538095
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/21032",
+            "to": "http://example.org/stations/41532",
+            "minimumDepartureTime": "2020-09-11T03:38:02.942Z",
+            "maximumArrivalTime": "2020-09-12T04:38:02.942Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 34709,
+         "scannedConnections": 439432,
+         "pagesFetched": 702,
+         "bytesTransferred": 473999687,
+         "timePerConnection": 0.0789860547251907
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/38754",
+            "to": "http://example.org/stations/25141",
+            "minimumDepartureTime": "2020-09-11T05:44:44.163Z",
+            "maximumArrivalTime": "2020-09-12T06:44:44.163Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 35195,
+         "scannedConnections": 563544,
+         "pagesFetched": 912,
+         "bytesTransferred": 607164705,
+         "timePerConnection": 0.06245297616512641
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/112633",
+            "to": "http://example.org/stations/108663",
+            "minimumDepartureTime": "2020-09-11T07:46:10.930Z",
+            "maximumArrivalTime": "2020-09-12T08:46:10.930Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 35940,
+         "scannedConnections": 363614,
+         "pagesFetched": 588,
+         "bytesTransferred": 392888345,
+         "timePerConnection": 0.09884107872634167
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/41968",
+            "to": "http://example.org/stations/34261",
+            "minimumDepartureTime": "2020-09-11T04:15:52.600Z",
+            "maximumArrivalTime": "2020-09-12T05:15:52.600Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 37311,
+         "scannedConnections": 536772,
+         "pagesFetched": 854,
+         "bytesTransferred": 579165723,
+         "timePerConnection": 0.06950995953589234
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/119511",
+            "to": "http://example.org/stations/33684",
+            "minimumDepartureTime": "2020-09-11T14:43:13.491Z",
+            "maximumArrivalTime": "2020-09-12T15:43:13.491Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 38222,
+         "scannedConnections": 505379,
+         "pagesFetched": 808,
+         "bytesTransferred": 542696839,
+         "timePerConnection": 0.07563036849572301
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/117194",
+            "to": "http://example.org/stations/104774",
+            "minimumDepartureTime": "2020-09-11T12:32:57.677Z",
+            "maximumArrivalTime": "2020-09-12T13:32:57.677Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 38917,
+         "scannedConnections": 505750,
+         "pagesFetched": 809,
+         "bytesTransferred": 543893566,
+         "timePerConnection": 0.07694908551655956
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/34660",
+            "to": "http://example.org/stations/90918",
+            "minimumDepartureTime": "2020-09-11T11:46:37.339Z",
+            "maximumArrivalTime": "2020-09-12T12:46:37.339Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 40600,
+         "scannedConnections": 599501,
+         "pagesFetched": 979,
+         "bytesTransferred": 646265049,
+         "timePerConnection": 0.06772298961970039
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/119572",
+            "to": "http://example.org/stations/134526",
+            "minimumDepartureTime": "2020-09-11T02:40:05.545Z",
+            "maximumArrivalTime": "2020-09-12T03:40:05.545Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 41369,
+         "scannedConnections": 581589,
+         "pagesFetched": 946,
+         "bytesTransferred": 626566884,
+         "timePerConnection": 0.07113098769062001
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/114086",
+            "to": "http://example.org/stations/27456",
+            "minimumDepartureTime": "2020-09-11T01:09:13.321Z",
+            "maximumArrivalTime": "2020-09-12T02:09:13.321Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 42142,
+         "scannedConnections": 588600,
+         "pagesFetched": 957,
+         "bytesTransferred": 633334361,
+         "timePerConnection": 0.07159700985389059
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/12662",
+            "to": "http://example.org/stations/42701",
+            "minimumDepartureTime": "2020-09-11T12:25:25.782Z",
+            "maximumArrivalTime": "2020-09-12T13:25:25.782Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 42425,
+         "scannedConnections": 590140,
+         "pagesFetched": 959,
+         "bytesTransferred": 634349458,
+         "timePerConnection": 0.07188972108313281
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/36859",
+            "to": "http://example.org/stations/96775",
+            "minimumDepartureTime": "2020-09-11T01:17:32.362Z",
+            "maximumArrivalTime": "2020-09-12T02:17:32.362Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 45061,
+         "scannedConnections": 696605,
+         "pagesFetched": 1110,
+         "bytesTransferred": 748606682,
+         "timePerConnection": 0.06468658709024483
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/37518",
+            "to": "http://example.org/stations/105276",
+            "minimumDepartureTime": "2020-09-11T09:59:00.130Z",
+            "maximumArrivalTime": "2020-09-12T10:59:00.130Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 47324,
+         "scannedConnections": 737035,
+         "pagesFetched": 1169,
+         "bytesTransferred": 791167821,
+         "timePerConnection": 0.06420861967206443
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/93148",
+            "to": "http://example.org/stations/101028",
+            "minimumDepartureTime": "2020-09-11T02:09:12.317Z",
+            "maximumArrivalTime": "2020-09-12T03:09:12.317Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 48342,
+         "scannedConnections": 725339,
+         "pagesFetched": 1152,
+         "bytesTransferred": 779174773,
+         "timePerConnection": 0.06664745725791664
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/40767",
+            "to": "http://example.org/stations/116557",
+            "minimumDepartureTime": "2020-09-11T13:15:01.643Z",
+            "maximumArrivalTime": "2020-09-12T14:15:01.643Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 61858,
+         "scannedConnections": 460500,
+         "pagesFetched": 732,
+         "bytesTransferred": 495170471,
+         "timePerConnection": 0.13432790445168297
+      }
+   ]
+}

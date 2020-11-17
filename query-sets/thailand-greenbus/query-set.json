@@ -1,0 +1,702 @@
+[
+   {
+      "from": "http://example.org/stations/CHUM_PHON",
+      "to": "http://example.org/stations/KANCHANADIT",
+      "minimumDepartureTime": "2018-05-25T10:25:29.012Z",
+      "maximumArrivalTime": "2018-05-26T11:25:29.012Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_CHAN",
+      "to": "http://example.org/stations/MAI_SUI_JUNCTION",
+      "minimumDepartureTime": "2018-05-25T13:40:43.102Z",
+      "maximumArrivalTime": "2018-05-26T14:40:43.102Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/ULTARADIT",
+      "to": "http://example.org/stations/NAN",
+      "minimumDepartureTime": "2018-05-25T02:53:12.275Z",
+      "maximumArrivalTime": "2018-05-26T03:53:12.275Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHUN",
+      "to": "http://example.org/stations/CHIANG_RAI",
+      "minimumDepartureTime": "2018-05-25T15:17:26.980Z",
+      "maximumArrivalTime": "2018-05-26T16:17:26.980Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/LANG_SUAN",
+      "to": "http://example.org/stations/CHIANG_MAI",
+      "minimumDepartureTime": "2018-05-25T01:10:46.405Z",
+      "maximumArrivalTime": "2018-05-26T02:10:46.405Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_RAI",
+      "to": "http://example.org/stations/MAI_SUI_JUNCTION",
+      "minimumDepartureTime": "2018-05-25T06:24:58.471Z",
+      "maximumArrivalTime": "2018-05-26T07:24:58.471Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NA_NUEA",
+      "to": "http://example.org/stations/PHUKET_AIRPORT",
+      "minimumDepartureTime": "2018-05-25T07:35:13.649Z",
+      "maximumArrivalTime": "2018-05-26T08:35:13.649Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WANG_KUNG",
+      "to": "http://example.org/stations/SURAT_THANI_JUNC",
+      "minimumDepartureTime": "2018-05-25T05:16:04.025Z",
+      "maximumArrivalTime": "2018-05-26T06:16:04.025Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/TAK",
+      "to": "http://example.org/stations/TA_KHUN",
+      "minimumDepartureTime": "2018-05-25T02:56:51.699Z",
+      "maximumArrivalTime": "2018-05-26T03:56:51.699Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NAKORN_SAWAN",
+      "to": "http://example.org/stations/PHUKET_AIRPORT",
+      "minimumDepartureTime": "2018-05-25T11:44:36.504Z",
+      "maximumArrivalTime": "2018-05-26T12:44:36.504Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NA_NUEA",
+      "to": "http://example.org/stations/PHUKET",
+      "minimumDepartureTime": "2018-05-25T11:44:24.976Z",
+      "maximumArrivalTime": "2018-05-26T12:44:24.976Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_MUAN",
+      "to": "http://example.org/stations/DOK_KHAMTAI",
+      "minimumDepartureTime": "2018-05-25T03:10:29.387Z",
+      "maximumArrivalTime": "2018-05-26T04:10:29.387Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/TOENG",
+      "to": "http://example.org/stations/THA_CHAROEN",
+      "minimumDepartureTime": "2018-05-25T08:02:18.232Z",
+      "maximumArrivalTime": "2018-05-26T09:02:18.232Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WANG_NUA",
+      "to": "http://example.org/stations/NGAO_JUNC",
+      "minimumDepartureTime": "2018-05-25T11:01:13.988Z",
+      "maximumArrivalTime": "2018-05-26T12:01:13.988Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NGAO_JUNC",
+      "to": "http://example.org/stations/MAE_SAI",
+      "minimumDepartureTime": "2018-05-25T05:06:06.461Z",
+      "maximumArrivalTime": "2018-05-26T06:06:06.461Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/LOMSAK",
+      "to": "http://example.org/stations/PHITSANULOK_1",
+      "minimumDepartureTime": "2018-05-25T00:14:02.943Z",
+      "maximumArrivalTime": "2018-05-26T01:14:02.943Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_KHAEM",
+      "to": "http://example.org/stations/TOENG",
+      "minimumDepartureTime": "2018-05-25T00:45:52.420Z",
+      "maximumArrivalTime": "2018-05-26T01:45:52.420Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PHAN_OUT",
+      "to": "http://example.org/stations/PAYAO_U",
+      "minimumDepartureTime": "2018-05-25T01:39:20.128Z",
+      "maximumArrivalTime": "2018-05-26T02:39:20.128Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_CHAN",
+      "to": "http://example.org/stations/PHUKET",
+      "minimumDepartureTime": "2018-05-25T15:35:55.560Z",
+      "maximumArrivalTime": "2018-05-26T16:35:55.560Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/SAMUT_SAKHON",
+      "to": "http://example.org/stations/PHAN_OUT",
+      "minimumDepartureTime": "2018-05-25T01:54:50.082Z",
+      "maximumArrivalTime": "2018-05-26T02:54:50.082Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PRACHUAP",
+      "to": "http://example.org/stations/THA_CHANA",
+      "minimumDepartureTime": "2018-05-25T01:32:35.483Z",
+      "maximumArrivalTime": "2018-05-26T02:32:35.483Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHOMPHU",
+      "to": "http://example.org/stations/MAI_SUI_JUNCTION",
+      "minimumDepartureTime": "2018-05-25T15:48:47.720Z",
+      "maximumArrivalTime": "2018-05-26T16:48:47.720Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_MAI",
+      "to": "http://example.org/stations/PAYAO_U",
+      "minimumDepartureTime": "2018-05-25T12:51:15.310Z",
+      "maximumArrivalTime": "2018-05-26T13:51:15.310Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHAING_KLANG",
+      "to": "http://example.org/stations/NAN",
+      "minimumDepartureTime": "2018-05-25T03:11:29.991Z",
+      "maximumArrivalTime": "2018-05-26T04:11:29.991Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PHETCHABURI",
+      "to": "http://example.org/stations/BHUMIBOL",
+      "minimumDepartureTime": "2018-05-25T01:11:34.746Z",
+      "maximumArrivalTime": "2018-05-26T02:11:34.746Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NGAO_JUNC",
+      "to": "http://example.org/stations/MAE_SUI",
+      "minimumDepartureTime": "2018-05-25T01:14:21.640Z",
+      "maximumArrivalTime": "2018-05-26T02:14:21.640Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/TAK",
+      "to": "http://example.org/stations/THA_WANG_PHA",
+      "minimumDepartureTime": "2018-05-25T10:57:08.862Z",
+      "maximumArrivalTime": "2018-05-26T11:57:08.862Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_CHAI",
+      "to": "http://example.org/stations/TAK",
+      "minimumDepartureTime": "2018-05-25T12:45:21.261Z",
+      "maximumArrivalTime": "2018-05-26T13:45:21.261Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_KHONG",
+      "to": "http://example.org/stations/CHUN",
+      "minimumDepartureTime": "2018-05-25T10:07:53.468Z",
+      "maximumArrivalTime": "2018-05-26T11:07:53.468Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PHITSANULOK_1",
+      "to": "http://example.org/stations/THA_PHAN",
+      "minimumDepartureTime": "2018-05-25T00:38:50.723Z",
+      "maximumArrivalTime": "2018-05-26T01:38:50.723Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_SAI",
+      "to": "http://example.org/stations/ULTARADIT",
+      "minimumDepartureTime": "2018-05-25T05:33:19.691Z",
+      "maximumArrivalTime": "2018-05-26T06:33:19.691Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NAN",
+      "to": "http://example.org/stations/BAN_DU",
+      "minimumDepartureTime": "2018-05-25T11:41:22.269Z",
+      "maximumArrivalTime": "2018-05-26T12:41:22.269Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/SAMUT_SAKHON",
+      "to": "http://example.org/stations/THA_CHANA",
+      "minimumDepartureTime": "2018-05-25T01:56:23.263Z",
+      "maximumArrivalTime": "2018-05-26T02:56:23.263Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/KHAOPHO",
+      "to": "http://example.org/stations/SINGBURI",
+      "minimumDepartureTime": "2018-05-25T02:27:48.008Z",
+      "maximumArrivalTime": "2018-05-26T03:27:48.008Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PAYAO",
+      "to": "http://example.org/stations/DOI_TI_IN",
+      "minimumDepartureTime": "2018-05-25T15:17:15.698Z",
+      "maximumArrivalTime": "2018-05-26T16:17:15.698Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NONGKHAI",
+      "to": "http://example.org/stations/CHIANG_RAI_2",
+      "minimumDepartureTime": "2018-05-25T04:45:24.667Z",
+      "maximumArrivalTime": "2018-05-26T05:45:24.667Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/DOI_TI_IN",
+      "to": "http://example.org/stations/MAE_SUI",
+      "minimumDepartureTime": "2018-05-25T13:02:40.827Z",
+      "maximumArrivalTime": "2018-05-26T14:02:40.827Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_CHAI",
+      "to": "http://example.org/stations/PHAN_OUT",
+      "minimumDepartureTime": "2018-05-25T01:09:00.464Z",
+      "maximumArrivalTime": "2018-05-26T02:09:00.464Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_SUI",
+      "to": "http://example.org/stations/PAYAO_U",
+      "minimumDepartureTime": "2018-05-25T09:33:16.783Z",
+      "maximumArrivalTime": "2018-05-26T10:33:16.783Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/THUNG_CHANG",
+      "to": "http://example.org/stations/THALANG",
+      "minimumDepartureTime": "2018-05-25T12:53:13.941Z",
+      "maximumArrivalTime": "2018-05-26T13:53:13.941Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHAING_KLANG",
+      "to": "http://example.org/stations/DOI_TI_IN",
+      "minimumDepartureTime": "2018-05-25T02:12:55.332Z",
+      "maximumArrivalTime": "2018-05-26T03:12:55.332Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PRACHUAP",
+      "to": "http://example.org/stations/PHITSANULOK_2",
+      "minimumDepartureTime": "2018-05-25T05:22:47.151Z",
+      "maximumArrivalTime": "2018-05-26T06:22:47.151Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/KAMPHAENG_PHET",
+      "to": "http://example.org/stations/THALANG",
+      "minimumDepartureTime": "2018-05-25T07:21:26.566Z",
+      "maximumArrivalTime": "2018-05-26T08:21:26.566Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WANG_NUA",
+      "to": "http://example.org/stations/MAE_CHAN",
+      "minimumDepartureTime": "2018-05-25T17:10:58.497Z",
+      "maximumArrivalTime": "2018-05-26T18:10:58.497Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WIANG_PA_PAO",
+      "to": "http://example.org/stations/TA_KHUN",
+      "minimumDepartureTime": "2018-05-25T10:20:34.653Z",
+      "maximumArrivalTime": "2018-05-26T11:20:34.653Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/THOEN",
+      "to": "http://example.org/stations/LAMPANG",
+      "minimumDepartureTime": "2018-05-25T19:20:33.155Z",
+      "maximumArrivalTime": "2018-05-26T20:20:33.155Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/LANG_SUAN",
+      "to": "http://example.org/stations/THALANG",
+      "minimumDepartureTime": "2018-05-25T08:29:32.490Z",
+      "maximumArrivalTime": "2018-05-26T09:29:32.490Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/LAMPANG",
+      "to": "http://example.org/stations/WACHIRABARAMI",
+      "minimumDepartureTime": "2018-05-25T10:36:49.943Z",
+      "maximumArrivalTime": "2018-05-26T11:36:49.943Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/BAN_TA",
+      "to": "http://example.org/stations/DOK_KHAMTAI",
+      "minimumDepartureTime": "2018-05-25T04:47:16.042Z",
+      "maximumArrivalTime": "2018-05-26T05:47:16.042Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PAYAO_U",
+      "to": "http://example.org/stations/MAESOT",
+      "minimumDepartureTime": "2018-05-25T04:43:23.966Z",
+      "maximumArrivalTime": "2018-05-26T05:43:23.966Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PRACHUAP",
+      "to": "http://example.org/stations/LANG_SUAN",
+      "minimumDepartureTime": "2018-05-25T10:51:08.386Z",
+      "maximumArrivalTime": "2018-05-26T11:51:08.386Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NONG_PRI",
+      "to": "http://example.org/stations/WANG_KUNG",
+      "minimumDepartureTime": "2018-05-25T10:16:31.561Z",
+      "maximumArrivalTime": "2018-05-26T11:16:31.561Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/SAMUT_SAKHON",
+      "to": "http://example.org/stations/SOP_PRAP",
+      "minimumDepartureTime": "2018-05-25T07:36:34.734Z",
+      "maximumArrivalTime": "2018-05-26T08:36:34.734Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WANG_NUA",
+      "to": "http://example.org/stations/DOK_KHAMTAI",
+      "minimumDepartureTime": "2018-05-25T02:38:46.011Z",
+      "maximumArrivalTime": "2018-05-26T03:38:46.011Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/DEN_CHAI_JUNC",
+      "to": "http://example.org/stations/PHITSANULOK_2",
+      "minimumDepartureTime": "2018-05-25T03:24:17.760Z",
+      "maximumArrivalTime": "2018-05-26T04:24:17.760Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WANG_KUNG",
+      "to": "http://example.org/stations/KHOK_KLOI",
+      "minimumDepartureTime": "2018-05-25T09:53:19.346Z",
+      "maximumArrivalTime": "2018-05-26T10:53:19.346Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PAYAO",
+      "to": "http://example.org/stations/CHIANG_KHONG",
+      "minimumDepartureTime": "2018-05-25T12:48:29.104Z",
+      "maximumArrivalTime": "2018-05-26T13:48:29.104Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/LAMAE",
+      "to": "http://example.org/stations/KHOK_KLOI",
+      "minimumDepartureTime": "2018-05-25T08:34:39.512Z",
+      "maximumArrivalTime": "2018-05-26T09:34:39.512Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_CHAI",
+      "to": "http://example.org/stations/DEN_CHAI",
+      "minimumDepartureTime": "2018-05-25T06:05:46.823Z",
+      "maximumArrivalTime": "2018-05-26T07:05:46.823Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_CHACHAN",
+      "to": "http://example.org/stations/THAP_PUT",
+      "minimumDepartureTime": "2018-05-25T02:22:47.667Z",
+      "maximumArrivalTime": "2018-05-26T03:22:47.667Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_RAI_2",
+      "to": "http://example.org/stations/MAE_CHACHAN",
+      "minimumDepartureTime": "2018-05-25T00:06:32.935Z",
+      "maximumArrivalTime": "2018-05-26T01:06:32.935Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/RONG_KWANG",
+      "to": "http://example.org/stations/PHRAE",
+      "minimumDepartureTime": "2018-05-25T14:10:31.839Z",
+      "maximumArrivalTime": "2018-05-26T15:10:31.839Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/BHUMIBOL",
+      "to": "http://example.org/stations/LAMPHUN",
+      "minimumDepartureTime": "2018-05-25T03:05:56.039Z",
+      "maximumArrivalTime": "2018-05-26T04:05:56.039Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/THUNG_CHANG",
+      "to": "http://example.org/stations/DINDAENG%20BANGKOK",
+      "minimumDepartureTime": "2018-05-25T13:03:26.498Z",
+      "maximumArrivalTime": "2018-05-26T14:03:26.498Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/TOENG",
+      "to": "http://example.org/stations/BAN_TA",
+      "minimumDepartureTime": "2018-05-25T12:38:33.419Z",
+      "maximumArrivalTime": "2018-05-26T13:38:33.419Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/KHAOPHO",
+      "to": "http://example.org/stations/PRACHUAP",
+      "minimumDepartureTime": "2018-05-25T04:24:22.440Z",
+      "maximumArrivalTime": "2018-05-26T05:24:22.440Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WIANG_SA",
+      "to": "http://example.org/stations/KHOK_KLOI",
+      "minimumDepartureTime": "2018-05-25T01:31:12.143Z",
+      "maximumArrivalTime": "2018-05-26T02:31:12.143Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAI_SUI_JUNCTION",
+      "to": "http://example.org/stations/CHIANG_RAI_2",
+      "minimumDepartureTime": "2018-05-25T01:55:41.914Z",
+      "maximumArrivalTime": "2018-05-26T02:55:41.914Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/KAMPHAENG_PHET",
+      "to": "http://example.org/stations/PAYAO",
+      "minimumDepartureTime": "2018-05-25T15:11:43.239Z",
+      "maximumArrivalTime": "2018-05-26T16:11:43.239Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PAYAO",
+      "to": "http://example.org/stations/KHOK_KLOI",
+      "minimumDepartureTime": "2018-05-25T09:34:33.899Z",
+      "maximumArrivalTime": "2018-05-26T10:34:33.899Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/KAMPHAENG_PHET",
+      "to": "http://example.org/stations/MAE_CHAI",
+      "minimumDepartureTime": "2018-05-25T05:22:40.801Z",
+      "maximumArrivalTime": "2018-05-26T06:22:40.801Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_RAI_2",
+      "to": "http://example.org/stations/HUAY_KRAI",
+      "minimumDepartureTime": "2018-05-25T15:25:31.366Z",
+      "maximumArrivalTime": "2018-05-26T16:25:31.366Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_FA_LUANG",
+      "to": "http://example.org/stations/CHIANG_MAI",
+      "minimumDepartureTime": "2018-05-25T09:36:09.484Z",
+      "maximumArrivalTime": "2018-05-26T10:36:09.484Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_CHACHAN",
+      "to": "http://example.org/stations/DOI_TI_IN",
+      "minimumDepartureTime": "2018-05-25T03:00:18.622Z",
+      "maximumArrivalTime": "2018-05-26T04:00:18.622Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/BAN_TA",
+      "to": "http://example.org/stations/CHOMPHU",
+      "minimumDepartureTime": "2018-05-25T13:18:49.142Z",
+      "maximumArrivalTime": "2018-05-26T14:18:49.142Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NAN",
+      "to": "http://example.org/stations/THOEN",
+      "minimumDepartureTime": "2018-05-25T03:38:29.732Z",
+      "maximumArrivalTime": "2018-05-26T04:38:29.732Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/BAN_DU",
+      "to": "http://example.org/stations/CHIANG_RAI_2",
+      "minimumDepartureTime": "2018-05-25T10:25:34.029Z",
+      "maximumArrivalTime": "2018-05-26T11:25:34.029Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PONG",
+      "to": "http://example.org/stations/TOENG",
+      "minimumDepartureTime": "2018-05-25T02:49:31.831Z",
+      "maximumArrivalTime": "2018-05-26T03:49:31.831Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/THOEN",
+      "to": "http://example.org/stations/MAE_CHAI",
+      "minimumDepartureTime": "2018-05-25T13:51:59.708Z",
+      "maximumArrivalTime": "2018-05-26T14:51:59.708Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_KHAM",
+      "to": "http://example.org/stations/MAESOT",
+      "minimumDepartureTime": "2018-05-25T09:06:59.450Z",
+      "maximumArrivalTime": "2018-05-26T10:06:59.450Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHUM_PHON",
+      "to": "http://example.org/stations/SURAT_THANI_JUNC",
+      "minimumDepartureTime": "2018-05-25T09:00:50.417Z",
+      "maximumArrivalTime": "2018-05-26T10:00:50.417Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/SAMUT_SONGKHRAM_OUT",
+      "to": "http://example.org/stations/THA_WANG_PHA",
+      "minimumDepartureTime": "2018-05-25T08:26:41.398Z",
+      "maximumArrivalTime": "2018-05-26T09:26:41.398Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/LAMPHUN",
+      "to": "http://example.org/stations/NGAO_JUNC",
+      "minimumDepartureTime": "2018-05-25T09:41:14.291Z",
+      "maximumArrivalTime": "2018-05-26T10:41:14.291Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PONG",
+      "to": "http://example.org/stations/CHIANG_RAI",
+      "minimumDepartureTime": "2018-05-25T06:14:22.098Z",
+      "maximumArrivalTime": "2018-05-26T07:14:22.098Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/MAE_FA_LUANG",
+      "to": "http://example.org/stations/BAN_TA",
+      "minimumDepartureTime": "2018-05-25T02:21:42.038Z",
+      "maximumArrivalTime": "2018-05-26T03:21:42.038Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PHUKET_AIRPORT",
+      "to": "http://example.org/stations/PHUKET",
+      "minimumDepartureTime": "2018-05-25T12:02:21.625Z",
+      "maximumArrivalTime": "2018-05-26T13:02:21.625Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/SUNG_MEN",
+      "to": "http://example.org/stations/DOI_TI_IN",
+      "minimumDepartureTime": "2018-05-25T14:22:13.868Z",
+      "maximumArrivalTime": "2018-05-26T15:22:13.868Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHIANG_RAI",
+      "to": "http://example.org/stations/SOP_PRAP",
+      "minimumDepartureTime": "2018-05-25T09:03:11.819Z",
+      "maximumArrivalTime": "2018-05-26T10:03:11.819Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PHAN_OUT",
+      "to": "http://example.org/stations/RONG_KWANG",
+      "minimumDepartureTime": "2018-05-25T08:07:11.966Z",
+      "maximumArrivalTime": "2018-05-26T09:07:11.966Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/NAKORN_SAWAN",
+      "to": "http://example.org/stations/KHOK_KLOI",
+      "minimumDepartureTime": "2018-05-25T09:21:31.106Z",
+      "maximumArrivalTime": "2018-05-26T10:21:31.106Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/BAN_TA",
+      "to": "http://example.org/stations/PHUKET_AIRPORT",
+      "minimumDepartureTime": "2018-05-25T13:20:50.151Z",
+      "maximumArrivalTime": "2018-05-26T14:20:50.151Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/DONSAK_PAK_PHRAEK",
+      "to": "http://example.org/stations/CHAI_YA",
+      "minimumDepartureTime": "2018-05-25T09:47:57.466Z",
+      "maximumArrivalTime": "2018-05-26T10:47:57.466Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WACHIRABARAMI",
+      "to": "http://example.org/stations/DONSAK_RAJA",
+      "minimumDepartureTime": "2018-05-25T06:23:31.453Z",
+      "maximumArrivalTime": "2018-05-26T07:23:31.453Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/KHAOPHO",
+      "to": "http://example.org/stations/DEN_CHAI",
+      "minimumDepartureTime": "2018-05-25T01:41:43.592Z",
+      "maximumArrivalTime": "2018-05-26T02:41:43.592Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/CHOMPHU",
+      "to": "http://example.org/stations/TAK",
+      "minimumDepartureTime": "2018-05-25T01:30:30.554Z",
+      "maximumArrivalTime": "2018-05-26T02:30:30.554Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/DOI_TI_IN",
+      "to": "http://example.org/stations/NGAO_JUNC",
+      "minimumDepartureTime": "2018-05-25T03:13:40.972Z",
+      "maximumArrivalTime": "2018-05-26T04:13:40.972Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/WANG_MOR_KAENG",
+      "to": "http://example.org/stations/PHAN",
+      "minimumDepartureTime": "2018-05-25T09:19:18.489Z",
+      "maximumArrivalTime": "2018-05-26T10:19:18.489Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/PHRAE",
+      "to": "http://example.org/stations/HUA_HIN_JUNC",
+      "minimumDepartureTime": "2018-05-25T00:34:30.300Z",
+      "maximumArrivalTime": "2018-05-26T01:34:30.300Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/RONG_KWANG",
+      "to": "http://example.org/stations/LAMPHUN",
+      "minimumDepartureTime": "2018-05-25T09:49:25.879Z",
+      "maximumArrivalTime": "2018-05-26T10:49:25.879Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/DEN_CHAI",
+      "to": "http://example.org/stations/THOEN",
+      "minimumDepartureTime": "2018-05-25T11:41:27.004Z",
+      "maximumArrivalTime": "2018-05-26T12:41:27.004Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   }
+]

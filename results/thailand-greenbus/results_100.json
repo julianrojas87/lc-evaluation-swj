@@ -1,0 +1,1409 @@
+{
+   "averageResponseTime": 55.55,
+   "p10": 23,
+   "p50": 52,
+   "p75": 69,
+   "p90": 82,
+   "results": [
+      {
+         "query": {
+            "from": "http://example.org/stations/CHUM_PHON",
+            "to": "http://example.org/stations/SURAT_THANI_JUNC",
+            "minimumDepartureTime": "2018-05-25T09:00:50.417Z",
+            "maximumArrivalTime": "2018-05-26T10:00:50.417Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 12,
+         "scannedConnections": 68,
+         "pagesFetched": 2,
+         "bytesTransferred": 64633,
+         "timePerConnection": 0.17647058823529413
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/KHAOPHO",
+            "to": "http://example.org/stations/PRACHUAP",
+            "minimumDepartureTime": "2018-05-25T04:24:22.440Z",
+            "maximumArrivalTime": "2018-05-26T05:24:22.440Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 13,
+         "scannedConnections": 36,
+         "pagesFetched": 2,
+         "bytesTransferred": 86845,
+         "timePerConnection": 0.3611111111111111
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/BAN_DU",
+            "to": "http://example.org/stations/CHIANG_RAI_2",
+            "minimumDepartureTime": "2018-05-25T10:25:34.029Z",
+            "maximumArrivalTime": "2018-05-26T11:25:34.029Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 19,
+         "scannedConnections": 90,
+         "pagesFetched": 4,
+         "bytesTransferred": 172814,
+         "timePerConnection": 0.2111111111111111
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/KHAOPHO",
+            "to": "http://example.org/stations/SINGBURI",
+            "minimumDepartureTime": "2018-05-25T02:27:48.008Z",
+            "maximumArrivalTime": "2018-05-26T03:27:48.008Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 20,
+         "scannedConnections": 135,
+         "pagesFetched": 4,
+         "bytesTransferred": 174649,
+         "timePerConnection": 0.14814814814814814
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/THOEN",
+            "to": "http://example.org/stations/LAMPANG",
+            "minimumDepartureTime": "2018-05-25T19:20:33.155Z",
+            "maximumArrivalTime": "2018-05-26T20:20:33.155Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 20,
+         "scannedConnections": 83,
+         "pagesFetched": 3,
+         "bytesTransferred": 128653,
+         "timePerConnection": 0.24096385542168675
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WANG_NUA",
+            "to": "http://example.org/stations/NGAO_JUNC",
+            "minimumDepartureTime": "2018-05-25T11:01:13.988Z",
+            "maximumArrivalTime": "2018-05-26T12:01:13.988Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 21,
+         "scannedConnections": 124,
+         "pagesFetched": 4,
+         "bytesTransferred": 172573,
+         "timePerConnection": 0.1693548387096774
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/RONG_KWANG",
+            "to": "http://example.org/stations/PHRAE",
+            "minimumDepartureTime": "2018-05-25T14:10:31.839Z",
+            "maximumArrivalTime": "2018-05-26T15:10:31.839Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 21,
+         "scannedConnections": 137,
+         "pagesFetched": 4,
+         "bytesTransferred": 170852,
+         "timePerConnection": 0.15328467153284672
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WANG_KUNG",
+            "to": "http://example.org/stations/SURAT_THANI_JUNC",
+            "minimumDepartureTime": "2018-05-25T05:16:04.025Z",
+            "maximumArrivalTime": "2018-05-26T06:16:04.025Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 22,
+         "scannedConnections": 124,
+         "pagesFetched": 4,
+         "bytesTransferred": 175147,
+         "timePerConnection": 0.1774193548387097
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHAING_KLANG",
+            "to": "http://example.org/stations/DOI_TI_IN",
+            "minimumDepartureTime": "2018-05-25T02:12:55.332Z",
+            "maximumArrivalTime": "2018-05-26T03:12:55.332Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 22,
+         "scannedConnections": 107,
+         "pagesFetched": 4,
+         "bytesTransferred": 151971,
+         "timePerConnection": 0.205607476635514
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_RAI",
+            "to": "http://example.org/stations/MAI_SUI_JUNCTION",
+            "minimumDepartureTime": "2018-05-25T06:24:58.471Z",
+            "maximumArrivalTime": "2018-05-26T07:24:58.471Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 23,
+         "scannedConnections": 91,
+         "pagesFetched": 4,
+         "bytesTransferred": 174649,
+         "timePerConnection": 0.25274725274725274
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_MUAN",
+            "to": "http://example.org/stations/DOK_KHAMTAI",
+            "minimumDepartureTime": "2018-05-25T03:10:29.387Z",
+            "maximumArrivalTime": "2018-05-26T04:10:29.387Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 23,
+         "scannedConnections": 167,
+         "pagesFetched": 4,
+         "bytesTransferred": 175147,
+         "timePerConnection": 0.1377245508982036
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAI_SUI_JUNCTION",
+            "to": "http://example.org/stations/CHIANG_RAI_2",
+            "minimumDepartureTime": "2018-05-25T01:55:41.914Z",
+            "maximumArrivalTime": "2018-05-26T02:55:41.914Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 24,
+         "scannedConnections": 21,
+         "pagesFetched": 4,
+         "bytesTransferred": 176378,
+         "timePerConnection": 1.1428571428571428
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHOMPHU",
+            "to": "http://example.org/stations/MAI_SUI_JUNCTION",
+            "minimumDepartureTime": "2018-05-25T15:48:47.720Z",
+            "maximumArrivalTime": "2018-05-26T16:48:47.720Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 25,
+         "scannedConnections": 204,
+         "pagesFetched": 6,
+         "bytesTransferred": 259546,
+         "timePerConnection": 0.12254901960784313
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHAING_KLANG",
+            "to": "http://example.org/stations/NAN",
+            "minimumDepartureTime": "2018-05-25T03:11:29.991Z",
+            "maximumArrivalTime": "2018-05-26T04:11:29.991Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 27,
+         "scannedConnections": 261,
+         "pagesFetched": 6,
+         "bytesTransferred": 261122,
+         "timePerConnection": 0.10344827586206896
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/LOMSAK",
+            "to": "http://example.org/stations/PHITSANULOK_1",
+            "minimumDepartureTime": "2018-05-25T00:14:02.943Z",
+            "maximumArrivalTime": "2018-05-26T01:14:02.943Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 28,
+         "scannedConnections": 260,
+         "pagesFetched": 6,
+         "bytesTransferred": 261264,
+         "timePerConnection": 0.1076923076923077
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PRACHUAP",
+            "to": "http://example.org/stations/LANG_SUAN",
+            "minimumDepartureTime": "2018-05-25T10:51:08.386Z",
+            "maximumArrivalTime": "2018-05-26T11:51:08.386Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 28,
+         "scannedConnections": 159,
+         "pagesFetched": 6,
+         "bytesTransferred": 235485,
+         "timePerConnection": 0.1761006289308176
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NGAO_JUNC",
+            "to": "http://example.org/stations/MAE_SUI",
+            "minimumDepartureTime": "2018-05-25T01:14:21.640Z",
+            "maximumArrivalTime": "2018-05-26T02:14:21.640Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 30,
+         "scannedConnections": 213,
+         "pagesFetched": 6,
+         "bytesTransferred": 261264,
+         "timePerConnection": 0.14084507042253522
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/DOI_TI_IN",
+            "to": "http://example.org/stations/NGAO_JUNC",
+            "minimumDepartureTime": "2018-05-25T03:13:40.972Z",
+            "maximumArrivalTime": "2018-05-26T04:13:40.972Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 30,
+         "scannedConnections": 235,
+         "pagesFetched": 5,
+         "bytesTransferred": 217107,
+         "timePerConnection": 0.1276595744680851
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PRACHUAP",
+            "to": "http://example.org/stations/THA_CHANA",
+            "minimumDepartureTime": "2018-05-25T01:32:35.483Z",
+            "maximumArrivalTime": "2018-05-26T02:32:35.483Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 31,
+         "scannedConnections": 176,
+         "pagesFetched": 6,
+         "bytesTransferred": 239796,
+         "timePerConnection": 0.17613636363636365
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_MAI",
+            "to": "http://example.org/stations/PAYAO_U",
+            "minimumDepartureTime": "2018-05-25T12:51:15.310Z",
+            "maximumArrivalTime": "2018-05-26T13:51:15.310Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 31,
+         "scannedConnections": 213,
+         "pagesFetched": 6,
+         "bytesTransferred": 256953,
+         "timePerConnection": 0.14553990610328638
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_RAI_2",
+            "to": "http://example.org/stations/MAE_CHACHAN",
+            "minimumDepartureTime": "2018-05-25T00:06:32.935Z",
+            "maximumArrivalTime": "2018-05-26T01:06:32.935Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 32,
+         "scannedConnections": 281,
+         "pagesFetched": 6,
+         "bytesTransferred": 239796,
+         "timePerConnection": 0.11387900355871886
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PRACHUAP",
+            "to": "http://example.org/stations/PHITSANULOK_2",
+            "minimumDepartureTime": "2018-05-25T05:22:47.151Z",
+            "maximumArrivalTime": "2018-05-26T06:22:47.151Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 34,
+         "scannedConnections": 239,
+         "pagesFetched": 8,
+         "bytesTransferred": 344723,
+         "timePerConnection": 0.14225941422594143
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/DEN_CHAI",
+            "to": "http://example.org/stations/THOEN",
+            "minimumDepartureTime": "2018-05-25T11:41:27.004Z",
+            "maximumArrivalTime": "2018-05-26T12:41:27.004Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 34,
+         "scannedConnections": 275,
+         "pagesFetched": 8,
+         "bytesTransferred": 346193,
+         "timePerConnection": 0.12363636363636364
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_RAI_2",
+            "to": "http://example.org/stations/HUAY_KRAI",
+            "minimumDepartureTime": "2018-05-25T15:25:31.366Z",
+            "maximumArrivalTime": "2018-05-26T16:25:31.366Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 35,
+         "scannedConnections": 203,
+         "pagesFetched": 8,
+         "bytesTransferred": 346248,
+         "timePerConnection": 0.1724137931034483
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/LAMPHUN",
+            "to": "http://example.org/stations/NGAO_JUNC",
+            "minimumDepartureTime": "2018-05-25T09:41:14.291Z",
+            "maximumArrivalTime": "2018-05-26T10:41:14.291Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 36,
+         "scannedConnections": 321,
+         "pagesFetched": 8,
+         "bytesTransferred": 323515,
+         "timePerConnection": 0.11214953271028037
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PHRAE",
+            "to": "http://example.org/stations/HUA_HIN_JUNC",
+            "minimumDepartureTime": "2018-05-25T00:34:30.300Z",
+            "maximumArrivalTime": "2018-05-26T01:34:30.300Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 36,
+         "scannedConnections": 296,
+         "pagesFetched": 7,
+         "bytesTransferred": 304932,
+         "timePerConnection": 0.12162162162162163
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WANG_NUA",
+            "to": "http://example.org/stations/MAE_CHAN",
+            "minimumDepartureTime": "2018-05-25T17:10:58.497Z",
+            "maximumArrivalTime": "2018-05-26T18:10:58.497Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 37,
+         "scannedConnections": 264,
+         "pagesFetched": 8,
+         "bytesTransferred": 348253,
+         "timePerConnection": 0.14015151515151514
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/SUNG_MEN",
+            "to": "http://example.org/stations/DOI_TI_IN",
+            "minimumDepartureTime": "2018-05-25T14:22:13.868Z",
+            "maximumArrivalTime": "2018-05-26T15:22:13.868Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 37,
+         "scannedConnections": 307,
+         "pagesFetched": 8,
+         "bytesTransferred": 346248,
+         "timePerConnection": 0.12052117263843648
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PAYAO",
+            "to": "http://example.org/stations/DOI_TI_IN",
+            "minimumDepartureTime": "2018-05-25T15:17:15.698Z",
+            "maximumArrivalTime": "2018-05-26T16:17:15.698Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 38,
+         "scannedConnections": 255,
+         "pagesFetched": 8,
+         "bytesTransferred": 344972,
+         "timePerConnection": 0.14901960784313725
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_KHONG",
+            "to": "http://example.org/stations/CHUN",
+            "minimumDepartureTime": "2018-05-25T10:07:53.468Z",
+            "maximumArrivalTime": "2018-05-26T11:07:53.468Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 42,
+         "scannedConnections": 409,
+         "pagesFetched": 10,
+         "bytesTransferred": 432283,
+         "timePerConnection": 0.10268948655256724
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PHITSANULOK_1",
+            "to": "http://example.org/stations/THA_PHAN",
+            "minimumDepartureTime": "2018-05-25T00:38:50.723Z",
+            "maximumArrivalTime": "2018-05-26T01:38:50.723Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 43,
+         "scannedConnections": 360,
+         "pagesFetched": 10,
+         "bytesTransferred": 432116,
+         "timePerConnection": 0.11944444444444445
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/BAN_TA",
+            "to": "http://example.org/stations/CHOMPHU",
+            "minimumDepartureTime": "2018-05-25T13:18:49.142Z",
+            "maximumArrivalTime": "2018-05-26T14:18:49.142Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 43,
+         "scannedConnections": 337,
+         "pagesFetched": 10,
+         "bytesTransferred": 431073,
+         "timePerConnection": 0.12759643916913946
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/THOEN",
+            "to": "http://example.org/stations/MAE_CHAI",
+            "minimumDepartureTime": "2018-05-25T13:51:59.708Z",
+            "maximumArrivalTime": "2018-05-26T14:51:59.708Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 43,
+         "scannedConnections": 399,
+         "pagesFetched": 10,
+         "bytesTransferred": 431358,
+         "timePerConnection": 0.10776942355889724
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_RAI",
+            "to": "http://example.org/stations/SOP_PRAP",
+            "minimumDepartureTime": "2018-05-25T09:03:11.819Z",
+            "maximumArrivalTime": "2018-05-26T10:03:11.819Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 43,
+         "scannedConnections": 400,
+         "pagesFetched": 10,
+         "bytesTransferred": 431073,
+         "timePerConnection": 0.1075
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/TOENG",
+            "to": "http://example.org/stations/BAN_TA",
+            "minimumDepartureTime": "2018-05-25T12:38:33.419Z",
+            "maximumArrivalTime": "2018-05-26T13:38:33.419Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 44,
+         "scannedConnections": 327,
+         "pagesFetched": 9,
+         "bytesTransferred": 388269,
+         "timePerConnection": 0.1345565749235474
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_FA_LUANG",
+            "to": "http://example.org/stations/CHIANG_MAI",
+            "minimumDepartureTime": "2018-05-25T09:36:09.484Z",
+            "maximumArrivalTime": "2018-05-26T10:36:09.484Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 44,
+         "scannedConnections": 303,
+         "pagesFetched": 8,
+         "bytesTransferred": 344983,
+         "timePerConnection": 0.14521452145214522
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NAN",
+            "to": "http://example.org/stations/THOEN",
+            "minimumDepartureTime": "2018-05-25T03:38:29.732Z",
+            "maximumArrivalTime": "2018-05-26T04:38:29.732Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 44,
+         "scannedConnections": 387,
+         "pagesFetched": 10,
+         "bytesTransferred": 432321,
+         "timePerConnection": 0.11369509043927649
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_CHAI",
+            "to": "http://example.org/stations/PHAN_OUT",
+            "minimumDepartureTime": "2018-05-25T01:09:00.464Z",
+            "maximumArrivalTime": "2018-05-26T02:09:00.464Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 45,
+         "scannedConnections": 420,
+         "pagesFetched": 10,
+         "bytesTransferred": 433326,
+         "timePerConnection": 0.10714285714285714
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_SUI",
+            "to": "http://example.org/stations/PAYAO_U",
+            "minimumDepartureTime": "2018-05-25T09:33:16.783Z",
+            "maximumArrivalTime": "2018-05-26T10:33:16.783Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 46,
+         "scannedConnections": 416,
+         "pagesFetched": 10,
+         "bytesTransferred": 432284,
+         "timePerConnection": 0.11057692307692307
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/TOENG",
+            "to": "http://example.org/stations/THA_CHAROEN",
+            "minimumDepartureTime": "2018-05-25T08:02:18.232Z",
+            "maximumArrivalTime": "2018-05-26T09:02:18.232Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 48,
+         "scannedConnections": 438,
+         "pagesFetched": 10,
+         "bytesTransferred": 431505,
+         "timePerConnection": 0.1095890410958904
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PONG",
+            "to": "http://example.org/stations/CHIANG_RAI",
+            "minimumDepartureTime": "2018-05-25T06:14:22.098Z",
+            "maximumArrivalTime": "2018-05-26T07:14:22.098Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 48,
+         "scannedConnections": 354,
+         "pagesFetched": 10,
+         "bytesTransferred": 432562,
+         "timePerConnection": 0.13559322033898305
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NAN",
+            "to": "http://example.org/stations/BAN_DU",
+            "minimumDepartureTime": "2018-05-25T11:41:22.269Z",
+            "maximumArrivalTime": "2018-05-26T12:41:22.269Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 49,
+         "scannedConnections": 493,
+         "pagesFetched": 12,
+         "bytesTransferred": 517891,
+         "timePerConnection": 0.09939148073022312
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WANG_NUA",
+            "to": "http://example.org/stations/DOK_KHAMTAI",
+            "minimumDepartureTime": "2018-05-25T02:38:46.011Z",
+            "maximumArrivalTime": "2018-05-26T03:38:46.011Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 50,
+         "scannedConnections": 523,
+         "pagesFetched": 12,
+         "bytesTransferred": 520119,
+         "timePerConnection": 0.09560229445506692
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_CHACHAN",
+            "to": "http://example.org/stations/DOI_TI_IN",
+            "minimumDepartureTime": "2018-05-25T03:00:18.622Z",
+            "maximumArrivalTime": "2018-05-26T04:00:18.622Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 50,
+         "scannedConnections": 519,
+         "pagesFetched": 12,
+         "bytesTransferred": 518652,
+         "timePerConnection": 0.09633911368015415
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PHAN_OUT",
+            "to": "http://example.org/stations/PAYAO_U",
+            "minimumDepartureTime": "2018-05-25T01:39:20.128Z",
+            "maximumArrivalTime": "2018-05-26T02:39:20.128Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 51,
+         "scannedConnections": 401,
+         "pagesFetched": 10,
+         "bytesTransferred": 432357,
+         "timePerConnection": 0.12718204488778054
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WANG_KUNG",
+            "to": "http://example.org/stations/KHOK_KLOI",
+            "minimumDepartureTime": "2018-05-25T09:53:19.346Z",
+            "maximumArrivalTime": "2018-05-26T10:53:19.346Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 51,
+         "scannedConnections": 532,
+         "pagesFetched": 12,
+         "bytesTransferred": 518389,
+         "timePerConnection": 0.09586466165413533
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHUN",
+            "to": "http://example.org/stations/CHIANG_RAI",
+            "minimumDepartureTime": "2018-05-25T15:17:26.980Z",
+            "maximumArrivalTime": "2018-05-26T16:17:26.980Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 52,
+         "scannedConnections": 317,
+         "pagesFetched": 9,
+         "bytesTransferred": 387344,
+         "timePerConnection": 0.1640378548895899
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NGAO_JUNC",
+            "to": "http://example.org/stations/MAE_SAI",
+            "minimumDepartureTime": "2018-05-25T05:06:06.461Z",
+            "maximumArrivalTime": "2018-05-26T06:06:06.461Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 52,
+         "scannedConnections": 470,
+         "pagesFetched": 12,
+         "bytesTransferred": 517797,
+         "timePerConnection": 0.11063829787234042
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/LAMAE",
+            "to": "http://example.org/stations/KHOK_KLOI",
+            "minimumDepartureTime": "2018-05-25T08:34:39.512Z",
+            "maximumArrivalTime": "2018-05-26T09:34:39.512Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 52,
+         "scannedConnections": 552,
+         "pagesFetched": 12,
+         "bytesTransferred": 518389,
+         "timePerConnection": 0.09420289855072464
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/BHUMIBOL",
+            "to": "http://example.org/stations/LAMPHUN",
+            "minimumDepartureTime": "2018-05-25T03:05:56.039Z",
+            "maximumArrivalTime": "2018-05-26T04:05:56.039Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 52,
+         "scannedConnections": 463,
+         "pagesFetched": 12,
+         "bytesTransferred": 519622,
+         "timePerConnection": 0.11231101511879049
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_FA_LUANG",
+            "to": "http://example.org/stations/BAN_TA",
+            "minimumDepartureTime": "2018-05-25T02:21:42.038Z",
+            "maximumArrivalTime": "2018-05-26T03:21:42.038Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 52,
+         "scannedConnections": 486,
+         "pagesFetched": 12,
+         "bytesTransferred": 518652,
+         "timePerConnection": 0.10699588477366255
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_CHAI",
+            "to": "http://example.org/stations/TAK",
+            "minimumDepartureTime": "2018-05-25T12:45:21.261Z",
+            "maximumArrivalTime": "2018-05-26T13:45:21.261Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 53,
+         "scannedConnections": 498,
+         "pagesFetched": 12,
+         "bytesTransferred": 495213,
+         "timePerConnection": 0.10642570281124498
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_CHAI",
+            "to": "http://example.org/stations/DEN_CHAI",
+            "minimumDepartureTime": "2018-05-25T06:05:46.823Z",
+            "maximumArrivalTime": "2018-05-26T07:05:46.823Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 53,
+         "scannedConnections": 508,
+         "pagesFetched": 12,
+         "bytesTransferred": 519621,
+         "timePerConnection": 0.10433070866141732
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/KHAOPHO",
+            "to": "http://example.org/stations/DEN_CHAI",
+            "minimumDepartureTime": "2018-05-25T01:41:43.592Z",
+            "maximumArrivalTime": "2018-05-26T02:41:43.592Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 53,
+         "scannedConnections": 487,
+         "pagesFetched": 12,
+         "bytesTransferred": 521356,
+         "timePerConnection": 0.10882956878850103
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/BAN_TA",
+            "to": "http://example.org/stations/DOK_KHAMTAI",
+            "minimumDepartureTime": "2018-05-25T04:47:16.042Z",
+            "maximumArrivalTime": "2018-05-26T05:47:16.042Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 54,
+         "scannedConnections": 536,
+         "pagesFetched": 12,
+         "bytesTransferred": 496943,
+         "timePerConnection": 0.10074626865671642
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/DOI_TI_IN",
+            "to": "http://example.org/stations/MAE_SUI",
+            "minimumDepartureTime": "2018-05-25T13:02:40.827Z",
+            "maximumArrivalTime": "2018-05-26T14:02:40.827Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 55,
+         "scannedConnections": 470,
+         "pagesFetched": 11,
+         "bytesTransferred": 473877,
+         "timePerConnection": 0.11702127659574468
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/KAMPHAENG_PHET",
+            "to": "http://example.org/stations/PAYAO",
+            "minimumDepartureTime": "2018-05-25T15:11:43.239Z",
+            "maximumArrivalTime": "2018-05-26T16:11:43.239Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 55,
+         "scannedConnections": 463,
+         "pagesFetched": 12,
+         "bytesTransferred": 518669,
+         "timePerConnection": 0.11879049676025918
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_CHAN",
+            "to": "http://example.org/stations/MAI_SUI_JUNCTION",
+            "minimumDepartureTime": "2018-05-25T13:40:43.102Z",
+            "maximumArrivalTime": "2018-05-26T14:40:43.102Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 57,
+         "scannedConnections": 119,
+         "pagesFetched": 6,
+         "bytesTransferred": 256339,
+         "timePerConnection": 0.4789915966386555
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/LANG_SUAN",
+            "to": "http://example.org/stations/THALANG",
+            "minimumDepartureTime": "2018-05-25T08:29:32.490Z",
+            "maximumArrivalTime": "2018-05-26T09:29:32.490Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 57,
+         "scannedConnections": 588,
+         "pagesFetched": 14,
+         "bytesTransferred": 605919,
+         "timePerConnection": 0.09693877551020408
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/RONG_KWANG",
+            "to": "http://example.org/stations/LAMPHUN",
+            "minimumDepartureTime": "2018-05-25T09:49:25.879Z",
+            "maximumArrivalTime": "2018-05-26T10:49:25.879Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 57,
+         "scannedConnections": 460,
+         "pagesFetched": 12,
+         "bytesTransferred": 516067,
+         "timePerConnection": 0.12391304347826088
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_KHAEM",
+            "to": "http://example.org/stations/TOENG",
+            "minimumDepartureTime": "2018-05-25T00:45:52.420Z",
+            "maximumArrivalTime": "2018-05-26T01:45:52.420Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 58,
+         "scannedConnections": 462,
+         "pagesFetched": 12,
+         "bytesTransferred": 520578,
+         "timePerConnection": 0.12554112554112554
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PONG",
+            "to": "http://example.org/stations/TOENG",
+            "minimumDepartureTime": "2018-05-25T02:49:31.831Z",
+            "maximumArrivalTime": "2018-05-26T03:49:31.831Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 58,
+         "scannedConnections": 630,
+         "pagesFetched": 14,
+         "bytesTransferred": 603405,
+         "timePerConnection": 0.09206349206349207
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PAYAO",
+            "to": "http://example.org/stations/CHIANG_KHONG",
+            "minimumDepartureTime": "2018-05-25T12:48:29.104Z",
+            "maximumArrivalTime": "2018-05-26T13:48:29.104Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 60,
+         "scannedConnections": 581,
+         "pagesFetched": 14,
+         "bytesTransferred": 605919,
+         "timePerConnection": 0.10327022375215146
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WACHIRABARAMI",
+            "to": "http://example.org/stations/DONSAK_RAJA",
+            "minimumDepartureTime": "2018-05-25T06:23:31.453Z",
+            "maximumArrivalTime": "2018-05-26T07:23:31.453Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 60,
+         "scannedConnections": 574,
+         "pagesFetched": 14,
+         "bytesTransferred": 582551,
+         "timePerConnection": 0.10452961672473868
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NAKORN_SAWAN",
+            "to": "http://example.org/stations/KHOK_KLOI",
+            "minimumDepartureTime": "2018-05-25T09:21:31.106Z",
+            "maximumArrivalTime": "2018-05-26T10:21:31.106Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 62,
+         "scannedConnections": 635,
+         "pagesFetched": 14,
+         "bytesTransferred": 606417,
+         "timePerConnection": 0.09763779527559055
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_SAI",
+            "to": "http://example.org/stations/ULTARADIT",
+            "minimumDepartureTime": "2018-05-25T05:33:19.691Z",
+            "maximumArrivalTime": "2018-05-26T06:33:19.691Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 63,
+         "scannedConnections": 552,
+         "pagesFetched": 14,
+         "bytesTransferred": 605230,
+         "timePerConnection": 0.11413043478260869
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NONG_PRI",
+            "to": "http://example.org/stations/WANG_KUNG",
+            "minimumDepartureTime": "2018-05-25T10:16:31.561Z",
+            "maximumArrivalTime": "2018-05-26T11:16:31.561Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 63,
+         "scannedConnections": 624,
+         "pagesFetched": 14,
+         "bytesTransferred": 605920,
+         "timePerConnection": 0.10096153846153846
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PHAN_OUT",
+            "to": "http://example.org/stations/RONG_KWANG",
+            "minimumDepartureTime": "2018-05-25T08:07:11.966Z",
+            "maximumArrivalTime": "2018-05-26T09:07:11.966Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 63,
+         "scannedConnections": 668,
+         "pagesFetched": 14,
+         "bytesTransferred": 604709,
+         "timePerConnection": 0.09431137724550898
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PHETCHABURI",
+            "to": "http://example.org/stations/BHUMIBOL",
+            "minimumDepartureTime": "2018-05-25T01:11:34.746Z",
+            "maximumArrivalTime": "2018-05-26T02:11:34.746Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 64,
+         "scannedConnections": 569,
+         "pagesFetched": 14,
+         "bytesTransferred": 605622,
+         "timePerConnection": 0.11247803163444639
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/SAMUT_SAKHON",
+            "to": "http://example.org/stations/SOP_PRAP",
+            "minimumDepartureTime": "2018-05-25T07:36:34.734Z",
+            "maximumArrivalTime": "2018-05-26T08:36:34.734Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 64,
+         "scannedConnections": 623,
+         "pagesFetched": 16,
+         "bytesTransferred": 693755,
+         "timePerConnection": 0.10272873194221509
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PHUKET_AIRPORT",
+            "to": "http://example.org/stations/PHUKET",
+            "minimumDepartureTime": "2018-05-25T12:02:21.625Z",
+            "maximumArrivalTime": "2018-05-26T13:02:21.625Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 64,
+         "scannedConnections": 578,
+         "pagesFetched": 14,
+         "bytesTransferred": 604709,
+         "timePerConnection": 0.11072664359861592
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NA_NUEA",
+            "to": "http://example.org/stations/PHUKET",
+            "minimumDepartureTime": "2018-05-25T11:44:24.976Z",
+            "maximumArrivalTime": "2018-05-26T12:44:24.976Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 66,
+         "scannedConnections": 584,
+         "pagesFetched": 14,
+         "bytesTransferred": 606417,
+         "timePerConnection": 0.11301369863013698
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_CHAN",
+            "to": "http://example.org/stations/PHUKET",
+            "minimumDepartureTime": "2018-05-25T15:35:55.560Z",
+            "maximumArrivalTime": "2018-05-26T16:35:55.560Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 67,
+         "scannedConnections": 618,
+         "pagesFetched": 14,
+         "bytesTransferred": 565657,
+         "timePerConnection": 0.10841423948220065
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/KAMPHAENG_PHET",
+            "to": "http://example.org/stations/MAE_CHAI",
+            "minimumDepartureTime": "2018-05-25T05:22:40.801Z",
+            "maximumArrivalTime": "2018-05-26T06:22:40.801Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 67,
+         "scannedConnections": 709,
+         "pagesFetched": 16,
+         "bytesTransferred": 693755,
+         "timePerConnection": 0.09449929478138223
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PAYAO",
+            "to": "http://example.org/stations/KHOK_KLOI",
+            "minimumDepartureTime": "2018-05-25T09:34:33.899Z",
+            "maximumArrivalTime": "2018-05-26T10:34:33.899Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 68,
+         "scannedConnections": 631,
+         "pagesFetched": 14,
+         "bytesTransferred": 606417,
+         "timePerConnection": 0.10776545166402536
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/SAMUT_SAKHON",
+            "to": "http://example.org/stations/THA_CHANA",
+            "minimumDepartureTime": "2018-05-25T01:56:23.263Z",
+            "maximumArrivalTime": "2018-05-26T02:56:23.263Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 69,
+         "scannedConnections": 625,
+         "pagesFetched": 16,
+         "bytesTransferred": 693054,
+         "timePerConnection": 0.1104
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/LAMPANG",
+            "to": "http://example.org/stations/WACHIRABARAMI",
+            "minimumDepartureTime": "2018-05-25T10:36:49.943Z",
+            "maximumArrivalTime": "2018-05-26T11:36:49.943Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 70,
+         "scannedConnections": 718,
+         "pagesFetched": 16,
+         "bytesTransferred": 695441,
+         "timePerConnection": 0.09749303621169916
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/TAK",
+            "to": "http://example.org/stations/THA_WANG_PHA",
+            "minimumDepartureTime": "2018-05-25T10:57:08.862Z",
+            "maximumArrivalTime": "2018-05-26T11:57:08.862Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 71,
+         "scannedConnections": 677,
+         "pagesFetched": 16,
+         "bytesTransferred": 694165,
+         "timePerConnection": 0.10487444608567208
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/DONSAK_PAK_PHRAEK",
+            "to": "http://example.org/stations/CHAI_YA",
+            "minimumDepartureTime": "2018-05-25T09:47:57.466Z",
+            "maximumArrivalTime": "2018-05-26T10:47:57.466Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 71,
+         "scannedConnections": 668,
+         "pagesFetched": 15,
+         "bytesTransferred": 650929,
+         "timePerConnection": 0.1062874251497006
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NA_NUEA",
+            "to": "http://example.org/stations/PHUKET_AIRPORT",
+            "minimumDepartureTime": "2018-05-25T07:35:13.649Z",
+            "maximumArrivalTime": "2018-05-26T08:35:13.649Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 72,
+         "scannedConnections": 586,
+         "pagesFetched": 16,
+         "bytesTransferred": 692479,
+         "timePerConnection": 0.12286689419795221
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/PAYAO_U",
+            "to": "http://example.org/stations/MAESOT",
+            "minimumDepartureTime": "2018-05-25T04:43:23.966Z",
+            "maximumArrivalTime": "2018-05-26T05:43:23.966Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 73,
+         "scannedConnections": 789,
+         "pagesFetched": 18,
+         "bytesTransferred": 781071,
+         "timePerConnection": 0.09252217997465145
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/DEN_CHAI_JUNC",
+            "to": "http://example.org/stations/PHITSANULOK_2",
+            "minimumDepartureTime": "2018-05-25T03:24:17.760Z",
+            "maximumArrivalTime": "2018-05-26T04:24:17.760Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 73,
+         "scannedConnections": 689,
+         "pagesFetched": 16,
+         "bytesTransferred": 692047,
+         "timePerConnection": 0.10595065312046444
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/THUNG_CHANG",
+            "to": "http://example.org/stations/THALANG",
+            "minimumDepartureTime": "2018-05-25T12:53:13.941Z",
+            "maximumArrivalTime": "2018-05-26T13:53:13.941Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 74,
+         "scannedConnections": 707,
+         "pagesFetched": 16,
+         "bytesTransferred": 693733,
+         "timePerConnection": 0.10466760961810467
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHIANG_KHAM",
+            "to": "http://example.org/stations/MAESOT",
+            "minimumDepartureTime": "2018-05-25T09:06:59.450Z",
+            "maximumArrivalTime": "2018-05-26T10:06:59.450Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 74,
+         "scannedConnections": 718,
+         "pagesFetched": 16,
+         "bytesTransferred": 694943,
+         "timePerConnection": 0.10306406685236769
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/KAMPHAENG_PHET",
+            "to": "http://example.org/stations/THALANG",
+            "minimumDepartureTime": "2018-05-25T07:21:26.566Z",
+            "maximumArrivalTime": "2018-05-26T08:21:26.566Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 76,
+         "scannedConnections": 627,
+         "pagesFetched": 16,
+         "bytesTransferred": 693258,
+         "timePerConnection": 0.12121212121212122
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/BAN_TA",
+            "to": "http://example.org/stations/PHUKET_AIRPORT",
+            "minimumDepartureTime": "2018-05-25T13:20:50.151Z",
+            "maximumArrivalTime": "2018-05-26T14:20:50.151Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 76,
+         "scannedConnections": 699,
+         "pagesFetched": 18,
+         "bytesTransferred": 738113,
+         "timePerConnection": 0.10872675250357654
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WIANG_PA_PAO",
+            "to": "http://example.org/stations/TA_KHUN",
+            "minimumDepartureTime": "2018-05-25T10:20:34.653Z",
+            "maximumArrivalTime": "2018-05-26T11:20:34.653Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 78,
+         "scannedConnections": 799,
+         "pagesFetched": 18,
+         "bytesTransferred": 738113,
+         "timePerConnection": 0.09762202753441802
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NONGKHAI",
+            "to": "http://example.org/stations/CHIANG_RAI_2",
+            "minimumDepartureTime": "2018-05-25T04:45:24.667Z",
+            "maximumArrivalTime": "2018-05-26T05:45:24.667Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 79,
+         "scannedConnections": 881,
+         "pagesFetched": 20,
+         "bytesTransferred": 823743,
+         "timePerConnection": 0.08967082860385925
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/NAKORN_SAWAN",
+            "to": "http://example.org/stations/PHUKET_AIRPORT",
+            "minimumDepartureTime": "2018-05-25T11:44:36.504Z",
+            "maximumArrivalTime": "2018-05-26T12:44:36.504Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 81,
+         "scannedConnections": 579,
+         "pagesFetched": 13,
+         "bytesTransferred": 561905,
+         "timePerConnection": 0.13989637305699482
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WANG_MOR_KAENG",
+            "to": "http://example.org/stations/PHAN",
+            "minimumDepartureTime": "2018-05-25T09:19:18.489Z",
+            "maximumArrivalTime": "2018-05-26T10:19:18.489Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 81,
+         "scannedConnections": 806,
+         "pagesFetched": 18,
+         "bytesTransferred": 735791,
+         "timePerConnection": 0.10049627791563276
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/SAMUT_SAKHON",
+            "to": "http://example.org/stations/PHAN_OUT",
+            "minimumDepartureTime": "2018-05-25T01:54:50.082Z",
+            "maximumArrivalTime": "2018-05-26T02:54:50.082Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 82,
+         "scannedConnections": 815,
+         "pagesFetched": 19,
+         "bytesTransferred": 826092,
+         "timePerConnection": 0.10061349693251534
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/MAE_CHACHAN",
+            "to": "http://example.org/stations/THAP_PUT",
+            "minimumDepartureTime": "2018-05-25T02:22:47.667Z",
+            "maximumArrivalTime": "2018-05-26T03:22:47.667Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 82,
+         "scannedConnections": 822,
+         "pagesFetched": 18,
+         "bytesTransferred": 781071,
+         "timePerConnection": 0.09975669099756691
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/WIANG_SA",
+            "to": "http://example.org/stations/KHOK_KLOI",
+            "minimumDepartureTime": "2018-05-25T01:31:12.143Z",
+            "maximumArrivalTime": "2018-05-26T02:31:12.143Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 83,
+         "scannedConnections": 778,
+         "pagesFetched": 18,
+         "bytesTransferred": 780365,
+         "timePerConnection": 0.10668380462724936
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/THUNG_CHANG",
+            "to": "http://example.org/stations/DINDAENG%20BANGKOK",
+            "minimumDepartureTime": "2018-05-25T13:03:26.498Z",
+            "maximumArrivalTime": "2018-05-26T14:03:26.498Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 85,
+         "scannedConnections": 757,
+         "pagesFetched": 18,
+         "bytesTransferred": 736405,
+         "timePerConnection": 0.11228533685601057
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/SAMUT_SONGKHRAM_OUT",
+            "to": "http://example.org/stations/THA_WANG_PHA",
+            "minimumDepartureTime": "2018-05-25T08:26:41.398Z",
+            "maximumArrivalTime": "2018-05-26T09:26:41.398Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 85,
+         "scannedConnections": 705,
+         "pagesFetched": 16,
+         "bytesTransferred": 694165,
+         "timePerConnection": 0.12056737588652482
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHOMPHU",
+            "to": "http://example.org/stations/TAK",
+            "minimumDepartureTime": "2018-05-25T01:30:30.554Z",
+            "maximumArrivalTime": "2018-05-26T02:30:30.554Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 91,
+         "scannedConnections": 950,
+         "pagesFetched": 22,
+         "bytesTransferred": 911809,
+         "timePerConnection": 0.09578947368421052
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/TAK",
+            "to": "http://example.org/stations/TA_KHUN",
+            "minimumDepartureTime": "2018-05-25T02:56:51.699Z",
+            "maximumArrivalTime": "2018-05-26T03:56:51.699Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 94,
+         "scannedConnections": 908,
+         "pagesFetched": 20,
+         "bytesTransferred": 824175,
+         "timePerConnection": 0.10352422907488987
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/ULTARADIT",
+            "to": "http://example.org/stations/NAN",
+            "minimumDepartureTime": "2018-05-25T02:53:12.275Z",
+            "maximumArrivalTime": "2018-05-26T03:53:12.275Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 103,
+         "scannedConnections": 516,
+         "pagesFetched": 13,
+         "bytesTransferred": 562426,
+         "timePerConnection": 0.1996124031007752
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/LANG_SUAN",
+            "to": "http://example.org/stations/CHIANG_MAI",
+            "minimumDepartureTime": "2018-05-25T01:10:46.405Z",
+            "maximumArrivalTime": "2018-05-26T02:10:46.405Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 103,
+         "scannedConnections": 686,
+         "pagesFetched": 16,
+         "bytesTransferred": 693054,
+         "timePerConnection": 0.15014577259475217
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/CHUM_PHON",
+            "to": "http://example.org/stations/KANCHANADIT",
+            "minimumDepartureTime": "2018-05-25T10:25:29.012Z",
+            "maximumArrivalTime": "2018-05-26T11:25:29.012Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 355,
+         "scannedConnections": 67,
+         "pagesFetched": 3,
+         "bytesTransferred": 129769,
+         "timePerConnection": 5.298507462686567
+      }
+   ]
+}

@@ -1,0 +1,1409 @@
+{
+   "averageResponseTime": 1573.23,
+   "p10": 1025,
+   "p50": 1576,
+   "p75": 1780,
+   "p90": 1997,
+   "results": [
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A22838",
+            "to": "http://example.org/stations/FLIXBUS%3A10378",
+            "minimumDepartureTime": "2020-09-12T12:18:56.920Z",
+            "maximumArrivalTime": "2020-09-13T13:18:56.920Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 330,
+         "scannedConnections": 5124,
+         "pagesFetched": 5,
+         "bytesTransferred": 8002747,
+         "timePerConnection": 0.06440281030444965
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1",
+            "to": "http://example.org/stations/FLIXBUS%3A481",
+            "minimumDepartureTime": "2020-09-12T01:45:21.365Z",
+            "maximumArrivalTime": "2020-09-13T02:45:21.365Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 449,
+         "scannedConnections": 10443,
+         "pagesFetched": 7,
+         "bytesTransferred": 11264118,
+         "timePerConnection": 0.042995307861725555
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A40891",
+            "to": "http://example.org/stations/FLIXBUS%3A13578",
+            "minimumDepartureTime": "2020-09-12T14:47:05.692Z",
+            "maximumArrivalTime": "2020-09-13T15:47:05.692Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 624,
+         "scannedConnections": 12595,
+         "pagesFetched": 10,
+         "bytesTransferred": 15663400,
+         "timePerConnection": 0.04954346963080587
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A2045",
+            "to": "http://example.org/stations/FLIXBUS%3A7528",
+            "minimumDepartureTime": "2020-09-12T01:39:56.229Z",
+            "maximumArrivalTime": "2020-09-13T02:39:56.229Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 739,
+         "scannedConnections": 14175,
+         "pagesFetched": 12,
+         "bytesTransferred": 19065611,
+         "timePerConnection": 0.05213403880070547
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A31561",
+            "to": "http://example.org/stations/FLIXBUS%3A26968",
+            "minimumDepartureTime": "2020-09-12T14:16:08.741Z",
+            "maximumArrivalTime": "2020-09-13T15:16:08.741Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 748,
+         "scannedConnections": 14745,
+         "pagesFetched": 12,
+         "bytesTransferred": 18883647,
+         "timePerConnection": 0.05072906069854188
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A10098",
+            "to": "http://example.org/stations/FLIXBUS%3A53001",
+            "minimumDepartureTime": "2020-09-12T06:18:29.733Z",
+            "maximumArrivalTime": "2020-09-13T07:18:29.733Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 756,
+         "scannedConnections": 15043,
+         "pagesFetched": 12,
+         "bytesTransferred": 18994816,
+         "timePerConnection": 0.050255932992089344
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A27228",
+            "to": "http://example.org/stations/FLIXBUS%3A38031",
+            "minimumDepartureTime": "2020-09-12T09:08:37.337Z",
+            "maximumArrivalTime": "2020-09-13T10:08:37.337Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 760,
+         "scannedConnections": 14064,
+         "pagesFetched": 12,
+         "bytesTransferred": 19050121,
+         "timePerConnection": 0.0540386803185438
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1304",
+            "to": "http://example.org/stations/FLIXBUS%3A10388",
+            "minimumDepartureTime": "2020-09-12T08:09:54.143Z",
+            "maximumArrivalTime": "2020-09-13T09:09:54.143Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 800,
+         "scannedConnections": 15986,
+         "pagesFetched": 11,
+         "bytesTransferred": 17426611,
+         "timePerConnection": 0.05004378831477543
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A561",
+            "to": "http://example.org/stations/FLIXBUS%3A91",
+            "minimumDepartureTime": "2020-09-12T03:29:27.962Z",
+            "maximumArrivalTime": "2020-09-13T04:29:27.962Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 801,
+         "scannedConnections": 18029,
+         "pagesFetched": 13,
+         "bytesTransferred": 20628919,
+         "timePerConnection": 0.04442842087747518
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A32871",
+            "to": "http://example.org/stations/FLIXBUS%3A13988",
+            "minimumDepartureTime": "2020-09-12T10:24:44.510Z",
+            "maximumArrivalTime": "2020-09-13T11:24:44.510Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 944,
+         "scannedConnections": 18989,
+         "pagesFetched": 15,
+         "bytesTransferred": 23664815,
+         "timePerConnection": 0.0497129917320554
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A471",
+            "to": "http://example.org/stations/FLIXBUS%3A30148",
+            "minimumDepartureTime": "2020-09-12T02:42:00.002Z",
+            "maximumArrivalTime": "2020-09-13T03:42:00.002Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1025,
+         "scannedConnections": 24236,
+         "pagesFetched": 17,
+         "bytesTransferred": 26954809,
+         "timePerConnection": 0.04229245750123783
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4808",
+            "to": "http://example.org/stations/FLIXBUS%3A10",
+            "minimumDepartureTime": "2020-09-12T14:35:30.852Z",
+            "maximumArrivalTime": "2020-09-13T15:35:30.852Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1053,
+         "scannedConnections": 22740,
+         "pagesFetched": 17,
+         "bytesTransferred": 26048922,
+         "timePerConnection": 0.046306068601583115
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A6928",
+            "to": "http://example.org/stations/FLIXBUS%3A6918",
+            "minimumDepartureTime": "2020-09-12T11:46:20.258Z",
+            "maximumArrivalTime": "2020-09-13T12:46:20.258Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1085,
+         "scannedConnections": 23275,
+         "pagesFetched": 18,
+         "bytesTransferred": 28407438,
+         "timePerConnection": 0.04661654135338346
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A9898",
+            "to": "http://example.org/stations/FLIXBUS%3A11288",
+            "minimumDepartureTime": "2020-09-12T01:19:12.373Z",
+            "maximumArrivalTime": "2020-09-13T02:19:12.373Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1102,
+         "scannedConnections": 25156,
+         "pagesFetched": 18,
+         "bytesTransferred": 28670611,
+         "timePerConnection": 0.04380664652567976
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A231",
+            "to": "http://example.org/stations/FLIXBUS%3A12188",
+            "minimumDepartureTime": "2020-09-12T10:39:29.458Z",
+            "maximumArrivalTime": "2020-09-13T11:39:29.458Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1109,
+         "scannedConnections": 21242,
+         "pagesFetched": 18,
+         "bytesTransferred": 28429452,
+         "timePerConnection": 0.05220789002918746
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A5598",
+            "to": "http://example.org/stations/FLIXBUS%3A8378",
+            "minimumDepartureTime": "2020-09-12T03:53:28.777Z",
+            "maximumArrivalTime": "2020-09-13T04:53:28.777Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1114,
+         "scannedConnections": 22079,
+         "pagesFetched": 18,
+         "bytesTransferred": 28481396,
+         "timePerConnection": 0.050455183658680194
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A10618",
+            "to": "http://example.org/stations/FLIXBUS%3A9578",
+            "minimumDepartureTime": "2020-09-12T14:29:32.063Z",
+            "maximumArrivalTime": "2020-09-13T15:29:32.063Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1120,
+         "scannedConnections": 23188,
+         "pagesFetched": 18,
+         "bytesTransferred": 27621199,
+         "timePerConnection": 0.048300845264792135
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4468",
+            "to": "http://example.org/stations/FLIXBUS%3A1995",
+            "minimumDepartureTime": "2020-09-12T04:29:48.570Z",
+            "maximumArrivalTime": "2020-09-13T05:29:48.570Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1126,
+         "scannedConnections": 27952,
+         "pagesFetched": 19,
+         "bytesTransferred": 30076370,
+         "timePerConnection": 0.04028334287349743
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A20128",
+            "to": "http://example.org/stations/FLIXBUS%3A42961",
+            "minimumDepartureTime": "2020-09-12T04:00:20.011Z",
+            "maximumArrivalTime": "2020-09-13T05:00:20.011Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1161,
+         "scannedConnections": 25780,
+         "pagesFetched": 19,
+         "bytesTransferred": 30129067,
+         "timePerConnection": 0.04503491078355314
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1714",
+            "to": "http://example.org/stations/FLIXBUS%3A20538",
+            "minimumDepartureTime": "2020-09-12T03:14:29.147Z",
+            "maximumArrivalTime": "2020-09-13T04:14:29.147Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1174,
+         "scannedConnections": 26456,
+         "pagesFetched": 20,
+         "bytesTransferred": 31347483,
+         "timePerConnection": 0.04437556697913517
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1855",
+            "to": "http://example.org/stations/FLIXBUS%3A10328",
+            "minimumDepartureTime": "2020-09-12T12:29:23.829Z",
+            "maximumArrivalTime": "2020-09-13T13:29:23.829Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1195,
+         "scannedConnections": 24196,
+         "pagesFetched": 19,
+         "bytesTransferred": 29991327,
+         "timePerConnection": 0.04938832864936353
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A11948",
+            "to": "http://example.org/stations/FLIXBUS%3A7578",
+            "minimumDepartureTime": "2020-09-12T08:55:02.602Z",
+            "maximumArrivalTime": "2020-09-13T09:55:02.602Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1195,
+         "scannedConnections": 26771,
+         "pagesFetched": 20,
+         "bytesTransferred": 31268101,
+         "timePerConnection": 0.04463785439468081
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1434",
+            "to": "http://example.org/stations/FLIXBUS%3A22",
+            "minimumDepartureTime": "2020-09-12T12:20:35.488Z",
+            "maximumArrivalTime": "2020-09-13T13:20:35.488Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1227,
+         "scannedConnections": 26592,
+         "pagesFetched": 20,
+         "bytesTransferred": 31587507,
+         "timePerConnection": 0.04614169675090253
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4108",
+            "to": "http://example.org/stations/FLIXBUS%3A15558",
+            "minimumDepartureTime": "2020-09-12T03:16:08.020Z",
+            "maximumArrivalTime": "2020-09-13T04:16:08.020Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1239,
+         "scannedConnections": 26170,
+         "pagesFetched": 20,
+         "bytesTransferred": 31717570,
+         "timePerConnection": 0.04734428735192969
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A34821",
+            "to": "http://example.org/stations/FLIXBUS%3A45841",
+            "minimumDepartureTime": "2020-09-12T08:22:58.938Z",
+            "maximumArrivalTime": "2020-09-13T09:22:58.938Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1272,
+         "scannedConnections": 30874,
+         "pagesFetched": 22,
+         "bytesTransferred": 34629446,
+         "timePerConnection": 0.04119971497052536
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A18398",
+            "to": "http://example.org/stations/FLIXBUS%3A2196",
+            "minimumDepartureTime": "2020-09-12T09:13:18.043Z",
+            "maximumArrivalTime": "2020-09-13T10:13:18.043Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1282,
+         "scannedConnections": 28595,
+         "pagesFetched": 22,
+         "bytesTransferred": 34321275,
+         "timePerConnection": 0.04483301276446931
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A9458",
+            "to": "http://example.org/stations/FLIXBUS%3A3648",
+            "minimumDepartureTime": "2020-09-12T03:12:17.466Z",
+            "maximumArrivalTime": "2020-09-13T04:12:17.466Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1289,
+         "scannedConnections": 28736,
+         "pagesFetched": 21,
+         "bytesTransferred": 33306653,
+         "timePerConnection": 0.04485662583518931
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A9958",
+            "to": "http://example.org/stations/FLIXBUS%3A4448",
+            "minimumDepartureTime": "2020-09-12T06:05:11.863Z",
+            "maximumArrivalTime": "2020-09-13T07:05:11.863Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1346,
+         "scannedConnections": 31413,
+         "pagesFetched": 23,
+         "bytesTransferred": 36321904,
+         "timePerConnection": 0.04284850221245981
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A2715",
+            "to": "http://example.org/stations/FLIXBUS%3A12068",
+            "minimumDepartureTime": "2020-09-12T02:36:44.913Z",
+            "maximumArrivalTime": "2020-09-13T03:36:44.913Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1348,
+         "scannedConnections": 33409,
+         "pagesFetched": 24,
+         "bytesTransferred": 37717429,
+         "timePerConnection": 0.04034840911131731
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A744",
+            "to": "http://example.org/stations/FLIXBUS%3A934",
+            "minimumDepartureTime": "2020-09-12T07:59:37.450Z",
+            "maximumArrivalTime": "2020-09-13T08:59:37.450Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1349,
+         "scannedConnections": 28495,
+         "pagesFetched": 22,
+         "bytesTransferred": 34321275,
+         "timePerConnection": 0.04734163888401474
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A804",
+            "to": "http://example.org/stations/FLIXBUS%3A39711",
+            "minimumDepartureTime": "2020-09-12T10:43:41.910Z",
+            "maximumArrivalTime": "2020-09-13T11:43:41.910Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1352,
+         "scannedConnections": 28939,
+         "pagesFetched": 22,
+         "bytesTransferred": 34638792,
+         "timePerConnection": 0.046718960572238157
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1304",
+            "to": "http://example.org/stations/FLIXBUS%3A29",
+            "minimumDepartureTime": "2020-09-12T03:20:34.905Z",
+            "maximumArrivalTime": "2020-09-13T04:20:34.905Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1362,
+         "scannedConnections": 31802,
+         "pagesFetched": 24,
+         "bytesTransferred": 37717429,
+         "timePerConnection": 0.0428274951260927
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A24",
+            "to": "http://example.org/stations/FLIXBUS%3A4018",
+            "minimumDepartureTime": "2020-09-12T12:05:42.013Z",
+            "maximumArrivalTime": "2020-09-13T13:05:42.013Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1370,
+         "scannedConnections": 30012,
+         "pagesFetched": 22,
+         "bytesTransferred": 34024339,
+         "timePerConnection": 0.04564840730374517
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A8338",
+            "to": "http://example.org/stations/FLIXBUS%3A11407",
+            "minimumDepartureTime": "2020-09-12T05:08:59.939Z",
+            "maximumArrivalTime": "2020-09-13T06:08:59.939Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1371,
+         "scannedConnections": 30129,
+         "pagesFetched": 22,
+         "bytesTransferred": 34841007,
+         "timePerConnection": 0.04550433137508712
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A27398",
+            "to": "http://example.org/stations/FLIXBUS%3A28298",
+            "minimumDepartureTime": "2020-09-12T11:58:54.257Z",
+            "maximumArrivalTime": "2020-09-13T12:58:54.257Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1376,
+         "scannedConnections": 30542,
+         "pagesFetched": 22,
+         "bytesTransferred": 34015288,
+         "timePerConnection": 0.04505271429506909
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A42201",
+            "to": "http://example.org/stations/FLIXBUS%3A50541",
+            "minimumDepartureTime": "2020-09-12T05:20:13.540Z",
+            "maximumArrivalTime": "2020-09-13T06:20:13.540Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1395,
+         "scannedConnections": 32728,
+         "pagesFetched": 24,
+         "bytesTransferred": 37894181,
+         "timePerConnection": 0.042624052798826695
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A36561",
+            "to": "http://example.org/stations/FLIXBUS%3A28778",
+            "minimumDepartureTime": "2020-09-12T01:06:31.748Z",
+            "maximumArrivalTime": "2020-09-13T02:06:31.748Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1401,
+         "scannedConnections": 29814,
+         "pagesFetched": 23,
+         "bytesTransferred": 36498167,
+         "timePerConnection": 0.046991346347353594
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A32301",
+            "to": "http://example.org/stations/FLIXBUS%3A20328",
+            "minimumDepartureTime": "2020-09-12T09:51:24.823Z",
+            "maximumArrivalTime": "2020-09-13T10:51:24.823Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1404,
+         "scannedConnections": 34216,
+         "pagesFetched": 23,
+         "bytesTransferred": 36222681,
+         "timePerConnection": 0.041033434650455926
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4328",
+            "to": "http://example.org/stations/FLIXBUS%3A11768",
+            "minimumDepartureTime": "2020-09-12T01:15:28.820Z",
+            "maximumArrivalTime": "2020-09-13T02:15:28.820Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1405,
+         "scannedConnections": 33892,
+         "pagesFetched": 23,
+         "bytesTransferred": 36517436,
+         "timePerConnection": 0.04145521066918447
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1464",
+            "to": "http://example.org/stations/FLIXBUS%3A41471",
+            "minimumDepartureTime": "2020-09-12T11:40:54.096Z",
+            "maximumArrivalTime": "2020-09-13T12:40:54.096Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1428,
+         "scannedConnections": 29343,
+         "pagesFetched": 23,
+         "bytesTransferred": 35528484,
+         "timePerConnection": 0.04866578059503118
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A16228",
+            "to": "http://example.org/stations/FLIXBUS%3A23988",
+            "minimumDepartureTime": "2020-09-12T05:31:14.040Z",
+            "maximumArrivalTime": "2020-09-13T06:31:14.040Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1465,
+         "scannedConnections": 31627,
+         "pagesFetched": 24,
+         "bytesTransferred": 37540320,
+         "timePerConnection": 0.046321181269168746
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A14938",
+            "to": "http://example.org/stations/FLIXBUS%3A9048",
+            "minimumDepartureTime": "2020-09-12T11:14:22.234Z",
+            "maximumArrivalTime": "2020-09-13T12:14:22.234Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1475,
+         "scannedConnections": 30618,
+         "pagesFetched": 24,
+         "bytesTransferred": 37117277,
+         "timePerConnection": 0.0481742765693383
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4628",
+            "to": "http://example.org/stations/FLIXBUS%3A491",
+            "minimumDepartureTime": "2020-09-12T02:46:14.789Z",
+            "maximumArrivalTime": "2020-09-13T03:46:14.789Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1476,
+         "scannedConnections": 33866,
+         "pagesFetched": 24,
+         "bytesTransferred": 37717429,
+         "timePerConnection": 0.043583535108958835
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A24038",
+            "to": "http://example.org/stations/FLIXBUS%3A23498",
+            "minimumDepartureTime": "2020-09-12T08:38:13.466Z",
+            "maximumArrivalTime": "2020-09-13T09:38:13.466Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1484,
+         "scannedConnections": 34926,
+         "pagesFetched": 26,
+         "bytesTransferred": 40987468,
+         "timePerConnection": 0.04248983565252248
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A32281",
+            "to": "http://example.org/stations/FLIXBUS%3A34861",
+            "minimumDepartureTime": "2020-09-12T03:54:20.008Z",
+            "maximumArrivalTime": "2020-09-13T04:54:20.008Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1491,
+         "scannedConnections": 31291,
+         "pagesFetched": 24,
+         "bytesTransferred": 38025600,
+         "timePerConnection": 0.047649483877153176
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A23928",
+            "to": "http://example.org/stations/FLIXBUS%3A15128",
+            "minimumDepartureTime": "2020-09-12T00:13:35.247Z",
+            "maximumArrivalTime": "2020-09-13T01:13:35.247Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1523,
+         "scannedConnections": 36351,
+         "pagesFetched": 25,
+         "bytesTransferred": 39675753,
+         "timePerConnection": 0.041897059228081755
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A12138",
+            "to": "http://example.org/stations/FLIXBUS%3A1714",
+            "minimumDepartureTime": "2020-09-12T00:02:22.277Z",
+            "maximumArrivalTime": "2020-09-13T01:02:22.277Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1525,
+         "scannedConnections": 34796,
+         "pagesFetched": 25,
+         "bytesTransferred": 39675753,
+         "timePerConnection": 0.04382687665248879
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A25708",
+            "to": "http://example.org/stations/FLIXBUS%3A29358",
+            "minimumDepartureTime": "2020-09-12T09:04:05.725Z",
+            "maximumArrivalTime": "2020-09-13T10:04:05.725Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1544,
+         "scannedConnections": 35343,
+         "pagesFetched": 25,
+         "bytesTransferred": 39415191,
+         "timePerConnection": 0.043686161333220154
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A45891",
+            "to": "http://example.org/stations/FLIXBUS%3A11407",
+            "minimumDepartureTime": "2020-09-12T02:00:11.784Z",
+            "maximumArrivalTime": "2020-09-13T03:00:11.784Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1576,
+         "scannedConnections": 35275,
+         "pagesFetched": 26,
+         "bytesTransferred": 41333306,
+         "timePerConnection": 0.044677533664068035
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A7678",
+            "to": "http://example.org/stations/FLIXBUS%3A371",
+            "minimumDepartureTime": "2020-09-12T05:47:52.870Z",
+            "maximumArrivalTime": "2020-09-13T06:47:52.870Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1576,
+         "scannedConnections": 37201,
+         "pagesFetched": 28,
+         "bytesTransferred": 43852652,
+         "timePerConnection": 0.042364452568479344
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4418",
+            "to": "http://example.org/stations/FLIXBUS%3A44031",
+            "minimumDepartureTime": "2020-09-12T07:39:27.777Z",
+            "maximumArrivalTime": "2020-09-13T08:39:27.777Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1576,
+         "scannedConnections": 37013,
+         "pagesFetched": 26,
+         "bytesTransferred": 41011371,
+         "timePerConnection": 0.042579634182584494
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A161",
+            "to": "http://example.org/stations/FLIXBUS%3A1204",
+            "minimumDepartureTime": "2020-09-12T02:51:56.500Z",
+            "maximumArrivalTime": "2020-09-13T03:51:56.500Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1579,
+         "scannedConnections": 37193,
+         "pagesFetched": 28,
+         "bytesTransferred": 43915157,
+         "timePerConnection": 0.042454225257440914
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A2045",
+            "to": "http://example.org/stations/FLIXBUS%3A21",
+            "minimumDepartureTime": "2020-09-12T03:07:31.812Z",
+            "maximumArrivalTime": "2020-09-13T04:07:31.812Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1593,
+         "scannedConnections": 33671,
+         "pagesFetched": 26,
+         "bytesTransferred": 40770603,
+         "timePerConnection": 0.04731074218169939
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A18388",
+            "to": "http://example.org/stations/FLIXBUS%3A23178",
+            "minimumDepartureTime": "2020-09-12T05:05:19.906Z",
+            "maximumArrivalTime": "2020-09-13T06:05:19.906Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1610,
+         "scannedConnections": 38511,
+         "pagesFetched": 28,
+         "bytesTransferred": 43852652,
+         "timePerConnection": 0.04180623717898782
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A21038",
+            "to": "http://example.org/stations/FLIXBUS%3A89",
+            "minimumDepartureTime": "2020-09-12T07:41:54.256Z",
+            "maximumArrivalTime": "2020-09-13T08:41:54.256Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1615,
+         "scannedConnections": 39530,
+         "pagesFetched": 28,
+         "bytesTransferred": 43378610,
+         "timePerConnection": 0.04085504679989881
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A25708",
+            "to": "http://example.org/stations/FLIXBUS%3A31361",
+            "minimumDepartureTime": "2020-09-12T04:53:03.657Z",
+            "maximumArrivalTime": "2020-09-13T05:53:03.657Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1616,
+         "scannedConnections": 38396,
+         "pagesFetched": 28,
+         "bytesTransferred": 44206513,
+         "timePerConnection": 0.04208771747056985
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A9768",
+            "to": "http://example.org/stations/FLIXBUS%3A11238",
+            "minimumDepartureTime": "2020-09-12T00:39:59.334Z",
+            "maximumArrivalTime": "2020-09-13T01:39:59.334Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1618,
+         "scannedConnections": 38039,
+         "pagesFetched": 28,
+         "bytesTransferred": 44455242,
+         "timePerConnection": 0.04253529272588659
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A43421",
+            "to": "http://example.org/stations/FLIXBUS%3A29358",
+            "minimumDepartureTime": "2020-09-12T05:26:51.092Z",
+            "maximumArrivalTime": "2020-09-13T06:26:51.092Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1618,
+         "scannedConnections": 38587,
+         "pagesFetched": 28,
+         "bytesTransferred": 44230416,
+         "timePerConnection": 0.04193122035918833
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A16",
+            "to": "http://example.org/stations/FLIXBUS%3A30951",
+            "minimumDepartureTime": "2020-09-12T05:38:21.234Z",
+            "maximumArrivalTime": "2020-09-13T06:38:21.234Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1623,
+         "scannedConnections": 37887,
+         "pagesFetched": 28,
+         "bytesTransferred": 43852652,
+         "timePerConnection": 0.042837912740517854
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A37731",
+            "to": "http://example.org/stations/FLIXBUS%3A11478",
+            "minimumDepartureTime": "2020-09-12T09:05:02.442Z",
+            "maximumArrivalTime": "2020-09-13T10:05:02.442Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1628,
+         "scannedConnections": 36423,
+         "pagesFetched": 27,
+         "bytesTransferred": 41852023,
+         "timePerConnection": 0.04469703209510474
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A3938",
+            "to": "http://example.org/stations/FLIXBUS%3A29618",
+            "minimumDepartureTime": "2020-09-12T01:14:30.493Z",
+            "maximumArrivalTime": "2020-09-13T02:14:30.493Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1631,
+         "scannedConnections": 35728,
+         "pagesFetched": 27,
+         "bytesTransferred": 42868113,
+         "timePerConnection": 0.04565047021943574
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A26888",
+            "to": "http://example.org/stations/FLIXBUS%3A1955",
+            "minimumDepartureTime": "2020-09-12T00:18:08.341Z",
+            "maximumArrivalTime": "2020-09-13T01:18:08.341Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1661,
+         "scannedConnections": 37170,
+         "pagesFetched": 27,
+         "bytesTransferred": 42868113,
+         "timePerConnection": 0.044686575195049774
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A3388",
+            "to": "http://example.org/stations/FLIXBUS%3A11548",
+            "minimumDepartureTime": "2020-09-12T04:54:37.062Z",
+            "maximumArrivalTime": "2020-09-13T05:54:37.062Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1674,
+         "scannedConnections": 37849,
+         "pagesFetched": 28,
+         "bytesTransferred": 44173671,
+         "timePerConnection": 0.044228381198974875
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A11818",
+            "to": "http://example.org/stations/FLIXBUS%3A26968",
+            "minimumDepartureTime": "2020-09-12T04:32:25.493Z",
+            "maximumArrivalTime": "2020-09-13T05:32:25.493Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1677,
+         "scannedConnections": 37119,
+         "pagesFetched": 28,
+         "bytesTransferred": 44160823,
+         "timePerConnection": 0.04517901883132627
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A28918",
+            "to": "http://example.org/stations/FLIXBUS%3A3608",
+            "minimumDepartureTime": "2020-09-12T07:03:41.276Z",
+            "maximumArrivalTime": "2020-09-13T08:03:41.276Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1694,
+         "scannedConnections": 37087,
+         "pagesFetched": 28,
+         "bytesTransferred": 44173671,
+         "timePerConnection": 0.04567638255992666
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A36351",
+            "to": "http://example.org/stations/FLIXBUS%3A36301",
+            "minimumDepartureTime": "2020-09-12T06:43:49.440Z",
+            "maximumArrivalTime": "2020-09-13T07:43:49.440Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1696,
+         "scannedConnections": 36815,
+         "pagesFetched": 28,
+         "bytesTransferred": 44160823,
+         "timePerConnection": 0.04606817873149532
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1775",
+            "to": "http://example.org/stations/FLIXBUS%3A26968",
+            "minimumDepartureTime": "2020-09-12T07:29:26.086Z",
+            "maximumArrivalTime": "2020-09-13T08:29:26.086Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1706,
+         "scannedConnections": 39804,
+         "pagesFetched": 28,
+         "bytesTransferred": 43424300,
+         "timePerConnection": 0.042860014068937795
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A28178",
+            "to": "http://example.org/stations/FLIXBUS%3A4018",
+            "minimumDepartureTime": "2020-09-12T03:10:24.658Z",
+            "maximumArrivalTime": "2020-09-13T04:10:24.658Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1716,
+         "scannedConnections": 40491,
+         "pagesFetched": 30,
+         "bytesTransferred": 47082935,
+         "timePerConnection": 0.042379788101059496
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A89",
+            "to": "http://example.org/stations/FLIXBUS%3A4568",
+            "minimumDepartureTime": "2020-09-12T05:04:13.175Z",
+            "maximumArrivalTime": "2020-09-13T06:04:13.175Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1742,
+         "scannedConnections": 41762,
+         "pagesFetched": 30,
+         "bytesTransferred": 46597655,
+         "timePerConnection": 0.04171256165892438
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4278",
+            "to": "http://example.org/stations/FLIXBUS%3A11898",
+            "minimumDepartureTime": "2020-09-12T05:10:07.993Z",
+            "maximumArrivalTime": "2020-09-13T06:10:07.993Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1746,
+         "scannedConnections": 41635,
+         "pagesFetched": 29,
+         "bytesTransferred": 45071068,
+         "timePerConnection": 0.04193587126215924
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A6218",
+            "to": "http://example.org/stations/FLIXBUS%3A231",
+            "minimumDepartureTime": "2020-09-12T02:09:29.133Z",
+            "maximumArrivalTime": "2020-09-13T03:09:29.133Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1756,
+         "scannedConnections": 40886,
+         "pagesFetched": 29,
+         "bytesTransferred": 45907524,
+         "timePerConnection": 0.04294868659198748
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4548",
+            "to": "http://example.org/stations/FLIXBUS%3A231",
+            "minimumDepartureTime": "2020-09-12T06:05:38.508Z",
+            "maximumArrivalTime": "2020-09-13T07:05:38.508Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1759,
+         "scannedConnections": 40811,
+         "pagesFetched": 30,
+         "bytesTransferred": 46643345,
+         "timePerConnection": 0.04310112469677293
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A28178",
+            "to": "http://example.org/stations/FLIXBUS%3A361",
+            "minimumDepartureTime": "2020-09-12T04:55:43.689Z",
+            "maximumArrivalTime": "2020-09-13T05:55:43.689Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1762,
+         "scannedConnections": 39962,
+         "pagesFetched": 29,
+         "bytesTransferred": 45071068,
+         "timePerConnection": 0.04409188729292828
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A50471",
+            "to": "http://example.org/stations/FLIXBUS%3A2235",
+            "minimumDepartureTime": "2020-09-12T06:03:30.121Z",
+            "maximumArrivalTime": "2020-09-13T07:03:30.121Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1773,
+         "scannedConnections": 40833,
+         "pagesFetched": 29,
+         "bytesTransferred": 45071068,
+         "timePerConnection": 0.04342076261847035
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A11738",
+            "to": "http://example.org/stations/FLIXBUS%3A46941",
+            "minimumDepartureTime": "2020-09-12T06:57:24.795Z",
+            "maximumArrivalTime": "2020-09-13T07:57:24.795Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1779,
+         "scannedConnections": 40181,
+         "pagesFetched": 29,
+         "bytesTransferred": 45071068,
+         "timePerConnection": 0.04427465717627734
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A15758",
+            "to": "http://example.org/stations/FLIXBUS%3A2575",
+            "minimumDepartureTime": "2020-09-12T06:42:43.997Z",
+            "maximumArrivalTime": "2020-09-13T07:42:43.997Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1780,
+         "scannedConnections": 40354,
+         "pagesFetched": 30,
+         "bytesTransferred": 46289484,
+         "timePerConnection": 0.04410962977647817
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A30148",
+            "to": "http://example.org/stations/FLIXBUS%3A2575",
+            "minimumDepartureTime": "2020-09-12T04:46:10.906Z",
+            "maximumArrivalTime": "2020-09-13T05:46:10.906Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1780,
+         "scannedConnections": 42000,
+         "pagesFetched": 29,
+         "bytesTransferred": 45071068,
+         "timePerConnection": 0.04238095238095238
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A10868",
+            "to": "http://example.org/stations/FLIXBUS%3A32281",
+            "minimumDepartureTime": "2020-09-12T04:58:31.458Z",
+            "maximumArrivalTime": "2020-09-13T05:58:31.458Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1789,
+         "scannedConnections": 41873,
+         "pagesFetched": 30,
+         "bytesTransferred": 46654957,
+         "timePerConnection": 0.042724428629427075
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A19488",
+            "to": "http://example.org/stations/FLIXBUS%3A42981",
+            "minimumDepartureTime": "2020-09-12T01:33:55.984Z",
+            "maximumArrivalTime": "2020-09-13T02:33:55.984Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1797,
+         "scannedConnections": 40479,
+         "pagesFetched": 30,
+         "bytesTransferred": 47434111,
+         "timePerConnection": 0.04439338916475209
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A10848",
+            "to": "http://example.org/stations/FLIXBUS%3A35801",
+            "minimumDepartureTime": "2020-09-12T02:50:59.692Z",
+            "maximumArrivalTime": "2020-09-13T03:50:59.692Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1802,
+         "scannedConnections": 41296,
+         "pagesFetched": 30,
+         "bytesTransferred": 47403954,
+         "timePerConnection": 0.04363618752421542
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A20128",
+            "to": "http://example.org/stations/FLIXBUS%3A12068",
+            "minimumDepartureTime": "2020-09-12T06:19:07.526Z",
+            "maximumArrivalTime": "2020-09-13T07:19:07.526Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1824,
+         "scannedConnections": 39872,
+         "pagesFetched": 30,
+         "bytesTransferred": 46289484,
+         "timePerConnection": 0.045746388443017656
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A331",
+            "to": "http://example.org/stations/FLIXBUS%3A11548",
+            "minimumDepartureTime": "2020-09-12T01:18:24.063Z",
+            "maximumArrivalTime": "2020-09-13T02:18:24.063Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1826,
+         "scannedConnections": 40516,
+         "pagesFetched": 30,
+         "bytesTransferred": 47496317,
+         "timePerConnection": 0.04506861486820022
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A9778",
+            "to": "http://example.org/stations/FLIXBUS%3A1614",
+            "minimumDepartureTime": "2020-09-12T00:47:03.827Z",
+            "maximumArrivalTime": "2020-09-13T01:47:03.827Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1826,
+         "scannedConnections": 41160,
+         "pagesFetched": 30,
+         "bytesTransferred": 47447874,
+         "timePerConnection": 0.04436345966958212
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A10",
+            "to": "http://example.org/stations/FLIXBUS%3A15118",
+            "minimumDepartureTime": "2020-09-12T01:26:47.383Z",
+            "maximumArrivalTime": "2020-09-13T02:26:47.383Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1886,
+         "scannedConnections": 43239,
+         "pagesFetched": 31,
+         "bytesTransferred": 49075302,
+         "timePerConnection": 0.04361803001919563
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4548",
+            "to": "http://example.org/stations/FLIXBUS%3A19788",
+            "minimumDepartureTime": "2020-09-12T02:59:06.278Z",
+            "maximumArrivalTime": "2020-09-13T03:59:06.278Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1893,
+         "scannedConnections": 43836,
+         "pagesFetched": 31,
+         "bytesTransferred": 48301351,
+         "timePerConnection": 0.04318368464275937
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A31021",
+            "to": "http://example.org/stations/FLIXBUS%3A3968",
+            "minimumDepartureTime": "2020-09-12T02:17:40.678Z",
+            "maximumArrivalTime": "2020-09-13T03:17:40.678Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1917,
+         "scannedConnections": 41972,
+         "pagesFetched": 32,
+         "bytesTransferred": 50659191,
+         "timePerConnection": 0.04567330601353283
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A6298",
+            "to": "http://example.org/stations/FLIXBUS%3A23",
+            "minimumDepartureTime": "2020-09-12T01:27:23.240Z",
+            "maximumArrivalTime": "2020-09-13T02:27:23.240Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1929,
+         "scannedConnections": 46253,
+         "pagesFetched": 34,
+         "bytesTransferred": 53100927,
+         "timePerConnection": 0.041705402892785334
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A9698",
+            "to": "http://example.org/stations/FLIXBUS%3A12918",
+            "minimumDepartureTime": "2020-09-12T04:01:31.821Z",
+            "maximumArrivalTime": "2020-09-13T05:01:31.821Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1950,
+         "scannedConnections": 41225,
+         "pagesFetched": 32,
+         "bytesTransferred": 49827938,
+         "timePerConnection": 0.04730139478471801
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A28878",
+            "to": "http://example.org/stations/FLIXBUS%3A28",
+            "minimumDepartureTime": "2020-09-12T03:42:58.930Z",
+            "maximumArrivalTime": "2020-09-13T04:42:58.930Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1956,
+         "scannedConnections": 41305,
+         "pagesFetched": 32,
+         "bytesTransferred": 49859150,
+         "timePerConnection": 0.04735504176249849
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A13958",
+            "to": "http://example.org/stations/FLIXBUS%3A20298",
+            "minimumDepartureTime": "2020-09-12T02:59:00.311Z",
+            "maximumArrivalTime": "2020-09-13T03:59:00.311Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1979,
+         "scannedConnections": 44392,
+         "pagesFetched": 32,
+         "bytesTransferred": 49890144,
+         "timePerConnection": 0.044580104523337535
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A28298",
+            "to": "http://example.org/stations/FLIXBUS%3A17778",
+            "minimumDepartureTime": "2020-09-12T01:15:53.890Z",
+            "maximumArrivalTime": "2020-09-13T02:15:53.890Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1997,
+         "scannedConnections": 44007,
+         "pagesFetched": 32,
+         "bytesTransferred": 50671482,
+         "timePerConnection": 0.04537914422705479
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4048",
+            "to": "http://example.org/stations/FLIXBUS%3A4308",
+            "minimumDepartureTime": "2020-09-12T01:29:26.682Z",
+            "maximumArrivalTime": "2020-09-13T02:29:26.682Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2031,
+         "scannedConnections": 46678,
+         "pagesFetched": 33,
+         "bytesTransferred": 51512134,
+         "timePerConnection": 0.043510861647885514
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A34081",
+            "to": "http://example.org/stations/FLIXBUS%3A10088",
+            "minimumDepartureTime": "2020-09-12T00:42:21.564Z",
+            "maximumArrivalTime": "2020-09-13T01:42:21.564Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2034,
+         "scannedConnections": 48022,
+         "pagesFetched": 36,
+         "bytesTransferred": 55888867,
+         "timePerConnection": 0.04235558702261463
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A1855",
+            "to": "http://example.org/stations/FLIXBUS%3A291",
+            "minimumDepartureTime": "2020-09-12T02:17:08.867Z",
+            "maximumArrivalTime": "2020-09-13T03:17:08.867Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2038,
+         "scannedConnections": 44963,
+         "pagesFetched": 33,
+         "bytesTransferred": 51512134,
+         "timePerConnection": 0.04532615706247359
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A8728",
+            "to": "http://example.org/stations/FLIXBUS%3A10388",
+            "minimumDepartureTime": "2020-09-12T02:03:14.122Z",
+            "maximumArrivalTime": "2020-09-13T03:03:14.122Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2075,
+         "scannedConnections": 45266,
+         "pagesFetched": 34,
+         "bytesTransferred": 52730550,
+         "timePerConnection": 0.04584014492113286
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A17848",
+            "to": "http://example.org/stations/FLIXBUS%3A33341",
+            "minimumDepartureTime": "2020-09-12T00:21:32.815Z",
+            "maximumArrivalTime": "2020-09-13T01:21:32.815Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2134,
+         "scannedConnections": 49204,
+         "pagesFetched": 36,
+         "bytesTransferred": 55888867,
+         "timePerConnection": 0.043370457686366964
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A9298",
+            "to": "http://example.org/stations/FLIXBUS%3A37491",
+            "minimumDepartureTime": "2020-09-12T02:30:34.688Z",
+            "maximumArrivalTime": "2020-09-13T03:30:34.688Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2167,
+         "scannedConnections": 45757,
+         "pagesFetched": 32,
+         "bytesTransferred": 49519767,
+         "timePerConnection": 0.04735887405205761
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A64",
+            "to": "http://example.org/stations/FLIXBUS%3A10088",
+            "minimumDepartureTime": "2020-09-12T00:08:20.756Z",
+            "maximumArrivalTime": "2020-09-13T01:08:20.756Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2394,
+         "scannedConnections": 49325,
+         "pagesFetched": 36,
+         "bytesTransferred": 55888867,
+         "timePerConnection": 0.04853522554485555
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A4688",
+            "to": "http://example.org/stations/FLIXBUS%3A1554",
+            "minimumDepartureTime": "2020-09-12T12:52:13.379Z",
+            "maximumArrivalTime": "2020-09-13T13:52:13.379Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3801,
+         "scannedConnections": 27596,
+         "pagesFetched": 20,
+         "bytesTransferred": 30843673,
+         "timePerConnection": 0.13773735323959993
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/FLIXBUS%3A14",
+            "to": "http://example.org/stations/FLIXBUS%3A35801",
+            "minimumDepartureTime": "2020-09-12T07:27:19.505Z",
+            "maximumArrivalTime": "2020-09-13T08:27:19.505Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 7109,
+         "scannedConnections": 36048,
+         "pagesFetched": 25,
+         "bytesTransferred": 39415191,
+         "timePerConnection": 0.1972092765201953
+      }
+   ]
+}

@@ -1,0 +1,100 @@
+Busiest day for delijn.zip public transport network
+Selected_date: 2020-09-11
+Number of trips on that date: 33959
+-------------------------------------------------
+Busiest day for london-tube.zip public transport network
+Selected_date: 2017-04-28
+Number of trips on that date: 15356
+-------------------------------------------------
+Busiest day for flixbus.zip public transport network
+Selected_date: 2020-09-12
+Number of trips on that date: 8726
+-------------------------------------------------
+Busiest day for chicago.zip public transport network
+Selected_date: 2020-09-03
+Number of trips on that date: 20058
+-------------------------------------------------
+Busiest day for ba-metro.zip public transport network
+Selected_date: 2018-01-31
+Number of trips on that date: 16
+-------------------------------------------------
+Busiest day for stib.zip public transport network
+Selected_date: 2020-10-12
+Number of trips on that date: 19557
+-------------------------------------------------
+Busiest day for nl-waterbus.zip public transport network
+Selected_date: 2020-10-15
+Number of trips on that date: 515
+-------------------------------------------------
+Busiest day for mexico-city-metro.zip public transport network
+Selected_date: 2018-01-31
+Number of trips on that date: 68
+-------------------------------------------------
+Busiest day for helsinki.zip public transport network
+Selected_date: 2020-10-02
+Number of trips on that date: 25887
+-------------------------------------------------
+Busiest day for sncf.zip public transport network
+Selected_date: 2020-09-25
+Number of trips on that date: 10541
+-------------------------------------------------
+Busiest day for auckland-ferry.zip public transport network
+Selected_date: 2020-10-16
+Number of trips on that date: 31
+-------------------------------------------------
+Busiest day for deutsche-bahn.zip public transport network
+Selected_date: 2018-12-12
+Number of trips on that date: 677
+-------------------------------------------------
+Busiest day for kobe-subway.zip public transport network
+Selected_date: 2017-08-08
+Number of trips on that date: 617
+-------------------------------------------------
+Busiest day for tec.zip public transport network
+Selected_date: 2020-10-14
+Number of trips on that date: 21062
+-------------------------------------------------
+Busiest day for renfe.zip public transport network
+Selected_date: 2020-09-23
+Number of trips on that date: 997
+-------------------------------------------------
+Busiest day for sydney-trainlink.zip public transport network
+Selected_date: 2020-10-16
+Number of trips on that date: 103
+-------------------------------------------------
+Busiest day for amsterdam.zip public transport network
+Selected_date: 2020-10-16
+Number of trips on that date: 11367
+-------------------------------------------------
+Busiest day for sf-bart.zip public transport network
+Selected_date: 2020-09-24
+Number of trips on that date: 754
+-------------------------------------------------
+Busiest day for madrid-bus.zip public transport network
+Selected_date: 2020-09-24
+Number of trips on that date: 27538
+-------------------------------------------------
+Busiest day for nyc.zip public transport network
+Selected_date: 2020-12-02
+Number of trips on that date: 11028
+-------------------------------------------------
+Busiest day for auckland-waiheke.zip public transport network
+Selected_date: 2020-10-14
+Number of trips on that date: 243
+-------------------------------------------------
+Busiest day for thailand-greenbus.zip public transport network
+Selected_date: 2018-05-25
+Number of trips on that date: 137
+-------------------------------------------------
+Busiest day for nmbs.zip public transport network
+Selected_date: 2020-11-12
+Number of trips on that date: 4556
+-------------------------------------------------
+Busiest day for nairobi.zip public transport network
+Selected_date: 2018-03-03
+Number of trips on that date: 264
+-------------------------------------------------
+Busiest day for nz-bus.zip public transport network
+Selected_date: 2020-10-16
+Number of trips on that date: 4678
+-------------------------------------------------

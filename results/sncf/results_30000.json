@@ -1,0 +1,1409 @@
+{
+   "averageResponseTime": 7427.53,
+   "p10": 1700,
+   "p50": 2666,
+   "p75": 3625,
+   "p90": 4876,
+   "results": [
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87722025",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87725663",
+            "minimumDepartureTime": "2020-09-25T20:16:08.193Z",
+            "maximumArrivalTime": "2020-09-26T21:16:08.193Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 12,
+         "scannedConnections": 0,
+         "pagesFetched": 0,
+         "bytesTransferred": 0,
+         "timePerConnection": null
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87214577",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87214726",
+            "minimumDepartureTime": "2020-09-25T21:29:00.524Z",
+            "maximumArrivalTime": "2020-09-26T22:29:00.524Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 16,
+         "scannedConnections": 0,
+         "pagesFetched": 0,
+         "bytesTransferred": 0,
+         "timePerConnection": null
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87723577",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87741116",
+            "minimumDepartureTime": "2020-09-25T14:14:28.216Z",
+            "maximumArrivalTime": "2020-09-26T15:14:28.216Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 790,
+         "scannedConnections": 17968,
+         "pagesFetched": 1,
+         "bytesTransferred": 17724723,
+         "timePerConnection": 0.04396705253784506
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87665505",
+            "to": "http://example.org/stations/StopPoint%3AOCETramtrain-87533620",
+            "minimumDepartureTime": "2020-09-25T07:12:47.614Z",
+            "maximumArrivalTime": "2020-09-26T08:12:47.614Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 807,
+         "scannedConnections": 8063,
+         "pagesFetched": 1,
+         "bytesTransferred": 17723437,
+         "timePerConnection": 0.10008681632146843
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87471060",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87471102",
+            "minimumDepartureTime": "2020-09-25T02:48:27.381Z",
+            "maximumArrivalTime": "2020-09-26T03:48:27.381Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1076,
+         "scannedConnections": 6355,
+         "pagesFetched": 2,
+         "bytesTransferred": 29477975,
+         "timePerConnection": 0.16931549960660897
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87406710",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87213611",
+            "minimumDepartureTime": "2020-09-25T13:32:22.918Z",
+            "maximumArrivalTime": "2020-09-26T14:32:22.918Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1269,
+         "scannedConnections": 23928,
+         "pagesFetched": 2,
+         "bytesTransferred": 29479261,
+         "timePerConnection": 0.05303410230692076
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87725713",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87761007",
+            "minimumDepartureTime": "2020-09-25T15:50:01.953Z",
+            "maximumArrivalTime": "2020-09-26T16:50:01.953Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1561,
+         "scannedConnections": 17430,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.0895582329317269
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87107482",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87175042",
+            "minimumDepartureTime": "2020-09-25T13:28:09.164Z",
+            "maximumArrivalTime": "2020-09-26T14:28:09.164Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1596,
+         "scannedConnections": 29948,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.053292373447308666
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87575225",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87487603",
+            "minimumDepartureTime": "2020-09-25T15:48:08.896Z",
+            "maximumArrivalTime": "2020-09-26T16:48:08.896Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1633,
+         "scannedConnections": 19533,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.08360210925101111
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87486019",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87484048",
+            "minimumDepartureTime": "2020-09-25T16:39:32.111Z",
+            "maximumArrivalTime": "2020-09-26T17:39:32.111Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1640,
+         "scannedConnections": 24554,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.06679156145638185
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87643452",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87182352",
+            "minimumDepartureTime": "2020-09-25T10:51:49.405Z",
+            "maximumArrivalTime": "2020-09-26T11:51:49.405Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1700,
+         "scannedConnections": 20033,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.08485998103129835
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87481754",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87571851",
+            "minimumDepartureTime": "2020-09-25T14:45:25.503Z",
+            "maximumArrivalTime": "2020-09-26T15:45:25.503Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1702,
+         "scannedConnections": 29269,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.05815026136868359
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87319764",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87694174",
+            "minimumDepartureTime": "2020-09-25T18:00:07.756Z",
+            "maximumArrivalTime": "2020-09-26T19:00:07.756Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1734,
+         "scannedConnections": 26103,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.06642914607516377
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87313874",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87215228",
+            "minimumDepartureTime": "2020-09-25T13:44:43.842Z",
+            "maximumArrivalTime": "2020-09-26T14:44:43.842Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1744,
+         "scannedConnections": 44314,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.0393555084172045
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87611939",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87611863",
+            "minimumDepartureTime": "2020-09-25T08:52:38.903Z",
+            "maximumArrivalTime": "2020-09-26T09:52:38.903Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1761,
+         "scannedConnections": 21712,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.0811072218128224
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87407379",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87212316",
+            "minimumDepartureTime": "2020-09-25T09:53:27.888Z",
+            "maximumArrivalTime": "2020-09-26T10:53:27.888Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1780,
+         "scannedConnections": 31746,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.05607005607005607
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87694778",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87217042",
+            "minimumDepartureTime": "2020-09-25T13:15:55.248Z",
+            "maximumArrivalTime": "2020-09-26T14:15:55.248Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1826,
+         "scannedConnections": 49625,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.03679596977329975
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87107433",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87640979",
+            "minimumDepartureTime": "2020-09-25T06:31:53.501Z",
+            "maximumArrivalTime": "2020-09-26T07:31:53.501Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1834,
+         "scannedConnections": 38641,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.04746253978934293
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87118190",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87352047",
+            "minimumDepartureTime": "2020-09-25T02:38:45.968Z",
+            "maximumArrivalTime": "2020-09-26T03:38:45.968Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1838,
+         "scannedConnections": 35392,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.05193264014466546
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87313296",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87217059",
+            "minimumDepartureTime": "2020-09-25T03:43:14.330Z",
+            "maximumArrivalTime": "2020-09-26T04:43:14.330Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1863,
+         "scannedConnections": 27438,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.06789853487863547
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87597005",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87576405",
+            "minimumDepartureTime": "2020-09-25T11:28:28.662Z",
+            "maximumArrivalTime": "2020-09-26T12:28:28.662Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1866,
+         "scannedConnections": 34372,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.05428837425811707
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87184440",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87715417",
+            "minimumDepartureTime": "2020-09-25T09:06:28.665Z",
+            "maximumArrivalTime": "2020-09-26T10:06:28.665Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1873,
+         "scannedConnections": 36777,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.05092856948636376
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87214734",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87725614",
+            "minimumDepartureTime": "2020-09-25T09:36:20.387Z",
+            "maximumArrivalTime": "2020-09-26T10:36:20.387Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1880,
+         "scannedConnections": 36154,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.05199977872434585
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87660373",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87171728",
+            "minimumDepartureTime": "2020-09-25T00:10:08.993Z",
+            "maximumArrivalTime": "2020-09-26T01:10:08.993Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1882,
+         "scannedConnections": 56508,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.03330501875840589
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87202465",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87575480",
+            "minimumDepartureTime": "2020-09-25T03:18:32.640Z",
+            "maximumArrivalTime": "2020-09-26T04:18:32.640Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1887,
+         "scannedConnections": 25846,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.07300936315097113
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87741298",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87721340",
+            "minimumDepartureTime": "2020-09-25T04:23:03.269Z",
+            "maximumArrivalTime": "2020-09-26T05:23:03.269Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1908,
+         "scannedConnections": 36480,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.05230263157894737
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87191692",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87703686",
+            "minimumDepartureTime": "2020-09-25T05:05:50.034Z",
+            "maximumArrivalTime": "2020-09-26T06:05:50.034Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1914,
+         "scannedConnections": 35252,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.054294791784863274
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-80253914",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87727842",
+            "minimumDepartureTime": "2020-09-25T00:59:06.100Z",
+            "maximumArrivalTime": "2020-09-26T01:59:06.100Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1924,
+         "scannedConnections": 50022,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.03846307624645156
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87721050",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87182576",
+            "minimumDepartureTime": "2020-09-25T01:22:01.686Z",
+            "maximumArrivalTime": "2020-09-26T02:22:01.686Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1927,
+         "scannedConnections": 44942,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.0428774865382048
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87181065",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87171769",
+            "minimumDepartureTime": "2020-09-25T12:33:11.436Z",
+            "maximumArrivalTime": "2020-09-26T13:33:11.436Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1943,
+         "scannedConnections": 34552,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.056234081963417455
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87142091",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87118158",
+            "minimumDepartureTime": "2020-09-25T10:52:58.868Z",
+            "maximumArrivalTime": "2020-09-26T11:52:58.868Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1967,
+         "scannedConnections": 13587,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.14477073673364246
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87139535",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87286856",
+            "minimumDepartureTime": "2020-09-25T05:25:53.555Z",
+            "maximumArrivalTime": "2020-09-26T06:25:53.555Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1973,
+         "scannedConnections": 35052,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.056287800981399065
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETramtrain-87722744",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87718197",
+            "minimumDepartureTime": "2020-09-25T01:22:21.738Z",
+            "maximumArrivalTime": "2020-09-26T02:22:21.738Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1987,
+         "scannedConnections": 45267,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.04389511122893057
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87171769",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87182196",
+            "minimumDepartureTime": "2020-09-25T01:36:51.246Z",
+            "maximumArrivalTime": "2020-09-26T02:36:51.246Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 1988,
+         "scannedConnections": 43423,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.04578218916242544
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87182709",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87715151",
+            "minimumDepartureTime": "2020-09-25T11:10:43.212Z",
+            "maximumArrivalTime": "2020-09-26T12:10:43.212Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2021,
+         "scannedConnections": 34510,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.058562735439003186
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87139584",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87312587",
+            "minimumDepartureTime": "2020-09-25T11:49:07.918Z",
+            "maximumArrivalTime": "2020-09-26T12:49:07.918Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2069,
+         "scannedConnections": 11407,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.18137985447532218
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87172353",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87212332",
+            "minimumDepartureTime": "2020-09-25T10:12:04.643Z",
+            "maximumArrivalTime": "2020-09-26T11:12:04.643Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2078,
+         "scannedConnections": 31931,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.06507782405812533
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87721175",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87746412",
+            "minimumDepartureTime": "2020-09-25T01:56:18.123Z",
+            "maximumArrivalTime": "2020-09-26T02:56:18.123Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2087,
+         "scannedConnections": 32953,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.06333262525414984
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87402297",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87718437",
+            "minimumDepartureTime": "2020-09-25T19:39:06.709Z",
+            "maximumArrivalTime": "2020-09-26T20:39:06.709Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2137,
+         "scannedConnections": 20706,
+         "pagesFetched": 4,
+         "bytesTransferred": 52988337,
+         "timePerConnection": 0.10320679996136385
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87394411",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87481721",
+            "minimumDepartureTime": "2020-09-25T00:39:49.452Z",
+            "maximumArrivalTime": "2020-09-26T01:39:49.452Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2189,
+         "scannedConnections": 51634,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.0423945462292288
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87171710",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87276717",
+            "minimumDepartureTime": "2020-09-25T12:38:27.477Z",
+            "maximumArrivalTime": "2020-09-26T13:38:27.477Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2227,
+         "scannedConnections": 22663,
+         "pagesFetched": 4,
+         "bytesTransferred": 70897606,
+         "timePerConnection": 0.09826589595375723
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87741728",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87726307",
+            "minimumDepartureTime": "2020-09-25T01:30:10.545Z",
+            "maximumArrivalTime": "2020-09-26T02:30:10.545Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2228,
+         "scannedConnections": 33391,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.06672456649995508
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87722025",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87746768",
+            "minimumDepartureTime": "2020-09-25T04:20:27.604Z",
+            "maximumArrivalTime": "2020-09-26T05:20:27.604Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2293,
+         "scannedConnections": 38377,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.05974932902519738
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87694612",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87318964",
+            "minimumDepartureTime": "2020-09-25T10:42:54.223Z",
+            "maximumArrivalTime": "2020-09-26T11:42:54.223Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2340,
+         "scannedConnections": 39633,
+         "pagesFetched": 3,
+         "bytesTransferred": 53172883,
+         "timePerConnection": 0.05904170766785255
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87718304",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87279968",
+            "minimumDepartureTime": "2020-09-25T00:49:39.572Z",
+            "maximumArrivalTime": "2020-09-26T01:49:39.572Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2340,
+         "scannedConnections": 49986,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.04681310767014764
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87214585",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87199620",
+            "minimumDepartureTime": "2020-09-25T06:39:54.796Z",
+            "maximumArrivalTime": "2020-09-26T07:39:54.796Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2352,
+         "scannedConnections": 40545,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.05800961894191639
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87345256",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87640375",
+            "minimumDepartureTime": "2020-09-25T01:12:01.805Z",
+            "maximumArrivalTime": "2020-09-26T02:12:01.805Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2383,
+         "scannedConnections": 43246,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.05510336216066226
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-85001057",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87725663",
+            "minimumDepartureTime": "2020-09-25T04:32:40.324Z",
+            "maximumArrivalTime": "2020-09-26T05:32:40.324Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2414,
+         "scannedConnections": 37806,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.06385229857694545
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87723494",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87139824",
+            "minimumDepartureTime": "2020-09-25T02:06:23.917Z",
+            "maximumArrivalTime": "2020-09-26T03:06:23.917Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2650,
+         "scannedConnections": 51295,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.05166195535627254
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87715136",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87745380",
+            "minimumDepartureTime": "2020-09-25T01:31:26.010Z",
+            "maximumArrivalTime": "2020-09-26T02:31:26.010Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2665,
+         "scannedConnections": 60361,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.04415102466824605
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87473132",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87487280",
+            "minimumDepartureTime": "2020-09-25T11:50:35.764Z",
+            "maximumArrivalTime": "2020-09-26T12:50:35.764Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2666,
+         "scannedConnections": 43872,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.06076768781911014
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87665380",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87684274",
+            "minimumDepartureTime": "2020-09-25T05:48:23.013Z",
+            "maximumArrivalTime": "2020-09-26T06:48:23.013Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2696,
+         "scannedConnections": 59026,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.045674787381831734
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87613174",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87697128",
+            "minimumDepartureTime": "2020-09-25T04:30:50.721Z",
+            "maximumArrivalTime": "2020-09-26T05:30:50.721Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2701,
+         "scannedConnections": 50771,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.053199661223927046
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETramtrain-87534347",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87751719",
+            "minimumDepartureTime": "2020-09-25T08:40:14.642Z",
+            "maximumArrivalTime": "2020-09-26T09:40:14.642Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2725,
+         "scannedConnections": 57489,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.04740037224512515
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87533547",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87182725",
+            "minimumDepartureTime": "2020-09-25T08:44:55.891Z",
+            "maximumArrivalTime": "2020-09-26T09:44:55.891Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2767,
+         "scannedConnections": 41004,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.0674812213442591
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87117697",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87723767",
+            "minimumDepartureTime": "2020-09-25T05:16:03.905Z",
+            "maximumArrivalTime": "2020-09-26T06:16:03.905Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2775,
+         "scannedConnections": 48918,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.05672758493805961
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87718601",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87715805",
+            "minimumDepartureTime": "2020-09-25T02:23:20.598Z",
+            "maximumArrivalTime": "2020-09-26T03:23:20.598Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2781,
+         "scannedConnections": 60639,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.0458615742344036
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87723577",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87286112",
+            "minimumDepartureTime": "2020-09-25T02:05:26.087Z",
+            "maximumArrivalTime": "2020-09-26T03:05:26.087Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2784,
+         "scannedConnections": 57745,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.04821196640401766
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87592121",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87713065",
+            "minimumDepartureTime": "2020-09-25T02:28:45.904Z",
+            "maximumArrivalTime": "2020-09-26T03:28:45.904Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2796,
+         "scannedConnections": 64039,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.043660894142631836
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87215731",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87723320",
+            "minimumDepartureTime": "2020-09-25T07:31:07.809Z",
+            "maximumArrivalTime": "2020-09-26T08:31:07.809Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2817,
+         "scannedConnections": 58398,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.04823795335456694
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87683003",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87667980",
+            "minimumDepartureTime": "2020-09-25T05:17:40.081Z",
+            "maximumArrivalTime": "2020-09-26T06:17:40.081Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2835,
+         "scannedConnections": 52772,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.053721670582884865
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87184200",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87687400",
+            "minimumDepartureTime": "2020-09-25T05:08:04.472Z",
+            "maximumArrivalTime": "2020-09-26T06:08:04.472Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2859,
+         "scannedConnections": 46817,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.061067560928722474
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87326462",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87141143",
+            "minimumDepartureTime": "2020-09-25T07:29:35.591Z",
+            "maximumArrivalTime": "2020-09-26T08:29:35.591Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2883,
+         "scannedConnections": 41678,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.06917318489370891
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87545657",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87592493",
+            "minimumDepartureTime": "2020-09-25T05:43:46.746Z",
+            "maximumArrivalTime": "2020-09-26T06:43:46.746Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2884,
+         "scannedConnections": 55577,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.051891969699695915
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87775098",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87683003",
+            "minimumDepartureTime": "2020-09-25T12:42:12.767Z",
+            "maximumArrivalTime": "2020-09-26T13:42:12.767Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 2995,
+         "scannedConnections": 39775,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.07529855436832181
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87594465",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87696450",
+            "minimumDepartureTime": "2020-09-25T05:29:38.470Z",
+            "maximumArrivalTime": "2020-09-26T06:29:38.470Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3076,
+         "scannedConnections": 48485,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.06344230174280706
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87139568",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87437376",
+            "minimumDepartureTime": "2020-09-25T12:33:19.828Z",
+            "maximumArrivalTime": "2020-09-26T13:33:19.828Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3110,
+         "scannedConnections": 57113,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.05445345192863271
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87108829",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87345108",
+            "minimumDepartureTime": "2020-09-25T04:39:34.753Z",
+            "maximumArrivalTime": "2020-09-26T05:39:34.753Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3126,
+         "scannedConnections": 49264,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.06345404352062357
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87746305",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87182071",
+            "minimumDepartureTime": "2020-09-25T05:39:06.126Z",
+            "maximumArrivalTime": "2020-09-26T06:39:06.126Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3127,
+         "scannedConnections": 59438,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.05260944177125745
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87741496",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87592097",
+            "minimumDepartureTime": "2020-09-25T08:50:55.756Z",
+            "maximumArrivalTime": "2020-09-26T09:50:55.756Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3214,
+         "scannedConnections": 55536,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.05787237107461827
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87276329",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87396291",
+            "minimumDepartureTime": "2020-09-25T03:54:13.777Z",
+            "maximumArrivalTime": "2020-09-26T04:54:13.777Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3259,
+         "scannedConnections": 57541,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.056637875601744846
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87193664",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87576025",
+            "minimumDepartureTime": "2020-09-25T03:35:03.063Z",
+            "maximumArrivalTime": "2020-09-26T04:35:03.063Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3260,
+         "scannedConnections": 59538,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.05475494642077329
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87312587",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87212456",
+            "minimumDepartureTime": "2020-09-25T02:27:28.141Z",
+            "maximumArrivalTime": "2020-09-26T03:27:28.141Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3280,
+         "scannedConnections": 60585,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.054138813237600066
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87342089",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87280065",
+            "minimumDepartureTime": "2020-09-25T00:31:22.690Z",
+            "maximumArrivalTime": "2020-09-26T01:31:22.690Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3393,
+         "scannedConnections": 78618,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.04315805540715867
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87642215",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87658740",
+            "minimumDepartureTime": "2020-09-25T15:10:28.571Z",
+            "maximumArrivalTime": "2020-09-26T16:10:28.571Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3545,
+         "scannedConnections": 21856,
+         "pagesFetched": 4,
+         "bytesTransferred": 58958522,
+         "timePerConnection": 0.1621980234260615
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87581314",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87586008",
+            "minimumDepartureTime": "2020-09-25T11:30:06.570Z",
+            "maximumArrivalTime": "2020-09-26T12:30:06.570Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3625,
+         "scannedConnections": 26864,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.13493895175699822
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87545525",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87571687",
+            "minimumDepartureTime": "2020-09-25T11:49:31.145Z",
+            "maximumArrivalTime": "2020-09-26T12:49:31.145Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3654,
+         "scannedConnections": 39206,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.09320002040504005
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87734053",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87571844",
+            "minimumDepartureTime": "2020-09-25T07:38:30.241Z",
+            "maximumArrivalTime": "2020-09-26T08:38:30.241Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3884,
+         "scannedConnections": 34642,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.11211823797702211
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87743112",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87718338",
+            "minimumDepartureTime": "2020-09-25T15:19:52.822Z",
+            "maximumArrivalTime": "2020-09-26T16:19:52.822Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 3958,
+         "scannedConnections": 25316,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.1563438141886554
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87571430",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87484303",
+            "minimumDepartureTime": "2020-09-25T02:43:05.171Z",
+            "maximumArrivalTime": "2020-09-26T03:43:05.171Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4054,
+         "scannedConnections": 32950,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.12303490136570562
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87313668",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87313601",
+            "minimumDepartureTime": "2020-09-25T08:52:35.773Z",
+            "maximumArrivalTime": "2020-09-26T09:52:35.773Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4190,
+         "scannedConnections": 15975,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.2622848200312989
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87117135",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87721472",
+            "minimumDepartureTime": "2020-09-25T05:33:21.731Z",
+            "maximumArrivalTime": "2020-09-26T06:33:21.731Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4285,
+         "scannedConnections": 57286,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.07480012568515867
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87694364",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87310862",
+            "minimumDepartureTime": "2020-09-25T02:39:12.192Z",
+            "maximumArrivalTime": "2020-09-26T03:39:12.192Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4347,
+         "scannedConnections": 39794,
+         "pagesFetched": 4,
+         "bytesTransferred": 64927421,
+         "timePerConnection": 0.10923757350354325
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87485334",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87696179",
+            "minimumDepartureTime": "2020-09-25T08:09:38.383Z",
+            "maximumArrivalTime": "2020-09-26T09:09:38.383Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4458,
+         "scannedConnections": 46781,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.0952950984373998
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87395822",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87698803",
+            "minimumDepartureTime": "2020-09-25T08:10:27.873Z",
+            "maximumArrivalTime": "2020-09-26T09:10:27.873Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4472,
+         "scannedConnections": 45633,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.0979992549251638
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87400986",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87723585",
+            "minimumDepartureTime": "2020-09-25T00:09:21.948Z",
+            "maximumArrivalTime": "2020-09-26T01:09:21.948Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4567,
+         "scannedConnections": 75074,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.060833311133015426
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87641449",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87718460",
+            "minimumDepartureTime": "2020-09-25T11:37:37.075Z",
+            "maximumArrivalTime": "2020-09-26T12:37:37.075Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4627,
+         "scannedConnections": 45125,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.10253739612188366
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87182840",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87722579",
+            "minimumDepartureTime": "2020-09-25T11:17:52.078Z",
+            "maximumArrivalTime": "2020-09-26T12:17:52.078Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4688,
+         "scannedConnections": 44653,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.10498734687479004
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87276113",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87715805",
+            "minimumDepartureTime": "2020-09-25T06:16:26.418Z",
+            "maximumArrivalTime": "2020-09-26T07:16:26.418Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4706,
+         "scannedConnections": 54724,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.08599517579124333
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87718122",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87734178",
+            "minimumDepartureTime": "2020-09-25T09:31:30.749Z",
+            "maximumArrivalTime": "2020-09-26T10:31:30.749Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4783,
+         "scannedConnections": 45024,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.1062322316986496
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87718528",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87643866",
+            "minimumDepartureTime": "2020-09-25T05:37:20.571Z",
+            "maximumArrivalTime": "2020-09-26T06:37:20.571Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 4876,
+         "scannedConnections": 62849,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.07758277776893825
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87444539",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87411439",
+            "minimumDepartureTime": "2020-09-25T03:03:21.330Z",
+            "maximumArrivalTime": "2020-09-26T04:03:21.330Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5004,
+         "scannedConnections": 58012,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.08625801558298284
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87586404",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87784827",
+            "minimumDepartureTime": "2020-09-25T07:02:27.980Z",
+            "maximumArrivalTime": "2020-09-26T08:02:27.980Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5023,
+         "scannedConnections": 47673,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.10536362301512386
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87741074",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87781666",
+            "minimumDepartureTime": "2020-09-25T00:10:41.506Z",
+            "maximumArrivalTime": "2020-09-26T01:10:41.506Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5042,
+         "scannedConnections": 73599,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.06850636557561923
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87721332",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87296418",
+            "minimumDepartureTime": "2020-09-25T04:33:37.296Z",
+            "maximumArrivalTime": "2020-09-26T05:33:37.296Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5076,
+         "scannedConnections": 55330,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.09174046629315019
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87444190",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87387001",
+            "minimumDepartureTime": "2020-09-25T18:59:53.319Z",
+            "maximumArrivalTime": "2020-09-26T19:59:53.319Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5166,
+         "scannedConnections": 8858,
+         "pagesFetched": 3,
+         "bytesTransferred": 41233799,
+         "timePerConnection": 0.5832016256491307
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87571406",
+            "to": "http://example.org/stations/StopPoint%3AOCECar%20TER-87396002",
+            "minimumDepartureTime": "2020-09-25T02:48:44.397Z",
+            "maximumArrivalTime": "2020-09-26T03:48:44.397Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5190,
+         "scannedConnections": 57486,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.09028285147688132
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87212373",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87317305",
+            "minimumDepartureTime": "2020-09-25T02:56:32.699Z",
+            "maximumArrivalTime": "2020-09-26T03:56:32.699Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5202,
+         "scannedConnections": 55541,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 0.09366053906123405
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCETrain%20TER-80142901",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87696351",
+            "minimumDepartureTime": "2020-09-25T07:24:18.701Z",
+            "maximumArrivalTime": "2020-09-26T08:24:18.701Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 5378,
+         "scannedConnections": 53568,
+         "pagesFetched": 6,
+         "bytesTransferred": 88436497,
+         "timePerConnection": 0.1003957586618877
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/StopPoint%3AOCECar%20TER-87723478",
+            "to": "http://example.org/stations/StopPoint%3AOCETrain%20TER-87141408",
+            "minimumDepartureTime": "2020-09-25T01:15:03.309Z",
+            "maximumArrivalTime": "2020-09-26T02:15:03.309Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "responseTime": 466570,
+         "scannedConnections": 52266,
+         "pagesFetched": 5,
+         "bytesTransferred": 76681959,
+         "timePerConnection": 8.92683580147706
+      }
+   ]
+}

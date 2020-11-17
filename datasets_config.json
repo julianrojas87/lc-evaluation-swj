@@ -1,0 +1,354 @@
+{
+    "storage": "/home/julian/Desktop/lc-evaluation/lc-data",
+    "organization": {
+        "id": "https://example.org/your/URL",
+        "name": "Data publisher name"
+    },
+    "datasets":[
+        {
+            "companyName": "amsterdam-gvb",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "auckland-ferry",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "auckland-waiheke",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "chicago-cta",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "delijn",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "deutsche-bahn",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "flixbus",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "helsinki-hsl",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "kobe-subway",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "london-tube",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "madrid-bus",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "nairobi-sacco",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "new-york-mtabc",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "nl-waterbus",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "nmbs",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "nz-bus",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "renfe",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "sf-bart",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "sncf",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "stib",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "sydney-trainlink",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "tec",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        },
+        {
+            "companyName": "thailand-greenbus",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "",
+            "downloadOnLaunch": true,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://example.org/stations/{stops.stop_id}",
+                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
+                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
+            }
+        }
+    ]
+}
