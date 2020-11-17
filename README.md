@@ -7,7 +7,7 @@ Here we describe the set of steps taken to execute the evaluation and obtain the
 
 ### 1. Raw data
 
-Our evaluation was performed on a set of 22 different and real public transport networks from around the world. The raw data of these networks is originally formatted as GTFS data dumps., which we make available at: https://cloud.ilabt.imec.be/index.php/s/7PeH9L3MijrHCRi
+Our evaluation was performed on a set of 22 different and real public transport networks from around the world. The raw data of these networks is originally formatted as GTFS data dumps, which we make available at: https://cloud.ilabt.imec.be/index.php/s/7PeH9L3MijrHCRi
 
 ### 2. Convert GTFS to _Linked Connections_
 
@@ -25,7 +25,7 @@ The conversion of a GTFS source to Linked Connections is done through the [`gtfs
   ./gtfs2lc/bin/gtfs2lc-sort.sh /path/to/{source}
   ```
 
-- Execute conversion using the **baseURIs.json** file of this repository as input for the unique identifiers scheme: 
+- Execute conversion using the [baseURIs.json](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/base-uris.json) file of this repository as input for the unique identifiers scheme: 
 
   ```bash
   node ./gtfs2lc/bin/gtfs2lc.js -f jsonld -b baseURIs.json -o /path/to/output/folder /path/to/{source}
@@ -45,7 +45,7 @@ The conversion of a GTFS source to Linked Connections is done through the [`gtfs
 
 ### 3. Extract busiest day _Linked Connections_
 
-For each network, we used the busiest day of the schedule as a representative subset of the entire data source. The busiest day is determined by the day with the highest amount of trips. We used the `peartree` Python library to find the busiest day for each network. We provide the **busy_days.py** Python script and also the **obtained results** for every network.
+For each network, we used the busiest day of the schedule as a representative subset of the entire data source. The busiest day is determined by the day with the highest amount of trips. We used the `peartree` Python library to find the busiest day for each network. We provide the [busy_days.py](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/busiest-days/busy_days.py) Python script and also the [obtained results](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/busiest-days/busy_days.py) for every network.
 
 Knowing the busiest day of a network, we can filter the relevant Linked Connections as follows:
 
@@ -57,13 +57,13 @@ We provide already the set of busiest day Linked Connections for every network a
 
 ### 4. Route planning performance
 
-For each network, we measured the evaluation performance of _Earliest Arrival Time_ route planning queries. The overall results are already available in the **results** folder of this repository. The steps to reproduce this evaluation are described next.
+For each network, we measured the evaluation performance of _Earliest Arrival Time_ route planning queries. The overall results are already available in the [results](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/results) folder of this repository. The steps to reproduce this evaluation are described next.
 
 #### 4.1 Create _Linked Connections_ fragmentation
 
 The first step consists on fragmenting the Linked Connection collection obtained from the previous step, in uniform fragments of fixed size (in terms of number of connections). 
 
-For this we use the **`lc-analytics`** Node.js application, bundled within this repository.  This application needs to be configured using the **config.js** file.  Is necessary to set the _rootPath_ property with the path to a parent folder where all results will be stored. 
+For this we use the [`lc-analytics`](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/lc-analytics) Node.js application, bundled within this repository.  This application needs to be configured using the [config.js](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/lc-analytics/config.js) file.  Is necessary to set the _rootPath_ property with the path to a parent folder where all results will be stored. 
 
 This parent folder must have a folder named `raw-lc` , containing the set of Linked Connection collections obtained in step 3. The rest of the parameters are already pre-configured and may be adjusted only in further steps.
 
