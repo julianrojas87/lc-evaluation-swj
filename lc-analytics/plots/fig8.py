@@ -27,6 +27,9 @@ performance = [
     28706, 29718, 34507, 38461
 ]
 
+fragmentation = [100, 50, 100, 100, 100, 1000, 300, 100, 1000, 1000, 
+    3000, 3000, 3000, 1000, 1000, 300, 1000, 3000, 300, 1207, 3000, 3000]
+
 stops = [44, 27, 361, 50, 112, 714, 433, 125, 606, 379, 2787, 
     1744, 4646, 1356, 2316, 3590, 5192, 8155, 2259, 31131, 11042, 29905]
 
@@ -42,12 +45,21 @@ C = [0, 0, 0.015, 0.198, 0.974, 2.692, 6.584, 0, 0.545, 6.778, 1.262, 27.142,
 ACD = [11.08, 2.57, 51.24, 4.53, 83.81, 32.97, 33.05, 1.6, 5.66, 2.51, 4.69,
        133.05, 16.52, 2.11, 1.76, 4.19, 5.49, 1.62, 2.01, 1.55, 1.37, 1.56]
 
+SCQ = [120, 140, 380, 370, 450, 4100, 2970, 390, 9760, 13030, 5070, 33470, 39540, 
+    9190, 13770, 28220, 87420, 76440, 20510, 234310, 64240, 322240]
+
 # Create subplots
 #plt.style.use('seaborn-darkgrid')
 plt.rcParams.update({'font.size': 13})
 fig, ((ax1, ax2), (ax3, ax4), (ax5, ax6)) = plt.subplots(3, 2)
+#fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
 
 for i in range(len(performance)):
+    #ax1.scatter(performance[i], SCQ[i], s=100, c=colors[i], alpha=0.5, label="n" + str(i) + " = " + networks[i])
+    #ax1.annotate("n" + str(i), (performance[i], SCQ[i]), fontsize=12)
+    #ax2.scatter(fragmentation[i], SCQ[i], s=100, c=colors[i], alpha=0.5, label="n" + str(i) + " = " + networks[i])
+    #ax2.annotate("n" + str(i), (fragmentation[i], SCQ[i]), fontsize=12)
+
     ax1.scatter(performance[i], stops[i], s=100, c=colors[i], alpha=0.5, label="n" + str(i) + " = " + networks[i])
     ax1.annotate("n" + str(i), (performance[i], stops[i]), fontsize=12)
     ax2.scatter(performance[i], connections[i], s=100, c=colors[i], alpha=0.5, label="n" + str(i) + " = " + networks[i])
@@ -76,10 +88,10 @@ ax1.grid()
 
 ax2.set_yscale("log")
 ax2.set_xscale("log")
-#ax2.set_yticks([100, 1000, 10000, 30000, 50000, 1000, 1500])
+ax2.set_yticks([100, 1000, 10000, 30000, 50000, 1000, 1500])
 ax2.set_xticks([10, 100, 1000, 10000, 30000])
 ax2.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
-#ax2.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
+ax2.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 ax2.set_xlabel("response time (ms)")
 ax2.set_ylabel("total connections")
 ax2.grid()

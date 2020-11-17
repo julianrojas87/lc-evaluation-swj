@@ -75,7 +75,9 @@ node lc-analytics/scripts/fragmentator.js
 
 The results of this step will be stored in a folder called `fragmentations` inside the _rootPath_ parent folder. 
 
-#### 4.2 
+#### 4.2 Setup a _Linked Connections_ server
+
+
 
 ### 5. Measure network graph metrics
 
