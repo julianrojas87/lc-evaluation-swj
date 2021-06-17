@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Container,Name,%CPU,Memory-Usage,%Memory,Net-IO"
+echo "Name,%CPU"
 while true; do
-    docker stats --no-stream --format "{{.Container}},{{.Name}},{{.CPUPerc}},{{.MemUsage}},{{.MemPerc}},{{.NetIO}}"
+    docker stats --no-stream --format "{{.Name}},{{.CPUPerc}}"
 done
