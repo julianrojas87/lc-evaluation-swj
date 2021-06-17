@@ -1,0 +1,702 @@
+[
+   {
+      "from": "http://example.org/stations/8010073",
+      "to": "http://example.org/stations/8003866",
+      "minimumDepartureTime": "2018-12-12T01:01:58.420Z",
+      "maximumArrivalTime": "2018-12-13T02:01:58.420Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8005424",
+      "to": "http://example.org/stations/8000159",
+      "minimumDepartureTime": "2018-12-12T02:22:54.642Z",
+      "maximumArrivalTime": "2018-12-13T03:22:54.642Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000078",
+      "to": "http://example.org/stations/8001082",
+      "minimumDepartureTime": "2018-12-12T13:19:01.966Z",
+      "maximumArrivalTime": "2018-12-13T14:19:01.966Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000049",
+      "to": "http://example.org/stations/8070003",
+      "minimumDepartureTime": "2018-12-12T00:39:48.854Z",
+      "maximumArrivalTime": "2018-12-13T01:39:48.854Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010159",
+      "to": "http://example.org/stations/8011956",
+      "minimumDepartureTime": "2018-12-12T18:51:10.378Z",
+      "maximumArrivalTime": "2018-12-13T19:51:10.378Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000076",
+      "to": "http://example.org/stations/8010368",
+      "minimumDepartureTime": "2018-12-12T06:29:58.832Z",
+      "maximumArrivalTime": "2018-12-13T07:29:58.832Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003400",
+      "to": "http://example.org/stations/8000885",
+      "minimumDepartureTime": "2018-12-12T06:08:02.582Z",
+      "maximumArrivalTime": "2018-12-13T07:08:02.582Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010405",
+      "to": "http://example.org/stations/8000238",
+      "minimumDepartureTime": "2018-12-12T04:43:33.889Z",
+      "maximumArrivalTime": "2018-12-13T05:43:33.889Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8004610",
+      "to": "http://example.org/stations/8000168",
+      "minimumDepartureTime": "2018-12-12T03:31:17.719Z",
+      "maximumArrivalTime": "2018-12-13T04:31:17.719Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8002021",
+      "to": "http://example.org/stations/8000192",
+      "minimumDepartureTime": "2018-12-12T00:07:21.108Z",
+      "maximumArrivalTime": "2018-12-13T01:07:21.108Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000147",
+      "to": "http://example.org/stations/8000049",
+      "minimumDepartureTime": "2018-12-12T15:53:57.530Z",
+      "maximumArrivalTime": "2018-12-13T16:53:57.530Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010220",
+      "to": "http://example.org/stations/8000320",
+      "minimumDepartureTime": "2018-12-12T00:31:44.953Z",
+      "maximumArrivalTime": "2018-12-13T01:31:44.953Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000337",
+      "to": "http://example.org/stations/8100099",
+      "minimumDepartureTime": "2018-12-12T08:32:44.234Z",
+      "maximumArrivalTime": "2018-12-13T09:32:44.234Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8001768",
+      "to": "http://example.org/stations/8010093",
+      "minimumDepartureTime": "2018-12-12T01:40:20.268Z",
+      "maximumArrivalTime": "2018-12-13T02:40:20.268Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8004305",
+      "to": "http://example.org/stations/8011044",
+      "minimumDepartureTime": "2018-12-12T13:08:22.234Z",
+      "maximumArrivalTime": "2018-12-13T14:08:22.234Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8600623",
+      "to": "http://example.org/stations/8004610",
+      "minimumDepartureTime": "2018-12-12T02:12:27.683Z",
+      "maximumArrivalTime": "2018-12-13T03:12:27.683Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000302",
+      "to": "http://example.org/stations/8000039",
+      "minimumDepartureTime": "2018-12-12T04:41:01.859Z",
+      "maximumArrivalTime": "2018-12-13T05:41:01.859Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000225",
+      "to": "http://example.org/stations/8073368",
+      "minimumDepartureTime": "2018-12-12T19:20:13.029Z",
+      "maximumArrivalTime": "2018-12-13T20:20:13.029Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8004158",
+      "to": "http://example.org/stations/8013025",
+      "minimumDepartureTime": "2018-12-12T02:28:36.633Z",
+      "maximumArrivalTime": "2018-12-13T03:28:36.633Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000192",
+      "to": "http://example.org/stations/8000831",
+      "minimumDepartureTime": "2018-12-12T08:18:23.337Z",
+      "maximumArrivalTime": "2018-12-13T09:18:23.337Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000013",
+      "to": "http://example.org/stations/8000067",
+      "minimumDepartureTime": "2018-12-12T09:46:25.591Z",
+      "maximumArrivalTime": "2018-12-13T10:46:25.591Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000111",
+      "to": "http://example.org/stations/8000170",
+      "minimumDepartureTime": "2018-12-12T11:37:40.627Z",
+      "maximumArrivalTime": "2018-12-13T12:37:40.627Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000307",
+      "to": "http://example.org/stations/8002021",
+      "minimumDepartureTime": "2018-12-12T00:58:03.393Z",
+      "maximumArrivalTime": "2018-12-13T01:58:03.393Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000151",
+      "to": "http://example.org/stations/8073368",
+      "minimumDepartureTime": "2018-12-12T17:00:56.859Z",
+      "maximumArrivalTime": "2018-12-13T18:00:56.859Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8004885",
+      "to": "http://example.org/stations/8000770",
+      "minimumDepartureTime": "2018-12-12T02:22:16.165Z",
+      "maximumArrivalTime": "2018-12-13T03:22:16.165Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003330",
+      "to": "http://example.org/stations/8000010",
+      "minimumDepartureTime": "2018-12-12T03:10:14.881Z",
+      "maximumArrivalTime": "2018-12-13T04:10:14.881Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000294",
+      "to": "http://example.org/stations/8010097",
+      "minimumDepartureTime": "2018-12-12T12:48:36.786Z",
+      "maximumArrivalTime": "2018-12-13T13:48:36.786Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8001787",
+      "to": "http://example.org/stations/8010050",
+      "minimumDepartureTime": "2018-12-12T07:45:08.822Z",
+      "maximumArrivalTime": "2018-12-13T08:45:08.822Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000299",
+      "to": "http://example.org/stations/8000274",
+      "minimumDepartureTime": "2018-12-12T01:17:09.225Z",
+      "maximumArrivalTime": "2018-12-13T02:17:09.225Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000107",
+      "to": "http://example.org/stations/8001055",
+      "minimumDepartureTime": "2018-12-12T10:03:46.086Z",
+      "maximumArrivalTime": "2018-12-13T11:03:46.086Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8100024",
+      "to": "http://example.org/stations/8000039",
+      "minimumDepartureTime": "2018-12-12T01:51:26.500Z",
+      "maximumArrivalTime": "2018-12-13T02:51:26.500Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000283",
+      "to": "http://example.org/stations/8012183",
+      "minimumDepartureTime": "2018-12-12T09:14:22.223Z",
+      "maximumArrivalTime": "2018-12-13T10:14:22.223Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003200",
+      "to": "http://example.org/stations/8011102",
+      "minimumDepartureTime": "2018-12-12T19:19:09.960Z",
+      "maximumArrivalTime": "2018-12-13T20:19:09.960Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000026",
+      "to": "http://example.org/stations/8000331",
+      "minimumDepartureTime": "2018-12-12T02:16:05.865Z",
+      "maximumArrivalTime": "2018-12-13T03:16:05.865Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010022",
+      "to": "http://example.org/stations/8002166",
+      "minimumDepartureTime": "2018-12-12T12:16:08.111Z",
+      "maximumArrivalTime": "2018-12-13T13:16:08.111Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010220",
+      "to": "http://example.org/stations/8000170",
+      "minimumDepartureTime": "2018-12-12T09:47:23.758Z",
+      "maximumArrivalTime": "2018-12-13T10:47:23.758Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8507483",
+      "to": "http://example.org/stations/8000337",
+      "minimumDepartureTime": "2018-12-12T08:32:44.433Z",
+      "maximumArrivalTime": "2018-12-13T09:32:44.433Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000068",
+      "to": "http://example.org/stations/8010159",
+      "minimumDepartureTime": "2018-12-12T10:57:07.578Z",
+      "maximumArrivalTime": "2018-12-13T11:57:07.578Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8100002",
+      "to": "http://example.org/stations/8000737",
+      "minimumDepartureTime": "2018-12-12T14:01:36.391Z",
+      "maximumArrivalTime": "2018-12-13T15:01:36.391Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000057",
+      "to": "http://example.org/stations/8000329",
+      "minimumDepartureTime": "2018-12-12T17:54:01.631Z",
+      "maximumArrivalTime": "2018-12-13T18:54:01.631Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003330",
+      "to": "http://example.org/stations/8000049",
+      "minimumDepartureTime": "2018-12-12T00:14:38.290Z",
+      "maximumArrivalTime": "2018-12-13T01:14:38.290Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003446",
+      "to": "http://example.org/stations/8010159",
+      "minimumDepartureTime": "2018-12-12T15:40:16.853Z",
+      "maximumArrivalTime": "2018-12-13T16:40:16.853Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010205",
+      "to": "http://example.org/stations/8006369",
+      "minimumDepartureTime": "2018-12-12T05:21:18.912Z",
+      "maximumArrivalTime": "2018-12-13T06:21:18.912Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000238",
+      "to": "http://example.org/stations/8006552",
+      "minimumDepartureTime": "2018-12-12T16:16:37.703Z",
+      "maximumArrivalTime": "2018-12-13T17:16:37.703Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8005556",
+      "to": "http://example.org/stations/8001768",
+      "minimumDepartureTime": "2018-12-12T13:09:44.601Z",
+      "maximumArrivalTime": "2018-12-13T14:09:44.601Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000403",
+      "to": "http://example.org/stations/8098160",
+      "minimumDepartureTime": "2018-12-12T10:22:42.808Z",
+      "maximumArrivalTime": "2018-12-13T11:22:42.808Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000774",
+      "to": "http://example.org/stations/8000263",
+      "minimumDepartureTime": "2018-12-12T11:09:44.944Z",
+      "maximumArrivalTime": "2018-12-13T12:09:44.944Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8006053",
+      "to": "http://example.org/stations/8006552",
+      "minimumDepartureTime": "2018-12-12T08:13:36.882Z",
+      "maximumArrivalTime": "2018-12-13T09:13:36.882Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8100014",
+      "to": "http://example.org/stations/8003446",
+      "minimumDepartureTime": "2018-12-12T01:19:17.519Z",
+      "maximumArrivalTime": "2018-12-13T02:19:17.519Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8700023",
+      "to": "http://example.org/stations/8004885",
+      "minimumDepartureTime": "2018-12-12T05:37:56.770Z",
+      "maximumArrivalTime": "2018-12-13T06:37:56.770Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010224",
+      "to": "http://example.org/stations/8002041",
+      "minimumDepartureTime": "2018-12-12T11:56:42.603Z",
+      "maximumArrivalTime": "2018-12-13T12:56:42.603Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8507483",
+      "to": "http://example.org/stations/8000252",
+      "minimumDepartureTime": "2018-12-12T05:28:27.470Z",
+      "maximumArrivalTime": "2018-12-13T06:28:27.470Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000115",
+      "to": "http://example.org/stations/8000168",
+      "minimumDepartureTime": "2018-12-12T02:25:39.470Z",
+      "maximumArrivalTime": "2018-12-13T03:25:39.470Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000339",
+      "to": "http://example.org/stations/8000183",
+      "minimumDepartureTime": "2018-12-12T00:08:55.770Z",
+      "maximumArrivalTime": "2018-12-13T01:08:55.770Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000127",
+      "to": "http://example.org/stations/8000197",
+      "minimumDepartureTime": "2018-12-12T15:09:04.384Z",
+      "maximumArrivalTime": "2018-12-13T16:09:04.384Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000067",
+      "to": "http://example.org/stations/8000055",
+      "minimumDepartureTime": "2018-12-12T00:31:16.881Z",
+      "maximumArrivalTime": "2018-12-13T01:31:16.881Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000298",
+      "to": "http://example.org/stations/8000156",
+      "minimumDepartureTime": "2018-12-12T15:05:56.240Z",
+      "maximumArrivalTime": "2018-12-13T16:05:56.240Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010216",
+      "to": "http://example.org/stations/8001768",
+      "minimumDepartureTime": "2018-12-12T00:05:41.614Z",
+      "maximumArrivalTime": "2018-12-13T01:05:41.614Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000087",
+      "to": "http://example.org/stations/8000009",
+      "minimumDepartureTime": "2018-12-12T16:36:24.427Z",
+      "maximumArrivalTime": "2018-12-13T17:36:24.427Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010195",
+      "to": "http://example.org/stations/8003200",
+      "minimumDepartureTime": "2018-12-12T03:11:23.201Z",
+      "maximumArrivalTime": "2018-12-13T04:11:23.201Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8507000",
+      "to": "http://example.org/stations/8500023",
+      "minimumDepartureTime": "2018-12-12T06:29:50.037Z",
+      "maximumArrivalTime": "2018-12-13T07:29:50.037Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010240",
+      "to": "http://example.org/stations/8010282",
+      "minimumDepartureTime": "2018-12-12T07:37:59.221Z",
+      "maximumArrivalTime": "2018-12-13T08:37:59.221Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000070",
+      "to": "http://example.org/stations/8003701",
+      "minimumDepartureTime": "2018-12-12T10:59:08.237Z",
+      "maximumArrivalTime": "2018-12-13T11:59:08.237Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000257",
+      "to": "http://example.org/stations/8000262",
+      "minimumDepartureTime": "2018-12-12T03:58:10.343Z",
+      "maximumArrivalTime": "2018-12-13T04:58:10.343Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003680",
+      "to": "http://example.org/stations/8003701",
+      "minimumDepartureTime": "2018-12-12T12:30:30.793Z",
+      "maximumArrivalTime": "2018-12-13T13:30:30.793Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010405",
+      "to": "http://example.org/stations/8003368",
+      "minimumDepartureTime": "2018-12-12T09:58:19.657Z",
+      "maximumArrivalTime": "2018-12-13T10:58:19.657Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000885",
+      "to": "http://example.org/stations/8700023",
+      "minimumDepartureTime": "2018-12-12T05:00:46.145Z",
+      "maximumArrivalTime": "2018-12-13T06:00:46.145Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8005424",
+      "to": "http://example.org/stations/8001751",
+      "minimumDepartureTime": "2018-12-12T00:16:04.150Z",
+      "maximumArrivalTime": "2018-12-13T01:16:04.150Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000879",
+      "to": "http://example.org/stations/8000320",
+      "minimumDepartureTime": "2018-12-12T12:46:19.575Z",
+      "maximumArrivalTime": "2018-12-13T13:46:19.575Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010404",
+      "to": "http://example.org/stations/8300120",
+      "minimumDepartureTime": "2018-12-12T08:57:57.696Z",
+      "maximumArrivalTime": "2018-12-13T09:57:57.696Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8004124",
+      "to": "http://example.org/stations/8004158",
+      "minimumDepartureTime": "2018-12-12T04:43:19.370Z",
+      "maximumArrivalTime": "2018-12-13T05:43:19.370Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8004449",
+      "to": "http://example.org/stations/8000142",
+      "minimumDepartureTime": "2018-12-12T13:18:22.967Z",
+      "maximumArrivalTime": "2018-12-13T14:18:22.967Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8005661",
+      "to": "http://example.org/stations/8010404",
+      "minimumDepartureTime": "2018-12-12T01:31:37.722Z",
+      "maximumArrivalTime": "2018-12-13T02:31:37.722Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000059",
+      "to": "http://example.org/stations/8000147",
+      "minimumDepartureTime": "2018-12-12T16:49:38.357Z",
+      "maximumArrivalTime": "2018-12-13T17:49:38.357Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000238",
+      "to": "http://example.org/stations/8010224",
+      "minimumDepartureTime": "2018-12-12T20:40:27.678Z",
+      "maximumArrivalTime": "2018-12-13T21:40:27.678Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8800012",
+      "to": "http://example.org/stations/8000196",
+      "minimumDepartureTime": "2018-12-12T05:51:42.049Z",
+      "maximumArrivalTime": "2018-12-13T06:51:42.049Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8002553",
+      "to": "http://example.org/stations/8005791",
+      "minimumDepartureTime": "2018-12-12T00:58:05.666Z",
+      "maximumArrivalTime": "2018-12-13T01:58:05.666Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8602903",
+      "to": "http://example.org/stations/8098160",
+      "minimumDepartureTime": "2018-12-12T06:46:50.258Z",
+      "maximumArrivalTime": "2018-12-13T07:46:50.258Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000098",
+      "to": "http://example.org/stations/8000299",
+      "minimumDepartureTime": "2018-12-12T10:03:51.225Z",
+      "maximumArrivalTime": "2018-12-13T11:03:51.225Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8011102",
+      "to": "http://example.org/stations/8006053",
+      "minimumDepartureTime": "2018-12-12T01:36:08.556Z",
+      "maximumArrivalTime": "2018-12-13T02:36:08.556Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000522",
+      "to": "http://example.org/stations/8000250",
+      "minimumDepartureTime": "2018-12-12T13:43:00.921Z",
+      "maximumArrivalTime": "2018-12-13T14:43:00.921Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8007768",
+      "to": "http://example.org/stations/8004563",
+      "minimumDepartureTime": "2018-12-12T05:27:25.464Z",
+      "maximumArrivalTime": "2018-12-13T06:27:25.464Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003200",
+      "to": "http://example.org/stations/8010139",
+      "minimumDepartureTime": "2018-12-12T04:34:52.527Z",
+      "maximumArrivalTime": "2018-12-13T05:34:52.527Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8011162",
+      "to": "http://example.org/stations/8010101",
+      "minimumDepartureTime": "2018-12-12T09:35:33.703Z",
+      "maximumArrivalTime": "2018-12-13T10:35:33.703Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000262",
+      "to": "http://example.org/stations/8000259",
+      "minimumDepartureTime": "2018-12-12T01:19:57.674Z",
+      "maximumArrivalTime": "2018-12-13T02:19:57.674Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000271",
+      "to": "http://example.org/stations/8000831",
+      "minimumDepartureTime": "2018-12-12T07:27:47.720Z",
+      "maximumArrivalTime": "2018-12-13T08:27:47.720Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000271",
+      "to": "http://example.org/stations/8000377",
+      "minimumDepartureTime": "2018-12-12T12:17:31.449Z",
+      "maximumArrivalTime": "2018-12-13T13:17:31.449Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000068",
+      "to": "http://example.org/stations/8010282",
+      "minimumDepartureTime": "2018-12-12T14:46:04.936Z",
+      "maximumArrivalTime": "2018-12-13T15:46:04.936Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8010282",
+      "to": "http://example.org/stations/8000770",
+      "minimumDepartureTime": "2018-12-12T15:03:33.956Z",
+      "maximumArrivalTime": "2018-12-13T16:03:33.956Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8506302",
+      "to": "http://example.org/stations/8000286",
+      "minimumDepartureTime": "2018-12-12T00:02:24.851Z",
+      "maximumArrivalTime": "2018-12-13T01:02:24.851Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8100102",
+      "to": "http://example.org/stations/8000118",
+      "minimumDepartureTime": "2018-12-12T11:36:20.406Z",
+      "maximumArrivalTime": "2018-12-13T12:36:20.406Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8100108",
+      "to": "http://example.org/stations/8000085",
+      "minimumDepartureTime": "2018-12-12T12:07:14.877Z",
+      "maximumArrivalTime": "2018-12-13T13:07:14.877Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000483",
+      "to": "http://example.org/stations/8000286",
+      "minimumDepartureTime": "2018-12-12T06:23:33.054Z",
+      "maximumArrivalTime": "2018-12-13T07:23:33.054Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000299",
+      "to": "http://example.org/stations/8001080",
+      "minimumDepartureTime": "2018-12-12T02:00:12.791Z",
+      "maximumArrivalTime": "2018-12-13T03:00:12.791Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000029",
+      "to": "http://example.org/stations/8000192",
+      "minimumDepartureTime": "2018-12-12T01:21:59.409Z",
+      "maximumArrivalTime": "2018-12-13T02:21:59.409Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000228",
+      "to": "http://example.org/stations/8002042",
+      "minimumDepartureTime": "2018-12-12T04:58:45.122Z",
+      "maximumArrivalTime": "2018-12-13T05:58:45.122Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8004449",
+      "to": "http://example.org/stations/8011102",
+      "minimumDepartureTime": "2018-12-12T10:26:43.362Z",
+      "maximumArrivalTime": "2018-12-13T11:26:43.362Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000263",
+      "to": "http://example.org/stations/8010159",
+      "minimumDepartureTime": "2018-12-12T04:29:19.644Z",
+      "maximumArrivalTime": "2018-12-13T05:29:19.644Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8000009",
+      "to": "http://example.org/stations/8100099",
+      "minimumDepartureTime": "2018-12-12T15:50:01.689Z",
+      "maximumArrivalTime": "2018-12-13T16:50:01.689Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/8003680",
+      "to": "http://example.org/stations/8003866",
+      "minimumDepartureTime": "2018-12-12T07:56:39.124Z",
+      "maximumArrivalTime": "2018-12-13T08:56:39.124Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   }
+]

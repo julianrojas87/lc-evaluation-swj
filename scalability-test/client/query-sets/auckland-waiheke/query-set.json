@@ -1,0 +1,702 @@
+[
+   {
+      "from": "http://example.org/stations/1181-20201008134100_v94.91",
+      "to": "http://example.org/stations/1504-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T16:06:03.473Z",
+      "maximumArrivalTime": "2020-10-15T17:06:03.473Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1151-20201008134100_v94.91",
+      "to": "http://example.org/stations/1321-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T22:20:36.805Z",
+      "maximumArrivalTime": "2020-10-15T23:20:36.805Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1159-20201008134100_v94.91",
+      "to": "http://example.org/stations/1184-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T08:22:40.375Z",
+      "maximumArrivalTime": "2020-10-15T09:22:40.375Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1154-20201008134100_v94.91",
+      "to": "http://example.org/stations/1113-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T17:12:49.176Z",
+      "maximumArrivalTime": "2020-10-15T18:12:49.176Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1189-20201008134100_v94.91",
+      "to": "http://example.org/stations/1182-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T13:29:41.120Z",
+      "maximumArrivalTime": "2020-10-15T14:29:41.120Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1142-20201008134100_v94.91",
+      "to": "http://example.org/stations/1119-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T20:50:14.207Z",
+      "maximumArrivalTime": "2020-10-15T21:50:14.207Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1119-20201008134100_v94.91",
+      "to": "http://example.org/stations/1192-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T07:59:15.706Z",
+      "maximumArrivalTime": "2020-10-15T08:59:15.706Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1152-20201008134100_v94.91",
+      "to": "http://example.org/stations/1138-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:07:05.528Z",
+      "maximumArrivalTime": "2020-10-15T12:07:05.528Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1169-20201008134100_v94.91",
+      "to": "http://example.org/stations/1050-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T16:39:41.654Z",
+      "maximumArrivalTime": "2020-10-15T17:39:41.654Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1186-20201008134100_v94.91",
+      "to": "http://example.org/stations/1185-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T14:04:31.969Z",
+      "maximumArrivalTime": "2020-10-15T15:04:31.969Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1143-20201008134100_v94.91",
+      "to": "http://example.org/stations/1225-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T09:15:46.151Z",
+      "maximumArrivalTime": "2020-10-15T10:15:46.151Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1134-20201008134100_v94.91",
+      "to": "http://example.org/stations/1107-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T07:26:06.660Z",
+      "maximumArrivalTime": "2020-10-15T08:26:06.660Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1169-20201008134100_v94.91",
+      "to": "http://example.org/stations/1154-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:08:22.144Z",
+      "maximumArrivalTime": "2020-10-15T12:08:22.144Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1154-20201008134100_v94.91",
+      "to": "http://example.org/stations/1445-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T20:59:07.139Z",
+      "maximumArrivalTime": "2020-10-15T21:59:07.139Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1160-20201008134100_v94.91",
+      "to": "http://example.org/stations/1140-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T01:01:05.359Z",
+      "maximumArrivalTime": "2020-10-15T02:01:05.359Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1212-20201008134100_v94.91",
+      "to": "http://example.org/stations/1192-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T07:42:43.496Z",
+      "maximumArrivalTime": "2020-10-15T08:42:43.496Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1203-20201008134100_v94.91",
+      "to": "http://example.org/stations/1321-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T10:04:23.428Z",
+      "maximumArrivalTime": "2020-10-15T11:04:23.428Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1537-20201008134100_v94.91",
+      "to": "http://example.org/stations/1185-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T09:26:39.615Z",
+      "maximumArrivalTime": "2020-10-15T10:26:39.615Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1087-20201008134100_v94.91",
+      "to": "http://example.org/stations/1118-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T21:21:00.572Z",
+      "maximumArrivalTime": "2020-10-15T22:21:00.572Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1151-20201008134100_v94.91",
+      "to": "http://example.org/stations/1200-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T19:37:48.571Z",
+      "maximumArrivalTime": "2020-10-15T20:37:48.571Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1105-20201008134100_v94.91",
+      "to": "http://example.org/stations/1104-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T07:41:59.233Z",
+      "maximumArrivalTime": "2020-10-15T08:41:59.233Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1162-20201008134100_v94.91",
+      "to": "http://example.org/stations/1182-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T13:42:08.981Z",
+      "maximumArrivalTime": "2020-10-15T14:42:08.981Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1120-20201008134100_v94.91",
+      "to": "http://example.org/stations/1188-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T02:35:43.299Z",
+      "maximumArrivalTime": "2020-10-15T03:35:43.299Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1225-20201008134100_v94.91",
+      "to": "http://example.org/stations/1134-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T15:32:18.302Z",
+      "maximumArrivalTime": "2020-10-15T16:32:18.302Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1217-20201008134100_v94.91",
+      "to": "http://example.org/stations/1105-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T07:08:09.389Z",
+      "maximumArrivalTime": "2020-10-15T08:08:09.389Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1509-20201008134100_v94.91",
+      "to": "http://example.org/stations/1172-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T05:14:38.483Z",
+      "maximumArrivalTime": "2020-10-15T06:14:38.483Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1210-20201008134100_v94.91",
+      "to": "http://example.org/stations/1533-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:51:08.005Z",
+      "maximumArrivalTime": "2020-10-15T12:51:08.005Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1155-20201008134100_v94.91",
+      "to": "http://example.org/stations/1160-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T17:23:22.742Z",
+      "maximumArrivalTime": "2020-10-15T18:23:22.742Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1121-20201008134100_v94.91",
+      "to": "http://example.org/stations/1144-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T17:02:54.276Z",
+      "maximumArrivalTime": "2020-10-15T18:02:54.276Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1125-20201008134100_v94.91",
+      "to": "http://example.org/stations/1148-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T19:26:27.011Z",
+      "maximumArrivalTime": "2020-10-15T20:26:27.011Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1528-20201008134100_v94.91",
+      "to": "http://example.org/stations/1182-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T06:57:53.762Z",
+      "maximumArrivalTime": "2020-10-15T07:57:53.762Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1109-20201008134100_v94.91",
+      "to": "http://example.org/stations/1191-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T21:46:04.503Z",
+      "maximumArrivalTime": "2020-10-15T22:46:04.503Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1184-20201008134100_v94.91",
+      "to": "http://example.org/stations/1162-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T06:04:50.040Z",
+      "maximumArrivalTime": "2020-10-15T07:04:50.040Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1182-20201008134100_v94.91",
+      "to": "http://example.org/stations/1087-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T15:41:31.020Z",
+      "maximumArrivalTime": "2020-10-15T16:41:31.020Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1186-20201008134100_v94.91",
+      "to": "http://example.org/stations/1149-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T17:24:31.198Z",
+      "maximumArrivalTime": "2020-10-15T18:24:31.198Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1197-20201008134100_v94.91",
+      "to": "http://example.org/stations/1174-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T21:05:57.423Z",
+      "maximumArrivalTime": "2020-10-15T22:05:57.423Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1216-20201008134100_v94.91",
+      "to": "http://example.org/stations/1533-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T10:22:43.431Z",
+      "maximumArrivalTime": "2020-10-15T11:22:43.431Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1122-20201008134100_v94.91",
+      "to": "http://example.org/stations/1194-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T07:57:38.030Z",
+      "maximumArrivalTime": "2020-10-15T08:57:38.030Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1204-20201008134100_v94.91",
+      "to": "http://example.org/stations/1196-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T18:42:04.349Z",
+      "maximumArrivalTime": "2020-10-15T19:42:04.349Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1118-20201008134100_v94.91",
+      "to": "http://example.org/stations/1120-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T06:22:48.969Z",
+      "maximumArrivalTime": "2020-10-15T07:22:48.969Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1204-20201008134100_v94.91",
+      "to": "http://example.org/stations/1171-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T00:58:24.433Z",
+      "maximumArrivalTime": "2020-10-15T01:58:24.433Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1213-20201008134100_v94.91",
+      "to": "http://example.org/stations/1174-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T13:22:09.635Z",
+      "maximumArrivalTime": "2020-10-15T14:22:09.635Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1171-20201008134100_v94.91",
+      "to": "http://example.org/stations/1118-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T14:40:12.465Z",
+      "maximumArrivalTime": "2020-10-15T15:40:12.465Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1210-20201008134100_v94.91",
+      "to": "http://example.org/stations/1113-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:23:58.244Z",
+      "maximumArrivalTime": "2020-10-15T12:23:58.244Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1192-20201008134100_v94.91",
+      "to": "http://example.org/stations/1105-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T09:48:10.442Z",
+      "maximumArrivalTime": "2020-10-15T10:48:10.442Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1182-20201008134100_v94.91",
+      "to": "http://example.org/stations/1116-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T12:19:40.517Z",
+      "maximumArrivalTime": "2020-10-15T13:19:40.517Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1155-20201008134100_v94.91",
+      "to": "http://example.org/stations/1528-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T21:24:21.564Z",
+      "maximumArrivalTime": "2020-10-15T22:24:21.564Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1130-20201008134100_v94.91",
+      "to": "http://example.org/stations/1117-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T10:29:31.828Z",
+      "maximumArrivalTime": "2020-10-15T11:29:31.828Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1197-20201008134100_v94.91",
+      "to": "http://example.org/stations/1217-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T15:47:45.964Z",
+      "maximumArrivalTime": "2020-10-15T16:47:45.964Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1125-20201008134100_v94.91",
+      "to": "http://example.org/stations/1201-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T09:57:53.451Z",
+      "maximumArrivalTime": "2020-10-15T10:57:53.451Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1143-20201008134100_v94.91",
+      "to": "http://example.org/stations/1209-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T22:18:23.499Z",
+      "maximumArrivalTime": "2020-10-15T23:18:23.499Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1155-20201008134100_v94.91",
+      "to": "http://example.org/stations/1182-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T14:00:28.421Z",
+      "maximumArrivalTime": "2020-10-15T15:00:28.421Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1117-20201008134100_v94.91",
+      "to": "http://example.org/stations/1120-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T07:23:45.114Z",
+      "maximumArrivalTime": "2020-10-15T08:23:45.114Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1159-20201008134100_v94.91",
+      "to": "http://example.org/stations/1146-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T13:03:56.976Z",
+      "maximumArrivalTime": "2020-10-15T14:03:56.976Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1157-20201008134100_v94.91",
+      "to": "http://example.org/stations/1215-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T06:18:30.175Z",
+      "maximumArrivalTime": "2020-10-15T07:18:30.175Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1207-20201008134100_v94.91",
+      "to": "http://example.org/stations/1102-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T13:44:52.338Z",
+      "maximumArrivalTime": "2020-10-15T14:44:52.338Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1214-20201008134100_v94.91",
+      "to": "http://example.org/stations/1174-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T17:09:53.490Z",
+      "maximumArrivalTime": "2020-10-15T18:09:53.490Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1170-20201008134100_v94.91",
+      "to": "http://example.org/stations/1153-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T03:26:15.362Z",
+      "maximumArrivalTime": "2020-10-15T04:26:15.362Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1197-20201008134100_v94.91",
+      "to": "http://example.org/stations/1185-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T22:49:49.912Z",
+      "maximumArrivalTime": "2020-10-15T23:49:49.912Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1186-20201008134100_v94.91",
+      "to": "http://example.org/stations/1178-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T04:39:38.502Z",
+      "maximumArrivalTime": "2020-10-15T05:39:38.502Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1219-20201008134100_v94.91",
+      "to": "http://example.org/stations/1179-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T00:48:22.876Z",
+      "maximumArrivalTime": "2020-10-15T01:48:22.876Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1121-20201008134100_v94.91",
+      "to": "http://example.org/stations/1229-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T02:37:51.348Z",
+      "maximumArrivalTime": "2020-10-15T03:37:51.348Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1208-20201008134100_v94.91",
+      "to": "http://example.org/stations/1185-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T01:34:44.294Z",
+      "maximumArrivalTime": "2020-10-15T02:34:44.294Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1141-20201008134100_v94.91",
+      "to": "http://example.org/stations/1216-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T03:48:50.885Z",
+      "maximumArrivalTime": "2020-10-15T04:48:50.885Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1141-20201008134100_v94.91",
+      "to": "http://example.org/stations/1157-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T21:46:47.992Z",
+      "maximumArrivalTime": "2020-10-15T22:46:47.992Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1229-20201008134100_v94.91",
+      "to": "http://example.org/stations/1050-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T18:30:49.326Z",
+      "maximumArrivalTime": "2020-10-15T19:30:49.326Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1229-20201008134100_v94.91",
+      "to": "http://example.org/stations/1162-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T00:21:34.633Z",
+      "maximumArrivalTime": "2020-10-15T01:21:34.633Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1100-20201008134100_v94.91",
+      "to": "http://example.org/stations/1120-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T01:19:46.412Z",
+      "maximumArrivalTime": "2020-10-15T02:19:46.412Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1423-20201008134100_v94.91",
+      "to": "http://example.org/stations/1150-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T02:54:28.783Z",
+      "maximumArrivalTime": "2020-10-15T03:54:28.783Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1141-20201008134100_v94.91",
+      "to": "http://example.org/stations/1150-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T01:52:17.223Z",
+      "maximumArrivalTime": "2020-10-15T02:52:17.223Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1104-20201008134100_v94.91",
+      "to": "http://example.org/stations/1149-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T00:44:46.734Z",
+      "maximumArrivalTime": "2020-10-15T01:44:46.734Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1528-20201008134100_v94.91",
+      "to": "http://example.org/stations/1177-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T15:38:04.045Z",
+      "maximumArrivalTime": "2020-10-15T16:38:04.045Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1102-20201008134100_v94.91",
+      "to": "http://example.org/stations/1107-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:30:58.694Z",
+      "maximumArrivalTime": "2020-10-15T12:30:58.694Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1542-20201008134100_v94.91",
+      "to": "http://example.org/stations/1193-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T18:12:58.603Z",
+      "maximumArrivalTime": "2020-10-15T19:12:58.603Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1132-20201008134100_v94.91",
+      "to": "http://example.org/stations/1197-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T00:49:55.150Z",
+      "maximumArrivalTime": "2020-10-15T01:49:55.150Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1148-20201008134100_v94.91",
+      "to": "http://example.org/stations/1528-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T00:43:45.323Z",
+      "maximumArrivalTime": "2020-10-15T01:43:45.323Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1205-20201008134100_v94.91",
+      "to": "http://example.org/stations/1206-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T15:42:39.517Z",
+      "maximumArrivalTime": "2020-10-15T16:42:39.517Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1152-20201008134100_v94.91",
+      "to": "http://example.org/stations/1167-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:09:18.682Z",
+      "maximumArrivalTime": "2020-10-15T12:09:18.682Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1231-20201008134100_v94.91",
+      "to": "http://example.org/stations/1182-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:21:09.654Z",
+      "maximumArrivalTime": "2020-10-15T12:21:09.654Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1211-20201008134100_v94.91",
+      "to": "http://example.org/stations/1151-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T05:18:41.641Z",
+      "maximumArrivalTime": "2020-10-15T06:18:41.641Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1109-20201008134100_v94.91",
+      "to": "http://example.org/stations/1087-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T18:15:07.570Z",
+      "maximumArrivalTime": "2020-10-15T19:15:07.570Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1114-20201008134100_v94.91",
+      "to": "http://example.org/stations/1212-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T15:51:51.216Z",
+      "maximumArrivalTime": "2020-10-15T16:51:51.216Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1182-20201008134100_v94.91",
+      "to": "http://example.org/stations/1158-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T02:48:35.584Z",
+      "maximumArrivalTime": "2020-10-15T03:48:35.584Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1231-20201008134100_v94.91",
+      "to": "http://example.org/stations/1208-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T17:19:24.367Z",
+      "maximumArrivalTime": "2020-10-15T18:19:24.367Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1104-20201008134100_v94.91",
+      "to": "http://example.org/stations/1200-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T20:40:42.561Z",
+      "maximumArrivalTime": "2020-10-15T21:40:42.561Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1195-20201008134100_v94.91",
+      "to": "http://example.org/stations/1186-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T15:45:57.586Z",
+      "maximumArrivalTime": "2020-10-15T16:45:57.586Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1533-20201008134100_v94.91",
+      "to": "http://example.org/stations/1113-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T11:29:30.941Z",
+      "maximumArrivalTime": "2020-10-15T12:29:30.941Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1147-20201008134100_v94.91",
+      "to": "http://example.org/stations/1130-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T21:25:29.565Z",
+      "maximumArrivalTime": "2020-10-15T22:25:29.565Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1139-20201008134100_v94.91",
+      "to": "http://example.org/stations/1102-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T09:47:45.156Z",
+      "maximumArrivalTime": "2020-10-15T10:47:45.156Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1155-20201008134100_v94.91",
+      "to": "http://example.org/stations/1196-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T13:53:19.086Z",
+      "maximumArrivalTime": "2020-10-15T14:53:19.086Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1119-20201008134100_v94.91",
+      "to": "http://example.org/stations/1214-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T08:22:27.433Z",
+      "maximumArrivalTime": "2020-10-15T09:22:27.433Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1101-20201008134100_v94.91",
+      "to": "http://example.org/stations/1211-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T13:34:36.049Z",
+      "maximumArrivalTime": "2020-10-15T14:34:36.049Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1229-20201008134100_v94.91",
+      "to": "http://example.org/stations/1201-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T18:54:55.054Z",
+      "maximumArrivalTime": "2020-10-15T19:54:55.054Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1229-20201008134100_v94.91",
+      "to": "http://example.org/stations/1170-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T19:42:04.982Z",
+      "maximumArrivalTime": "2020-10-15T20:42:04.982Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1184-20201008134100_v94.91",
+      "to": "http://example.org/stations/1157-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T05:28:10.825Z",
+      "maximumArrivalTime": "2020-10-15T06:28:10.825Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1321-20201008134100_v94.91",
+      "to": "http://example.org/stations/1181-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T09:34:52.050Z",
+      "maximumArrivalTime": "2020-10-15T10:34:52.050Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1159-20201008134100_v94.91",
+      "to": "http://example.org/stations/1164-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T22:20:43.770Z",
+      "maximumArrivalTime": "2020-10-15T23:20:43.770Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1155-20201008134100_v94.91",
+      "to": "http://example.org/stations/1122-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T22:41:55.905Z",
+      "maximumArrivalTime": "2020-10-15T23:41:55.905Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1111-20201008134100_v94.91",
+      "to": "http://example.org/stations/1152-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T19:00:41.078Z",
+      "maximumArrivalTime": "2020-10-15T20:00:41.078Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   },
+   {
+      "from": "http://example.org/stations/1161-20201008134100_v94.91",
+      "to": "http://example.org/stations/1193-20201008134100_v94.91",
+      "minimumDepartureTime": "2020-10-14T09:11:10.177Z",
+      "maximumArrivalTime": "2020-10-15T10:11:10.177Z",
+      "profileID": "https://hdelva.be/profile/pedestrian"
+   }
+]

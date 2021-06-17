@@ -88,7 +88,7 @@
 
 **OSM:** https://cloud.ilabt.imec.be/index.php/s/3PRMb2erj98rND8/download/belgium.osm.pbf
 
-**GTFS:** https://cloud.ilabt.imec.be/index.php/s/gX9zr9QPi7f8Yt4/download/nmbs.zip
+**GTFS:** https://cloud.ilabt.imec.be/index.php/s/TZTPRCZrajc9XgR/download/nmbs.zip
 
 ## new-zealand-bus
 
