@@ -67,8 +67,8 @@ async function run() {
         const result = await autocannon({
             url: serverURI,
             initialContext: { stops: stopIndex },
-            connections: concurrency,
-            workers: workers,
+            connections: concurrencies[i],
+            workers: workers[i],
             pipelining: 1,
             amount: concurrencies[i] * 3 * queries.length, // repeat query set 3 times per client
             connectionRate: 1,
