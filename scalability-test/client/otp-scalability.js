@@ -47,7 +47,6 @@ async function run() {
     // Load query set
     const queries = await getQuerySet();
     // Make sure every client executes all the query set
-    let counter = 0;
     const reqs = queries.map(q => {
         counter++;
         return {
@@ -56,7 +55,6 @@ async function run() {
             from: q.from,
             to: q.to,
             time: q.minimumDepartureTime,
-            counter: counter,
             setupRequest: path.join(process.cwd(), 'helpers', 'setupRequest')
         };
     });
