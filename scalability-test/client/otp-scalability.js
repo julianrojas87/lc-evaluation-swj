@@ -47,25 +47,28 @@ async function run() {
     // Load query set
     const queries = await getQuerySet();
     // Make sure every client executes all the query set
+    let counter = 0;
     const reqs = queries.map(q => {
+        counter++;
         return {
             method: 'GET',
             path: `/otp/routers/default/plan`,
             from: q.from,
             to: q.to,
             time: q.minimumDepartureTime,
+            counter: counter,
             setupRequest: path.join(process.cwd(), 'helpers', 'setupRequest')
         };
     });
 
     // Start evaluation loop
-    for (const i = 0; i < concurrencies.length; i++) {
+    for (let i = 0; i < concurrencies.length; i++) {
         // Command stats recording on server
         await toggleRecording(true, i);
 
         // Initialize autocannon
         const result = await autocannon({
-            url: serverURI,
+            url: `${serverURI}:${serverPort}`,
             initialContext: { stops: stopIndex },
             connections: concurrencies[i],
             workers: workers[i],

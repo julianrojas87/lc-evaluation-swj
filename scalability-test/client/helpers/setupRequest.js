@@ -11,6 +11,6 @@ module.exports = (req, { stops }) => {
         `&mode=TRANSIT,WALK`;
 
     req.path += queryString;
-    console.log(req.path);
+    console.log(req.counter, req.path);
     return req;
 }
