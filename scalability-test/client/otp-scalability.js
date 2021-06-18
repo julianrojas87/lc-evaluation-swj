@@ -10,16 +10,20 @@ const readFile = util.promisify(fs.readFile);
 const serverURI = process.argv[2];
 const serverPort = process.argv[3]
 const operator = process.argv[4];
-const concurrency = parseInt(process.argv[5]);
-const workers = parseInt(process.argv[6]);
-let pid = null;
 
-async function toggleRecording(record) {
-    if(record) {
-        const res = await fetch(`${serverURI}:3001?command=start&operator=${operator}&concurrency=${concurrency}`);
-        pid = (await res.json()).pid;
+// Increasing amount of concurrent clients to evaluate
+const concurrencies = [1, 2, 5, 10, 20, 50, 100, 200];
+var workers = [1, 2, 5, 10, 10, 10, 10];
+
+function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function toggleRecording(record, index) {
+    if (record) {
+        await fetch(`${serverURI}:3001?command=start&operator=${operator}&concurrency=${concurrencies[index]}`);
     } else {
-        await fetch(`${serverURI}:3001?command=stop&pid=${pid}`);
+        await fetch(`${serverURI}:3001?command=stop`);
     }
 }
 
@@ -38,8 +42,6 @@ async function getStopIndex() {
 }
 
 async function run() {
-    // Command stats recording on server
-    await toggleRecording(true);
     // Load Stop index to figure precise geo coordinates of every stop
     const stopIndex = await getStopIndex();
     // Load query set
@@ -56,21 +58,30 @@ async function run() {
         };
     });
 
-    // Initialize autocannon
-    const result = await autocannon({
-        url: serverURI,
-        initialContext: { stops: stopIndex },
-        connections: concurrency,
-        workers: workers,
-        pipelining: 1,
-        amount: concurrency * 3 * queries.length,
-        connectionRate: 1,
-        timeout: 60,
-        requests: reqs
-    });
+    // Start evaluation loop
+    for (const i = 0; i < concurrencies.length; i++) {
+        // Command stats recording on server
+        await toggleRecording(true, i);
 
-    console.log(result);
-    await toggleRecording(false);
+        // Initialize autocannon
+        const result = await autocannon({
+            url: serverURI,
+            initialContext: { stops: stopIndex },
+            connections: concurrency,
+            workers: workers,
+            pipelining: 1,
+            amount: concurrencies[i] * 3 * queries.length, // repeat query set 3 times per client
+            connectionRate: 1,
+            timeout: 120,
+            requests: reqs
+        });
+        console.log(`----------------RESULTS FOR LOAD TEST C=${concurrencies[i]}-----------------`);
+        console.log(result);
+        // Wait 10s before stopping stats recording to allow for pending requests to finish
+        await timeout(10000);
+        // Stop stats recording on server
+        await toggleRecording(false);
+    }
 }
 
 run();
