@@ -7,17 +7,15 @@ http.createServer((req, res) => {
     const command = urlObj.searchParams.get('command');
     const operator = urlObj.searchParams.get('operator');
     const concurrency = urlObj.searchParams.get('concurrency');
-    let pid = urlObj.searchParams.get('pid');
 
     if (command === 'start') {
-        pid = exec(`sudo ./recordstats.sh > ../results/${operator}/${concurrency}.csv`).pid;
+        exec(`sudo ../recordstats.sh > ../../results/${operator}/${concurrency}.csv`);
     }
 
     if (command === 'stop') {
-        exec(`sudo kill -9 ${pid}`);
+        exec(`sudo pkill -f recordstat`);
     }
 
-    res.write(JSON.stringify({ pid: pid }));
     res.statusCode = 200
     res.end();
 }).listen(3001);
