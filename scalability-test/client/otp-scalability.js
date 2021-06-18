@@ -8,10 +8,20 @@ const readFile = util.promisify(fs.readFile);
 
 // Parameters to be configured from environment
 const serverURI = process.argv[2];
-const operator = process.argv[3];
-const concurrency = parseInt(process.argv[4]);
-const workers = parseInt(process.argv[5]);
+const serverPort = process.argv[3]
+const operator = process.argv[4];
+const concurrency = parseInt(process.argv[5]);
+const workers = parseInt(process.argv[6]);
+let pid = null;
 
+async function toggleRecording(record) {
+    if(record) {
+        const res = await fetch(`${serverURI}:3001?command=start&operator=${operator}&concurrency=${concurrency}`);
+        pid = (await res.json()).pid;
+    } else {
+        await fetch(`${serverURI}:3001?command=stop&pid=${pid}`);
+    }
+}
 
 async function getQuerySet() {
     return JSON.parse(await readFile(path.join(process.cwd(), 'query-sets', operator, 'query-set.json'), 'utf8'));
@@ -19,7 +29,7 @@ async function getQuerySet() {
 
 async function getStopIndex() {
     const obj = {};
-    const response = await fetch(`${serverURI}/otp/routers/default/index/stops/`);
+    const response = await fetch(`${serverURI}:${serverPort}/otp/routers/default/index/stops/`);
     const stops = await response.json();
     for (const s of stops) {
         obj[`http://example.org/stations/${s.id.substring(s.id.indexOf(':') + 1)}`] = s;
@@ -28,6 +38,8 @@ async function getStopIndex() {
 }
 
 async function run() {
+    // Command stats recording on server
+    await toggleRecording(true);
     // Load Stop index to figure precise geo coordinates of every stop
     const stopIndex = await getStopIndex();
     // Load query set
@@ -58,6 +70,7 @@ async function run() {
     });
 
     console.log(result);
+    await toggleRecording(false);
 }
 
 run();
