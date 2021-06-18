@@ -50,9 +50,10 @@ async function run() {
         initialContext: { stops: stopIndex },
         connections: concurrency,
         workers: workers,
-        pipelining: 2,
-        amount: concurrency * queries.length,
+        pipelining: 1,
+        amount: concurrency * 3 * queries.length,
         connectionRate: 1,
+        timeout: 60,
         requests: reqs
     });
 
