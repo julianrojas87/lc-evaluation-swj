@@ -13,7 +13,7 @@ const operator = process.argv[4] || 'amsterdam-gvb';
 
 // Increasing amount of concurrent clients to evaluate
 const concurrencies = process.argv[5].split(',').map(c => parseInt(c)) || [1, 2, 5, 10, 20, 50, 100, 200];
-var workers = [1, 2, 5, 10, 10, 10, 10];
+const workers = process.argv[6].split(',').map(w => parseInt(w)) || [1, 2, 5, 10, 10, 10, 10];
 
 function timeout(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
