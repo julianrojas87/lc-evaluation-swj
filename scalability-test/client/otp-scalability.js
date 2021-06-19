@@ -12,7 +12,7 @@ const serverPort = process.argv[3] || 8080;
 const operator = process.argv[4] || 'amsterdam-gvb';
 
 // Increasing amount of concurrent clients to evaluate
-const concurrencies = [1, 2, 5, 10, 20, 50, 100, 200];
+const concurrencies = process.argv[5].split(',').map(c => parseInt(c)) || [1, 2, 5, 10, 20, 50, 100, 200];
 var workers = [1, 2, 5, 10, 10, 10, 10];
 
 function timeout(ms) {
@@ -63,8 +63,9 @@ async function run() {
     for (let i = 0; i < concurrencies.length; i++) {
         // Command stats recording on server
         await toggleRecording(true, i);
-        await timeout(2000);
+        await timeout(5000);
 
+        console.log(`------------------RUNNING LOAD TEST WITH C=${concurrencies[i]} concurrent clients-------------------`);
         // Initialize autocannon
         const result = await autocannon({
             url: `${serverURI}:${serverPort}`,
