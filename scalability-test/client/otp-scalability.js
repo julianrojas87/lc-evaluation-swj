@@ -7,9 +7,9 @@ const fetch = require('node-fetch');
 const readFile = util.promisify(fs.readFile);
 
 // Parameters to be configured from environment
-const serverURI = process.argv[2];
-const serverPort = process.argv[3]
-const operator = process.argv[4];
+const serverURI = process.argv[2] || 'http://localhost';
+const serverPort = process.argv[3] || 8080;
+const operator = process.argv[4] || 'amsterdam-gvb';
 
 // Increasing amount of concurrent clients to evaluate
 const concurrencies = [1, 2, 5, 10, 20, 50, 100, 200];
@@ -42,6 +42,7 @@ async function getStopIndex() {
 }
 
 async function run() {
+    const results = [];
     // Load Stop index to figure precise geo coordinates of every stop
     const stopIndex = await getStopIndex();
     // Load query set
@@ -62,6 +63,7 @@ async function run() {
     for (let i = 0; i < concurrencies.length; i++) {
         // Command stats recording on server
         await toggleRecording(true, i);
+        await timeout(2000);
 
         // Initialize autocannon
         const result = await autocannon({
@@ -77,11 +79,13 @@ async function run() {
         });
         console.log(`----------------RESULTS FOR LOAD TEST C=${concurrencies[i]}-----------------`);
         console.log(result);
+        results.push(result);
         // Wait 10s before stopping stats recording to allow for pending requests to finish
         await timeout(10000);
         // Stop stats recording on server
         await toggleRecording(false);
     }
+    console.log(JSON.stringify(results));
 }
 
 run();
