@@ -10,10 +10,12 @@ const readFile = util.promisify(fs.readFile);
 const serverURI = process.argv[2] || 'http://localhost';
 const serverPort = process.argv[3] || 8080;
 const operator = process.argv[4] || 'delijn';
+const iterations = process.argv[5] || 3;
+const subset = process.argv[6] || 100;
 
 // Increasing amount of concurrent clients to evaluate
-const concurrencies = process.argv[5]? process.argv[5].split(',').map(c => parseInt(c)) : [1, 2, 5, 10, 20, 50, 100, 200];
-const workers = process.argv[6]? process.argv[6].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
+const concurrencies = process.argv[7]? process.argv[7].split(',').map(c => parseInt(c)) : [1, 2, 5, 10, 20, 50, 100, 200];
+const workers = process.argv[8]? process.argv[8].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
 
 function timeout(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -46,7 +48,7 @@ async function run() {
     // Load Stop index to figure precise geo coordinates of every stop
     const stopIndex = await getStopIndex();
     // Load query set
-    const queries = await getQuerySet();
+    const queries = (await getQuerySet()).slice(0, subset - 1);
     // Make sure every client executes all the query set
     const reqs = queries.map(q => {
         return {
@@ -73,8 +75,7 @@ async function run() {
             connections: concurrencies[i],
             workers: workers[i],
             pipelining: 1,
-            amount: concurrencies[i] * 3 * queries.length, // repeat query set 3 times per client
-            connectionRate: 1,
+            amount: concurrencies[i] * iterations * queries.length, // repeat query set {iterations} times per client
             timeout: 120,
             requests: reqs
         });
