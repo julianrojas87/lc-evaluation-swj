@@ -80,7 +80,7 @@ async function run() {
             workers: workers[i],
             pipelining: 1,
             amount: concurrencies[i] * iterations * queries.length, // repeat query set {iterations} times per client
-            timeout: 120,
+            timeout: 600, // 10 minutes timeout to allow queries to be completed
             requests: reqs
         });
         console.log(`----------------RESULTS FOR LOAD TEST C=${concurrencies[i]}-----------------`);
