@@ -1,4 +1,4 @@
-module.exports = (req, { stops }) => {
+module.exports = (req, { stops, log }) => {
     const from = stops[req.from];
     const to = stops[req.to];
     const depDateTime = new Date(req.time);
@@ -10,7 +10,7 @@ module.exports = (req, { stops }) => {
         `&date=${depDateTime.getMonth() + 1}-${depDateTime.getDate()}-${depDateTime.getFullYear()}` +
         `&mode=TRANSIT,WALK`;
 
-    if(req.log) console.log(queryString);
+    if(log) console.log(queryString);
     
     req.path += queryString;
     return req;

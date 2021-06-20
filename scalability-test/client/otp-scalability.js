@@ -18,7 +18,7 @@ const concurrencies = process.argv[7] ? process.argv[7].split(',').map(c => pars
 const workers = process.argv[8] ? process.argv[8].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
 
 // Request logging flag
-const log = process.argv[9] || false;
+const log = process.argv[9] === 'true';
 
 function timeout(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -60,8 +60,8 @@ async function run() {
             from: q.from,
             to: q.to,
             time: q.minimumDepartureTime,
-            log: log,
-            setupRequest: path.join(process.cwd(), 'helpers', 'setupRequest')
+            setupRequest: path.join(process.cwd(), 'helpers', 'setupRequest'),
+            onResponse: path.join(process.cwd(), 'helpers', 'onResponse')
         };
     });
 
@@ -75,7 +75,7 @@ async function run() {
         // Initialize autocannon
         const result = await autocannon({
             url: `${serverURI}:${serverPort}`,
-            initialContext: { stops: stopIndex },
+            initialContext: { stops: stopIndex, log: log },
             connections: concurrencies[i],
             workers: workers[i],
             pipelining: 1,
