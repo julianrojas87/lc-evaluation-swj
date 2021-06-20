@@ -14,8 +14,11 @@ const iterations = process.argv[5] || 3;
 const subset = process.argv[6] || 100;
 
 // Increasing amount of concurrent clients to evaluate
-const concurrencies = process.argv[7]? process.argv[7].split(',').map(c => parseInt(c)) : [1, 2, 5, 10, 20, 50, 100, 200];
-const workers = process.argv[8]? process.argv[8].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
+const concurrencies = process.argv[7] ? process.argv[7].split(',').map(c => parseInt(c)) : [1, 2, 5, 10, 20, 50, 100, 200];
+const workers = process.argv[8] ? process.argv[8].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
+
+// Request logging flag
+const log = process.argv[9] || false;
 
 function timeout(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -57,6 +60,7 @@ async function run() {
             from: q.from,
             to: q.to,
             time: q.minimumDepartureTime,
+            log: log,
             setupRequest: path.join(process.cwd(), 'helpers', 'setupRequest')
         };
     });

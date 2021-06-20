@@ -10,7 +10,8 @@ module.exports = (req, { stops }) => {
         `&date=${depDateTime.getMonth() + 1}-${depDateTime.getDate()}-${depDateTime.getFullYear()}` +
         `&mode=TRANSIT,WALK`;
 
-    //console.log(queryString);
+    if(req.log) console.log(queryString);
+    
     req.path += queryString;
     return req;
 }
