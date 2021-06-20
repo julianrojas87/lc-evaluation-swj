@@ -9,11 +9,11 @@ const readFile = util.promisify(fs.readFile);
 // Parameters to be configured from environment
 const serverURI = process.argv[2] || 'http://localhost';
 const serverPort = process.argv[3] || 8080;
-const operator = process.argv[4] || 'amsterdam-gvb';
+const operator = process.argv[4] || 'delijn';
 
 // Increasing amount of concurrent clients to evaluate
-const concurrencies = process.argv[5].split(',').map(c => parseInt(c)) || [1, 2, 5, 10, 20, 50, 100, 200];
-const workers = process.argv[6].split(',').map(w => parseInt(w)) || [1, 2, 5, 10, 10, 10, 10];
+const concurrencies = process.argv[5]? process.argv[5].split(',').map(c => parseInt(c)) : [1, 2, 5, 10, 20, 50, 100, 200];
+const workers = process.argv[6]? process.argv[6].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
 
 function timeout(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
