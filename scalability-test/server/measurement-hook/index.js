@@ -1,11 +1,8 @@
 const http = require('http');
-const util = require('util');
 const { URL } = require('url');
-const child_process = require('child_process');
+const { exec } = require('child_process');
 
-const exec = util.promisify(child_process.exec);
-
-http.createServer(async (req, res) => {
+http.createServer((req, res) => {
     const urlObj = new URL(req.url, `http://${req.headers.host}`);
     const command = urlObj.searchParams.get('command');
     const operator = urlObj.searchParams.get('operator');
@@ -16,7 +13,7 @@ http.createServer(async (req, res) => {
     }
 
     if (command === 'stop') {
-        await exec('./restart_container.sh');
+        exec(`sudo pkill -f recordstat`);
     }
 
     res.statusCode = 200
