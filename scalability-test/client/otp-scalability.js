@@ -86,8 +86,8 @@ async function run() {
         console.log(`----------------RESULTS FOR LOAD TEST C=${concurrencies[i]}-----------------`);
         console.log(result);
         results.push(result);
-        // Wait 10s before stopping stats recording to allow for pending requests to finish
-        await timeout(10000);
+        // Wait 1 minute before stopping stats recording to allow for pending requests to finish
+        await timeout(60000);
         // Stop stats recording on server
         await toggleRecording(false);
     }
