@@ -5,7 +5,7 @@ RUN mkdir -p /opt/otp
 # Set working directory in the container
 WORKDIR /opt/otp
 # Download OTP binary
-RUN wget https://cloud.ilabt.imec.be/index.php/s/GXDJW87NZYFaQyp/download/otp-2.1.0-SNAPSHOT-shaded.jar
+RUN wget https://cloud.ilabt.imec.be/index.php/s/mza4qL56BRsdEWH/download/otp-2.1.0-SNAPSHOT-shaded.jar
 # Copy OTP
 COPY router-config.json build-config.json run.sh ./
 # Install osmium to filter OSM road networks
