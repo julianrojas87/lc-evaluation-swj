@@ -6,8 +6,8 @@ module.exports = (req, { stops, log }) => {
     const queryString =
         `?fromPlace=${from.lat},${from.lon}` +
         `&toPlace=${to.lat},${to.lon}` +
-        `&time=${depDateTime.getHours()}:${depDateTime.getMinutes()}` +
-        `&date=${depDateTime.getMonth() + 1}-${depDateTime.getDate()}-${depDateTime.getFullYear()}` +
+        `&time=${depDateTime.getUTCHours()}:${depDateTime.getUTCMinutes()}` +
+        `&date=${depDateTime.getUTCMonth() + 1}-${depDateTime.getUTCDate()}-${depDateTime.getUTCFullYear()}` +
         `&mode=TRANSIT,WALK`;
 
     if(log) console.log(queryString);
