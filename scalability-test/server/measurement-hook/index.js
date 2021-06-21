@@ -12,7 +12,7 @@ http.createServer(async (req, res) => {
     const concurrency = urlObj.searchParams.get('concurrency');
 
     if (command === 'start') {
-        await exec(`sudo ../recordstats.sh > ../../results/${operator}/${concurrency}.csv`);
+        exec(`sudo ../recordstats.sh > ../../results/${operator}/${concurrency}.csv`);
     }
 
     if (command === 'stop') {
@@ -21,7 +21,7 @@ http.createServer(async (req, res) => {
         console.log('Stopping docker container...');
         await exec('sudo docker rm $(sudo docker ps -a -q)');
         console.log('Restarting docker container...');
-        await exec('sudo docker run -p 8080:8080 --env-file=../conf.env --cpus=1 otp');
+        await exec('sudo docker run -p 8080:8080 --env-file=../conf.env --cpus=1 -d otp');
     }
 
     res.statusCode = 200
