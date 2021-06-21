@@ -1,4 +1,5 @@
 {
+    "streetRoutingTimeout": 5.5,
     "routingDefaults": {
         "numItineraries": 1,
         "walkSpeed": 1.33
