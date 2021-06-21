@@ -16,7 +16,7 @@ http.createServer(async (req, res) => {
     }
 
     if (command === 'stop') {
-        await exec('./restart_container');
+        await exec('./restart_container.sh');
     }
 
     res.statusCode = 200
