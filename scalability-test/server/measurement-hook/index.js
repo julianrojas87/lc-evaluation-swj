@@ -16,12 +16,7 @@ http.createServer(async (req, res) => {
     }
 
     if (command === 'stop') {
-        console.log('Stopping recording script...');
-        await exec('sudo pkill -f recordstat');
-        console.log('Stopping docker container...');
-        await exec('sudo docker rm $(sudo docker ps -a -q)');
-        console.log('Restarting docker container...');
-        await exec('sudo docker run -p 8080:8080 --env-file=../conf.env --cpus=1 -d otp');
+        await exec('./restart_container');
     }
 
     res.statusCode = 200
