@@ -1,6 +1,6 @@
 module.exports = (req, { stops, log }) => {
-    const from = stops[req.from];
-    const to = stops[req.to];
+    const from = stops[decodeURIComponent(req.from)];
+    const to = stops[decodeURIComponet(req.to)];
     const depDateTime = new Date(req.time);
 
     const queryString =

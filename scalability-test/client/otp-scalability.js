@@ -53,7 +53,7 @@ async function run() {
     // Load query set
     const queries = (await getQuerySet()).slice(0, subset - 1);
     // Make sure every client executes all the query set
-    const reqs = queries.map(q => {
+    const reqs = queries.map(q => {        
         return {
             method: 'GET',
             path: `/otp/routers/default/plan`,
