@@ -62,7 +62,7 @@
 
 ## madrid-bus
 
-**OSM:** https://cloud.ilabt.imec.be/index.php/s/7cY5zc3HmGWoP3x/download/spain.osm.pbf
+**OSM:** https://cloud.ilabt.imec.be/index.php/s/AP4mKpB46NcwpcH/download/madrid.osm.pbf
 
 **GTFS:** https://cloud.ilabt.imec.be/index.php/s/K2Pb4Bmejx5gE2k/download/madrid-bus.zip
 
@@ -118,7 +118,7 @@
 
 **OSM:** https://cloud.ilabt.imec.be/index.php/s/3PRMb2erj98rND8/download/belgium.osm.pbf
 
-**GTFS:** https://cloud.ilabt.imec.be/index.php/s/KiTLwfPbBoqgXcP/download/stib.zip
+**GTFS:** https://cloud.ilabt.imec.be/index.php/s/b9bKnnHXHwbLimf/download/stib.zip
 
 ## sydney-trainlink
 
