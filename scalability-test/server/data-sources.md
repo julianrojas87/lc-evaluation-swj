@@ -46,7 +46,7 @@
 
 **OSM:** https://cloud.ilabt.imec.be/index.php/s/FXYF5Li59c8kqWm/download/finland.osm.pbf
 
-**GTFS:** https://cloud.ilabt.imec.be/index.php/s/tjRJz8w74LB6ioe/download/helsinki.zip
+**GTFS:** https://cloud.ilabt.imec.be/index.php/s/3M8dPoNca5Soetz/download/helsinki-hsl.zip
 
 ## kobe-subway
 
