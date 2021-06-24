@@ -44,7 +44,7 @@
 
 ## helsinki-hsl
 
-**OSM:** https://cloud.ilabt.imec.be/index.php/s/FXYF5Li59c8kqWm/download/finland.osm.pbf
+**OSM:** https://karttapalvelu.storage.hsldev.com/hsl.osm/hsl.osm.pbf
 
 **GTFS:** https://cloud.ilabt.imec.be/index.php/s/3M8dPoNca5Soetz/download/helsinki-hsl.zip
 
@@ -76,7 +76,7 @@
 
 **OSM:** https://cloud.ilabt.imec.be/index.php/s/abYpXQSL5K8E8wS/download/netherlands.osm.pbf
 
-**GTFS:** https://cloud.ilabt.imec.be/index.php/s/9japC7iqR65r4Js/download/nl-waterbus.zip
+**GTFS:** https://cloud.ilabt.imec.be/index.php/s/2kfcSsbDrXSPKkC/download/nl-waterbus.zip
 
 ## new-york-mtabc
 
