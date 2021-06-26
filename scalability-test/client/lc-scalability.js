@@ -8,26 +8,27 @@ const fetch = require('node-fetch');
 const readFile = util.promisify(fs.readFile);
 
 // Parameters to be configured from environment
-const serverURI = process.argv[2] || 'http://localhost';
-const serverPort = process.argv[3] || 3000;
-const operator = process.argv[4] || 'thailand-greenbus';
-const iterations = process.argv[5] || 1;
-const subset = process.argv[6] || 100;
+const server = process.argv[2];
+const serverURI = process.argv[3] || 'http://localhost';
+const serverPort = process.argv[4] || 8080;
+const operator = process.argv[5] || 'delijn';
+const iterations = process.argv[6] || 3;
+const subset = process.argv[7] || 100;
 
 // Increasing amount of concurrent clients to evaluate
-const concurrencies = process.argv[7] ? process.argv[7].split(',').map(c => parseInt(c)) : [1, 2, 5, 10, 20, 50, 100];
-const workers = process.argv[8] ? process.argv[8].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
+const concurrencies = process.argv[8] ? process.argv[8].split(',').map(c => parseInt(c)) : [1, 2, 5, 10, 20, 50, 100];
+const workers = process.argv[9] ? process.argv[9].split(',').map(w => parseInt(w)) : [1, 2, 5, 10, 10, 10, 10];
 
 // Request logging flag
-const log = process.argv[9] === 'true';
+const log = process.argv[10] === 'true';
 
-async function getQuerySet() {
-    return JSON.parse(await readFile(path.join(process.cwd(), 'query-sets', operator, 'urls.json'), 'utf8'));
+function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function toggleRecording(record, index) {
     if (record) {
-        await fetch(`${serverURI}:3001?command=start&operator=${operator}&concurrency=${concurrencies[index]}`);
+        await fetch(`${serverURI}:3001?command=start&operator=${operator}&concurrency=${concurrencies[index]}&server=${server}`);
     } else {
         await fetch(`${serverURI}:3001?command=stop`);
     }
