@@ -4,6 +4,7 @@ FROM node:latest
 EXPOSE 3000
 # Clone the Linked Connections server and download all LC data
 RUN cd /home; git clone https://github.com/linkedconnections/linked-connections-server.git lc-server; \
+    cd lc-server; git checkout swj-evaluation; \
     cd ..; wget -O lc-data.zip https://cloud.ilabt.imec.be/index.php/s/aLfXRLLLqownxzF/download \
     && unzip lc-data.zip
 # Set working directory in the container
