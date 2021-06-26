@@ -12,7 +12,7 @@ WORKDIR /home/lc-server
 # Install dependencies and envsub to parse environment variables at runtime
 RUN npm install; npm install -g envsub
 # Copy config files
-COPY datasets-config.json server-config.json run-lc.sh ./
+COPY datasets_config.json server_config.json run-lc.sh ./
 # Setup container's entrypoint script
 RUN chmod +x run-lc.sh 
 ENTRYPOINT [ "./run-lc.sh" ]
