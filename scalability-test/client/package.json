@@ -9,6 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "autocannon": "^7.3.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "plannerjs": "github:openplannerteam/planner.js#swj-eval"
   }
 }
