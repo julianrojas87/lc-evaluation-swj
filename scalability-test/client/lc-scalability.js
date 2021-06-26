@@ -56,8 +56,8 @@ async function run() {
     // Start evaluation loop
     for (let i = 0; i < concurrencies.length; i++) {
         // Command stats recording on server
-        //await toggleRecording(true, i);
-        //await timeout(5000);
+        await toggleRecording(true, i);
+        await timeout(5000);
 
         console.log(`------------------RUNNING LOAD TEST WITH C=${concurrencies[i]} concurrent clients-------------------`);
         // Initialize autocannon
@@ -68,16 +68,16 @@ async function run() {
             workers: workers[i],
             pipelining: 1,
             amount: concurrencies[i] * iterations * queries.length, // repeat query set {iterations} times per client
-            timeout: 10, // 10 seconds timeout for every query
+            timeout: 10, // 10 seconds timeout for every request
             requests: reqs
         });
         console.log(`----------------RESULTS FOR LOAD TEST C=${concurrencies[i]}-----------------`);
         console.log(result);
         results.push(result);
         // Wait 1 minute before stopping stats recording to allow for pending requests to finish
-        //await timeout(60000);
+        await timeout(60000);
         // Stop stats recording on server
-        //await toggleRecording(false);
+        await toggleRecording(false);
     }
 }
 
