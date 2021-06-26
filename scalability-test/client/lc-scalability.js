@@ -22,8 +22,8 @@ const workers = process.argv[9] ? process.argv[9].split(',').map(w => parseInt(w
 // Request logging flag
 const log = process.argv[10] === 'true';
 
-function timeout(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+async function getQuerySet() {
+    return JSON.parse(await readFile(path.join(process.cwd(), 'query-sets', operator, 'urls.json'), 'utf8'));
 }
 
 async function toggleRecording(record, index) {
