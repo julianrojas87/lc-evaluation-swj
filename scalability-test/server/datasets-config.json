@@ -1,5 +1,5 @@
 {
-    "storage": "/opt/lc-data",
+    "storage": "/home/lc-data",
     "datasets":[
         {
             "companyName": "${OPERATOR}",

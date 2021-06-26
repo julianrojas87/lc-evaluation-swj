@@ -2,14 +2,15 @@
 FROM node:latest
 # Network port number
 EXPOSE 3000
+#https://cloud.ilabt.imec.be/index.php/s/aLfXRLLLqownxzF/download
 # Clone the Linked Connections server and download all LC data
-RUN git clone https://github.com/linkedconnections/linked-connections-server.git /otp/lc-server \
-    && wget -P /opt/ https://cloud.ilabt.imec.be/index.php/s/aLfXRLLLqownxzF/download lc-data.zip \
-    && unzip /opt/lc-data.zip
+RUN cd /home; git clone https://github.com/linkedconnections/linked-connections-server.git lc-server; \
+    cd ..; wget -O lc-data.zip https://cloud.ilabt.imec.be/index.php/s/Ke49M66acgMTot7/download \
+    && unzip lc-data.zip
 # Set working directory in the container
-WORKDIR /opt/lc-server
+WORKDIR /home/lc-server
 # Install dependencies and envsub to parse environment variables at runtime
-RUN npm install && npm install -g envsub
+RUN npm install; npm install -g envsub
 # Copy config files
 COPY datasets-config.json server-config.json run-lc.sh ./
 # Setup container's entrypoint script
