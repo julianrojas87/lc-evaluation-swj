@@ -80,7 +80,7 @@ async function run() {
     // Start evaluation loop
     for (let i = 0; i < concurrencies.length; i++) {
         // Command stats recording on server
-        //await toggleRecording(true, i);
+        await toggleRecording(true, i);
         await timeout(5000);
 
         console.log(`------------------RUNNING LOAD TEST WITH C=${concurrencies[i]} concurrent clients-------------------`);
@@ -110,7 +110,7 @@ async function run() {
         // Wait 1 minute before stopping stats recording to allow for pending requests to finish
         await timeout(60000);
         // Stop stats recording on server
-        //await toggleRecording(false);
+        await toggleRecording(false);
     }
 
     console.log(JSON.stringify(results));
