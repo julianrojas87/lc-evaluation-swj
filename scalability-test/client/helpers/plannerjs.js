@@ -51,21 +51,25 @@ async function run() {
             const responseTime = new Date() - t0;
             //console.log(`\tresponse time = ${responseTime} ms`);
 
-            if(responseTime > 10000) {
+            if (responseTime > 10000) {
                 timeouts++;
             }
 
             if (results[j]) {
-                results[j].responseTime += responseTime;
+                if (responseTime <= 10000) {
+                    results[j].responseTime += responseTime;
+                }
             } else {
-                results[j] = {
-                    query: querySet[j],
-                    route: route,
-                    responseTime: responseTime,
-                    scannedConnections: scannedCxs,
-                    pagesFetched: pagesFetched,
-                    bytesTransferred: bytesTransferred
-                };
+                if (responseTime <= 10000) {
+                    results[j] = {
+                        query: querySet[j],
+                        route: route,
+                        responseTime: responseTime,
+                        scannedConnections: scannedCxs,
+                        pagesFetched: pagesFetched,
+                        bytesTransferred: bytesTransferred
+                    };
+                }
             }
             //console.log('*********************************************************');
         }
