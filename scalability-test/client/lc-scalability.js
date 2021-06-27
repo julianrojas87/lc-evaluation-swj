@@ -95,7 +95,7 @@ async function run() {
                 connections: concurrencies[i] - 1,
                 workers: workers[i],
                 pipelining: 1,
-                amount: reqs.length * 10000000,
+                duration: 86400, // Set a very long time so autocannon does not stop in the middle of the test
                 requests: reqs
             });
         }
@@ -104,6 +104,7 @@ async function run() {
         results.push(await runPlannerJS());
 
         if (loadGenerator) {
+            // Stop autocannon because planner.js finished already
             loadGenerator.stop();
         }
 
