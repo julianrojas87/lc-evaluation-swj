@@ -12,7 +12,7 @@ export default {
         },
         {
             "name": "amsterdam-gvb",
-            "path": "amsterdam_filtered.json",
+            "path": "amsterdam-gvb_filtered.json",
             "busiestDay": "2020-10-16",
             "smallestFragment": 71
         },

@@ -1,11 +1,11 @@
 const { parentPort, workerData } = require("worker_threads");
 const PlannerJS = require('plannerjs');
+const { EventBus, EventType } = PlannerJS;
 
 async function run() {
     console.log(`Starting Planner.js evaluation for ${workerData.operator}`);
-    const results = [];
+    const results = new Map();
     const planner = new PlannerJS.FlexibleTransitPlanner();
-    const { EventBus, EventType } = PlannerJS;
 
     var scannedCxs = 0;
     var pagesFetched = 0;
@@ -26,12 +26,15 @@ async function run() {
     const querySet = workerData.querySet
 
     // Do a warm up query so Planner.js fetches stops
+    console.log('Running warm up query');
     await runQuery(planner, {
         from: querySet[0].from,
         to: querySet[0].to,
         minimumDepartureTime: new Date(querySet[0].minimumDepartureTime),
-        maximumArrivalTime: new Date(querySet[0].maximumArrivalTime)
-    });
+        maximumArrivalTime: new Date(querySet[0].maximumArrivalTime),
+        minimized: true
+    }, false);
+
 
     for (let i = 0; i < workerData.cycles; i++) {
         for (let j = 0; j < querySet.length; j++) {
@@ -39,37 +42,35 @@ async function run() {
             pagesFetched = 0;
             bytesTransferred = 0;
 
-            //console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
+            console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
 
             const t0 = new Date();
-            const route = await runQuery(planner, {
-                from: querySet[j].from,
-                to: querySet[j].to,
-                minimumDepartureTime: new Date(querySet[j].minimumDepartureTime),
-                maximumArrivalTime: new Date(querySet[j].maximumArrivalTime)
-            });
-            const responseTime = new Date() - t0;
-            //console.log(`\tresponse time = ${responseTime} ms`);
 
-            if (responseTime > 10000) {
-                timeouts++;
-            }
+            try {
+                const route = await runQuery(planner, {
+                    from: querySet[j].from,
+                    to: querySet[j].to,
+                    minimumDepartureTime: new Date(querySet[j].minimumDepartureTime),
+                    maximumArrivalTime: new Date(querySet[j].maximumArrivalTime)
+                });
+                const responseTime = new Date() - t0;
+                console.log(`\tresponse time = ${responseTime} ms`);
 
-            if (results[j]) {
-                if (responseTime <= 10000) {
-                    results[j].responseTime += responseTime;
-                }
-            } else {
-                if (responseTime <= 10000) {
-                    results[j] = {
+                if (results.has(j)) {
+                    results.get(j).responseTime += responseTime;
+                } else {
+                    results.set(j, {
                         query: querySet[j],
                         route: route,
                         responseTime: responseTime,
                         scannedConnections: scannedCxs,
                         pagesFetched: pagesFetched,
                         bytesTransferred: bytesTransferred
-                    };
+                    });
                 }
+            } catch (err) {
+                console.log('\tquery timed out!');
+                timeouts++;
             }
             //console.log('*********************************************************');
         }
@@ -82,36 +83,45 @@ async function run() {
         totalAverageResponseTime += r.responseTime;
         r.timePerConnection = r.responseTime / r.scannedConnections;
     });
-    totalAverageResponseTime = totalAverageResponseTime / results.length;
+    totalAverageResponseTime = totalAverageResponseTime / results.size;
 
     // Order by response time to calculate percentiles
-    results.sort((a, b) => {
+    const sortedRes = Array.from(results.values());
+    sortedRes.sort((a, b) => {
         return a.responseTime - b.responseTime;
     });
 
     // Calculate percentiles
-    const p10 = Math.round(results.length * 0.1);
-    const p50 = Math.round(results.length * 0.5);
-    const p75 = Math.round(results.length * 0.75);
-    const p90 = Math.round(results.length * 0.9);
+    const p10 = Math.round(sortedRes.length * 0.1);
+    const p50 = Math.round(sortedRes.length * 0.5);
+    const p75 = Math.round(sortedRes.length * 0.75);
+    const p90 = Math.round(sortedRes.length * 0.9);
 
     parentPort.postMessage({
         averageResponseTime: totalAverageResponseTime,
         timeouts,
-        p10: results[p10].responseTime,
-        p50: results[p50].responseTime,
-        p75: results[p75].responseTime,
-        p90: results[p90].responseTime,
+        p10: sortedRes[p10] ? sortedRes[p10].responseTime : 0,
+        p50: sortedRes[p50] ? sortedRes[p10].responseTime : 0,
+        p75: sortedRes[p75] ? sortedRes[p10].responseTime : 0,
+        p90: sortedRes[p90] ? sortedRes[p10].responseTime : 0,
     });
 }
 
-function runQuery(planner, q) {
+function runQuery(planner, q, timeout = true) {
     return new Promise((resolve, reject) => {
-        planner
-            .query(q)
-            .on('data', path => {
-                resolve(path);
-            });
+        let limit = null;
+        const queryJob = planner.query(q);
+        if (timeout) {
+            limit = setTimeout(async () => {
+                EventBus.emit(EventType.AbortQuery);
+                reject();
+            }, 10000);
+        }
+
+        queryJob.on('data', path => {
+            if (limit) clearTimeout(limit);
+            resolve(path);
+        });
     });
 }
 
