@@ -101,9 +101,9 @@ async function run() {
         averageResponseTime: totalAverageResponseTime,
         timeouts,
         p10: sortedRes[p10] ? sortedRes[p10].responseTime : 0,
-        p50: sortedRes[p50] ? sortedRes[p10].responseTime : 0,
-        p75: sortedRes[p75] ? sortedRes[p10].responseTime : 0,
-        p90: sortedRes[p90] ? sortedRes[p10].responseTime : 0,
+        p50: sortedRes[p50] ? sortedRes[p50].responseTime : 0,
+        p75: sortedRes[p75] ? sortedRes[p75].responseTime : 0,
+        p90: sortedRes[p90] ? sortedRes[p90].responseTime : 0,
     });
 }
 
