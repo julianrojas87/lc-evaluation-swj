@@ -19,7 +19,7 @@ const workers = process.argv[9] ? process.argv[9].split(',').map(w => parseInt(w
 // Request logging flag
 const log = process.argv[10] === 'true';
 // Trigger stats recording on server
-const record = process.argv[11] === 'true';
+const recordStats = process.argv[11] === 'true';
 
 async function getQuerySet() {
     return JSON.parse(await readFile(path.join(process.cwd(), 'query-sets', operator, 'query-set.json'), 'utf8'));
@@ -90,7 +90,7 @@ async function run() {
     // Start evaluation loop
     for (let i = 0; i < concurrencies.length; i++) {
         // Command stats recording on server
-        if (record) await toggleRecording(true, i);
+        if (recordStats) await toggleRecording(true, i);
         await timeout(5000);
 
         console.log(`------------------RUNNING LOAD TEST WITH C=${concurrencies[i]} concurrent clients-------------------`);
@@ -106,7 +106,7 @@ async function run() {
         // Wait 1 minute before stopping stats recording to allow for pending requests to finish
         await timeout(60000);
         // Stop stats recording on server
-        if (record) await toggleRecording(false);
+        if (recordStats) await toggleRecording(false);
     }
 
     console.log(JSON.stringify(results));
