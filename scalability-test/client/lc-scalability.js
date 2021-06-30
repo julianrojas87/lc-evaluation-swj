@@ -38,7 +38,6 @@ function timeout(ms) {
 }
 
 function condenseResults(res) {
-    console.log(res);
     const cres = {};
     let art = 0;
     let timeouts = 0;
@@ -63,7 +62,6 @@ function condenseResults(res) {
     cres.p75 = p75 / res.length;
     cres.p90 = p90 / res.length;
 
-    console.log(cres);
     return cres;
 }
 
@@ -93,7 +91,7 @@ async function run() {
     for (let i = 0; i < concurrencies.length; i++) {
         // Command stats recording on server
         if (record) await toggleRecording(true, i);
-        //await timeout(5000);
+        await timeout(5000);
 
         console.log(`------------------RUNNING LOAD TEST WITH C=${concurrencies[i]} concurrent clients-------------------`);
 
@@ -106,7 +104,7 @@ async function run() {
         results.push(condenseResults(await Promise.all(jobs)));
 
         // Wait 1 minute before stopping stats recording to allow for pending requests to finish
-        //await timeout(60000);
+        await timeout(60000);
         // Stop stats recording on server
         if (record) await toggleRecording(false);
     }
