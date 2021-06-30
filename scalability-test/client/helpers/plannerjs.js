@@ -26,7 +26,7 @@ async function run() {
     const querySet = workerData.querySet
 
     // Do a warm up query so Planner.js fetches stops
-    console.log('Running warm up query');
+    //console.log('Running warm up query');
     await runQuery(planner, {
         from: querySet[0].from,
         to: querySet[0].to,
@@ -42,7 +42,7 @@ async function run() {
             pagesFetched = 0;
             bytesTransferred = 0;
 
-            console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
+            //console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
 
             const t0 = new Date();
 
@@ -54,7 +54,7 @@ async function run() {
                     maximumArrivalTime: new Date(querySet[j].maximumArrivalTime)
                 });
                 const responseTime = new Date() - t0;
-                console.log(`\tresponse time = ${responseTime} ms`);
+                //console.log(`\tresponse time = ${responseTime} ms`);
 
                 if (results.has(j)) {
                     results.get(j).responseTime += responseTime;
@@ -69,7 +69,7 @@ async function run() {
                     });
                 }
             } catch (err) {
-                console.log('\tquery timed out!');
+                //console.log('\tquery timed out!');
                 timeouts++;
             }
             //console.log('*********************************************************');
