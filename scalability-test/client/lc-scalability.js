@@ -1,6 +1,8 @@
 const fs = require('fs');
 const util = require('util');
 const path = require('path');
+const { URL } = require('url');
+const autocannon = require('autocannon');
 const fetch = require('node-fetch');
 const { Worker } = require("worker_threads");
 
@@ -20,6 +22,13 @@ const workers = process.argv[9] ? process.argv[9].split(',').map(w => parseInt(w
 const log = process.argv[10] === 'true';
 // Trigger stats recording on server
 const recordStats = process.argv[11] === 'true';
+// Autocannon flag
+const useAutocannon = process.argv[12] === 'true';
+
+
+async function getURLSet() {
+    return JSON.parse(await readFile(path.join(process.cwd(), 'query-sets', operator, 'urls.json'), 'utf8'));
+}
 
 async function getQuerySet() {
     return JSON.parse(await readFile(path.join(process.cwd(), 'query-sets', operator, 'query-set.json'), 'utf8'));
@@ -84,6 +93,20 @@ function runPlannerJS(queries) {
 
 async function run() {
     const results = [];
+    // Load URLs set
+    const urls = (await getURLSet()).slice(0, subset);
+    // Make sure every client executes all the query set
+    const reqs = urls.map(q => {
+        const lcUrl = new URL(q);
+        return {
+            method: 'GET',
+            path: lcUrl.pathname,
+            depTime: lcUrl.searchParams.get('departureTime'),
+            setupRequest: path.join(process.cwd(), 'helpers', 'setupRequest'),
+            onResponse: path.join(process.cwd(), 'helpers', 'onResponse')
+        };
+    });
+
     // Load query set
     const queries = (await getQuerySet()).slice(0, subset);
 
@@ -95,13 +118,38 @@ async function run() {
 
         console.log(`------------------RUNNING LOAD TEST WITH C=${concurrencies[i]} concurrent clients-------------------`);
 
-        // Initialize Planner.js workers
-        const jobs = [];
-        for (let j = 0; j < concurrencies[i]; j++) {
-            jobs.push(runPlannerJS(queries));
-        }
+        if (useAutocannon) {
+            let loadGenerator = null;
 
-        results.push(condenseResults(await Promise.all(jobs)));
+            if (concurrencies[i] > 1) {
+                // Initialize autocannon only if more than 1 client is needed
+                loadGenerator = autocannon({
+                    url: `${serverURI}:${serverPort}`,
+                    initialContext: { log: log },
+                    connections: concurrencies[i] - 1,
+                    workers: workers[i],
+                    pipelining: 1,
+                    duration: 86400, // Set a very long time so autocannon does not stop in the middle of the test
+                    requests: reqs
+                });
+            }
+
+            // Initialize Planner.js worker
+            results.push(await runPlannerJS(queries));
+
+            if (loadGenerator) {
+                // Stop autocannon because planner.js finished already
+                loadGenerator.stop();
+            }
+        } else {
+            // Initialize Planner.js workers
+            const jobs = [];
+            for (let j = 0; j < concurrencies[i] - 1; j++) {
+                jobs.push(runPlannerJS(queries));
+            }
+
+            results.push(condenseResults(await Promise.all(jobs)));
+        }
 
         // Wait 1 minute before stopping stats recording to allow for pending requests to finish
         await timeout(60000);
