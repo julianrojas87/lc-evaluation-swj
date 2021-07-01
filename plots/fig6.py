@@ -4,7 +4,7 @@ import csv
 
 # Function to extract measures from csv files
 def retrieve_data(ptn, measure):
-    root_path = "/home/julian/Desktop/lc-evaluation/results/"
+    root_path = "../results/"
     x = []
     y = []
 
