@@ -144,7 +144,8 @@ async function run() {
         } else {
             // Initialize Planner.js workers
             const jobs = [];
-            for (let j = 0; j < concurrencies[i] - 1; j++) {
+            const ccxs = concurrencies[i] > 10 ? concurrencies[i] - 1 : concurrencies[i];
+            for (let j = 0; j < ccxs; j++) {
                 jobs.push(runPlannerJS(queries));
             }
 
