@@ -5,7 +5,7 @@ import PlannerJS from 'plannerjs';
 export async function runBenchmark(source, querySet, test, cycles) {
     if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
     const results = [];
-    const urls = [];
+    //const urls = [];
     let scannedCxs = 0;
     let pagesFetched = 0;
     let bytesTransferred = 0;
@@ -19,7 +19,7 @@ export async function runBenchmark(source, querySet, test, cycles) {
         if (r.datatype) {
             pagesFetched++;
             bytesTransferred += r.size;
-            urls.push(r.url);
+            //urls.push(r.url);
         }
     });
 
@@ -81,7 +81,7 @@ export async function runBenchmark(source, querySet, test, cycles) {
     const p75 = Math.round(results.length * 0.75);
     const p90 = Math.round(results.length * 0.9);
 
-    fs.writeFileSync(`${config.rootPath}/results/${source}/urls.json`, JSON.stringify(urls, null, 3), 'utf8');
+    //fs.writeFileSync(`${config.rootPath}/results/${source}/urls.json`, JSON.stringify(urls, null, 3), 'utf8');
     fs.writeFileSync(`${config.rootPath}/results/${source}/results_${test}.json`,
         JSON.stringify({
             averageResponseTime: totalAverageResponseTime,
