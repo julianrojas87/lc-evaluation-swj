@@ -26,6 +26,16 @@ export async function runBenchmark(source, querySet, test, cycles) {
     planner.addConnectionSource(`${config.lcServer}/${source}/connections`);
     planner.addStopSource(`${config.lcServer}/${source}/stops`);
 
+    // Do a warm up query so Planner.js fetches stops
+    //console.log('Running warm up query');
+    await runQuery(planner, {
+        from: querySet[0].from,
+        to: querySet[0].to,
+        minimumDepartureTime: new Date(querySet[0].minimumDepartureTime),
+        maximumArrivalTime: new Date(querySet[0].maximumArrivalTime),
+        minimized: true
+    });
+
     for (let i = 0; i < cycles; i++) {
         for (let j = 0; j < querySet.length; j++) {
             scannedCxs = 0;
