@@ -24,14 +24,14 @@ def get_min_value(x, y):
     return (x[y.index(min(y))], min(y))
 
 
-#plot_type = "average_response_time"
+plot_type = "average_response_time"
 #plot_type = "response_time_p10"
 #plot_type = "response_time_p50"
 #plot_type = "response_time_p75"
 #plot_type = "response_time_p90"
 
 #plot_type = "average_connection_response_time"
-plot_type = "connection_response_time_p90"
+#plot_type = "connection_response_time_p90"
 
 
 # Get X and Y axises for each public transport network and min value point
@@ -102,7 +102,7 @@ thailand_greenbus_x, thailand_greenbus_y = retrieve_data("thailand-greenbus", pl
 thailand_greenbus_min = get_min_value(thailand_greenbus_x, thailand_greenbus_y)
 
 # Create subplots
-plt.rcParams.update({'font.size': 12})
+plt.rcParams.update({'font.size': 18})
 fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
 lw = 2
 
@@ -117,14 +117,14 @@ ax1.annotate(str("{:.3f}".format(thailand_greenbus_min[1])),
     xy=thailand_greenbus_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax1.get_lines()[len(ax1.get_lines()) - 1].get_color())
 ax1.legend(loc="upper center", ncol=3)
 ax1.set_xlabel("fragment size (connections)")
-ax1.set_ylabel("response time (ms) / connection")
+ax1.set_ylabel("average response time (ms)")
 ax1.set_yscale("log")
 ax1.set_xscale("log")
-ax1.set_yticks([0.2, 0.4, 0.6, 0.8, 1, 2])
+ax1.set_yticks([20, 50, 100, 200, 400])
 ax1.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 ax1.set_xticks([5, 10, 50, 100, 300, 500, 1000])
 ax1.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
-ax1.grid()
+ax1.grid(alpha=0.3)
 
 ax2.plot(kobe_subway_x, kobe_subway_y, marker='o', markersize=3.5, label="Kobe-Subway", linewidth=lw)
 ax2.annotate(str("{:.3f}".format(kobe_subway_min[1])), 
@@ -146,14 +146,14 @@ ax2.annotate(str("{:.3f}".format(san_francisco_bart_min[1])),
     xy=san_francisco_bart_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax2.get_lines()[len(ax2.get_lines()) - 1].get_color())
 ax2.legend(loc="upper center", ncol=3)
 ax2.set_xlabel("fragment size (connections)")
-ax2.set_ylabel("response time (ms) / connection")
+ax2.set_ylabel("average response time (ms)")
 ax2.set_yscale("log")
 ax2.set_xscale("log")
-ax2.set_yticks([0.2, 0.4, 0.6, 0.8, 1, 2, 4])
+ax2.set_yticks([20, 50, 100, 200, 500, 1000])
 ax2.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 ax2.set_xticks([5, 10, 20, 50, 100, 300, 500, 1000, 3000, 5000])
 ax2.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
-ax2.grid()
+ax2.grid(alpha=0.3)
 
 ax3.plot(amsterdam_gvb_x, amsterdam_gvb_y, marker='o', markersize=3.5, label="Amsterdam-GVB", linewidth=lw)
 ax3.annotate(str("{:.3f}".format(amsterdam_gvb_min[1])), 
@@ -181,14 +181,14 @@ ax3.annotate(str("{:.3f}".format(new_york_mtabc_min[1])),
     xy=new_york_mtabc_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax3.get_lines()[len(ax3.get_lines()) - 1].get_color())
 ax3.legend(loc="upper center", ncol=3)
 ax3.set_xlabel("fragment size (connections)")
-ax3.set_ylabel("response time (ms) / connection")
+ax3.set_ylabel("average response time (ms)")
 ax3.set_yscale("log")
 ax3.set_xscale("log")
-ax3.set_yticks([0.2, 0.4, 0.6, 0.8, 1, 2, 3])
+ax3.set_yticks([400, 800, 1500, 3000, 5000, 9000, 15000, 20000])
 ax3.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 ax3.set_xticks([50, 100, 300, 500, 1000, 3000, 5000, 10000, 30000])
 ax3.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
-ax3.grid()
+ax3.grid(alpha=0.3)
 
 ax4.plot(madrid_bus_x, madrid_bus_y, marker='o', markersize=3.5, label="Madrid-CRTM", linewidth=lw)
 ax4.annotate(str("{:.3f}".format(madrid_bus_min[1])), 
@@ -207,13 +207,13 @@ ax4.annotate(str("{:.3f}".format(chicago_cta_min[1])),
     xy=chicago_cta_min, textcoords="offset points", xytext=(0, 5), ha="center", color=ax4.get_lines()[len(ax4.get_lines()) - 1].get_color())
 ax4.legend(loc="upper center", ncol=3)
 ax4.set_xlabel("fragment size (connections)")
-ax4.set_ylabel("response time (ms) / connection")
+ax4.set_ylabel("average response time (ms)")
 ax4.set_yscale("log")
 ax4.set_xscale("log")
-ax4.set_yticks([0.2, 0.4, 0.6, 0.8, 1])
+ax4.set_yticks([5000, 7000, 10000, 15000, 20000, 30000])
 ax4.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
 ax4.set_xticks([100, 300, 500, 1000, 3000, 5000, 10000, 30000])
 ax4.get_xaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
-ax4.grid()
+ax4.grid(alpha=0.3)
 
 plt.show()

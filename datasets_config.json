@@ -21,21 +21,6 @@
             }
         },
         {
-            "companyName": "auckland-ferry",
-            "keywords": ["Train", "Linked Connections"],
-            "geographicArea": "http://sws.geonames.org/2802361",
-            "downloadUrl": "",
-            "downloadOnLaunch": true,
-            "updatePeriod": "0 0 3 28 * *",
-            "fragmentSize": 50000,
-            "baseURIs": {
-                "stop": "http://example.org/stations/{stops.stop_id}",
-                "connection": "http://example.org/connections/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}/{connection.departureStop}",
-                "trip": "http://example.org/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
-                "route": "http://example.org/routes/{routes.route_short_name}{trips.trip_short_name}"
-            }
-        },
-        {
             "companyName": "auckland-waiheke",
             "keywords": ["Train", "Linked Connections"],
             "geographicArea": "http://sws.geonames.org/2802361",
