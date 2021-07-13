@@ -10,7 +10,7 @@ export async function runBenchmark(source, querySet, test, cycles) {
     let pagesFetched = 0;
     let bytesTransferred = 0;
 
-    console.log(`Starting evaluation for ${source}`);
+    console.log(`Starting evaluation for ${source} with ${test} connections/fragment`);
     const planner = new PlannerJS.FlexibleTransitPlanner();
     const { EventBus, EventType } = PlannerJS;
 
@@ -23,8 +23,8 @@ export async function runBenchmark(source, querySet, test, cycles) {
         }
     });
 
-    planner.addConnectionSource(`${config.lcServer}/${source}/connections`);
-    planner.addStopSource(`${config.lcServer}/${source}/stops`);
+    planner.addConnectionSource(`${config.lcServer}/${test}/connections`);
+    planner.addStopSource(`${config.lcServer}/${test}/stops`);
 
     // Do a warm up query so Planner.js fetches stops
     //console.log('Running warm up query');
