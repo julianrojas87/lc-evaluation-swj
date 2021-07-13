@@ -2,7 +2,7 @@
 
 i=0
 
-for dir in /groups/ilabt-imec-be/openplanner/ptn-evaluation/lc-data/$1/datasets/*/; do # list directories
+for dir in /users/jrojasme/lc-data/$1/datasets/*/; do # list directories
     ((i=i+1))
     if [[ i -gt $2 ]]
     then
