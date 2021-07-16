@@ -5,12 +5,6 @@ export default {
     lcDataPath: "/home/julian/Desktop/lc-evaluation/lc-data",
     sources: [
         {
-            "name": "nmbs",
-            "path": "nmbs_filtered.json",
-            "busiestDay": "2020-11-12",
-            "smallestFragment": 94
-        },
-        {
             "name": "amsterdam-gvb",
             "path": "amsterdam-gvb_filtered.json",
             "busiestDay": "2020-10-16",
@@ -87,6 +81,12 @@ export default {
             "path": "nyc_filtered.json",
             "busiestDay": "2020-12-02",
             "smallestFragment": 130
+        },
+        {
+            "name": "nmbs",
+            "path": "nmbs_filtered.json",
+            "busiestDay": "2020-11-12",
+            "smallestFragment": 94
         },
         {
             "name": "nz-bus",
