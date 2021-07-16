@@ -10,7 +10,11 @@ http.createServer((req, res) => {
     const concurrency = urlObj.searchParams.get('concurrency');
 
     if (command === 'start') {
-        exec(`sudo ../recordstats.sh > ../../results/${operator}/${server}/${concurrency}.csv`);
+        if(server.includes('cache')) {
+            exec(`sudo ../recordstats_cache.sh > ../../results/${operator}/${server}/${concurrency}.csv`);
+        } else {
+            exec(`sudo ../recordstats.sh > ../../results/${operator}/${server}/${concurrency}.csv`);   
+        }
     }
 
     if (command === 'stop') {
