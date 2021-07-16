@@ -11,6 +11,10 @@ services:
     build: 
       context: ./
       dockerfile: LC-Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
     ports:
       - "3000:3000"
     environment: 
