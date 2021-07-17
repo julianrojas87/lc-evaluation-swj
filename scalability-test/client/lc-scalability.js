@@ -129,7 +129,7 @@ async function run() {
                     connections: concurrencies[i] - 1,
                     workers: workers[i],
                     pipelining: 1,
-                    connectionRate: 10,
+                    connectionRate: 50,
                     duration: 86400, // Set a very long time so autocannon does not stop in the middle of the test
                     requests: reqs
                 });
