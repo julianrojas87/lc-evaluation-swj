@@ -52,7 +52,7 @@ async function run() {
                     to: querySet[j].to,
                     minimumDepartureTime: new Date(querySet[j].minimumDepartureTime),
                     maximumArrivalTime: new Date(querySet[j].maximumArrivalTime)
-                });
+                }, false);
                 const responseTime = new Date() - t0;
                 //console.log(`\tresponse time = ${responseTime} ms`);
 
