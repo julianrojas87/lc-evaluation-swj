@@ -1,5 +1,5 @@
 export default {
-    rootPath: "/home/julian/Desktop/lc-evaluation",
+    rootPath: "/home/julian/Desktop/lc-evaluation-swj",
     fragmentations: [5, 10, 50, 100, 300, 500, 1000, 3000, 5000, 10000, 20000, 30000],
     lcServer: "http://localhost:3000",
     lcDataPath: "/home/julian/Desktop/lc-evaluation/lc-data",
