@@ -1,206 +1,10 @@
 {
-   "averageResponseTime": 19616.83,
-   "p10": 4004,
-   "p50": 19200,
-   "p75": 30927,
-   "p90": 35622,
+   "averageResponseTime": 28775.1,
+   "p10": 18965,
+   "p50": 31409,
+   "p75": 40416,
+   "p90": 41796,
    "results": [
-      {
-         "query": {
-            "from": "http://example.org/stations/14582",
-            "to": "http://example.org/stations/1056",
-            "minimumDepartureTime": "2020-09-03T05:14:21.099Z",
-            "maximumArrivalTime": "2020-09-04T06:14:21.099Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 1020,
-         "scannedConnections": 16447,
-         "pagesFetched": 4,
-         "bytesTransferred": 17424121,
-         "timePerConnection": 0.062017389189517845
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/11710",
-            "to": "http://example.org/stations/9644",
-            "minimumDepartureTime": "2020-09-03T00:15:02.547Z",
-            "maximumArrivalTime": "2020-09-04T01:15:02.547Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 1809,
-         "scannedConnections": 37808,
-         "pagesFetched": 9,
-         "bytesTransferred": 39370880,
-         "timePerConnection": 0.04784701650444351
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/11387",
-            "to": "http://example.org/stations/17038",
-            "minimumDepartureTime": "2020-09-03T13:09:07.047Z",
-            "maximumArrivalTime": "2020-09-04T14:09:07.047Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 1894,
-         "scannedConnections": 37979,
-         "pagesFetched": 10,
-         "bytesTransferred": 43775219,
-         "timePerConnection": 0.049869664814766054
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2443",
-            "to": "http://example.org/stations/17663",
-            "minimumDepartureTime": "2020-09-03T19:33:09.333Z",
-            "maximumArrivalTime": "2020-09-04T20:33:09.333Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 2201,
-         "scannedConnections": 42999,
-         "pagesFetched": 6,
-         "bytesTransferred": 26232881,
-         "timePerConnection": 0.051187236912486334
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/14918",
-            "to": "http://example.org/stations/12521",
-            "minimumDepartureTime": "2020-09-03T15:00:09.964Z",
-            "maximumArrivalTime": "2020-09-04T16:00:09.964Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 2655,
-         "scannedConnections": 65373,
-         "pagesFetched": 6,
-         "bytesTransferred": 26209753,
-         "timePerConnection": 0.040613097150199624
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/4254",
-            "to": "http://example.org/stations/14135",
-            "minimumDepartureTime": "2020-09-03T03:07:28.265Z",
-            "maximumArrivalTime": "2020-09-04T04:07:28.265Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 2747,
-         "scannedConnections": 62278,
-         "pagesFetched": 6,
-         "bytesTransferred": 26247875,
-         "timePerConnection": 0.044108674010083816
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2418",
-            "to": "http://example.org/stations/6476",
-            "minimumDepartureTime": "2020-09-03T03:58:08.458Z",
-            "maximumArrivalTime": "2020-09-04T04:58:08.458Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 2803,
-         "scannedConnections": 58392,
-         "pagesFetched": 5,
-         "bytesTransferred": 21861833,
-         "timePerConnection": 0.048003151116591314
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/5113",
-            "to": "http://example.org/stations/1423",
-            "minimumDepartureTime": "2020-09-03T00:03:14.511Z",
-            "maximumArrivalTime": "2020-09-04T01:03:14.511Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 2890,
-         "scannedConnections": 71914,
-         "pagesFetched": 10,
-         "bytesTransferred": 43753697,
-         "timePerConnection": 0.04018688989626498
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/3150",
-            "to": "http://example.org/stations/14848",
-            "minimumDepartureTime": "2020-09-03T01:39:57.820Z",
-            "maximumArrivalTime": "2020-09-04T02:39:57.820Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 2954,
-         "scannedConnections": 70825,
-         "pagesFetched": 6,
-         "bytesTransferred": 26267284,
-         "timePerConnection": 0.04170843628662196
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12883",
-            "to": "http://example.org/stations/12278",
-            "minimumDepartureTime": "2020-09-03T09:52:50.045Z",
-            "maximumArrivalTime": "2020-09-04T10:52:50.045Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 3425,
-         "scannedConnections": 99540,
-         "pagesFetched": 8,
-         "bytesTransferred": 34999856,
-         "timePerConnection": 0.034408278079164155
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/5842",
-            "to": "http://example.org/stations/5116",
-            "minimumDepartureTime": "2020-09-03T18:02:16.518Z",
-            "maximumArrivalTime": "2020-09-04T19:02:16.518Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 4004,
-         "scannedConnections": 110131,
-         "pagesFetched": 7,
-         "bytesTransferred": 30660660,
-         "timePerConnection": 0.03635670247251001
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12892",
-            "to": "http://example.org/stations/12137",
-            "minimumDepartureTime": "2020-09-03T07:48:21.714Z",
-            "maximumArrivalTime": "2020-09-04T08:48:21.714Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 4708,
-         "scannedConnections": 148693,
-         "pagesFetched": 8,
-         "bytesTransferred": 34954575,
-         "timePerConnection": 0.03166255304553678
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12892",
-            "to": "http://example.org/stations/4393",
-            "minimumDepartureTime": "2020-09-03T16:11:58.667Z",
-            "maximumArrivalTime": "2020-09-04T17:11:58.667Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 4782,
-         "scannedConnections": 145570,
-         "pagesFetched": 12,
-         "bytesTransferred": 52491322,
-         "timePerConnection": 0.03285017517345607
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/9022",
-            "to": "http://example.org/stations/6308",
-            "minimumDepartureTime": "2020-09-03T13:40:45.537Z",
-            "maximumArrivalTime": "2020-09-04T14:40:45.537Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 4871,
-         "scannedConnections": 111846,
-         "pagesFetched": 12,
-         "bytesTransferred": 52407414,
-         "timePerConnection": 0.0435509539903081
-      },
       {
          "query": {
             "from": "http://example.org/stations/7122",
@@ -209,473 +13,128 @@
             "maximumArrivalTime": "2020-09-04T01:58:19.057Z",
             "profileID": "https://hdelva.be/profile/pedestrian"
          },
-         "responseTime": 5005,
-         "scannedConnections": 168234,
-         "pagesFetched": 10,
-         "bytesTransferred": 43777130,
-         "timePerConnection": 0.029750228847914215
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12192",
-            "to": "http://example.org/stations/15089",
-            "minimumDepartureTime": "2020-09-03T05:41:28.903Z",
-            "maximumArrivalTime": "2020-09-04T06:41:28.903Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 155000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/7122",
+                           "latitude": 41.760483,
+                           "longitude": -87.585672,
+                           "name": "Stony Island & 74th Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T01:06:52.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/14819",
+                           "latitude": 41.7663989,
+                           "longitude": -87.58584519,
+                           "name": "Stony Island & 71st Street",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T01:09:27.000Z",
+                        "enterConnectionId": "http://example.org/connections/7122/6331555105020/20200902T1906/",
+                        "exitConnectionId": "http://example.org/connections/7124/6331555105020/20200902T1908/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 325324
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14819",
+                           "latitude": 41.7663989,
+                           "longitude": -87.58584519,
+                           "name": "Stony Island & 71st Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T01:09:27.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/10829",
+                           "latitude": 41.766222,
+                           "longitude": -87.582585,
+                           "name": "71st Street & East End",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T01:14:52.324Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/14819@1599095367000-http://example.org/stations/5203",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/14819@1599095367000-http://example.org/stations/10829"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 734000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/10829",
+                           "latitude": 41.766222,
+                           "longitude": -87.582585,
+                           "name": "71st Street & East End",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T01:15:16.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/14140",
+                           "latitude": 41.7688193,
+                           "longitude": -87.62642075,
+                           "name": "69th Red Line Station",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T01:27:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/10829/6331554906020/20200902T1915/",
+                        "exitConnectionId": "http://example.org/connections/10850/6331554906020/20200902T1926/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 715119
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14140",
+                           "latitude": 41.7688193,
+                           "longitude": -87.62642075,
+                           "name": "69th Red Line Station",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T01:27:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/10174",
+                           "latitude": 41.76896271,
+                           "longitude": -87.63360386,
+                           "name": "69th Street & Harvard",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T01:39:25.119Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/14140@1599096450000-http://example.org/stations/2294",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/14140@1599096450000-http://example.org/stations/10174"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
          },
-         "responseTime": 5429,
-         "scannedConnections": 174813,
-         "pagesFetched": 18,
-         "bytesTransferred": 78644336,
-         "timePerConnection": 0.03105604274281661
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/7771",
-            "to": "http://example.org/stations/6696",
-            "minimumDepartureTime": "2020-09-03T17:00:17.370Z",
-            "maximumArrivalTime": "2020-09-04T18:00:17.370Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 5535,
-         "scannedConnections": 147505,
-         "pagesFetched": 10,
-         "bytesTransferred": 43775067,
-         "timePerConnection": 0.037524151723670386
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/4920",
-            "to": "http://example.org/stations/612",
-            "minimumDepartureTime": "2020-09-03T15:13:56.385Z",
-            "maximumArrivalTime": "2020-09-04T16:13:56.385Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 5623,
-         "scannedConnections": 187815,
-         "pagesFetched": 11,
-         "bytesTransferred": 48087139,
-         "timePerConnection": 0.029939035753267843
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/18219",
-            "to": "http://example.org/stations/9636",
-            "minimumDepartureTime": "2020-09-03T14:23:17.143Z",
-            "maximumArrivalTime": "2020-09-04T15:23:17.143Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6135,
-         "scannedConnections": 157147,
-         "pagesFetched": 10,
-         "bytesTransferred": 43700958,
-         "timePerConnection": 0.039039879857712845
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/1786",
-            "to": "http://example.org/stations/8980",
-            "minimumDepartureTime": "2020-09-03T17:55:41.195Z",
-            "maximumArrivalTime": "2020-09-04T18:55:41.195Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6353,
-         "scannedConnections": 223762,
-         "pagesFetched": 10,
-         "bytesTransferred": 43796531,
-         "timePerConnection": 0.028391773402096872
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/9989",
-            "to": "http://example.org/stations/10894",
-            "minimumDepartureTime": "2020-09-03T15:31:33.540Z",
-            "maximumArrivalTime": "2020-09-04T16:31:33.540Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6408,
-         "scannedConnections": 191159,
-         "pagesFetched": 14,
-         "bytesTransferred": 61232984,
-         "timePerConnection": 0.033521832610549335
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/9805",
-            "to": "http://example.org/stations/8582",
-            "minimumDepartureTime": "2020-09-03T22:21:27.937Z",
-            "maximumArrivalTime": "2020-09-04T23:21:27.937Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6689,
-         "scannedConnections": 202597,
-         "pagesFetched": 17,
-         "bytesTransferred": 74420360,
-         "timePerConnection": 0.033016283557999376
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/14683",
-            "to": "http://example.org/stations/1020",
-            "minimumDepartureTime": "2020-09-03T03:28:58.342Z",
-            "maximumArrivalTime": "2020-09-04T04:28:58.342Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6716,
-         "scannedConnections": 216943,
-         "pagesFetched": 38,
-         "bytesTransferred": 166097258,
-         "timePerConnection": 0.0309574404336623
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/11776",
-            "to": "http://example.org/stations/18483",
-            "minimumDepartureTime": "2020-09-03T13:38:54.051Z",
-            "maximumArrivalTime": "2020-09-04T14:38:54.051Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6723,
-         "scannedConnections": 244439,
-         "pagesFetched": 14,
-         "bytesTransferred": 61155724,
-         "timePerConnection": 0.027503794402693515
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/465",
-            "to": "http://example.org/stations/10306",
-            "minimumDepartureTime": "2020-09-03T06:38:29.110Z",
-            "maximumArrivalTime": "2020-09-04T07:38:29.110Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6737,
-         "scannedConnections": 232544,
-         "pagesFetched": 4,
-         "bytesTransferred": 17442971,
-         "timePerConnection": 0.028970861428374847
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/17415",
-            "to": "http://example.org/stations/3086",
-            "minimumDepartureTime": "2020-09-03T16:57:33.481Z",
-            "maximumArrivalTime": "2020-09-04T17:57:33.481Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6867,
-         "scannedConnections": 225451,
-         "pagesFetched": 8,
-         "bytesTransferred": 35014482,
-         "timePerConnection": 0.030458946733436534
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2792",
-            "to": "http://example.org/stations/12024",
-            "minimumDepartureTime": "2020-09-03T10:31:21.274Z",
-            "maximumArrivalTime": "2020-09-04T11:31:21.274Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 6983,
-         "scannedConnections": 246948,
-         "pagesFetched": 6,
-         "bytesTransferred": 26273075,
-         "timePerConnection": 0.02827720815718289
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/7215",
-            "to": "http://example.org/stations/5073",
-            "minimumDepartureTime": "2020-09-03T07:31:00.949Z",
-            "maximumArrivalTime": "2020-09-04T08:31:00.949Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 7172,
-         "scannedConnections": 267116,
-         "pagesFetched": 4,
-         "bytesTransferred": 17445195,
-         "timePerConnection": 0.026849758157504604
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/14749",
-            "to": "http://example.org/stations/15390",
-            "minimumDepartureTime": "2020-09-03T16:09:34.780Z",
-            "maximumArrivalTime": "2020-09-04T17:09:34.780Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 8436,
-         "scannedConnections": 331880,
-         "pagesFetched": 14,
-         "bytesTransferred": 61254189,
-         "timePerConnection": 0.02541882608171628
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/1279",
-            "to": "http://example.org/stations/11319",
-            "minimumDepartureTime": "2020-09-03T01:33:04.607Z",
-            "maximumArrivalTime": "2020-09-04T02:33:04.607Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 8571,
-         "scannedConnections": 294342,
-         "pagesFetched": 11,
-         "bytesTransferred": 48139534,
-         "timePerConnection": 0.02911918788348248
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/9456",
-            "to": "http://example.org/stations/14496",
-            "minimumDepartureTime": "2020-09-03T08:39:50.557Z",
-            "maximumArrivalTime": "2020-09-04T09:39:50.557Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 9092,
-         "scannedConnections": 352418,
-         "pagesFetched": 6,
-         "bytesTransferred": 26236161,
-         "timePerConnection": 0.025798909249811302
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/17077",
-            "to": "http://example.org/stations/18246",
-            "minimumDepartureTime": "2020-09-03T13:54:54.123Z",
-            "maximumArrivalTime": "2020-09-04T14:54:54.123Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 9524,
-         "scannedConnections": 318246,
-         "pagesFetched": 14,
-         "bytesTransferred": 61165698,
-         "timePerConnection": 0.029926534818976516
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/18070",
-            "to": "http://example.org/stations/15358",
-            "minimumDepartureTime": "2020-09-03T16:09:02.740Z",
-            "maximumArrivalTime": "2020-09-04T17:09:02.740Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 11101,
-         "scannedConnections": 406737,
-         "pagesFetched": 22,
-         "bytesTransferred": 96295083,
-         "timePerConnection": 0.02729282066790088
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/4844",
-            "to": "http://example.org/stations/12033",
-            "minimumDepartureTime": "2020-09-03T18:30:45.989Z",
-            "maximumArrivalTime": "2020-09-04T19:30:45.989Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 11314,
-         "scannedConnections": 368352,
-         "pagesFetched": 10,
-         "bytesTransferred": 43789237,
-         "timePerConnection": 0.03071518547476327
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12044",
-            "to": "http://example.org/stations/1117",
-            "minimumDepartureTime": "2020-09-03T04:56:43.158Z",
-            "maximumArrivalTime": "2020-09-04T05:56:43.158Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 11893,
-         "scannedConnections": 434218,
-         "pagesFetched": 30,
-         "bytesTransferred": 131143171,
-         "timePerConnection": 0.027389467963096877
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/30157",
-            "to": "http://example.org/stations/9484",
-            "minimumDepartureTime": "2020-09-03T08:55:25.738Z",
-            "maximumArrivalTime": "2020-09-04T09:55:25.738Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 12706,
-         "scannedConnections": 472921,
-         "pagesFetched": 4,
-         "bytesTransferred": 17476343,
-         "timePerConnection": 0.026867066592517565
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12537",
-            "to": "http://example.org/stations/5040",
-            "minimumDepartureTime": "2020-09-03T07:16:43.469Z",
-            "maximumArrivalTime": "2020-09-04T08:16:43.469Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 13387,
-         "scannedConnections": 486795,
-         "pagesFetched": 14,
-         "bytesTransferred": 61236569,
-         "timePerConnection": 0.027500282459762323
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12453",
-            "to": "http://example.org/stations/1351",
-            "minimumDepartureTime": "2020-09-03T03:13:04.012Z",
-            "maximumArrivalTime": "2020-09-04T04:13:04.012Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 13469,
-         "scannedConnections": 497438,
-         "pagesFetched": 10,
-         "bytesTransferred": 43725143,
-         "timePerConnection": 0.02707674122202164
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/10477",
-            "to": "http://example.org/stations/5669",
-            "minimumDepartureTime": "2020-09-03T05:39:56.663Z",
-            "maximumArrivalTime": "2020-09-04T06:39:56.663Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 13610,
-         "scannedConnections": 468069,
-         "pagesFetched": 44,
-         "bytesTransferred": 192520945,
-         "timePerConnection": 0.029076909600934904
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/17563",
-            "to": "http://example.org/stations/1905",
-            "minimumDepartureTime": "2020-09-03T10:44:32.619Z",
-            "maximumArrivalTime": "2020-09-04T11:44:32.619Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 13870,
-         "scannedConnections": 564875,
+         "responseTime": 7506,
+         "scannedConnections": 38174,
          "pagesFetched": 9,
-         "bytesTransferred": 39426033,
-         "timePerConnection": 0.024554104890462492
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/1415",
-            "to": "http://example.org/stations/284",
-            "minimumDepartureTime": "2020-09-03T09:11:01.379Z",
-            "maximumArrivalTime": "2020-09-04T10:11:01.379Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 15100,
-         "scannedConnections": 546605,
-         "pagesFetched": 16,
-         "bytesTransferred": 70047037,
-         "timePerConnection": 0.02762506746187832
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/17570",
-            "to": "http://example.org/stations/11363",
-            "minimumDepartureTime": "2020-09-03T07:32:55.575Z",
-            "maximumArrivalTime": "2020-09-04T08:32:55.575Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 15480,
-         "scannedConnections": 680729,
-         "pagesFetched": 4,
-         "bytesTransferred": 17445195,
-         "timePerConnection": 0.022740326914234592
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/6360",
-            "to": "http://example.org/stations/11561",
-            "minimumDepartureTime": "2020-09-03T08:42:09.255Z",
-            "maximumArrivalTime": "2020-09-04T09:42:09.255Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 15678,
-         "scannedConnections": 564817,
-         "pagesFetched": 12,
-         "bytesTransferred": 52519901,
-         "timePerConnection": 0.027757663101500133
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2223",
-            "to": "http://example.org/stations/5240",
-            "minimumDepartureTime": "2020-09-03T11:23:29.713Z",
-            "maximumArrivalTime": "2020-09-04T12:23:29.713Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 15809,
-         "scannedConnections": 603470,
-         "pagesFetched": 12,
-         "bytesTransferred": 52568929,
-         "timePerConnection": 0.02619682834275109
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12207",
-            "to": "http://example.org/stations/4962",
-            "minimumDepartureTime": "2020-09-03T03:33:06.646Z",
-            "maximumArrivalTime": "2020-09-04T04:33:06.646Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 16093,
-         "scannedConnections": 608118,
-         "pagesFetched": 12,
-         "bytesTransferred": 52448866,
-         "timePerConnection": 0.026463613969657206
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/17161",
-            "to": "http://example.org/stations/1419",
-            "minimumDepartureTime": "2020-09-03T19:04:08.592Z",
-            "maximumArrivalTime": "2020-09-04T20:04:08.592Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 16114,
-         "scannedConnections": 598294,
-         "pagesFetched": 13,
-         "bytesTransferred": 56880178,
-         "timePerConnection": 0.026933246865253536
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/11419",
-            "to": "http://example.org/stations/8873",
-            "minimumDepartureTime": "2020-09-03T16:26:08.515Z",
-            "maximumArrivalTime": "2020-09-04T17:26:08.515Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 16576,
-         "scannedConnections": 661656,
-         "pagesFetched": 14,
-         "bytesTransferred": 61260324,
-         "timePerConnection": 0.025052293034446903
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/460",
-            "to": "http://example.org/stations/5706",
-            "minimumDepartureTime": "2020-09-03T14:46:24.367Z",
-            "maximumArrivalTime": "2020-09-04T15:46:24.367Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 17237,
-         "scannedConnections": 642894,
-         "pagesFetched": 12,
-         "bytesTransferred": 52409845,
-         "timePerConnection": 0.026811573914206698
+         "bytesTransferred": 39401623,
+         "timePerConnection": 0.19662597579504373
       },
       {
          "query": {
@@ -685,711 +144,100 @@
             "maximumArrivalTime": "2020-09-04T12:24:27.153Z",
             "profileID": "https://hdelva.be/profile/pedestrian"
          },
-         "responseTime": 18323,
-         "scannedConnections": 647735,
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 1764000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/11522",
+                           "latitude": 41.96606556,
+                           "longitude": -87.76750559,
+                           "name": "Central & Leland",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:30:36.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/11575",
+                           "latitude": 41.87256595,
+                           "longitude": -87.76480172,
+                           "name": "Central & Harrison Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T12:00:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/11522/6330023126020/20200903T0530/",
+                        "exitConnectionId": "http://example.org/connections/11574/6330023126020/20200903T0559/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 1339000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/11575",
+                           "latitude": 41.87256595,
+                           "longitude": -87.76480172,
+                           "name": "Central & Harrison Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T12:00:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/14204",
+                           "latitude": 41.86903288,
+                           "longitude": -87.676481,
+                           "name": "Taylor & Damen",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T12:22:19.000Z",
+                        "enterConnectionId": "http://example.org/connections/11575/6330062410020/20200903T0600/",
+                        "exitConnectionId": "http://example.org/connections/15414/6330062410020/20200903T0621/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 26335
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14204",
+                           "latitude": 41.86903288,
+                           "longitude": -87.676481,
+                           "name": "Taylor & Damen",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T12:22:19.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/8904",
+                           "latitude": 41.86901557,
+                           "longitude": -87.67621698,
+                           "name": "Damen & Taylor",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T12:22:45.335Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/14204@1599135739000-http://example.org/stations/18129",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/14204@1599135739000-http://example.org/stations/8904"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 18965,
+         "scannedConnections": 45239,
          "pagesFetched": 10,
-         "bytesTransferred": 43806284,
-         "timePerConnection": 0.028287802882351578
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/1094",
-            "to": "http://example.org/stations/15753",
-            "minimumDepartureTime": "2020-09-03T17:04:56.631Z",
-            "maximumArrivalTime": "2020-09-04T18:04:56.631Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 18336,
-         "scannedConnections": 709121,
-         "pagesFetched": 12,
-         "bytesTransferred": 52562942,
-         "timePerConnection": 0.025857364258003925
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/300",
-            "to": "http://example.org/stations/10186",
-            "minimumDepartureTime": "2020-09-03T02:33:38.277Z",
-            "maximumArrivalTime": "2020-09-04T03:33:38.277Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 19200,
-         "scannedConnections": 754387,
-         "pagesFetched": 13,
-         "bytesTransferred": 56876267,
-         "timePerConnection": 0.02545112786938269
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/8934",
-            "to": "http://example.org/stations/4439",
-            "minimumDepartureTime": "2020-09-03T07:19:25.124Z",
-            "maximumArrivalTime": "2020-09-04T08:19:25.124Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 19370,
-         "scannedConnections": 686520,
-         "pagesFetched": 26,
-         "bytesTransferred": 113813229,
-         "timePerConnection": 0.02821476431859232
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/896",
-            "to": "http://example.org/stations/11478",
-            "minimumDepartureTime": "2020-09-03T13:15:38.384Z",
-            "maximumArrivalTime": "2020-09-04T14:15:38.384Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 19394,
-         "scannedConnections": 730720,
-         "pagesFetched": 16,
-         "bytesTransferred": 69978000,
-         "timePerConnection": 0.02654094591635647
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2212",
-            "to": "http://example.org/stations/5269",
-            "minimumDepartureTime": "2020-09-03T02:18:21.737Z",
-            "maximumArrivalTime": "2020-09-04T03:18:21.737Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 19753,
-         "scannedConnections": 769602,
-         "pagesFetched": 10,
-         "bytesTransferred": 43763983,
-         "timePerConnection": 0.025666513340661796
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2140",
-            "to": "http://example.org/stations/7276",
-            "minimumDepartureTime": "2020-09-03T21:50:22.693Z",
-            "maximumArrivalTime": "2020-09-04T22:50:22.693Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 20245,
-         "scannedConnections": 840566,
-         "pagesFetched": 16,
-         "bytesTransferred": 70035443,
-         "timePerConnection": 0.024084961799549352
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/3695",
-            "to": "http://example.org/stations/15306",
-            "minimumDepartureTime": "2020-09-03T10:40:09.053Z",
-            "maximumArrivalTime": "2020-09-04T11:40:09.053Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 20477,
-         "scannedConnections": 822447,
-         "pagesFetched": 22,
-         "bytesTransferred": 96368034,
-         "timePerConnection": 0.024897652979462507
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/335",
-            "to": "http://example.org/stations/1162",
-            "minimumDepartureTime": "2020-09-03T01:07:25.334Z",
-            "maximumArrivalTime": "2020-09-04T02:07:25.334Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 20479,
-         "scannedConnections": 839494,
-         "pagesFetched": 12,
-         "bytesTransferred": 52533428,
-         "timePerConnection": 0.024394456660798054
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/1076",
-            "to": "http://example.org/stations/5160",
-            "minimumDepartureTime": "2020-09-03T21:03:00.917Z",
-            "maximumArrivalTime": "2020-09-04T22:03:00.917Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 20865,
-         "scannedConnections": 836569,
-         "pagesFetched": 17,
-         "bytesTransferred": 74471823,
-         "timePerConnection": 0.024941158469893098
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12005",
-            "to": "http://example.org/stations/1186",
-            "minimumDepartureTime": "2020-09-03T15:30:21.425Z",
-            "maximumArrivalTime": "2020-09-04T16:30:21.425Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 21318,
-         "scannedConnections": 844328,
-         "pagesFetched": 18,
-         "bytesTransferred": 78694235,
-         "timePerConnection": 0.02524848163273041
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/10960",
-            "to": "http://example.org/stations/9989",
-            "minimumDepartureTime": "2020-09-03T14:52:03.084Z",
-            "maximumArrivalTime": "2020-09-04T15:52:03.084Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 21641,
-         "scannedConnections": 856879,
-         "pagesFetched": 18,
-         "bytesTransferred": 78635188,
-         "timePerConnection": 0.025255607851283553
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/7795",
-            "to": "http://example.org/stations/3200",
-            "minimumDepartureTime": "2020-09-03T17:44:36.777Z",
-            "maximumArrivalTime": "2020-09-04T18:44:36.777Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 21931,
-         "scannedConnections": 876598,
-         "pagesFetched": 14,
-         "bytesTransferred": 61312587,
-         "timePerConnection": 0.02501830941891266
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/12954",
-            "to": "http://example.org/stations/26",
-            "minimumDepartureTime": "2020-09-03T17:17:32.383Z",
-            "maximumArrivalTime": "2020-09-04T18:17:32.383Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 22556,
-         "scannedConnections": 920011,
-         "pagesFetched": 14,
-         "bytesTransferred": 61325851,
-         "timePerConnection": 0.024517098165130636
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/5009",
-            "to": "http://example.org/stations/18113",
-            "minimumDepartureTime": "2020-09-03T18:06:39.927Z",
-            "maximumArrivalTime": "2020-09-04T19:06:39.927Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 23922,
-         "scannedConnections": 946125,
-         "pagesFetched": 14,
-         "bytesTransferred": 61308845,
-         "timePerConnection": 0.025284185493460166
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/30125",
-            "to": "http://example.org/stations/11782",
-            "minimumDepartureTime": "2020-09-03T11:54:56.130Z",
-            "maximumArrivalTime": "2020-09-04T12:54:56.130Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 24505,
-         "scannedConnections": 928668,
-         "pagesFetched": 14,
-         "bytesTransferred": 61339023,
-         "timePerConnection": 0.026387255725404558
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2889",
-            "to": "http://example.org/stations/4794",
-            "minimumDepartureTime": "2020-09-03T05:07:19.504Z",
-            "maximumArrivalTime": "2020-09-04T06:07:19.504Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 25861,
-         "scannedConnections": 1002079,
-         "pagesFetched": 26,
-         "bytesTransferred": 113622733,
-         "timePerConnection": 0.025807346526571257
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/1054",
-            "to": "http://example.org/stations/9415",
-            "minimumDepartureTime": "2020-09-03T12:47:40.664Z",
-            "maximumArrivalTime": "2020-09-04T13:47:40.664Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 27679,
-         "scannedConnections": 984156,
-         "pagesFetched": 18,
-         "bytesTransferred": 78800429,
-         "timePerConnection": 0.028124606261608932
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/10060",
-            "to": "http://example.org/stations/696",
-            "minimumDepartureTime": "2020-09-03T03:57:32.355Z",
-            "maximumArrivalTime": "2020-09-04T04:57:32.355Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 27687,
-         "scannedConnections": 1157076,
-         "pagesFetched": 12,
-         "bytesTransferred": 52389785,
-         "timePerConnection": 0.02392841956794541
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/4891",
-            "to": "http://example.org/stations/4525",
-            "minimumDepartureTime": "2020-09-03T20:16:18.226Z",
-            "maximumArrivalTime": "2020-09-04T21:16:18.226Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 27697,
-         "scannedConnections": 1073140,
-         "pagesFetched": 22,
-         "bytesTransferred": 96425456,
-         "timePerConnection": 0.02580930726652627
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/9372",
-            "to": "http://example.org/stations/9127",
-            "minimumDepartureTime": "2020-09-03T12:40:47.888Z",
-            "maximumArrivalTime": "2020-09-04T13:40:47.888Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 28076,
-         "scannedConnections": 1138159,
-         "pagesFetched": 24,
-         "bytesTransferred": 105035829,
-         "timePerConnection": 0.02466790668087675
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/14046",
-            "to": "http://example.org/stations/391",
-            "minimumDepartureTime": "2020-09-03T17:54:49.298Z",
-            "maximumArrivalTime": "2020-09-04T18:54:49.298Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 28301,
-         "scannedConnections": 1160801,
-         "pagesFetched": 16,
-         "bytesTransferred": 70066899,
-         "timePerConnection": 0.02438057858323692
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/17905",
-            "to": "http://example.org/stations/8615",
-            "minimumDepartureTime": "2020-09-03T04:02:35.024Z",
-            "maximumArrivalTime": "2020-09-04T05:02:35.024Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 28969,
-         "scannedConnections": 1176711,
-         "pagesFetched": 10,
-         "bytesTransferred": 43675529,
-         "timePerConnection": 0.02461861918516951
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/5315",
-            "to": "http://example.org/stations/17637",
-            "minimumDepartureTime": "2020-09-03T16:49:00.907Z",
-            "maximumArrivalTime": "2020-09-04T17:49:00.907Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 29432,
-         "scannedConnections": 1180482,
-         "pagesFetched": 16,
-         "bytesTransferred": 70024193,
-         "timePerConnection": 0.024932188716134597
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/10095",
-            "to": "http://example.org/stations/11493",
-            "minimumDepartureTime": "2020-09-03T07:35:40.597Z",
-            "maximumArrivalTime": "2020-09-04T08:35:40.597Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 29649,
-         "scannedConnections": 1353029,
-         "pagesFetched": 5,
-         "bytesTransferred": 21823001,
-         "timePerConnection": 0.021913055817724528
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/52",
-            "to": "http://example.org/stations/11943",
-            "minimumDepartureTime": "2020-09-03T20:54:34.556Z",
-            "maximumArrivalTime": "2020-09-04T21:54:34.556Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 30373,
-         "scannedConnections": 1269091,
-         "pagesFetched": 20,
-         "bytesTransferred": 87619019,
-         "timePerConnection": 0.02393287794177092
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/15347",
-            "to": "http://example.org/stations/7024",
-            "minimumDepartureTime": "2020-09-03T08:36:08.545Z",
-            "maximumArrivalTime": "2020-09-04T09:36:08.545Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 30888,
-         "scannedConnections": 1319645,
-         "pagesFetched": 10,
-         "bytesTransferred": 43760147,
-         "timePerConnection": 0.023406294874757982
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/14826",
-            "to": "http://example.org/stations/10861",
-            "minimumDepartureTime": "2020-09-03T22:09:15.368Z",
-            "maximumArrivalTime": "2020-09-04T23:09:15.368Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 30927,
-         "scannedConnections": 1204769,
-         "pagesFetched": 18,
-         "bytesTransferred": 78795579,
-         "timePerConnection": 0.025670481229181693
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2093",
-            "to": "http://example.org/stations/10526",
-            "minimumDepartureTime": "2020-09-03T01:46:45.963Z",
-            "maximumArrivalTime": "2020-09-04T02:46:45.963Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 31222,
-         "scannedConnections": 1307967,
-         "pagesFetched": 17,
-         "bytesTransferred": 74382880,
-         "timePerConnection": 0.023870632821776084
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/5269",
-            "to": "http://example.org/stations/9963",
-            "minimumDepartureTime": "2020-09-03T05:53:39.250Z",
-            "maximumArrivalTime": "2020-09-04T06:53:39.250Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 31430,
-         "scannedConnections": 1327894,
-         "pagesFetched": 18,
-         "bytesTransferred": 78644336,
-         "timePerConnection": 0.02366905792179195
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/14813",
-            "to": "http://example.org/stations/7060",
-            "minimumDepartureTime": "2020-09-03T10:46:48.567Z",
-            "maximumArrivalTime": "2020-09-04T11:46:48.567Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 31440,
-         "scannedConnections": 1302086,
-         "pagesFetched": 10,
-         "bytesTransferred": 43809359,
-         "timePerConnection": 0.024145870549257115
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/30267",
-            "to": "http://example.org/stations/12184",
-            "minimumDepartureTime": "2020-09-03T15:45:45.832Z",
-            "maximumArrivalTime": "2020-09-04T16:45:45.832Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 31449,
-         "scannedConnections": 1290450,
-         "pagesFetched": 16,
-         "bytesTransferred": 69984399,
-         "timePerConnection": 0.02437056840636987
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/4127",
-            "to": "http://example.org/stations/13134",
-            "minimumDepartureTime": "2020-09-03T16:13:22.662Z",
-            "maximumArrivalTime": "2020-09-04T17:13:22.662Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 32832,
-         "scannedConnections": 1366405,
-         "pagesFetched": 18,
-         "bytesTransferred": 78778406,
-         "timePerConnection": 0.02402801511996809
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/9701",
-            "to": "http://example.org/stations/14263",
-            "minimumDepartureTime": "2020-09-03T00:01:58.710Z",
-            "maximumArrivalTime": "2020-09-04T01:01:58.710Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 32866,
-         "scannedConnections": 1339815,
-         "pagesFetched": 22,
-         "bytesTransferred": 96282078,
-         "timePerConnection": 0.024530252310953377
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2622",
-            "to": "http://example.org/stations/1963",
-            "minimumDepartureTime": "2020-09-03T15:45:39.310Z",
-            "maximumArrivalTime": "2020-09-04T16:45:39.310Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 32946,
-         "scannedConnections": 1368915,
-         "pagesFetched": 18,
-         "bytesTransferred": 78747266,
-         "timePerConnection": 0.024067235730487285
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/9412",
-            "to": "http://example.org/stations/4686",
-            "minimumDepartureTime": "2020-09-03T04:49:47.914Z",
-            "maximumArrivalTime": "2020-09-04T05:49:47.914Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 32957,
-         "scannedConnections": 1477226,
-         "pagesFetched": 10,
-         "bytesTransferred": 43618617,
-         "timePerConnection": 0.02231005953049838
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/7452",
-            "to": "http://example.org/stations/15541",
-            "minimumDepartureTime": "2020-09-03T12:11:52.265Z",
-            "maximumArrivalTime": "2020-09-04T13:11:52.265Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 33264,
-         "scannedConnections": 1310287,
-         "pagesFetched": 20,
-         "bytesTransferred": 87612630,
-         "timePerConnection": 0.02538680457029643
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/6650",
-            "to": "http://example.org/stations/3632",
-            "minimumDepartureTime": "2020-09-03T19:51:45.794Z",
-            "maximumArrivalTime": "2020-09-04T20:51:45.794Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 34078,
-         "scannedConnections": 1409777,
-         "pagesFetched": 18,
-         "bytesTransferred": 78849354,
-         "timePerConnection": 0.024172617371399873
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/4814",
-            "to": "http://example.org/stations/9522",
-            "minimumDepartureTime": "2020-09-03T03:59:13.561Z",
-            "maximumArrivalTime": "2020-09-04T04:59:13.561Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 34192,
-         "scannedConnections": 1440994,
-         "pagesFetched": 12,
-         "bytesTransferred": 52389785,
-         "timePerConnection": 0.023728065488128332
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/480",
-            "to": "http://example.org/stations/12281",
-            "minimumDepartureTime": "2020-09-03T14:45:07.116Z",
-            "maximumArrivalTime": "2020-09-04T15:45:07.116Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 34380,
-         "scannedConnections": 1468332,
-         "pagesFetched": 18,
-         "bytesTransferred": 78627482,
-         "timePerConnection": 0.023414323191212887
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/15359",
-            "to": "http://example.org/stations/5440",
-            "minimumDepartureTime": "2020-09-03T04:21:48.842Z",
-            "maximumArrivalTime": "2020-09-04T05:21:48.842Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 35341,
-         "scannedConnections": 1434553,
-         "pagesFetched": 10,
-         "bytesTransferred": 43647955,
-         "timePerConnection": 0.024635548494897016
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2630",
-            "to": "http://example.org/stations/14367",
-            "minimumDepartureTime": "2020-09-03T04:50:11.053Z",
-            "maximumArrivalTime": "2020-09-04T05:50:11.053Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 35600,
-         "scannedConnections": 1602971,
-         "pagesFetched": 10,
-         "bytesTransferred": 43618617,
-         "timePerConnection": 0.02220876110671996
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/822",
-            "to": "http://example.org/stations/12166",
-            "minimumDepartureTime": "2020-09-03T15:36:59.377Z",
-            "maximumArrivalTime": "2020-09-04T16:36:59.377Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 35622,
-         "scannedConnections": 1451976,
-         "pagesFetched": 20,
-         "bytesTransferred": 87471826,
-         "timePerConnection": 0.024533463363030795
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/3025",
-            "to": "http://example.org/stations/2679",
-            "minimumDepartureTime": "2020-09-03T19:42:53.719Z",
-            "maximumArrivalTime": "2020-09-04T20:42:53.719Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 35889,
-         "scannedConnections": 1494221,
-         "pagesFetched": 20,
-         "bytesTransferred": 87585524,
-         "timePerConnection": 0.024018535410759184
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/4861",
-            "to": "http://example.org/stations/5251",
-            "minimumDepartureTime": "2020-09-03T00:17:31.129Z",
-            "maximumArrivalTime": "2020-09-04T01:17:31.129Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 36150,
-         "scannedConnections": 1476502,
-         "pagesFetched": 20,
-         "bytesTransferred": 87530532,
-         "timePerConnection": 0.02448354286008417
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/8368",
-            "to": "http://example.org/stations/18403",
-            "minimumDepartureTime": "2020-09-03T05:30:30.819Z",
-            "maximumArrivalTime": "2020-09-04T06:30:30.819Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 36918,
-         "scannedConnections": 1571956,
-         "pagesFetched": 9,
-         "bytesTransferred": 39244596,
-         "timePerConnection": 0.023485390176315367
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/11886",
-            "to": "http://example.org/stations/10864",
-            "minimumDepartureTime": "2020-09-03T05:15:31.478Z",
-            "maximumArrivalTime": "2020-09-04T06:15:31.478Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 37895,
-         "scannedConnections": 1536175,
-         "pagesFetched": 44,
-         "bytesTransferred": 192499687,
-         "timePerConnection": 0.024668413429459534
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/16014",
-            "to": "http://example.org/stations/9226",
-            "minimumDepartureTime": "2020-09-03T22:25:05.311Z",
-            "maximumArrivalTime": "2020-09-04T23:25:05.311Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 40191,
-         "scannedConnections": 1615993,
-         "pagesFetched": 24,
-         "bytesTransferred": 100720246,
-         "timePerConnection": 0.02487077604915368
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/2158",
-            "to": "http://example.org/stations/5602",
-            "minimumDepartureTime": "2020-09-03T19:24:35.946Z",
-            "maximumArrivalTime": "2020-09-04T20:24:35.946Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 40683,
-         "scannedConnections": 1532169,
-         "pagesFetched": 20,
-         "bytesTransferred": 87573724,
-         "timePerConnection": 0.02655255392845045
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/14974",
-            "to": "http://example.org/stations/5196",
-            "minimumDepartureTime": "2020-09-03T16:36:35.373Z",
-            "maximumArrivalTime": "2020-09-04T17:36:35.373Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 41017,
-         "scannedConnections": 1608164,
-         "pagesFetched": 22,
-         "bytesTransferred": 96305295,
-         "timePerConnection": 0.02550548327160663
-      },
-      {
-         "query": {
-            "from": "http://example.org/stations/11737",
-            "to": "http://example.org/stations/14945",
-            "minimumDepartureTime": "2020-09-03T05:16:17.231Z",
-            "maximumArrivalTime": "2020-09-04T06:16:17.231Z",
-            "profileID": "https://hdelva.be/profile/pedestrian"
-         },
-         "responseTime": 43769,
-         "scannedConnections": 1744593,
-         "pagesFetched": 44,
-         "bytesTransferred": 192499687,
-         "timePerConnection": 0.025088373047467232
+         "bytesTransferred": 43804009,
+         "timePerConnection": 0.41921793143084507
       },
       {
          "query": {
@@ -1399,11 +247,1857 @@
             "maximumArrivalTime": "2020-09-04T04:39:53.059Z",
             "profileID": "https://hdelva.be/profile/pedestrian"
          },
-         "responseTime": 75500,
-         "scannedConnections": 682166,
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 108000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/6675",
+                           "latitude": 41.85921125,
+                           "longitude": -87.70113115,
+                           "name": "Ogden & Sacramento",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:25:42.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/6676",
+                           "latitude": 41.86108034,
+                           "longitude": -87.6959094,
+                           "name": "Ogden & California",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:27:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/6675/6330061108020/20200903T0525/",
+                        "exitConnectionId": "http://example.org/connections/6675/6330061108020/20200903T0525/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 25626
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/6676",
+                           "latitude": 41.86108034,
+                           "longitude": -87.6959094,
+                           "name": "Ogden & California",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:27:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/4194",
+                           "latitude": 41.86113458,
+                           "longitude": -87.69566203,
+                           "name": "California & Ogden",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:27:55.626Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/6676@1599132450000-http://example.org/stations/283",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/6676@1599132450000-http://example.org/stations/4194"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 435000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/4194",
+                           "latitude": 41.86113458,
+                           "longitude": -87.69566203,
+                           "name": "California & Ogden",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:28:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/4212",
+                           "latitude": 41.88410655,
+                           "longitude": -87.69630792,
+                           "name": "California & Lake (Green Line)",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:35:45.000Z",
+                        "enterConnectionId": "http://example.org/connections/4194/6332011962020/20200903T0528/",
+                        "exitConnectionId": "http://example.org/connections/4211/6332011962020/20200903T0535/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 16825
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/4212",
+                           "latitude": 41.88410655,
+                           "longitude": -87.69630792,
+                           "name": "California & Lake (Green Line)",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:35:45.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30265",
+                           "latitude": 41.88422,
+                           "longitude": -87.696234,
+                           "name": "California-Green",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:36:01.825Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/4212@1599132945000-http://example.org/stations/717",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/4212@1599132945000-http://example.org/stations/30265"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 630000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30265",
+                           "latitude": 41.88422,
+                           "longitude": -87.696234,
+                           "name": "California-Green",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:37:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30050",
+                           "latitude": 41.88574,
+                           "longitude": -87.627835,
+                           "name": "State/Lake",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:47:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/30265/61178371245/20200903T0537/",
+                        "exitConnectionId": "http://example.org/connections/30074/61178371245/20200903T0546/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 124246
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30050",
+                           "latitude": 41.88574,
+                           "longitude": -87.627835,
+                           "name": "State/Lake",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:47:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30289",
+                           "latitude": 41.884809,
+                           "longitude": -87.627813,
+                           "name": "Lake",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:49:34.246Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30050@1599133650000-http://example.org/stations/70",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30050@1599133650000-http://example.org/stations/30289"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 420000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30289",
+                           "latitude": 41.884809,
+                           "longitude": -87.627813,
+                           "name": "Lake",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:53:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30125",
+                           "latitude": 41.910655,
+                           "longitude": -87.649177,
+                           "name": "North/Clybourn",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T12:00:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/30289/61178373790/20200903T0553/",
+                        "exitConnectionId": "http://example.org/connections/30121/61178373790/20200903T0558/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 484376
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30125",
+                           "latitude": 41.910655,
+                           "longitude": -87.649177,
+                           "name": "North/Clybourn",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T12:00:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/934",
+                           "latitude": 41.91086645,
+                           "longitude": -87.65404664,
+                           "name": "North Ave & Kingsbury",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T12:08:34.376Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30125@1599134430000-http://example.org/stations/910",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30125@1599134430000-http://example.org/stations/934"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 23093,
+         "scannedConnections": 172696,
          "pagesFetched": 38,
          "bytesTransferred": 166097258,
-         "timePerConnection": 0.11067687337099767
+         "timePerConnection": 0.13372052624264605
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/7795",
+            "to": "http://example.org/stations/3200",
+            "minimumDepartureTime": "2020-09-03T17:44:36.777Z",
+            "maximumArrivalTime": "2020-09-04T18:44:36.777Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 26000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/7795",
+                           "latitude": 41.82264641,
+                           "longitude": -87.70423181,
+                           "name": "Pershing & Kedzie",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:50:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/7796",
+                           "latitude": 41.82259743,
+                           "longitude": -87.70676068,
+                           "name": "Pershing & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:50:26.000Z",
+                        "enterConnectionId": "http://example.org/connections/7795/6330061667020/20200903T1150/",
+                        "exitConnectionId": "http://example.org/connections/7795/6330061667020/20200903T1150/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 347360
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/7796",
+                           "latitude": 41.82259743,
+                           "longitude": -87.70676068,
+                           "name": "Pershing & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:50:26.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/3125",
+                           "latitude": 41.82068828,
+                           "longitude": -87.70438589,
+                           "name": "Kedzie & 40th Street",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:56:13.360Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/7796@1599155426000-http://example.org/stations/3066",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/7796@1599155426000-http://example.org/stations/3125"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 141000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/3125",
+                           "latitude": 41.82068828,
+                           "longitude": -87.70438589,
+                           "name": "Kedzie & 40th Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:56:39.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/3130",
+                           "latitude": 41.827986,
+                           "longitude": -87.704475,
+                           "name": "Kedzie & 36th Street",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:59:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/3125/6330063129020/20200903T1156/",
+                        "exitConnectionId": "http://example.org/connections/3128/6330063129020/20200903T1158/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 17226
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/3130",
+                           "latitude": 41.827986,
+                           "longitude": -87.704475,
+                           "name": "Kedzie & 36th Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:59:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/7809",
+                           "latitude": 41.82802542,
+                           "longitude": -87.70431002,
+                           "name": "36th Street & Kedzie",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:59:17.226Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/3130@1599155940000-http://example.org/stations/3063",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/3130@1599155940000-http://example.org/stations/7809"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 131000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/7809",
+                           "latitude": 41.82802542,
+                           "longitude": -87.70431002,
+                           "name": "36th Street & Kedzie",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T18:00:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/7789",
+                           "latitude": 41.828203,
+                           "longitude": -87.694857,
+                           "name": "36th Street & California",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T18:02:11.000Z",
+                        "enterConnectionId": "http://example.org/connections/7809/6330061215020/20200903T1200/",
+                        "exitConnectionId": "http://example.org/connections/7788/6330061215020/20200903T1201/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 18602
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/7789",
+                           "latitude": 41.828203,
+                           "longitude": -87.694857,
+                           "name": "36th Street & California",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T18:02:11.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/4175",
+                           "latitude": 41.828174,
+                           "longitude": -87.694674,
+                           "name": "California & 36th Street",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T18:02:29.602Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/7789@1599156131000-http://example.org/stations/4173",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/7789@1599156131000-http://example.org/stations/4175"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 2856000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/4175",
+                           "latitude": 41.828174,
+                           "longitude": -87.694674,
+                           "name": "California & 36th Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T18:04:09.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/3200",
+                           "latitude": 41.93571545,
+                           "longitude": -87.69761083,
+                           "name": "California & Wellington",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T18:51:45.000Z",
+                        "enterConnectionId": "http://example.org/connections/4175/6332011998020/20200903T1204/",
+                        "exitConnectionId": "http://example.org/connections/3199/6332011998020/20200903T1251/"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 23616,
+         "scannedConnections": 58699,
+         "pagesFetched": 14,
+         "bytesTransferred": 61298993,
+         "timePerConnection": 0.4023237193137873
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/10060",
+            "to": "http://example.org/stations/696",
+            "minimumDepartureTime": "2020-09-03T03:57:32.355Z",
+            "maximumArrivalTime": "2020-09-04T04:57:32.355Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 124000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/10060",
+                           "latitude": 41.68424755,
+                           "longitude": -87.70530943,
+                           "name": "115th Street & Homan",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T03:59:56.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/10066",
+                           "latitude": 41.684123,
+                           "longitude": -87.717333,
+                           "name": "115th Street & Springfield Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T04:02:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/10060/6332038268020/20200902T2159/",
+                        "exitConnectionId": "http://example.org/connections/10064/6332038268020/20200902T2201/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 2640000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/10066",
+                           "latitude": 41.684123,
+                           "longitude": -87.717333,
+                           "name": "115th Street & Springfield Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T04:10:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/12831",
+                           "latitude": 41.83675412,
+                           "longitude": -87.72549827,
+                           "name": "Komensky & 31st Street",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T04:54:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/10066/6332036636020/20200902T2210/",
+                        "exitConnectionId": "http://example.org/connections/12950/6332036636020/20200902T2252/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 19526
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/12831",
+                           "latitude": 41.83675412,
+                           "longitude": -87.72549827,
+                           "name": "Komensky & 31st Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T04:54:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/9063",
+                           "latitude": 41.83672961,
+                           "longitude": -87.72569191,
+                           "name": "31st Street & Komensky Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T04:54:19.526Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/12831@1599108840000-http://example.org/stations/6304",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/12831@1599108840000-http://example.org/stations/9063"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 1560000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/9063",
+                           "latitude": 41.83672961,
+                           "longitude": -87.72569191,
+                           "name": "31st Street & Komensky Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T05:00:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/9109",
+                           "latitude": 41.9097088,
+                           "longitude": -87.72628869,
+                           "name": "Pulaski & North Ave",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T05:26:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/9063/6330038314030/20200902T2300/",
+                        "exitConnectionId": "http://example.org/connections/9108/6330038314030/20200902T2325/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 33880
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/9109",
+                           "latitude": 41.9097088,
+                           "longitude": -87.72628869,
+                           "name": "Pulaski & North Ave",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T05:26:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/15149",
+                           "latitude": 41.90977952,
+                           "longitude": -87.725961,
+                           "name": "North Ave & Pulaski",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T05:26:33.880Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/9109@1599110760000-http://example.org/stations/882",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/9109@1599110760000-http://example.org/stations/15149"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 270000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/15149",
+                           "latitude": 41.90977952,
+                           "longitude": -87.725961,
+                           "name": "North Ave & Pulaski",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T05:27:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/885",
+                           "latitude": 41.90998056,
+                           "longitude": -87.7095756,
+                           "name": "North Ave & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T05:32:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/15149/6330038700020/20200902T2327/",
+                        "exitConnectionId": "http://example.org/connections/14831/6330038700020/20200902T2331/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 38507
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/885",
+                           "latitude": 41.90998056,
+                           "longitude": -87.7095756,
+                           "name": "North Ave & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T05:32:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/959",
+                           "latitude": 41.91018035,
+                           "longitude": -87.70985543,
+                           "name": "North Ave & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T05:32:38.507Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/885@1599111120000-http://example.org/stations/15254",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/885@1599111120000-http://example.org/stations/959"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 356000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/959",
+                           "latitude": 41.91018035,
+                           "longitude": -87.70985543,
+                           "name": "North Ave & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T05:33:14.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/971",
+                           "latitude": 41.909845,
+                           "longitude": -87.736802,
+                           "name": "North Ave & Kostner/Grand",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T05:39:10.000Z",
+                        "enterConnectionId": "http://example.org/connections/959/6330038726020/20200902T2333/",
+                        "exitConnectionId": "http://example.org/connections/16101/6330038726020/20200902T2338/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 50667
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/971",
+                           "latitude": 41.909845,
+                           "longitude": -87.736802,
+                           "name": "North Ave & Kostner/Grand",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T05:39:10.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/696",
+                           "latitude": 41.910036,
+                           "longitude": -87.736361,
+                           "name": "Grand & Kostner",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T05:40:00.667Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/971@1599111550000-http://example.org/stations/18477",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/971@1599111550000-http://example.org/stations/696"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 30634,
+         "scannedConnections": 52667,
+         "pagesFetched": 12,
+         "bytesTransferred": 52405552,
+         "timePerConnection": 0.5816545464902121
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/14813",
+            "to": "http://example.org/stations/7060",
+            "minimumDepartureTime": "2020-09-03T10:46:48.567Z",
+            "maximumArrivalTime": "2020-09-04T11:46:48.567Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 70000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14813",
+                           "latitude": 41.96119475,
+                           "longitude": -87.6980109,
+                           "name": "Montrose & California",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T10:51:20.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/17609",
+                           "latitude": 41.96126049,
+                           "longitude": -87.68831156,
+                           "name": "Montrose & Western",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T10:52:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/14813/6330023872020/20200903T0451/",
+                        "exitConnectionId": "http://example.org/connections/11347/6330023872020/20200903T0452/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 55060
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/17609",
+                           "latitude": 41.96126049,
+                           "longitude": -87.68831156,
+                           "name": "Montrose & Western",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T10:52:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/8187",
+                           "latitude": 41.96141941,
+                           "longitude": -87.68882368,
+                           "name": "Western & Montrose",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T10:53:25.060Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/17609@1599130350000-http://example.org/stations/41500",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/17609@1599130350000-http://example.org/stations/8187"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 810000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/8187",
+                           "latitude": 41.96141941,
+                           "longitude": -87.68882368,
+                           "name": "Western & Montrose",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T10:54:19.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/8214",
+                           "latitude": 41.91579371,
+                           "longitude": -87.68747528,
+                           "name": "Western & Cortland (Blue Line)",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:07:49.000Z",
+                        "enterConnectionId": "http://example.org/connections/8187/6332011461020/20200903T0454/",
+                        "exitConnectionId": "http://example.org/connections/8212/6332011461020/20200903T0507/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 49718
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/8214",
+                           "latitude": 41.91579371,
+                           "longitude": -87.68747528,
+                           "name": "Western & Cortland (Blue Line)",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:07:49.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30130",
+                           "latitude": 41.916157,
+                           "longitude": -87.687364,
+                           "name": "Western-O'Hare",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:08:38.718Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/8214@1599131269000-http://example.org/stations/889",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/8214@1599131269000-http://example.org/stations/30130"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 810000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30130",
+                           "latitude": 41.916157,
+                           "longitude": -87.687364,
+                           "name": "Western-O'Hare",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:09:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30015",
+                           "latitude": 41.878183,
+                           "longitude": -87.629296,
+                           "name": "Jackson-Blue",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:22:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/30130/61178369331/20200903T0509/",
+                        "exitConnectionId": "http://example.org/connections/30154/61178369331/20200903T0521/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 152674
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30015",
+                           "latitude": 41.878183,
+                           "longitude": -87.629296,
+                           "name": "Jackson-Blue",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:22:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/1429",
+                           "latitude": 41.878318,
+                           "longitude": -87.62777,
+                           "name": "State & Jackson",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T11:25:02.674Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30015@1599132150000-http://example.org/stations/67",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30015@1599132150000-http://example.org/stations/1429"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 2253000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/1429",
+                           "latitude": 41.878318,
+                           "longitude": -87.62777,
+                           "name": "State & Jackson",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T11:25:03.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/7060",
+                           "latitude": 41.75325773,
+                           "longitude": -87.54948491,
+                           "name": "S. Shore Drive & Cheltenham",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T12:02:36.000Z",
+                        "enterConnectionId": "http://example.org/connections/1429/6331556357020/20200903T0525/",
+                        "exitConnectionId": "http://example.org/connections/7059/6331556357020/20200903T0602/"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 31409,
+         "scannedConnections": 45309,
+         "pagesFetched": 10,
+         "bytesTransferred": 43808743,
+         "timePerConnection": 0.6932176830210334
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/5315",
+            "to": "http://example.org/stations/17637",
+            "minimumDepartureTime": "2020-09-03T16:49:00.907Z",
+            "maximumArrivalTime": "2020-09-04T17:49:00.907Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 1530000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/5315",
+                           "latitude": 41.77339156,
+                           "longitude": -87.58563743,
+                           "name": "67th Street & Cornell Drive",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T16:52:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/14483",
+                           "latitude": 41.86935952,
+                           "longitude": -87.62035471,
+                           "name": "1100 S Columbus (Pedestrian Underpass)",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:18:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/5315/6331556343020/20200903T1052/",
+                        "exitConnectionId": "http://example.org/connections/5040/6331556343020/20200903T1110/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 577948
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14483",
+                           "latitude": 41.86935952,
+                           "longitude": -87.62035471,
+                           "name": "1100 S Columbus (Pedestrian Underpass)",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:18:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/1579",
+                           "latitude": 41.86598373,
+                           "longitude": -87.6239989,
+                           "name": "Michigan & 13th Street",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:27:37.948Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/14483@1599153480000-http://example.org/stations/70",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/14483@1599153480000-http://example.org/stations/1579"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 2035000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/1579",
+                           "latitude": 41.86598373,
+                           "longitude": -87.6239989,
+                           "name": "Michigan & 13th Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:28:26.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/357",
+                           "latitude": 41.86644971,
+                           "longitude": -87.70792594,
+                           "name": "Roosevelt & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T18:02:21.000Z",
+                        "enterConnectionId": "http://example.org/connections/1579/6330060974020/20200903T1128/",
+                        "exitConnectionId": "http://example.org/connections/356/6330060974020/20200903T1201/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 24812
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/357",
+                           "latitude": 41.86644971,
+                           "longitude": -87.70792594,
+                           "name": "Roosevelt & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T18:02:21.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/17637",
+                           "latitude": 41.86629914,
+                           "longitude": -87.70777941,
+                           "name": "Roosevelt & Spaulding",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T18:02:45.812Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/357@1599156141000-http://example.org/stations/15674",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/357@1599156141000-http://example.org/stations/17637"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 32768,
+         "scannedConnections": 64087,
+         "pagesFetched": 16,
+         "bytesTransferred": 70028461,
+         "timePerConnection": 0.5113049448406073
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/6650",
+            "to": "http://example.org/stations/3632",
+            "minimumDepartureTime": "2020-09-03T19:51:45.794Z",
+            "maximumArrivalTime": "2020-09-04T20:51:45.794Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 238000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/6650",
+                           "latitude": 41.86328865,
+                           "longitude": -87.69069449,
+                           "name": "Ogden & Rockwell",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T19:57:02.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/6655",
+                           "latitude": 41.85815937,
+                           "longitude": -87.70526572,
+                           "name": "Ogden & Kedzie",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:01:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/6650/6330037772020/20200903T1357/",
+                        "exitConnectionId": "http://example.org/connections/6653/6330037772020/20200903T1400/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 22205
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/6655",
+                           "latitude": 41.85815937,
+                           "longitude": -87.70526572,
+                           "name": "Ogden & Kedzie",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:01:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/15168",
+                           "latitude": 41.85831024,
+                           "longitude": -87.70536002,
+                           "name": "Kedzie & Ogden",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:01:22.205Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/6655@1599163260000-http://example.org/stations/278",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/6655@1599163260000-http://example.org/stations/15168"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 773000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/15168",
+                           "latitude": 41.85831024,
+                           "longitude": -87.70536002,
+                           "name": "Kedzie & Ogden",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:02:02.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/3165",
+                           "latitude": 41.88421582,
+                           "longitude": -87.7061072,
+                           "name": "Kedzie & Lake (Green Line)",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:14:55.000Z",
+                        "enterConnectionId": "http://example.org/connections/15168/6330063158020/20200903T1402/",
+                        "exitConnectionId": "http://example.org/connections/3164/6330063158020/20200903T1413/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 14816
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/3165",
+                           "latitude": 41.88421582,
+                           "longitude": -87.7061072,
+                           "name": "Kedzie & Lake (Green Line)",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:14:55.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30207",
+                           "latitude": 41.884321,
+                           "longitude": -87.706155,
+                           "name": "Kedzie-Green",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:15:09.816Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/3165@1599164095000-http://example.org/stations/3024",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/3165@1599164095000-http://example.org/stations/30207"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 720000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30207",
+                           "latitude": 41.884321,
+                           "longitude": -87.706155,
+                           "name": "Kedzie-Green",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:16:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30050",
+                           "latitude": 41.88574,
+                           "longitude": -87.627835,
+                           "name": "State/Lake",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:28:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/30207/61178371254/20200903T1416/",
+                        "exitConnectionId": "http://example.org/connections/30074/61178371254/20200903T1427/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 124246
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30050",
+                           "latitude": 41.88574,
+                           "longitude": -87.627835,
+                           "name": "State/Lake",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:28:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30289",
+                           "latitude": 41.884809,
+                           "longitude": -87.627813,
+                           "name": "Lake",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:30:34.246Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30050@1599164910000-http://example.org/stations/70",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30050@1599164910000-http://example.org/stations/30289"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 2160000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30289",
+                           "latitude": 41.884809,
+                           "longitude": -87.627813,
+                           "name": "Lake",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:31:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30173",
+                           "latitude": 42.019063,
+                           "longitude": -87.672892,
+                           "name": "Howard",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T21:07:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/30289/61178373849/20200903T1431/",
+                        "exitConnectionId": "http://example.org/connections/30227/61178373849/20200903T1506/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 173153
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30173",
+                           "latitude": 42.019063,
+                           "longitude": -87.672892,
+                           "name": "Howard",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T21:07:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/14094",
+                           "latitude": 42.01776729,
+                           "longitude": -87.67279597,
+                           "name": "Paulina & Howard Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T21:10:23.153Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30173@1599167250000-http://example.org/stations/3516",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30173@1599167250000-http://example.org/stations/14094"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 137000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14094",
+                           "latitude": 42.01776729,
+                           "longitude": -87.67279597,
+                           "name": "Paulina & Howard Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T21:12:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/3514",
+                           "latitude": 42.01950099,
+                           "longitude": -87.67788203,
+                           "name": "Howard & Clyde",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T21:14:17.000Z",
+                        "enterConnectionId": "http://example.org/connections/14094/6330022279020/20200903T1512/",
+                        "exitConnectionId": "http://example.org/connections/3513/6330022279020/20200903T1513/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 21825
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/3514",
+                           "latitude": 42.01950099,
+                           "longitude": -87.67788203,
+                           "name": "Howard & Clyde",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T21:14:17.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/3632",
+                           "latitude": 42.01937362,
+                           "longitude": -87.6777439,
+                           "name": "Howard & Wolcott",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T21:14:38.825Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/3514@1599167657000-http://example.org/stations/3519",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/3514@1599167657000-http://example.org/stations/3632"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 37548,
+         "scannedConnections": 86594,
+         "pagesFetched": 18,
+         "bytesTransferred": 78847416,
+         "timePerConnection": 0.43360971891816985
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/2622",
+            "to": "http://example.org/stations/1963",
+            "minimumDepartureTime": "2020-09-03T15:45:39.310Z",
+            "maximumArrivalTime": "2020-09-04T16:45:39.310Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 878000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/2622",
+                           "latitude": 41.7515162,
+                           "longitude": -87.58872078,
+                           "name": "79th Street & Anthony",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T15:48:22.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/2641",
+                           "latitude": 41.75111,
+                           "longitude": -87.6252,
+                           "name": "79th Red Line Station",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T16:03:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/2622/6332037126020/20200903T0948/",
+                        "exitConnectionId": "http://example.org/connections/2639/6332037126020/20200903T1001/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 92618
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/2641",
+                           "latitude": 41.75111,
+                           "longitude": -87.6252,
+                           "name": "79th Red Line Station",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T16:03:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30046",
+                           "latitude": 41.750419,
+                           "longitude": -87.625112,
+                           "name": "79th",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T16:04:32.618Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/2641@1599148980000-http://example.org/stations/2283",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/2641@1599148980000-http://example.org/stations/30046"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 3540000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30046",
+                           "latitude": 41.750419,
+                           "longitude": -87.625112,
+                           "name": "79th",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T16:08:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30173",
+                           "latitude": 42.019063,
+                           "longitude": -87.672892,
+                           "name": "Howard",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:07:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/30046/61178373821/20200903T1008/",
+                        "exitConnectionId": "http://example.org/connections/30227/61178373821/20200903T1106/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 29796
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30173",
+                           "latitude": 42.019063,
+                           "longitude": -87.672892,
+                           "name": "Howard",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:07:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/14096",
+                           "latitude": 42.01896555,
+                           "longitude": -87.67316244,
+                           "name": "Paulina & Howard Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:07:59.796Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30173@1599152850000-http://example.org/stations/14094",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30173@1599152850000-http://example.org/stations/14096"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 337000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14096",
+                           "latitude": 42.01896555,
+                           "longitude": -87.67316244,
+                           "name": "Paulina & Howard Terminal",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:09:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/1785",
+                           "latitude": 42.00907982,
+                           "longitude": -87.67407316,
+                           "name": "Clark & Lunt",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:14:37.000Z",
+                        "enterConnectionId": "http://example.org/connections/14096/6330001088020/20200903T1109/",
+                        "exitConnectionId": "http://example.org/connections/1784/6330001088020/20200903T1114/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 29765
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/1785",
+                           "latitude": 42.00907982,
+                           "longitude": -87.67407316,
+                           "name": "Clark & Lunt",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T17:14:37.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/1963",
+                           "latitude": 42.00892504,
+                           "longitude": -87.67385697,
+                           "name": "Clark & Lunt",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T17:15:06.765Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/1785@1599153277000-http://example.org/stations/12055",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/1785@1599153277000-http://example.org/stations/1963"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 40416,
+         "scannedConnections": 81320,
+         "pagesFetched": 19,
+         "bytesTransferred": 83118122,
+         "timePerConnection": 0.4969995081160846
+      },
+      {
+         "query": {
+            "from": "http://example.org/stations/2158",
+            "to": "http://example.org/stations/5602",
+            "minimumDepartureTime": "2020-09-03T19:24:35.946Z",
+            "maximumArrivalTime": "2020-09-04T20:24:35.946Z",
+            "profileID": "https://hdelva.be/profile/pedestrian"
+         },
+         "route": {
+            "legs": [
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 380000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/2158",
+                           "latitude": 41.81496273,
+                           "longitude": -87.61661867,
+                           "name": "King Drive & 44th Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T19:34:10.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/2167",
+                           "latitude": 41.83146567,
+                           "longitude": -87.61685334,
+                           "name": "King Drive & 35th Street",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T19:40:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/2158/6332037681020/20200903T1334/",
+                        "exitConnectionId": "http://example.org/connections/2166/6332037681020/20200903T1339/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 33600
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/2167",
+                           "latitude": 41.83146567,
+                           "longitude": -87.61685334,
+                           "name": "King Drive & 35th Street",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T19:40:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/2528",
+                           "latitude": 41.83126759,
+                           "longitude": -87.61664467,
+                           "name": "35th Street & King Drive",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T19:41:03.600Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/2167@1599162030000-http://example.org/stations/1562",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/2167@1599162030000-http://example.org/stations/2528"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 340000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/2528",
+                           "latitude": 41.83126759,
+                           "longitude": -87.61664467,
+                           "name": "35th Street & King Drive",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T19:43:50.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/7638",
+                           "latitude": 41.83102965,
+                           "longitude": -87.63054819,
+                           "name": "Sox-35th Red Line Station",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T19:49:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/2528/6330061539020/20200903T1343/",
+                        "exitConnectionId": "http://example.org/connections/7636/6330061539020/20200903T1348/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 23232
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/7638",
+                           "latitude": 41.83102965,
+                           "longitude": -87.63054819,
+                           "name": "Sox-35th Red Line Station",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T19:49:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30036",
+                           "latitude": 41.831191,
+                           "longitude": -87.630636,
+                           "name": "Sox-35th",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T19:49:53.232Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/7638@1599162570000-http://example.org/stations/5098",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/7638@1599162570000-http://example.org/stations/30036"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 480000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30036",
+                           "latitude": 41.831191,
+                           "longitude": -87.630636,
+                           "name": "Sox-35th",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T19:50:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30109",
+                           "latitude": 41.878153,
+                           "longitude": -87.627596,
+                           "name": "Jackson-Red",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T19:58:00.000Z",
+                        "enterConnectionId": "http://example.org/connections/30036/61178373962/20200903T1350/",
+                        "exitConnectionId": "http://example.org/connections/30285/61178373962/20200903T1357/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 168943
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30109",
+                           "latitude": 41.878153,
+                           "longitude": -87.627596,
+                           "name": "Jackson-Red",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T19:58:00.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30014",
+                           "latitude": 41.878183,
+                           "longitude": -87.629296,
+                           "name": "Jackson-Blue",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:00:48.943Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30109@1599163080000-http://example.org/stations/67",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30109@1599163080000-http://example.org/stations/30014"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 1380000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30014",
+                           "latitude": 41.878183,
+                           "longitude": -87.629296,
+                           "name": "Jackson-Blue",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:01:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/30107",
+                           "latitude": 41.952925,
+                           "longitude": -87.729229,
+                           "name": "Irving Park-Blue",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:24:30.000Z",
+                        "enterConnectionId": "http://example.org/connections/30014/61178369547/20200903T1401/",
+                        "exitConnectionId": "http://example.org/connections/30239/61178369547/20200903T1423/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 166977
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/30107",
+                           "latitude": 41.952925,
+                           "longitude": -87.729229,
+                           "name": "Irving Park-Blue",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:24:30.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/14548",
+                           "latitude": 41.95374999,
+                           "longitude": -87.72796377,
+                           "name": "Irving Park & Pulaski",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:27:16.977Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/30107@1599164670000-http://example.org/stations/5445",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/30107@1599164670000-http://example.org/stations/14548"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "train",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 1709000
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/14548",
+                           "latitude": 41.95374999,
+                           "longitude": -87.72796377,
+                           "name": "Irving Park & Pulaski",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:27:33.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/5746",
+                           "latitude": 41.95267132,
+                           "longitude": -87.81448156,
+                           "name": "Irving Park & Olcott",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:56:02.000Z",
+                        "enterConnectionId": "http://example.org/connections/14548/6330023330020/20200903T1427/",
+                        "exitConnectionId": "http://example.org/connections/5745/6330023330020/20200903T1455/"
+                     }
+                  ]
+               },
+               {
+                  "travelMode": "walking",
+                  "steps": [
+                     {
+                        "duration": {
+                           "average": 34879
+                        },
+                        "startLocation": {
+                           "id": "http://example.org/stations/5746",
+                           "latitude": 41.95267132,
+                           "longitude": -87.81448156,
+                           "name": "Irving Park & Olcott",
+                           "avgStopTimes": 0
+                        },
+                        "startTime": "2020-09-03T20:56:02.000Z",
+                        "stopLocation": {
+                           "id": "http://example.org/stations/5602",
+                           "latitude": 41.95251579,
+                           "longitude": -87.81476406,
+                           "name": "Irving Park & Olcott",
+                           "avgStopTimes": 0
+                        },
+                        "stopTime": "2020-09-03T20:56:36.879Z",
+                        "enterConnectionId": "TRANSFER_TO:http://example.org/stations/5746@1599166562000-http://example.org/stations/12625",
+                        "exitConnectionId": "TRANSFER_TO:http://example.org/stations/5746@1599166562000-http://example.org/stations/5602"
+                     }
+                  ]
+               }
+            ],
+            "context": {}
+         },
+         "responseTime": 41796,
+         "scannedConnections": 92229,
+         "pagesFetched": 20,
+         "bytesTransferred": 87572256,
+         "timePerConnection": 0.4531763328237322
       }
    ]
 }
