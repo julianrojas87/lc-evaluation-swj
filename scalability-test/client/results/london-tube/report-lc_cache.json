@@ -1,0 +1,50 @@
+[
+    {
+        "averageResponseTime": 2272.54,
+        "timeouts": 0,
+        "p10": 284,
+        "p50": 1104,
+        "p75": 2240,
+        "p90": 5126
+    },
+    {
+        "averageResponseTime": 1936.27,
+        "timeouts": 0,
+        "p10": 451,
+        "p50": 1776,
+        "p75": 2724,
+        "p90": 3589
+    },
+    {
+        "averageResponseTime": 2259.38,
+        "timeouts": 0,
+        "p10": 458,
+        "p50": 1849,
+        "p75": 3639,
+        "p90": 4808
+    },
+    {
+        "averageResponseTime": 2937.27,
+        "timeouts": 0,
+        "p10": 717,
+        "p50": 2619,
+        "p75": 4083,
+        "p90": 5782
+    },
+    {
+        "averageResponseTime": 1566.68,
+        "timeouts": 0,
+        "p10": 274,
+        "p50": 1192,
+        "p75": 1812,
+        "p90": 3022
+    },
+    {
+        "averageResponseTime": 1071.46,
+        "timeouts": 0,
+        "p10": 349,
+        "p50": 989,
+        "p75": 1404,
+        "p90": 1776
+    }
+]

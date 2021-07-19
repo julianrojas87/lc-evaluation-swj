@@ -1,50 +1,50 @@
 [
     {
-        "averageResponseTime": 45.01,
+        "averageResponseTime": 35.82,
+        "timeouts": 0,
+        "p10": 22,
+        "p50": 29,
+        "p75": 43,
+        "p90": 58
+    },
+    {
+        "averageResponseTime": 37.23,
         "timeouts": 0,
         "p10": 21,
-        "p50": 37,
-        "p75": 57,
-        "p90": 76
+        "p50": 29,
+        "p75": 46,
+        "p90": 58
     },
     {
-        "averageResponseTime": 55.394999999999996,
+        "averageResponseTime": 44.85,
         "timeouts": 0,
-        "p10": 26,
-        "p50": 44.5,
-        "p75": 60.5,
-        "p90": 95.5
+        "p10": 22,
+        "p50": 35,
+        "p75": 51,
+        "p90": 80
     },
     {
-        "averageResponseTime": 108.824,
+        "averageResponseTime": 64.01,
         "timeouts": 0,
-        "p10": 36.6,
-        "p50": 73,
-        "p75": 107.4,
-        "p90": 170.4
+        "p10": 23,
+        "p50": 44,
+        "p75": 87,
+        "p90": 129
     },
     {
-        "averageResponseTime": 173.05900000000003,
+        "averageResponseTime": 52.28,
         "timeouts": 0,
-        "p10": 57.7,
-        "p50": 126.3,
-        "p75": 178.1,
-        "p90": 306.6
+        "p10": 23,
+        "p50": 36,
+        "p75": 70,
+        "p90": 98
     },
     {
-        "averageResponseTime": 364.66,
+        "averageResponseTime": 413.67,
         "timeouts": 0,
-        "p10": 176,
-        "p50": 307,
-        "p75": 391,
-        "p90": 611
-    },
-    {
-        "averageResponseTime": 761.2160000000001,
-        "timeouts": 0,
-        "p10": 229.5,
-        "p50": 650.5,
-        "p75": 861.4,
-        "p90": 1464.7
+        "p10": 268,
+        "p50": 344,
+        "p75": 457,
+        "p90": 581
     }
 ]
