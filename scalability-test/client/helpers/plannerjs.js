@@ -42,7 +42,7 @@ async function run() {
             pagesFetched = 0;
             bytesTransferred = 0;
 
-            //console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
+            console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to} at ${querySet[j].minimumDepartureTime}`);
 
             const t0 = new Date();
 
