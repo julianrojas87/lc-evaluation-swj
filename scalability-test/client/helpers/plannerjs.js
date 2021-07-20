@@ -47,11 +47,19 @@ async function run() {
             const t0 = new Date();
 
             try {
+                const minimumDepartureTime = new Date(querySet[j].minimumDepartureTime);
+                let mementoDate = null;
+
+                if(workerData.memento) {
+                    mementoDate = new Date(minimumDepartureTime.getTime() - (3600 * 1000));
+                }
+
                 const route = await runQuery(planner, {
                     from: querySet[j].from,
                     to: querySet[j].to,
-                    minimumDepartureTime: new Date(querySet[j].minimumDepartureTime),
-                    maximumArrivalTime: new Date(querySet[j].maximumArrivalTime)
+                    minimumDepartureTime,
+                    maximumArrivalTime: new Date(querySet[j].maximumArrivalTime),
+                    mementoDate
                 }, false);
                 const responseTime = new Date() - t0;
                 //console.log(`\tresponse time = ${responseTime} ms`);

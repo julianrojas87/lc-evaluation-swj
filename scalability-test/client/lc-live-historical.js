@@ -24,6 +24,8 @@ const log = process.argv[10] === 'true';
 const recordStats = process.argv[11] === 'true';
 // Autocannon flag
 const useAutocannon = process.argv[12] === 'true';
+// User memento flag
+const memento = process.argv[13] === 'true';
 
 
 async function getURLSet() {
@@ -81,7 +83,8 @@ function runPlannerJS(queries) {
                 server: `${serverURI}:${serverPort}`,
                 operator: operator,
                 querySet: queries,
-                cycles: 1
+                cycles: 1,
+                memento
             }
         });
 
