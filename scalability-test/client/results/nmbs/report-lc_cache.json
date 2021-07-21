@@ -1,50 +1,50 @@
 [
     {
-        "averageResponseTime": 806.02,
+        "averageResponseTime": 944.47,
         "timeouts": 0,
-        "p10": 334,
-        "p50": 727,
-        "p75": 1012,
-        "p90": 1347
+        "p10": 336,
+        "p50": 705,
+        "p75": 937,
+        "p90": 1227
     },
     {
-        "averageResponseTime": 1518.65,
+        "averageResponseTime": 716.22,
         "timeouts": 0,
-        "p10": 411,
-        "p50": 1433,
-        "p75": 2132,
-        "p90": 2553
+        "p10": 321,
+        "p50": 672,
+        "p75": 890,
+        "p90": 1207
     },
     {
-        "averageResponseTime": 1642.06,
+        "averageResponseTime": 742.72,
         "timeouts": 0,
-        "p10": 431,
-        "p50": 1428,
-        "p75": 2117,
-        "p90": 3284
+        "p10": 343,
+        "p50": 705,
+        "p75": 885,
+        "p90": 1208
     },
     {
-        "averageResponseTime": 1955.68,
+        "averageResponseTime": 841.64,
         "timeouts": 0,
-        "p10": 577,
-        "p50": 1759,
-        "p75": 2683,
-        "p90": 4004
+        "p10": 336,
+        "p50": 770,
+        "p75": 1066,
+        "p90": 1381
     },
     {
-        "averageResponseTime": 1962.24,
+        "averageResponseTime": 816.59,
         "timeouts": 0,
-        "p10": 605,
-        "p50": 1772,
-        "p75": 2567,
-        "p90": 4198
+        "p10": 356,
+        "p50": 762,
+        "p75": 1048,
+        "p90": 1346
     },
     {
-        "averageResponseTime": 1837.58,
+        "averageResponseTime": 943.53,
         "timeouts": 0,
-        "p10": 553,
-        "p50": 1636,
-        "p75": 2378,
-        "p90": 3555
+        "p10": 423,
+        "p50": 898,
+        "p75": 1172,
+        "p90": 1514
     }
 ]
