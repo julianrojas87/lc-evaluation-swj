@@ -1,50 +1,50 @@
 [
     {
-        "averageResponseTime": 41.99,
+        "averageResponseTime": 43.21,
         "timeouts": 0,
-        "p10": 24,
-        "p50": 47,
-        "p75": 51,
-        "p90": 55
-    },
-    {
-        "averageResponseTime": 42.52,
-        "timeouts": 0,
-        "p10": 24,
-        "p50": 47,
-        "p75": 50,
+        "p10": 25,
+        "p50": 48,
+        "p75": 52,
         "p90": 57
     },
     {
-        "averageResponseTime": 42.16,
+        "averageResponseTime": 38.83,
         "timeouts": 0,
-        "p10": 24,
-        "p50": 46,
-        "p75": 51,
-        "p90": 55
+        "p10": 21,
+        "p50": 43,
+        "p75": 47,
+        "p90": 54
     },
     {
-        "averageResponseTime": 41.49,
+        "averageResponseTime": 38.06,
         "timeouts": 0,
-        "p10": 24,
-        "p50": 46,
-        "p75": 50,
-        "p90": 55
+        "p10": 20,
+        "p50": 43,
+        "p75": 46,
+        "p90": 49
     },
     {
-        "averageResponseTime": 43.42,
+        "averageResponseTime": 38.26,
         "timeouts": 0,
-        "p10": 23,
-        "p50": 47,
-        "p75": 51,
-        "p90": 58
+        "p10": 21,
+        "p50": 43,
+        "p75": 47,
+        "p90": 52
     },
     {
-        "averageResponseTime": 42.28,
+        "averageResponseTime": 38.36,
         "timeouts": 0,
-        "p10": 23,
-        "p50": 46,
-        "p75": 51,
-        "p90": 56
+        "p10": 21,
+        "p50": 43,
+        "p75": 46,
+        "p90": 51
+    },
+    {
+        "averageResponseTime": 39.24,
+        "timeouts": 0,
+        "p10": 21,
+        "p50": 44,
+        "p75": 47,
+        "p90": 52
     }
 ]
