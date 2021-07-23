@@ -4,7 +4,7 @@ import csv
 
 # Function to extract measures from csv files
 def retrieve_data(ptn, measure):
-    root_path = "../results/"
+    root_path = "../fragmentations-test/results/"
     x = []
     y = []
 

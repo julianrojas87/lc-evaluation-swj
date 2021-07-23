@@ -52,6 +52,16 @@ ACD = np.array([11.08, 2.57, 51.24, 4.53, 83.81, 32.97, 33.05, 1.6, 5.66, 2.51, 
 SCQ = [120, 140, 380, 370, 450, 4100, 2970, 390, 9760, 13030, 5070, 33470, 39540, 
     9190, 13770, 28220, 87420, 76440, 20510, 234310, 64240, 322240]
 
+# Calculate Pearson coefficient
+pearson_stops = np.corrcoef(stops, performance)[0][1]
+print("pearson_stops = " + str(pearson_stops))
+pearson_connections = np.corrcoef(connections, performance)[0][1]
+print("pearson_connections = " + str(pearson_connections))
+pearson_K = np.corrcoef(K, performance)[0][1]
+pearson_D = np.corrcoef(D, performance)[0][1]
+pearson_C = np.corrcoef(C, performance)[0][1]
+pearson_ACD = np.corrcoef(ACD, performance)[0][1]
+
 # Create subplots
 plt.rcParams.update({'font.size': 16})
 fig, ((ax1, ax2), (ax3, ax4), (ax5, ax6)) = plt.subplots(3, 2)
