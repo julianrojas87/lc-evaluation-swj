@@ -10,10 +10,10 @@ http.createServer((req, res) => {
     const concurrency = urlObj.searchParams.get('concurrency');
 
     if (command === 'start') {
-        if(server.includes('cache')) {
-            exec(`sudo ../recordstats_cache.sh > ../../results/${operator}/${server}/${concurrency}.csv`);
+        if(['cache', 'live', 'historical', 'base'].some(name => server.includes(name))) {
+            exec(`sudo ../recordstats_cache.sh > ../results/${operator}/${server}/${concurrency}.csv`);
         } else {
-            exec(`sudo ../recordstats.sh > ../../results/${operator}/${server}/${concurrency}.csv`);   
+            exec(`sudo ../recordstats.sh > ../results/${operator}/${server}/${concurrency}.csv`);   
         }
     }
 
