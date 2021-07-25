@@ -10,7 +10,7 @@ services:
       - "8080:80"
   lc-server:
     build: ./
-    container_name: server_lc-server-1
+    container_name: server_lc-server_1
     deploy:
       resources:
         limits:
