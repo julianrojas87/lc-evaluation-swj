@@ -1,0 +1,27 @@
+{
+    "storage": "../lc-data",
+    "organization": {
+        "id": "https://example.org/your/URL",
+        "name": "Data publisher name"
+    },
+    "datasets":[
+        {
+            "companyName": "nmbs",
+            "keywords": ["Train", "Linked Connections"],
+            "geographicArea": "http://sws.geonames.org/2802361",
+            "downloadUrl": "https://sncb-opendata.hafas.de/gtfs/static/c21ac6758dd25af84cca5b707f3cb3de",
+            "downloadOnLaunch": false,
+            "updatePeriod": "0 0 3 28 * *",
+            "fragmentSize": 50000,
+            "baseURIs": {
+                "stop": "http://irail.be/stations/NMBS/00{stops.stop_id}",
+                "connection": "http://irail.be/connections/{depStop}/{trips.startTime(yyyyMMdd)}/{routes.route_short_name}{trips.trip_short_name}",
+                "trip": "http://irail.be/vehicle/{routes.route_short_name}{trips.trip_short_name}/{trips.startTime(yyyyMMdd)}",
+                "route": "http://irail.be/vehicle/{routes.route_short_name}{trips.trip_short_name}",
+                "resolve": {
+                    "depStop": "connection.departureStop.stop_id"
+                }
+            }
+        }
+    ]
+}
