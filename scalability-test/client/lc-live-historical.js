@@ -128,7 +128,7 @@ async function run() {
                 // Initialize autocannon only if more than 1 client is needed
                 loadGenerator = autocannon({
                     url: `${serverURI}:${serverPort}`,
-                    initialContext: { log: log },
+                    initialContext: { log },
                     connections: concurrencies[i] - 1,
                     workers: workers[i],
                     pipelining: 1,

@@ -1,0 +1,17 @@
+# docker-compose file to launch the LC-Server behind an NGINX reverse proxy
+version: "3"
+services:
+  nginx:
+    build: ./nginx
+    links: 
+      - lc-server:lc-server
+    ports: 
+      - "8080:80"
+  lc-server:
+    build: ./
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+    ports:
+      - "3000:3000"
