@@ -12,4 +12,4 @@ rm source.osm.pbf
 echo Downloading GTFS data source...
 wget -qO source.gtfs.zip ${GTFS_DATA}
 # Start OTP
-java -Xmx8G -jar otp-2.1.0-SNAPSHOT-shaded.jar --build --serve .
+java -Xmx12G -jar otp-2.1.0-SNAPSHOT-shaded.jar --build --serve .
