@@ -148,4 +148,4 @@ One of the main contributions of our paper is the cross-correlation of particula
 node lc-analytics/scripts/graphMetrics.js
 ```
 
-The results will be printed on console in a CSV format. We already provide the set of measured metrics in this [_graph-metrics.csv_](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/results/graph-metrics.csv) file.
+The results will be printed on console in a CSV format. We already provide the set of measured metrics in this [_graph-metrics.csv_](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/fragmentations-test/results/graph-metrics.csv) file.
