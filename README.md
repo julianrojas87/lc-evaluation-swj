@@ -84,9 +84,9 @@ The results of this step will be stored in a folder called _fragmentations_ insi
 
 #### 4.2 Setup a _Linked Connections_ server
 
-In this step, we setup a Node.js [Linked Connections server](https://github.com/linkedconnections/linked-connections-server/tree/swj-evaluation) over all the networks (we used the dedicated `swj-evaluation` branch for reproducibility). Once installed we need to configure the server, for which we already provide a configuration file called [datasets_config.json](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/datasets_config.json).  Follow these steps:
+In this step, we setup a Node.js [Linked Connections server](https://github.com/linkedconnections/linked-connections-server/tree/swj-evaluation) over all the networks (we used the dedicated `swj-evaluation` branch for reproducibility). Once installed we need to configure the server, for which we already provide a configuration file called [datasets_config.json](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/fragmentations-test/datasets_config.json).  Follow these steps:
 
-- Adjust the value of the `lcDataPath` property of [config.js](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/lc-analytics/config.js) to a folder of your choice. This folder will contain one sub-folder for every configured fragmentation size. 
+- Adjust the value of the `lcDataPath` property of [config.js](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/fragmentations-test/lc-analytics/config.js) to a folder of your choice. This folder will contain one sub-folder for every configured fragmentation size. 
 
 - Create a folder called `raw-data` inside your main parent folder (defined in `rootPath` of config.js) and put all the GTFS sources there. This is to provide the stops/stations data, needed for solving route planning queries later.
 
