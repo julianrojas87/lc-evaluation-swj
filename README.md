@@ -70,7 +70,7 @@ cd lc-analytics
 npm install
 ```
 
-and configured using the [config.js](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/lc-analytics/config.js) file.  Is necessary to set the `rootPath` property with the path to a parent folder where all results will be stored. 
+and configured using the [config.js](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/fragmentations-test/lc-analytics/config.js) file.  Is necessary to set the `rootPath` property with the path to a parent folder where all results will be stored. 
 
 This parent folder must have a folder named _raw-lc_, containing the set of Linked Connection collections obtained in step 3. The rest of the parameters are already pre-configured and may be adjusted only in further steps.
 
