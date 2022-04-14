@@ -57,13 +57,13 @@ We provide already the set of busiest day Linked Connections for every network a
 
 ### 4. Route planning performance
 
-For each network, we measured the performance of _Earliest Arrival Time_ route planning queries, using the route planning Javascript library [`planner.js`](https://planner.js.org/) (we used the dedicated [`swj-eval`](https://github.com/openplannerteam/planner.js/tree/swj-eval) branch for reproducibility). The overall results are already available in the [results](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/results) folder of this repository. The steps to reproduce this evaluation are described next.
+For each network, we measured the performance of _Earliest Arrival Time_ route planning queries, using the route planning Javascript library [`planner.js`](https://planner.js.org/) (we used the dedicated [`swj-eval`](https://github.com/openplannerteam/planner.js/tree/swj-eval) branch for reproducibility). The overall results are already available in the [results](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/fragmentations-test/results) folder of this repository. The steps to reproduce this evaluation are described next.
 
 #### 4.1 Create fragmentation sets
 
 The first step consists on fragmenting the Linked Connection collections obtained from the previous step, in uniform fragments of fixed size (in terms of number of connections). 
 
-For this we use the [`lc-analytics`](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/lc-analytics) Node.js application, bundled within this repository.  This application needs to be installed:
+For this we use the [`lc-analytics`](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/fragmentations-test/lc-analytics) Node.js application, bundled within this repository.  This application needs to be installed:
 
 ```bash
 cd lc-analytics
