@@ -45,7 +45,7 @@ The conversion of a GTFS source to Linked Connections is done through the [`gtfs
 
 ### 3. Extract busiest day _Linked Connections_
 
-For each network, we used the busiest day of the schedule as a representative subset of the entire data source. The busiest day is the day with the highest amount of trips. We used the [`peartree`](https://github.com/kuanb/peartree) Python library to find the busiest day for each network. We provide the [busy_days.py](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/busiest-days/busy_days.py) Python script and also the [obtained results](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/busiest-days/busiest_days.txt) for every network.
+For each network, we used the busiest day of the schedule as a representative subset of the entire data source. The busiest day is the day with the highest amount of trips. We used the [`peartree`](https://github.com/kuanb/peartree) Python library to find the busiest day for each network. We provide the [busy_days.py](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/fragmentations-test/busiest-days/busy_days.py) Python script and also the [obtained results](https://github.com/julianrojas87/lc-evaluation-swj/blob/main/fragmentations-test//busiest-days/busiest_days.txt) for every network.
 
 Knowing the busiest day of a network, we can then filter the relevant Linked Connections as follows:
 
