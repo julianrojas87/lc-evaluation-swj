@@ -108,7 +108,7 @@ In this step, we setup a Node.js [Linked Connections server](https://github.com/
 
 #### 4.3 Generate random queries
 
-To perform the route planning query evaluation we first need a set of queries for each network that are possible to be resolved. We created a Node.js script that generate sets of queries for a network, by testing random pairs of stops departing at also random times. The script uses planner.js to perform the tests. We already provide a [complete set of queries](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/query-sets) for each network in this repository, but to execute the script proceed as follows:
+To perform the route planning query evaluation we first need a set of queries for each network that are possible to be resolved. We created a Node.js script that generate sets of queries for a network, by testing random pairs of stops departing at also random times. The script uses planner.js to perform the tests. We already provide a [complete set of queries](https://github.com/julianrojas87/lc-evaluation-swj/tree/main/fragmentations-test/query-sets) for each network in this repository, but to execute the script proceed as follows:
 
 ```bash
 node lc-analytics/scripts/generateQueries.js
@@ -118,7 +118,7 @@ The script will create a folder named _query-sets_ inside the folder indicated b
 
 #### 4.4 Run the evaluation
 
-With a set of queries and a Linked Connections server up and running the evaluation can be executed for a single network as follows:
+With a set of queries and a Linked Connections server up and running, the evaluation can be executed for a single network as follows:
 
 ```bash
 node lc-analytics/scripts/evaluation.js {transport_network} {fragment_size} {repetitions}
