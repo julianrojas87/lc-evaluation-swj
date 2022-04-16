@@ -6,6 +6,10 @@ import { calculateBasicTVG } from '../lib/GraphMetrics.js';
 import { PaginatorStream } from '../lib/PaginatorStream.js';
 
 async function run() {
+    if(!fs.existsSync(`${config.rootPath}/fragmentations`)) {
+        fs.mkdirSync(`${config.rootPath}/fragmentations`);
+    }
+    
     for (const source of config.sources) {
         const TVG = await calculateBasicTVG(source);
         await fragmentPTN(source, TVG);

@@ -5,8 +5,8 @@ export default {
     lcDataPath: "/home/julian/Desktop/lc-evaluation/lc-data",
     sources: [
         {
-            "name": "amsterdam-gvb",
-            "path": "amsterdam-gvb_filtered.json",
+            "name": "amsterdam",
+            "path": "amsterdam_filtered.json",
             "busiestDay": "2020-10-16",
             "smallestFragment": 71
         },
