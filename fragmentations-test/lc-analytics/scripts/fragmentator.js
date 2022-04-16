@@ -9,7 +9,7 @@ async function run() {
     if(!fs.existsSync(`${config.rootPath}/fragmentations`)) {
         fs.mkdirSync(`${config.rootPath}/fragmentations`);
     }
-    
+
     for (const source of config.sources) {
         const TVG = await calculateBasicTVG(source);
         await fragmentPTN(source, TVG);
@@ -17,6 +17,7 @@ async function run() {
 }
 
 async function fragmentPTN(source, TVG) {
+    console.log(`Fragmenting ${source.name} network...`);
     const fragmentsPath = `${config.rootPath}/fragmentations/${source.name}`;
     if (!fs.existsSync(fragmentsPath)) {
         fs.mkdirSync(fragmentsPath);
