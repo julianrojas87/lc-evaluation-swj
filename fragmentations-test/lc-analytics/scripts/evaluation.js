@@ -15,7 +15,12 @@ async function run() {
         if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
         // Skip if results already exist
         if (!fs.existsSync(`${config.rootPath}/results/${source}/results_${set}.json`)) {
-            await runBenchmark(source, JSON.parse(querySet), set, cycles, latency);
+            try {
+                await runBenchmark(source, JSON.parse(querySet), set, cycles, latency);
+            } catch (err) {
+                console.log(`Network ${source} skipped`);
+            }
+            
         }
     }
 }
