@@ -17,7 +17,7 @@ export default {
             "smallestFragment": 5
         },
         {
-            "name": "chicago-cta",
+            "name": "chicago",
             "path": "chicago_filtered.json",
             "busiestDay": "2020-09-03",
             "smallestFragment": 164
@@ -65,7 +65,7 @@ export default {
             "smallestFragment": 247
         },
         {
-            "name": "nairobi-sacco",
+            "name": "nairobi",
             "path": "nairobi_filtered.json",
             "busiestDay": "2018-03-03",
             "smallestFragment": 259
