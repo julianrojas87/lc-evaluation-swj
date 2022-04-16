@@ -13,7 +13,10 @@ async function run() {
         const source = s.name;
         const querySet = fs.readFileSync(`${config.rootPath}/query-sets/${source}/query-set.json`, 'utf8');
         if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
-        await runBenchmark(source, JSON.parse(querySet), set, cycles, latency);
+        // Skip if results already exist
+        if (!fs.existsSync(`${config.rootPath}/results/${source}/results_${set}.json`)) {
+            await runBenchmark(source, JSON.parse(querySet), set, cycles, latency);
+        }
     }
 }
 
