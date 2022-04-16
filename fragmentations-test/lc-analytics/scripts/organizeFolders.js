@@ -27,18 +27,20 @@ async function run() {
             }
 
             // Create and copy dataset
-            fs.mkdirSync(`${root}/datasets/${source.name}`);
-            fs.copyFileSync(`${config.rootPath}/raw-data/${source.name}.zip`, 
+            if (!fs.existsSync(`${root}/datasets/${source.name}`)) fs.mkdirSync(`${root}/datasets/${source.name}`);
+            fs.copyFileSync(`${config.rootPath}/raw-data/${source.name}.zip`,
                 `${root}/datasets/${source.name}/2020-10-30T19:00:00.000Z.zip`);
 
             // Create and copy fragmentation
-            fs.mkdirsSync(`${root}/linked_pages/${source.name}/2020-10-30T19:00:00.000Z`);
+            if (!fs.existsSync(`${root}/linked_pages/${source.name}/2020-10-30T19:00:00.000Z`)) {
+                fs.mkdirsSync(`${root}/linked_pages/${source.name}/2020-10-30T19:00:00.000Z`);
+            }
 
-            fs.copySync(`${config.rootPath}/fragmentations/${source.name}/${f}`, 
+            fs.copySync(`${config.rootPath}/fragmentations/${source.name}/${f}`,
                 `${root}/linked_pages/${source.name}/2020-10-30T19:00:00.000Z/`);
 
             // Create stops folder
-            fs.mkdirSync(`${root}/stops/${source.name}`);
+            if(!fs.existsSync(`${root}/stops/${source.name}`)) fs.mkdirSync(`${root}/stops/${source.name}`);
         }
     }
 }
