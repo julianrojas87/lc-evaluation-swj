@@ -23,8 +23,8 @@ export async function runBenchmark(source, querySet, test, cycles) {
         }
     });
 
-    planner.addConnectionSource(`${config.lcServer}/${test}/connections`);
-    planner.addStopSource(`${config.lcServer}/${test}/stops`);
+    planner.addConnectionSource(`${config.lcServer}/${source}/connections`);
+    planner.addStopSource(`${config.lcServer}/${source}/stops`);
 
     // Do a warm up query so Planner.js fetches stops
     //console.log('Running warm up query');
