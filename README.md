@@ -90,7 +90,7 @@ In this step, we setup a Node.js [Linked Connections server](https://github.com/
 
 - Create a folder called `raw-data` inside your main parent folder (defined in `rootPath` of config.js) and put all the GTFS sources there. This is to provide the stops/stations data, needed for solving route planning queries later.
 
-- Run the following script to organize the folder structure needed by the server:
+- Run the following script to organize the folder structure as needed by the server:
 
   ```bash
   node lc-analytics/scripts/organizeFolders.js
@@ -118,13 +118,15 @@ The script will create a folder named _query-sets_ inside the folder indicated b
 
 #### 4.4 Run the evaluation
 
-With a set of queries and a Linked Connections server up and running, the evaluation can be executed for a single network as follows:
+With a set of queries and a Linked Connections server up and running, the evaluation can be executed for a fragmentation size for all the applicable networks as follows:
 
 ```bash
-node lc-analytics/scripts/evaluation.js {transport_network} {fragment_size} {repetitions}
+node lc-analytics/scripts/evaluation.js {fragmentation_size} {repetitions} {latency_in_ms}
 ```
 
-`{transport_network}` refers to the name of the network (e.g. `flixbus`). `{fragment_size}` is the fragmentation size that will be tested and `{repetitions}` is the number of times the query set will be replayed. The raw results will be stored in the _results_ folder inside the folder indicated by the `rootPath` configuration property.
+`{fragmentation_size}` is the fragmentation size that will be tested, `{repetitions}` is the number of times the query set will be replayed and `{latency_in_ms}` is the introduced latency per request to emulate realistic network behavior.
+
+The raw results will be stored in the _results_ folder inside the folder indicated by the `rootPath` configuration property.
 
 #### 4.5 Extract results
 
