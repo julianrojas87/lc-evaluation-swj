@@ -77,7 +77,7 @@ export default {
             "smallestFragment": 7
         },
         {
-            "name": "new-york-mtabc",
+            "name": "nyc",
             "path": "nyc_filtered.json",
             "busiestDay": "2020-12-02",
             "smallestFragment": 130
