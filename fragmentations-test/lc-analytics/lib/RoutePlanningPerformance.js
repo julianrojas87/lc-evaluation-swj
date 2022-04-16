@@ -2,15 +2,13 @@ import config from '../config.js';
 import fs from 'fs';
 import PlannerJS from 'plannerjs';
 
-export async function runBenchmark(source, querySet, test, cycles) {
-    if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
+export async function runBenchmark(source, querySet, test, cycles, latency) {
     const results = [];
     //const urls = [];
     let scannedCxs = 0;
     let pagesFetched = 0;
     let bytesTransferred = 0;
 
-    console.log(`Starting evaluation for ${source} with ${test} connections/fragment`);
     const planner = new PlannerJS.FlexibleTransitPlanner();
     const { EventBus, EventType } = PlannerJS;
 
@@ -36,6 +34,8 @@ export async function runBenchmark(source, querySet, test, cycles) {
         minimized: true
     });
 
+    console.log(`Starting evaluation for ${source} with ${test} connections/fragment`);
+    
     for (let i = 0; i < cycles; i++) {
         for (let j = 0; j < querySet.length; j++) {
             scannedCxs = 0;
@@ -43,9 +43,12 @@ export async function runBenchmark(source, querySet, test, cycles) {
             bytesTransferred = 0;
 
 
-            console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to}`);
-
+            console.log(`Round ${i} - Executing query from ${querySet[j].from} to ${querySet[j].to} with ${latency}ms of latency`);
             const t0 = new Date();
+
+            // Apply simulated network latency
+            if(latency && latency > 0) applyLatency(latency);
+
             const route = await runQuery(planner, {
                 from: querySet[j].from,
                 to: querySet[j].to,
@@ -101,6 +104,10 @@ export async function runBenchmark(source, querySet, test, cycles) {
             p90: results[p90].responseTime,
             results: results
         }, null, 3), 'utf8');
+}
+
+function applyLatency(time) {
+    return new Promise(res => setTimeout(() => res(), time));
 }
 
 function runQuery(planner, q) {
