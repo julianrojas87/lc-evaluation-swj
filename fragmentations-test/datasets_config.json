@@ -6,7 +6,7 @@
     },
     "datasets":[
         {
-            "companyName": "amsterdam-gvb",
+            "companyName": "amsterdam",
             "keywords": ["Train", "Linked Connections"],
             "geographicArea": "http://sws.geonames.org/2802361",
             "downloadUrl": "",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "companyName": "chicago-cta",
+            "companyName": "chicago",
             "keywords": ["Train", "Linked Connections"],
             "geographicArea": "http://sws.geonames.org/2802361",
             "downloadUrl": "",
@@ -156,7 +156,7 @@
             }
         },
         {
-            "companyName": "nairobi-sacco",
+            "companyName": "nairobi",
             "keywords": ["Train", "Linked Connections"],
             "geographicArea": "http://sws.geonames.org/2802361",
             "downloadUrl": "",
@@ -171,7 +171,7 @@
             }
         },
         {
-            "companyName": "new-york-mtabc",
+            "companyName": "nyc",
             "keywords": ["Train", "Linked Connections"],
             "geographicArea": "http://sws.geonames.org/2802361",
             "downloadUrl": "",
