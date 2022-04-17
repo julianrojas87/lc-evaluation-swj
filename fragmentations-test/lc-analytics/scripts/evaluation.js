@@ -13,14 +13,10 @@ async function run() {
         const source = s.name;
         const querySet = fs.readFileSync(`${config.rootPath}/query-sets/${source}/query-set.json`, 'utf8');
         if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
-        // Skip if results already exist
-        if (!fs.existsSync(`${config.rootPath}/results/${source}/results_${set}.json`)) {
-            try {
-                await runBenchmark(source, JSON.parse(querySet), set, cycles, latency);
-            } catch (err) {
-                console.log(`Network ${source} skipped`);
-            }
-            
+        // Skip if fragmentation size does not apply
+        const isMin = set === 'min';
+        if (isMin || (parseInt(set) >= s.smallestFragment && parseInt(set) <= s.biggestFragment)) {
+            await runBenchmark(source, JSON.parse(querySet), set, cycles, latency);
         }
     }
 }

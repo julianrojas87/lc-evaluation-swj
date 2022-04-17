@@ -3,6 +3,11 @@ import fs from 'fs';
 import PlannerJS from 'plannerjs';
 
 export async function runBenchmark(source, querySet, test, cycles, latency) {
+    console.log(`
+    ******************************************************************************
+    ******************************************************************************
+    Starting evaluation for ${source} with ${test} connections/fragment
+    `);
     const results = [];
     //const urls = [];
     let scannedCxs = 0;
@@ -34,8 +39,6 @@ export async function runBenchmark(source, querySet, test, cycles, latency) {
         minimized: true
     });
 
-    console.log(`Starting evaluation for ${source} with ${test} connections/fragment`);
-    
     for (let i = 0; i < cycles; i++) {
         for (let j = 0; j < querySet.length; j++) {
             scannedCxs = 0;
