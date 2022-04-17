@@ -13,9 +13,10 @@ async function run() {
         const source = s.name;
         const querySet = fs.readFileSync(`${config.rootPath}/query-sets/${source}/query-set.json`, 'utf8');
         if (!fs.existsSync(`${config.rootPath}/results/${source}`)) fs.mkdirSync(`${config.rootPath}/results/${source}`);
-        // Skip if fragmentation size does not apply
+        // Skip if fragmentation size does not apply or it already exists
         const isMin = set === 'min';
-        if (isMin || (parseInt(set) >= s.smallestFragment && parseInt(set) <= s.biggestFragment)) {
+        const itExists = fs.existsSync(`${config.rootPath}/results/${source}/results_${set}.json`);
+        if (!itExists && (isMin || (parseInt(set) >= s.smallestFragment && parseInt(set) <= s.biggestFragment))) {
             await runBenchmark(source, JSON.parse(querySet), set, cycles, latency);
         }
     }
