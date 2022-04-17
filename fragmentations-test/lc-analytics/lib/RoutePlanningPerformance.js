@@ -50,7 +50,7 @@ export async function runBenchmark(source, querySet, test, cycles, latency) {
             const t0 = new Date();
 
             // Apply simulated network latency
-            if(latency && latency > 0) applyLatency(latency);
+            if(latency && latency > 0) await applyLatency(latency);
 
             const route = await runQuery(planner, {
                 from: querySet[j].from,
