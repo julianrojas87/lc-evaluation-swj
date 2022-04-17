@@ -5,7 +5,7 @@ import { runBenchmark } from '../lib/RoutePlanningPerformance.js';
 async function run() {
     const set = process.argv[process.argv.length - 3];
     const cycles = process.argv[process.argv.length - 2];
-    const latency = process.argv[process.argv.length - 1];
+    const latency = parseInt(process.argv[process.argv.length - 1]);
 
     if (!fs.existsSync(`${config.rootPath}/results`)) fs.mkdirSync(`${config.rootPath}/results`);
 
